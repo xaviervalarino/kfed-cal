@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Show Calendar</title>
+  <style>
+    :root {
+      --bg: #fafaf9; --fg: #1c1917; --muted: #78716c; --line: #e7e5e4; --accent: #c2410c; --card: #fff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #1c1917; --fg: #f5f5f4; --muted: #a8a29e; --line: #44403c; --accent: #fb923c; --card: #292524; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.4 system-ui, sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+    header { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; justify-content: space-between; margin-bottom: 24px; }
+    h1 { margin: 0; font-size: 1.75rem; }
+    #updated { margin: 4px 0 0; color: var(--muted); font-size: .875rem; }
+    select { font: inherit; padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--fg); }
+    h2 { position: sticky; top: 0; margin: 24px 0 8px; padding: 8px 0; background: var(--bg); border-bottom: 1px solid var(--line); font-size: 1rem; }
+    .event { display: grid; grid-template-columns: 4.5rem 1fr; gap: 12px; padding: 10px 0; }
+    .time { color: var(--muted); font-variant-numeric: tabular-nums; }
+    .title { color: var(--fg); font-weight: 600; text-decoration: none; }
+    .title:hover { color: var(--accent); text-decoration: underline; }
+    .meta { color: var(--muted); font-size: .875rem; }
+    .empty { color: var(--muted); padding: 32px 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>Show Calendar</h1>
+        <p id="updated"></p>
+      </div>
+      <label>Venue <select id="venue"><option value="">All venues</option></select></label>
+    </header>
+    <div id="events"></div>
+  </main>
+  <script>
+    const list = document.getElementById("events");
+    const venueSelect = document.getElementById("venue");
+    let data = { events: [], venues: [] };
+
+    // "2026-11-14" or "2026-11-14T20:00", always the venue's local time.
+    function parseStart(start) {
+      const [y, m, d, hh, mm] = start.split(/[-T:]/).map(Number);
+      return { date: new Date(y, m - 1, d), time: start.includes("T") ? new Date(y, m - 1, d, hh, mm) : null };
+    }
+
+    function el(tag, props = {}, ...children) {
+      const node = Object.assign(document.createElement(tag), props);
+      node.append(...children);
+      return node;
+    }
+
+    function render() {
+      const venue = venueSelect.value;
+      const events = data.events.filter(e => !venue || e.venue === venue);
+      list.replaceChildren();
+      if (!events.length) {
+        list.append(el("p", { className: "empty", textContent: "No upcoming events yet." }));
+        return;
+      }
+      let lastDay = "";
+      for (const e of events) {
+        const { date, time } = parseStart(e.start);
+        const day = e.start.slice(0, 10);
+        if (day !== lastDay) {
+          list.append(el("h2", { textContent: date.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" }) }));
+          lastDay = day;
+        }
+        const meta = [e.venue, e.price && (isNaN(e.price) ? e.price : `$${e.price}`)].filter(Boolean).join(" · ");
+        list.append(el("div", { className: "event" },
+          el("div", { className: "time", textContent: time ? time.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" }) : "" }),
+          el("div", {},
+            el("a", { className: "title", href: e.url, textContent: e.title, target: "_blank", rel: "noopener" }),
+            el("div", { className: "meta", textContent: meta }))));
+      }
+    }
+
+    fetch("events.json")
+      .then(r => r.json())
+      .then(json => {
+        data = json;
+        document.getElementById("updated").textContent = `Updated ${new Date(json.updated).toLocaleDateString()}`;
+        for (const v of json.venues) venueSelect.append(el("option", { value: v.name, textContent: v.name }));
+        render();
+      })
+      .catch(() => list.append(el("p", { className: "empty", textContent: "Couldn't load events." })));
+    venueSelect.addEventListener("change", render);
+  </script>
+</body>
+</html>
