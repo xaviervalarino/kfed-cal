@@ -209,7 +209,7 @@ def tessera(venue, fetcher, report):
             products = {str(p.get("frontendId")): p for p in found}
             return [tessera_event(s, products.get(str(s["id"]), {}), page) for s in shows]
         except Exception as e:  # any surprise in the price data: the listing is still good without prices
-            report["note"] = f"Prices could not be loaded ({type(e).__name__}: {e})."
+            report["note"] = f"Prices could not be loaded ({describe(e)})."
     return [tessera_event(s, {}, page) for s in shows]
 
 
@@ -404,7 +404,13 @@ METHODS = {
 }
 
 
-# --- Small parsers shared by the methods and run.clean.
+# --- Small helpers shared by the methods and run.py.
+def describe(error):
+    """"KeyError: 'sessionId'": an exception's type and the first line of its message, for status notes."""
+    message = str(error).splitlines()[0] if str(error).strip() else "no details"
+    return f"{type(error).__name__}: {message}"
+
+
 def clock(text):
     """"7PM", "7:30 pm", "19:00:00" -> "19:00"; a range "12-8PM" -> its start, "12:00". None when there is no time."""
     m = re.search(r"\b(\d{1,2})(?::(\d{2}))?(?::\d{2})?\s*(?:[-–]\s*\d{1,2}(?::\d{2})?\s*)?([ap])\.?m\b", text or "", re.I)

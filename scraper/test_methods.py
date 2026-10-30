@@ -178,10 +178,10 @@ class TesseraTest(unittest.TestCase):
             report = {}
             fetcher = FakeFetcher({"https://www.lodgeroomhlp.com/": "tessera.html",
                                    "https://tickets.lodgeroomhlp.com/api/v1/authorization/session":
-                                       lambda p: session if products else '{"error": "no session"}',
-                                   "https://tickets.lodgeroomhlp.com/api/v1/products": lambda p: products})
+                                       lambda p, products=products: session if products else '{"error": "no session"}',
+                                   "https://tickets.lodgeroomhlp.com/api/v1/products": lambda p, products=products: products})
             events = methods.tessera(self.VENUE, fetcher, report)
-            self.assertEqual((len(events), events[0].get("price")), (3, None), error)  # the shows are still listed
+            self.assertEqual((len(events), events[0]["price"]), (3, None), error)  # the shows are still listed
             self.assertTrue(report["note"].startswith(f"Prices could not be loaded ({error}"), report)
 
     def test_every_tier_sold_out(self):
@@ -190,6 +190,7 @@ class TesseraTest(unittest.TestCase):
         self.assertEqual(methods.tessera_event(show, product, "https://lodge.example/")["status"], "sold_out")
         product["campaigns"][1]["isSoldOut"] = False
         self.assertIsNone(methods.tessera_event(show, product, "https://lodge.example/")["status"])
+        self.assertIsNone(methods.tessera_event(show, {}, "https://lodge.example/")["status"])  # no price data
 
 
 class TribeEventsTest(unittest.TestCase):
@@ -297,6 +298,11 @@ class ParserTest(unittest.TestCase):
         for text, expected in [("All Ages", "All ages"), ("18 & Over", "18+"), ("21+ ONLY", "21+"),
                                ("This event is 21 and over.", "21+"), ("no limits", None)]:
             self.assertEqual(methods.find_age(text), expected, text)
+
+    def test_describe(self):
+        self.assertEqual(methods.describe(KeyError("sessionId")), "KeyError: 'sessionId'")
+        self.assertEqual(methods.describe(httpx.ReadTimeout("")), "ReadTimeout: no details")
+        self.assertEqual(methods.describe(ValueError("first line\nsecond line")), "ValueError: first line")
 
     def test_dollars(self):
         self.assertEqual([methods.dollars(16, 19), methods.dollars(26.5), methods.dollars(25, 25)],

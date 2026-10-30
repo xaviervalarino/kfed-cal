@@ -10,7 +10,7 @@ from urllib.parse import parse_qsl, urlencode, urlsplit
 from zoneinfo import ZoneInfo
 
 from .fetch import Fetcher
-from .methods import HAIKU, METHODS, dollars, find_age
+from .methods import HAIKU, METHODS, describe, dollars, find_age
 from .venues import load_venues
 
 SITE = Path(__file__).resolve().parent.parent / "site"
@@ -192,7 +192,7 @@ def scrape(venue, fetcher, tz, today, previous):
     try:
         events, error = clean(METHODS[method](venue, fetcher, report), name, tz, today), None
     except Exception as e:  # one broken venue shouldn't stop the rest
-        events, error = [], f"{type(e).__name__}: {str(e).splitlines()[0] if str(e) else 'no details'}"
+        events, error = [], describe(e)
     if events:
         partial = report.get("partial") or venue.get("partial")
         return events, {**row, "status": "partial" if partial else "ok", "note": partial or report.get("note")}, report
