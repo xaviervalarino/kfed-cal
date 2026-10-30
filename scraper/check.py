@@ -3,8 +3,8 @@
     python -m scraper.check https://venue.example.com/calendar
     python -m scraper.check https://venue.example.com/calendar --find "Some Band"
 
---find takes a show name you can see in your browser. If plain requests can't see it,
-the page builds its listings with JavaScript.
+--find takes a show name that you can see in your browser. If the downloaded page does not
+contain that name, JavaScript probably loads the listings.
 """
 
 import argparse
@@ -61,8 +61,8 @@ def main():
         visible = args.find.lower() in lowered
         print(f'\n"{args.find}" in the downloaded page: {"YES" if visible else "NO"}')
         if not visible:
-            print("  The listings are probably loaded by JavaScript. Look for a JSON feed in the browser's\n"
-                  "  dev tools (Network tab), or fall back to a headless browser.")
+            print("  JavaScript probably loads the listings. Look for a JSON feed in the Network tab\n"
+                  "  of the browser's dev tools. If you find no feed, use a headless browser.")
 
 
 if __name__ == "__main__":

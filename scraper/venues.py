@@ -16,19 +16,19 @@ def load_venues(path=VENUES_FILE):
         data = json.loads(Path(path).read_text())
     except json.JSONDecodeError as e:
         sys.exit(f"{path.name} is not valid JSON (line {e.lineno}, column {e.colno}): {e.msg}\n"
-                 "Common causes: a missing comma between entries, or an extra comma after the last one.")
+                 "Look for a missing comma between entries, or an extra comma after the last entry.")
 
     problems = []
     venues = data.get("venues", [])
     tz = data.get("timezone", "")
 
     if venues and not tz:
-        problems.append('"timezone" is empty. Set it to your city\'s time zone, e.g. "America/Chicago".')
+        problems.append('"timezone" is empty. Set it to your city\'s time zone, for example "America/Chicago".')
     elif tz:
         try:
             ZoneInfo(tz)
         except (ZoneInfoNotFoundError, ValueError):
-            problems.append(f'"timezone" is "{tz}", which is not a known time zone (e.g. "America/Chicago").')
+            problems.append(f'"timezone" is "{tz}", which is not a known time zone. Use a name such as "America/Chicago".')
 
     seen = set()
     for i, v in enumerate(venues, 1):
@@ -37,12 +37,12 @@ def load_venues(path=VENUES_FILE):
             if not v.get(field):
                 problems.append(f'{label}: "{field}" is missing.')
         for field in set(v) - FIELDS:
-            problems.append(f'{label}: unknown field "{field}" (allowed: {", ".join(sorted(FIELDS))}).')
+            problems.append(f'{label}: unknown field "{field}". The allowed fields are: {", ".join(sorted(FIELDS))}.')
         for field in ("website", "events_page"):
             if v.get(field) and not v[field].startswith(("http://", "https://")):
                 problems.append(f'{label}: "{field}" must start with http:// or https://.')
         if v.get("method") and v["method"] not in METHODS:
-            problems.append(f'{label}: method "{v["method"]}" is not one of: {", ".join(sorted(METHODS))}.')
+            problems.append(f'{label}: method "{v["method"]}" is not known. The known methods are: {", ".join(sorted(METHODS))}.')
         if v.get("name") in seen:
             problems.append(f'{label}: another venue already has this name.')
         seen.add(v.get("name"))

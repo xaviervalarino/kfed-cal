@@ -70,8 +70,8 @@ def main():
             events = []
             warn(f"{name}: scrape failed ({type(e).__name__}: {str(e).splitlines()[0] if str(e) else ''})")
         if not events and previous.get(name):
-            warn(f"{name}: found 0 events (had {len(previous[name])} last time). "
-                 "Keeping the old ones; the site may have changed.")
+            warn(f"{name}: found 0 events. The last run found {len(previous[name])}. "
+                 "The scraper keeps the old events. The venue's website may have changed.")
             events = previous[name]
         print(f"{name}: {len(events)} events")
         all_events.extend(events)

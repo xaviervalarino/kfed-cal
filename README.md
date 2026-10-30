@@ -10,8 +10,8 @@ A calendar of upcoming shows and events at local venues. A scraper collects each
    duplicates and past events, and commits the new `site/events.json`.
 3. The workflow then publishes `site/` to GitHub Pages.
 
-If a venue fails or suddenly returns 0 events, the scraper keeps that venue's previous events and shows a
-warning on the workflow run, since the venue's website has probably changed.
+If a venue fails or suddenly returns 0 events, the scraper keeps that venue's previous events. It also shows
+a warning on the workflow run, because the venue's website has probably changed.
 
 To scrape right away, open the **Actions** tab, select **Update calendar**, and click **Run workflow**.
 
@@ -34,9 +34,9 @@ Add an entry to `venues.json`:
 }
 ```
 
-- `name`, `events_page` and `method` are required. `website` and `notes` are optional.
+- Each venue must have `name`, `events_page` and `method`. `website` and `notes` are optional.
 - Put a comma between venues, but not after the last one.
-- `timezone` is the city's time zone. Event times are shown in it.
+- `timezone` is the city's time zone. The calendar shows event times in this time zone.
 
 To check the file: `python -m scraper.venues`
 
@@ -48,7 +48,7 @@ Before adding a venue, check its events page:
 python -m scraper.check https://bluenote.example.com/calendar --find "A show name you see on the page"
 ```
 
-It reports what the page offers. In order of preference:
+The check reports what the page offers. The table lists the methods from most preferred to least preferred:
 
 | The check finds | Method |
 | --- | --- |
@@ -60,7 +60,7 @@ It reports what the page offers. In order of preference:
 | The show name is in the HTML | a custom HTML parser (to add) |
 | Show name not found | headless Chrome or Lightpanda, with Playwright as the last resort (to add) |
 
-Methods live in `scraper/methods.py` and get added as venues need them.
+The methods are in `scraper/methods.py`. We add a new method when a venue needs it.
 
 ## Running locally
 
