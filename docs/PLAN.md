@@ -5,7 +5,7 @@ runner that keeps last good events, a plain calendar page, monthly workflow, Git
 https://xaviervalarino.github.io/kfed-cal/, currently empty). Probing and design are done. The steps below turn
 it into the real site. Do them in order; each ends with tests passing (`python -m unittest`).
 
-## 1. Housekeeping
+## 1. Housekeeping (done)
 
 - `requirements.txt`: add `brotli` (some servers send br-compressed pages) and `anthropic` (Monty flyer).
   Pin versions like the existing lines.
@@ -16,7 +16,7 @@ it into the real site. Do them in order; each ends with tests passing (`python -
   - give the "Scrape venues" step `env: TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}` and
     `ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}` (both secrets already exist in the repo).
   - commit `site/status.json` along with `site/events.json`.
-- README: monthly → weekly; method table gets the real methods.
+- README: monthly → weekly (done); method table gets the real methods (still to do, after step 3).
 
 ## 2. Venue entries and event schema
 
