@@ -32,8 +32,8 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Check venues.json
-        run: python -m scraper.venues
+      - name: Check venues.json and run tests
+        run: python -m scraper.venues && python -m unittest
 
       - name: Scrape venues
         if: github.event_name != 'push'
