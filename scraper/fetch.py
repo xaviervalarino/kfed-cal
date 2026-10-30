@@ -16,20 +16,23 @@ class Fetcher:
         self.last = 0.0
         self.robots = {}
 
-    def get(self, url):
+    def get(self, url, params=None):
+        """GET url. Pass query values (and API keys) in params: error messages leave them out."""
         if not self.allowed(url):
             raise PermissionError(f"robots.txt does not allow fetching {url}")
         wait = self.last + self.delay - time.monotonic()
         if wait > 0:
             time.sleep(wait)
         try:
-            response = self.client.get(url)
+            response = self.client.get(url, params=params)
         finally:
             self.last = time.monotonic()
         if is_challenge(response):
             # Never try to get past it (fake User-Agent, browser): use another source for this venue.
             raise PermissionError(f"{urlsplit(url).netloc} sent a bot challenge instead of the page. Use another source.")
-        response.raise_for_status()
+        if response.is_error:
+            raise httpx.HTTPStatusError(f"{url} answered {response.status_code} {response.reason_phrase}.",
+                                        request=response.request, response=response)
         return response
 
     def allowed(self, url):

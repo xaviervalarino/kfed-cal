@@ -6,8 +6,17 @@ from pathlib import Path
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 VENUES_FILE = Path(__file__).resolve().parent.parent / "venues.json"
-METHODS = {"auto"}
-FIELDS = {"name", "website", "events_page", "method", "notes"}
+# Each method, and what a venue using it must have ("params.x" is a key inside "params").
+METHODS = {
+    "auto": ["events_page"],
+    "dice_venue": ["events_page"],
+    "monty_flyer": ["events_page"],
+    "permanent_records": ["events_page"],
+    "tessera": ["events_page"],
+    "ticketmaster": ["params.venue_ids"],
+    "tribe_events": ["events_page"],
+}
+FIELDS = {"name", "website", "events_page", "method", "params", "partial", "notes"}
 
 
 def load_venues(path=VENUES_FILE):
@@ -33,7 +42,7 @@ def load_venues(path=VENUES_FILE):
     seen = set()
     for i, v in enumerate(venues, 1):
         label = f'Venue #{i} ({v.get("name") or "no name"})'
-        for field in ("name", "events_page", "method"):
+        for field in ("name", "website"):
             if not v.get(field):
                 problems.append(f'{label}: "{field}" is missing.')
         for field in set(v) - FIELDS:
@@ -41,8 +50,17 @@ def load_venues(path=VENUES_FILE):
         for field in ("website", "events_page"):
             if v.get(field) and not v[field].startswith(("http://", "https://")):
                 problems.append(f'{label}: "{field}" must start with http:// or https://.')
-        if v.get("method") and v["method"] not in METHODS:
+        if "params" in v and not isinstance(v["params"], dict):
+            problems.append(f'{label}: "params" must be an object, like {{"venue_ids": ["..."]}}.')
+        elif not isinstance(v.get("params", {}).get("venue_ids", []), list):
+            problems.append(f'{label}: "venue_ids" must be a list, like ["KovZ917A967"], even for one id.')
+        elif v.get("method") and v["method"] not in METHODS:
             problems.append(f'{label}: method "{v["method"]}" is not known. The known methods are: {", ".join(sorted(METHODS))}.')
+        elif v.get("method"):
+            for need in METHODS[v["method"]]:
+                where = v.get("params", {}) if need.startswith("params.") else v
+                if not where.get(need.removeprefix("params.")):
+                    problems.append(f'{label}: method "{v["method"]}" needs "{need}".')
         if v.get("name") in seen:
             problems.append(f'{label}: another venue already has this name.')
         seen.add(v.get("name"))
@@ -54,4 +72,5 @@ def load_venues(path=VENUES_FILE):
 
 if __name__ == "__main__":
     tz, venues = load_venues()
-    print(f"venues.json OK: {len(venues)} venue(s), timezone {tz or '(not set)'}")
+    scraped = sum(1 for v in venues if v.get("method"))
+    print(f"venues.json OK: {len(venues)} venue(s), {scraped} with a method, timezone {tz or '(not set)'}")

@@ -1,6 +1,9 @@
 """Run with `python -m unittest`."""
 
+import json
+import tempfile
 import unittest
+from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import httpx
@@ -8,6 +11,7 @@ import httpx
 from .fetch import is_challenge
 from .methods import jsonld_events, to_event
 from .run import clean, parse_start
+from .venues import load_venues
 
 CHICAGO = ZoneInfo("America/Chicago")
 
@@ -46,7 +50,7 @@ class ScraperTest(unittest.TestCase):
         self.assertEqual([(e["title"], e["start"]) for e in events],
                          [("Band & Friends", "2099-11-14T20:00"), ("Fest", "2099-11-20"),
                           ("Nested", "2099-11-21")])
-        self.assertEqual(events[0]["price"], "25")
+        self.assertEqual(events[0]["price"], "$25")
         self.assertEqual(events[0]["venue"], "Test Hall")
 
     def test_is_challenge(self):
@@ -55,6 +59,20 @@ class ScraperTest(unittest.TestCase):
         self.assertTrue(is_challenge(httpx.Response(200, headers={"cf-mitigated": "challenge"}, text="")))
         self.assertFalse(is_challenge(httpx.Response(200, text=page)))  # a normal page with Cloudflare scripts
         self.assertFalse(is_challenge(httpx.Response(403, text="Forbidden")))
+
+    def test_venues_file(self):
+        self.assertEqual(len(load_venues()[1]), 22)  # the real venues.json
+        venues = [{"name": "A", "website": "https://a.example/", "method": "ticketmaster", "params": {"venue_ids": "KovZ1"}},
+                  {"name": "B", "website": "https://b.example/", "method": "dice_venue"},
+                  {"name": "C", "website": "https://c.example/"}]
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "venues.json"
+            path.write_text(json.dumps({"timezone": "America/Chicago", "venues": venues}))
+            with self.assertRaises(SystemExit) as stop:
+                load_venues(path)
+        self.assertIn("2 problem(s)", str(stop.exception))
+        self.assertIn('Venue #1 (A): "venue_ids" must be a list', str(stop.exception))
+        self.assertIn('Venue #2 (B): method "dice_venue" needs "events_page"', str(stop.exception))
 
 
 if __name__ == "__main__":

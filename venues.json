@@ -1,4 +1,147 @@
 {
   "timezone": "America/Los_Angeles",
-  "venues": []
+  "venues": [
+    {
+      "name": "The Echo",
+      "website": "https://theecho.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZ917A967"]}
+    },
+    {
+      "name": "Echoplex",
+      "website": "https://theechoplex.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZpa6OCe"]}
+    },
+    {
+      "name": "The Belasco",
+      "website": "https://www.thebelasco.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZpZAJvttA"]},
+      "notes": "A few nights ticketed through Universe are not on Ticketmaster. The venue's /shows page has them."
+    },
+    {
+      "name": "The Wiltern",
+      "website": "https://www.wiltern.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZpZAEAl6A"]}
+    },
+    {
+      "name": "Hollywood Palladium",
+      "website": "https://www.hollywoodpalladium.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZpZAEAlaA"]}
+    },
+    {
+      "name": "The Bellwether",
+      "website": "https://thebellwetherla.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZ917AiI3", "KovZ917AReX"]},
+      "notes": "The second Ticketmaster id is Camille's, the bar room."
+    },
+    {
+      "name": "Teragram Ballroom",
+      "website": "https://teragramballroom.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZpZAEvnFA"]}
+    },
+    {
+      "name": "The Regent",
+      "website": "https://www.regentdtla.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZpZAJ6daA"]}
+    },
+    {
+      "name": "Greek Theatre",
+      "website": "https://www.lagreektheatre.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZpa2Hxe"]},
+      "notes": "Not the Berkeley Greek Theatre (KovZpZAFadlA)."
+    },
+    {
+      "name": "The Fonda",
+      "website": "https://fondatheatre.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZpZAFAkIA"]}
+    },
+    {
+      "name": "The Roxy",
+      "website": "https://theroxy.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZpZAFAIFA"]}
+    },
+    {
+      "name": "Troubadour",
+      "website": "https://troubadour.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZpa4eIe"]},
+      "notes": "The venue's own site has dates but no times."
+    },
+    {
+      "name": "Hollywood Bowl",
+      "website": "https://www.hollywoodbowl.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZpZAFFvJA"]}
+    },
+    {
+      "name": "Lodge Room",
+      "website": "https://www.lodgeroomhlp.com/",
+      "events_page": "https://www.lodgeroomhlp.com/",
+      "method": "tessera",
+      "notes": "No prices or sold-out flags: the Tessera ticket API (tickets.lodgeroomhlp.com) needs a visitor session."
+    },
+    {
+      "name": "The Vermont",
+      "website": "https://www.vermonthollywood.com/",
+      "events_page": "https://www.vermonthollywood.com/wp-json/tribe/events/v1/events?per_page=50",
+      "method": "tribe_events",
+      "notes": "The website and its iCal feed are behind a Cloudflare challenge. This API is not."
+    },
+    {
+      "name": "Zebulon",
+      "website": "https://zebulon.la/",
+      "events_page": "https://dice.fm/venue/zebulon-y8bv",
+      "method": "dice_venue"
+    },
+    {
+      "name": "The Paramount",
+      "website": "https://www.paramountla.com/",
+      "events_page": "https://dice.fm/venue/the-paramount-7lwp",
+      "method": "dice_venue"
+    },
+    {
+      "name": "The Glass House",
+      "website": "https://theglasshouse.us/",
+      "events_page": "https://dice.fm/venue/the-glass-house-d5gq",
+      "method": "dice_venue",
+      "notes": "In Pomona. Ticketmaster has the venue but no events."
+    },
+    {
+      "name": "El Cid",
+      "website": "https://www.elcidsunset.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZ917ASUM"]},
+      "partial": "Ticketmaster lists only some of El Cid's shows.",
+      "notes": "The DICE widget on elcidsunset.com/events may have the full list."
+    },
+    {
+      "name": "Permanent Records Roadhouse",
+      "website": "http://roadhouse.permanentrecordsla.com/",
+      "events_page": "http://roadhouse.permanentrecordsla.com/",
+      "method": "permanent_records",
+      "notes": "http on purpose: the https certificate is self-signed."
+    },
+    {
+      "name": "Monty Bar",
+      "website": "https://montybar.com/",
+      "events_page": "https://montybar.com/",
+      "method": "monty_flyer",
+      "notes": "Weekly flyer image (Wednesday to Sunday), read by Claude Haiku."
+    },
+    {
+      "name": "Silverlake Lounge",
+      "website": "http://thesilverlakelounge.com/",
+      "notes": "No listings online yet. Waiting on the venue's mailing-list email."
+    }
+  ]
 }

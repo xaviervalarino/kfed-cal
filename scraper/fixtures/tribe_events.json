@@ -1,0 +1,76 @@
+{
+ "events": [
+  {
+   "id": 5192,
+   "status": "publish",
+   "title": "Pangea Espooky Halloween",
+   "description": "<p>Spend Halloween at The Vermont Hollywood with a full night of music, costumes and club production on a real Hollywood stage. The main floor holds up to 1,200 guests, with The Vermont&#8217;s L-Acoustics K3 sound system, concert lighting and LED walls running all night, and three full-service bars to keep the party moving. Head up to the VIP mezzanine, with its own bar, for a view over the dance floor. Halloween is one of the busiest nights of the year in Hollywood, so plan your arrival early and give yourself time for check-in and security. Check the date, times and age policy above, and buy tickets only through the official link on this page.</p>",
+   "url": "https://www.vermonthollywood.com/events/pangea-espooky-halloween/",
+   "all_day": false,
+   "start_date": "2026-10-31 21:00:00",
+   "end_date": "2026-11-01 02:00:00",
+   "timezone": "America/Los_Angeles",
+   "cost": "$16.50",
+   "website": "https://kyd.to/lmkjN0eR",
+   "image": {
+    "url": "https://www.vermonthollywood.com/wp-content/uploads/2026/09/pangea-sound-espooky-function-halloween-the-vermont-hollywood.webp"
+   },
+   "custom_fields": {
+    "_ecp_custom_2": {
+     "label": "Performer",
+     "value": "TAYLAH ELAINE, FALCONS, JOAQU.N, SUPERNOVA &amp; MORE"
+    }
+   },
+   "hide_from_listings": false
+  },
+  {
+   "id": 5183,
+   "status": "publish",
+   "title": "SYSTEM ERROR: RICHARD FINGER",
+   "description": "<p>Richard Finger is a masked duo from the underground dubstep scene, known for choppy, off-kilter bass music and a following built on SoundCloud-only releases. The duo made its live debut in fall 2025 and has picked up 2026 festival bookings including Electric Forest, Shambhala and Zombie Apocalypse Festival. In June 2026 they released their first collaboration, &#8220;EAZY MF FINGER&#8221;, with EAZYBAKED. Expect a heavy, high-energy bass set on The Vermont&#8217;s L-Acoustics sound system, with concert lighting and LED walls on the main stage, and the VIP mezzanine overlooking the floor. Check the date, times and age policy above, and buy tickets only through the official link on this page.</p>",
+   "url": "https://www.vermonthollywood.com/events/system-error-richard-finger/",
+   "all_day": false,
+   "start_date": "2026-11-06 21:00:00",
+   "end_date": "2026-11-07 02:00:00",
+   "timezone": "America/Los_Angeles",
+   "cost": "$35.63",
+   "website": "https://pear.us/systemerror/post/richard-finger?utm_source=ig&amp;utm_medium=social&amp;utm_content=link_in_bio&amp;fbclid=PAdGRleAUPFxtwZG9mAmZkaWQWUOIvTu66qMTre4zYQQwaI8aLYseZamV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp-4NPDOwGb9efulE-f7hRcbZvEEql7YHzKrmyoYuukHQ6GGwGzNLrf0tXFMd_aem_F8EDSScNx3iuREzC7evIrg",
+   "image": {
+    "url": "https://www.vermonthollywood.com/wp-content/uploads/2026/09/richard-finger-xaebor-claybrook-the-vermont-hollywood.webp"
+   },
+   "custom_fields": {
+    "_ecp_custom_2": {
+     "label": "Performer",
+     "value": "Richard Finger"
+    }
+   },
+   "hide_from_listings": false
+  },
+  {
+   "id": 1714,
+   "status": "publish",
+   "title": "Tuna USA World Tour",
+   "description": "<p>The Tuna USA World Tour comes to The Vermont Hollywood for a night of live music on a real Hollywood stage. The Vermont holds up to 1,200 guests, with a standing main floor in front of the stage and a VIP mezzanine with its own bar overlooking the show. The full in-house production runs on every concert night: an L-Acoustics K3 sound system, Martin concert lighting and LED walls, run by a production team that puts on shows every week. Three full-service bars and a limited food menu are open throughout the night. Check the date, times and age policy above, and buy tickets only through the official link on this page.</p>",
+   "url": "https://www.vermonthollywood.com/events/tuna-usa-world-tour/",
+   "all_day": false,
+   "start_date": "2026-11-12 19:00:00",
+   "end_date": "2026-11-12 23:30:00",
+   "timezone": "America/Los_Angeles",
+   "cost": "Free",
+   "website": "",
+   "image": {
+    "url": "https://www.vermonthollywood.com/wp-content/uploads/2026/06/tova-usa-tour-november-2026-poster.webp"
+   },
+   "custom_fields": {
+    "_ecp_custom_2": {
+     "label": "Performer",
+     "value": "Tuna"
+    }
+   },
+   "hide_from_listings": false
+  }
+ ],
+ "rest_url": "https://www.vermonthollywood.com/wp-json/tribe/events/v1/events/?page=1&per_page=50&start_date=2026-10-29 00:00:00&end_date=2028-10-30 23:59:59&status=publish",
+ "total": 3,
+ "total_pages": 1
+}

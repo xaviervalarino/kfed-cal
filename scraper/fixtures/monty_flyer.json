@@ -1,0 +1,40 @@
+{
+ "events": [
+  {
+   "date": "2026-10-28",
+   "time": "20:00",
+   "title": "DANI CALI",
+   "details": "LIVE MUSIC | 30TH BIRTHDAY SHOW | w/ LEFTY SPLIT + LAKE SUPERIOR | FREE",
+   "price": "FREE"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "20:00",
+   "title": "QUARTET OF GLOOM",
+   "details": "DANSE MACABRE PRESENTS | w/ DJ AARON APPLES | FREE | PERFORMING LIVE | SHE PAST AWAY + TWIN TRIBES | SELOFAN + LEBANON HANOVER",
+   "price": "FREE"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "20:00",
+   "title": "CLUB NEVERMORE",
+   "details": "3RD ANNUAL HALLOWEEN | BANDS + DJs + PERFORMANCES | $5 ADV $10 DOORS",
+   "price": "$5 ADV $10 DOORS"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "21:00",
+   "title": "DANSE-X",
+   "details": "GOTH // WAVE // ITALO | Resident DJs MARK LABEL + UNHOLY + Guest DJ VOID PALACE | $10 AFTER 11PM",
+   "price": "$10 AFTER 11PM"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "21:00",
+   "title": "BATASTROPHE",
+   "details": "GOTHIK ROCK // DEATHROCK // BATCAVE | Resident DJ STEVE SKELETAL | FREE",
+   "price": "FREE"
+  }
+ ],
+ "unplaced_text": "THIS WEEK AT MONTY BAR 1222 WEST 7TH ST // OPEN WED THRU SUN 8PM-2AM"
+}
