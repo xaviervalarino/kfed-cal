@@ -1,8 +1,9 @@
 # kfed-cal
 
 A free, static calendar of upcoming shows at ~21 Los Angeles music venues ("KFED CAL"). A Python scraper runs
-weekly on GitHub Actions, writes `site/events.json` (and soon `site/status.json`), and GitHub Pages serves
-`site/`. Live: https://xaviervalarino.github.io/kfed-cal/
+weekly on GitHub Actions and writes `site/events.json` (and soon `site/status.json`). The pages are a Svelte
+app in `web/`; the workflow builds it with those files copied in, and GitHub Pages serves the build.
+Live: https://xaviervalarino.github.io/kfed-cal/
 
 ## Start here
 
@@ -19,7 +20,10 @@ weekly on GitHub Actions, writes `site/events.json` (and soon `site/status.json`
 - `scraper/venues.py` loads and validates it; `fetch.py` is the polite HTTP client; `methods.py` holds one
   method per source platform; `run.py` scrapes everything and writes the site data; `check.py` inspects a page
   to pick a method.
-- `site/index.html`: the calendar (single file, vanilla JS). `site/events.json`: generated, committed by the bot.
+- `site/`: the scraper's output, `events.json` and `status.json`, committed by the bot. The contract is
+  `docs/DATA.md`.
+- `web/`: the site (Svelte 5, Vite, TypeScript). `index.html` is the calendar and `status.html` the scrape status;
+  the code is in `web/src/`. `web/fixtures/` holds sample data in the `site/` format for `npm run dev`.
 - `.github/workflows/update.yml`: scheduled scrape + Pages deploy.
 
 ## Commands
@@ -30,7 +34,11 @@ python -m scraper.venues          # validate venues.json
 python -m unittest                # tests (no network)
 python -m scraper.run             # scrape everything, write site/events.json
 python -m scraper.check URL --find "a show name"   # what does this page offer?
-python -m http.server -d site     # view the site at http://localhost:8000
+npm --prefix web install          # site dependencies
+npm --prefix web run dev          # the site with the sample data, at http://localhost:5173
+npm --prefix web run dev:site     # the site with the scraper's latest site/ files
+npm --prefix web run check        # type check
+npm --prefix web run format       # format with Prettier
 ```
 
 Keys for a local run go in the environment (or a `.env` you source; never commit it):
@@ -42,7 +50,8 @@ Keys for a local run go in the environment (or a `.env` you source; never commit
   Never fake the User-Agent, use a headless browser to dodge, or otherwise get past a bot challenge. If a site
   blocks us, use another source (usually Ticketmaster) or report it.
 - Never commit API keys or scraped pages that contain embedded tokens (GitHub push protection rejects them).
-- Stack: Python 3.13, `httpx` + BeautifulSoup, `unittest`. Keep dependencies minimal; no frameworks for the site.
+- Stack: Python 3.13, `httpx` + BeautifulSoup and `unittest` for the scraper; Svelte 5, Vite and TypeScript for the
+  site, with scoped CSS and no CSS framework. Keep dependencies minimal.
 - Cost: $0 except Claude Haiku for one flyer a week (~$0.001). Use model `claude-haiku-5-5`.
 - Scope: the calendar only. No user accounts, no user-submitted events or venue editing for now. No .ics yet.
 

@@ -51,9 +51,20 @@ jobs:
           if [ -f site/status.json ]; then git add site/status.json; fi
           git diff --cached --quiet || (git commit -m "Update events" && git push)
 
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      # The build copies site/events.json and site/status.json in next to the pages.
+      - name: Build the site
+        working-directory: web
+        run: npm ci && npm run check && npm run build
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: site
+          path: web/dist
       - id: deploy
         uses: actions/deploy-pages@v4
