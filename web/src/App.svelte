@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Masthead from './lib/Masthead.svelte'
+  import Masthead from "./lib/Masthead.svelte";
 </script>
 
 <Masthead />

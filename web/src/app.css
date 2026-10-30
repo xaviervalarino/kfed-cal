@@ -1,9 +1,9 @@
-@import '@fontsource/creepster/400.css';
-@import '@fontsource/pirata-one/400.css';
-@import '@fontsource/barlow-condensed/600.css';
-@import '@fontsource/barlow-condensed/700.css';
-@import '@fontsource/courier-prime/400.css';
-@import '@fontsource/courier-prime/700.css';
+@import "@fontsource/creepster/400.css";
+@import "@fontsource/pirata-one/400.css";
+@import "@fontsource/barlow-condensed/600.css";
+@import "@fontsource/barlow-condensed/700.css";
+@import "@fontsource/courier-prime/400.css";
+@import "@fontsource/courier-prime/700.css";
 
 /* Design tokens: docs/DESIGN.md */
 :root {
@@ -14,10 +14,10 @@
   --dusty: #b98e98;
   --rule: #34302c;
 
-  --font-masthead: 'Creepster', cursive;
-  --font-date: 'Pirata One', cursive;
-  --font-band: 'Barlow Condensed', sans-serif;
-  --font-text: 'Courier Prime', monospace;
+  --font-masthead: "Creepster", cursive;
+  --font-date: "Pirata One", cursive;
+  --font-band: "Barlow Condensed", sans-serif;
+  --font-text: "Courier Prime", monospace;
 
   color-scheme: dark;
 }
