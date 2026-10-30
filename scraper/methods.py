@@ -30,7 +30,7 @@ def jsonld_events(page_html):
 
 
 def _walk(data):
-    """Find Event objects, including ones nested in lists, @graph, or ItemList."""
+    """Find Event objects, including ones nested in lists, @graph, ItemList, or a Place's events (DICE)."""
     if isinstance(data, list):
         for item in data:
             yield from _walk(item)
@@ -40,7 +40,7 @@ def _walk(data):
         if any(t.endswith("Event") or t == "Festival" for t in types):
             yield data
         else:
-            for key in ("@graph", "itemListElement", "item"):
+            for key in ("@graph", "itemListElement", "item", "event", "events"):
                 if key in data:
                     yield from _walk(data[key])
 

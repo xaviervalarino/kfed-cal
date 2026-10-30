@@ -18,6 +18,8 @@ PAGE = """
 ]}</script>
 <script type="application/ld+json">{"@type": "ItemList", "itemListElement": [
   {"@type": "ListItem", "item": {"@type": "Festival", "name": "Fest", "startDate": "2099-11-20"}}]}</script>
+<script type="application/ld+json">{"@type": "Place", "name": "Club", "event": [
+  {"@type": "MusicEvent", "name": "Nested", "startDate": "2099-11-21"}]}</script>
 <script type="application/ld+json">{ broken json </script>
 """
 
@@ -33,13 +35,14 @@ class ScraperTest(unittest.TestCase):
 
     def test_jsonld_to_clean_events(self):
         raw = [to_event(e, "https://venue.example/calendar") for e in jsonld_events(PAGE)]
-        self.assertEqual(len(raw), 4)
+        self.assertEqual(len(raw), 5)
         self.assertEqual(raw[0]["url"], "https://venue.example/shows/1")
         self.assertEqual(raw[0]["image"], "https://venue.example/a.jpg")
 
         events = clean(raw, "Test Hall", CHICAGO)
         self.assertEqual([(e["title"], e["start"]) for e in events],
-                         [("Band & Friends", "2099-11-14T20:00"), ("Fest", "2099-11-20")])
+                         [("Band & Friends", "2099-11-14T20:00"), ("Fest", "2099-11-20"),
+                          ("Nested", "2099-11-21")])
         self.assertEqual(events[0]["price"], "25")
         self.assertEqual(events[0]["venue"], "Test Hall")
 
