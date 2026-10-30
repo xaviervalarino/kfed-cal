@@ -13,6 +13,10 @@
   --color-pink: #f4cdd5;
   --color-dusty: #b98e98;
   --color-rule: #34302c;
+  /* Dropdown and sheet background, from the Phone-Filters mockup. */
+  --color-panel: #141210;
+  /* Dimmed text for empty and past days, from the month mockups. */
+  --color-dim: #6f6a63;
 
   --font-masthead: "Creepster", cursive;
   --font-date: "Pirata One", cursive;
@@ -44,6 +48,48 @@ a:hover {
   color: #fff;
 }
 
+/* The outlined caps button of the control bar (docs/DESIGN.md, Controls). aria-pressed marks the picked one. */
+.button {
+  height: 44px;
+  padding: 0 14px;
+  border: 1px solid var(--color-dusty);
+  background: transparent;
+  color: var(--color-bone);
+  font-family: var(--font-text);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.button[aria-pressed="true"] {
+  background: var(--color-dusty);
+  color: var(--color-ground);
+}
+
+.button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+/* A small underlined caps action (ALL / NONE). The padding makes a tap target without moving the row. */
+.link {
+  margin: -8px 0;
+  padding: 8px 0;
+  border: 0;
+  background: none;
+  color: var(--color-pink);
+  font-family: var(--font-text);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  cursor: pointer;
+}
+
+/* The phone layout starts at 720px. CSS variables can't go in a @media condition, so every
+   component repeats the number; grep "max-width: 720px" to find them all. */
 @media (max-width: 720px) {
   body {
     padding: 24px 16px;

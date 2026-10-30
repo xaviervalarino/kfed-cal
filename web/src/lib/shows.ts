@@ -31,6 +31,10 @@ export const supportLine = (show: Show) =>
     .filter(Boolean)
     .join(" · ");
 
+/** "no shows", "1 show", "7 shows" */
+export const showCount = (count: number) =>
+  count === 0 ? "no shows" : `${count} ${count === 1 ? "show" : "shows"}`;
+
 export const STATUS_LABELS = {
   sold_out: "SOLD OUT",
   rescheduled: "RESCHEDULED",

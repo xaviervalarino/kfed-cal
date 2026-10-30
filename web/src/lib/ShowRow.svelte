@@ -27,9 +27,11 @@
 </li>
 
 <style>
+  /* Fixed columns keep the venues lined up from row to row; long prices
+     ("$10 ADVANCE / $15 DOS") wrap inside theirs. */
   li {
     display: grid;
-    grid-template-columns: 80px minmax(0, 1fr) 200px minmax(96px, auto);
+    grid-template-columns: 80px minmax(0, 1fr) 200px 120px;
     grid-template-areas: "time what venue price";
     column-gap: 16px;
     align-items: baseline;
@@ -90,6 +92,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    text-align: right;
     gap: 4px;
     font-size: 14px;
     color: var(--color-dusty);
@@ -113,7 +116,7 @@
   /* Phone: time · venue · price on one line, then the band, then support. */
   @media (max-width: 720px) {
     li {
-      grid-template-columns: auto minmax(0, 1fr) auto;
+      grid-template-columns: auto minmax(0, 1fr) fit-content(45%);
       grid-template-areas:
         "time venue price"
         "what what what";

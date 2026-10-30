@@ -85,9 +85,9 @@ work at 390px wide.
 - [x] List view.
 - [x] Status page: reads `status.json`.
 - [x] Deploy: the workflow builds `web/` and uploads `web/dist`.
-- [ ] Week and month views.
-- [ ] Filters: date picks, venues multi-select saved in localStorage, search, hide sold out; the phone filter
-  sheet.
+- [x] Week and month views.
+- [x] Filters: date picks, venues multi-select saved in localStorage, search, hide sold out; the phone filter
+  sheet. Phones switch views from a second bar row (LIST / WEEK / MONTH and FILTER), which the mockups left out.
 - [ ] Open a show: tap on phones, click on desktop.
 
 ## 7. Ship
