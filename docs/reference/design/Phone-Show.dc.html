@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KFED CAL — phone, show open</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&amp;family=Pirata+One&amp;family=Courier+Prime:wght@400;700&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#ece6d6}a:hover{color:#ffffff}
+</style>
+</helmet>
+<div style="width: 390px; height: 1100px; box-sizing: border-box; overflow: hidden; background: #0b0b0b; color: #ece6d6; font-family: 'Courier Prime', monospace; padding: 24px 16px; display: flex; flex-direction: column">
+
+  <header style="display: flex; flex-direction: column; align-items: center; gap: 6px; margin-bottom: 20px">
+    <a href="Phone-List.dc.html" aria-label="KFED CAL calendar" style="text-decoration: none; color: inherit"><h1 style="margin: 0; font-family: 'Creepster', cursive; font-weight: 400; font-size: 64px; line-height: 1; letter-spacing: 0.02em; color: #ece6d6; text-shadow: 2px 2px 0 #ff3b3b">KFED CAL</h1></a>
+    <a href="Status.dc.html" style="font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #f4cdd5; text-decoration: underline; text-underline-offset: 4px">UPDATED WED OCT 28</a>
+    </header>
+
+  <div style="display: flex; align-items: baseline; justify-content: space-between; padding-bottom: 8px; border-bottom: 2px solid #ece6d6">
+    <span style="font-family: 'Pirata One', cursive; font-size: 40px; line-height: 1">October 30</span>
+    <span style="font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #f4cdd5">FRI · TONIGHT</span>
+  </div>
+
+  <article style="display: flex; flex-direction: column; gap: 12px; padding: 12px 0 20px; border-bottom: 1px solid #34302c">
+    <a href="Phone-List.dc.html" style="display: flex; flex-direction: column; gap: 4px; text-decoration: none; color: #ece6d6">
+      <span style="display: flex; align-items: baseline; gap: 8px">
+        <span style="font-weight: 700; font-size: 13px; color: #ff3b3b">7PM</span>
+        <span style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #f4cdd5">Zebulon</span>
+        <span style="margin-left: auto; font-size: 13px; color: #b98e98">close ×</span>
+      </span>
+      <span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 32px; line-height: 1.05">The Tubs</span>
+      <span style="font-size: 14px; color: #b98e98">w/ Touch Girl Apple Blossom</span>
+    </a>
+    <div style="height: 220px; border: 1px solid #34302c; background: #151311; display: flex; align-items: center; justify-content: center">
+      <span style="font-size: 13px; letter-spacing: 0.1em; color: #b98e98">[EVENT IMAGE FROM DICE]</span>
+    </div>
+    <dl style="margin: 0; display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 6px 12px; font-size: 14px">
+      <dt style="color: #f4cdd5">TICKETS</dt><dd style="margin: 0">$26.78 on DICE</dd>
+      <dt style="color: #f4cdd5">DOORS</dt><dd style="margin: 0; color: #b98e98">[if listed]</dd>
+      <dt style="color: #f4cdd5">AGES</dt><dd style="margin: 0; color: #b98e98">[if listed]</dd>
+    </dl>
+    <div style="display: flex; gap: 8px">
+      <a href="#" style="flex-grow: 1; display: flex; align-items: center; justify-content: center; height: 48px; background: #ece6d6; color: #0b0b0b; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; text-decoration: none">GET TICKETS ↗</a>
+      <a href="#" style="display: flex; align-items: center; justify-content: center; height: 46px; padding: 0 16px; border: 1px solid #b98e98; color: #ece6d6; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; text-decoration: none">VENUE</a>
+    </div>
+  </article>
+
+  <div style="display: flex; flex-direction: column">
+    <sc-for list="{{events}}" as="e" hint-placeholder-count="4">
+      <a href="#" style="display: flex; flex-direction: column; gap: 4px; padding: 12px 0; border-bottom: 1px solid #34302c; text-decoration: none; color: #ece6d6">
+        <span style="display: flex; align-items: baseline; gap: 8px">
+          <span style="font-weight: 700; font-size: 13px; color: #ff3b3b">{{e.t}}</span>
+          <span style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #f4cdd5">{{e.v}}</span>
+        </span>
+        <span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 25px; line-height: 1.05">{{e.h}}</span>
+      </a>
+    </sc-for>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":1100}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      events: [
+        { t: '7PM', h: 'Francis of Delirium', v: 'The Echo' },
+        { t: '7PM', h: 'Failure', v: 'The Belasco' },
+        { t: '7PM', h: 'Daði Freyr', v: 'The Wiltern' },
+        { t: '8PM', h: 'Club Nevermore', v: 'Monty Bar' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

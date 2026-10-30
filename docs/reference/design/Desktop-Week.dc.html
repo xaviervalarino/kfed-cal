@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KFED CAL — desktop week</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&amp;family=Pirata+One&amp;family=Courier+Prime:wght@400;700&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#ece6d6}a:hover{color:#ffffff}
+</style>
+</helmet>
+<div style="width: 1280px; height: 1100px; box-sizing: border-box; overflow: hidden; background: #0b0b0b; color: #ece6d6; font-family: 'Courier Prime', monospace; padding: 40px; display: flex; flex-direction: column">
+
+  <header style="display: flex; flex-direction: column; align-items: center; gap: 6px; margin-bottom: 32px">
+    <a href="Main.dc.html" aria-label="KFED CAL calendar" style="text-decoration: none; color: inherit"><h1 style="margin: 0; font-family: 'Creepster', cursive; font-weight: 400; font-size: 120px; line-height: 1; letter-spacing: 0.02em; color: #ece6d6; text-shadow: 3px 2px 0 #ff3b3b">KFED CAL</h1></a>
+    <a href="Status.dc.html" style="font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #f4cdd5; text-decoration: underline; text-underline-offset: 4px">UPDATED WED OCT 28</a>
+    </header>
+
+  <div style="display: flex; justify-content: space-between; align-items: center; gap: 24px; border-top: 1px solid #34302c; border-bottom: 1px solid #34302c; padding: 12px 0; margin-bottom: 24px">
+    <div style="display: flex; align-items: center; gap: 8px">
+      <button aria-label="Previous week" style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: transparent; color: #ece6d6; border: 1px solid #b98e98; height: 44px; padding: 0 14px">‹ PREV</button>
+      <h2 style="margin: 0 16px; font-family: 'Pirata One', cursive; font-weight: 400; font-size: 34px; line-height: 1">November 2 — 8</h2>
+      <button aria-label="Next week" style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: transparent; color: #ece6d6; border: 1px solid #b98e98; height: 44px; padding: 0 14px">NEXT ›</button>
+    </div>
+    <div style="display: flex; align-items: center; gap: 24px">
+      <button style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: transparent; color: #ece6d6; border: 1px solid #b98e98; height: 44px; padding: 0 14px">VENUES ▾</button>
+      <input aria-label="Search bands" placeholder="search a band…" style="width: 200px; font-family: 'Courier Prime', monospace; font-size: 15px; background: transparent; color: #ece6d6; border: 0; border-bottom: 2px solid #ece6d6; padding: 8px 2px">
+      <div style="display: flex; border: 1px solid #b98e98">
+        <button style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: transparent; color: #ece6d6; border: 0; height: 42px; padding: 0 14px">LIST</button>
+        <button style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: #b98e98; color: #0b0b0b; border: 0; height: 42px; padding: 0 14px">WEEK</button>
+        <button style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: transparent; color: #ece6d6; border: 0; height: 42px; padding: 0 14px">MONTH</button>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-left: 1px solid #34302c">
+    <sc-for list="{{days}}" as="day" hint-placeholder-count="7">
+      <section style="display: flex; flex-direction: column; border-right: 1px solid #34302c; min-width: 0">
+        <div style="display: flex; flex-direction: column; align-items: center; padding: 12px 0 8px; border-bottom: 2px solid #ece6d6">
+          <span style="font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #f4cdd5">{{day.dow}}</span>
+          <span style="font-family: 'Pirata One', cursive; font-size: 52px; line-height: 1">{{day.num}}</span>
+        </div>
+        <sc-for list="{{day.events}}" as="e" hint-placeholder-count="3">
+          <a href="#" style="display: flex; flex-direction: column; gap: 4px; padding: 12px; border-bottom: 1px solid #34302c; text-decoration: none; color: #ece6d6">
+            <span style="display: flex; align-items: baseline; gap: 6px; min-width: 0">
+              <span style="font-weight: 700; font-size: 13px; color: #ff3b3b; flex-shrink: 0">{{e.t}}</span>
+              <span style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #f4cdd5; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{e.v}}</span>
+            </span>
+            <span style="{{e.band}}">{{e.h}}</span>
+            <sc-if value="{{e.s}}" hint-placeholder-val="{{true}}">
+              <span style="font-size: 13px; line-height: 1.35; color: #b98e98">{{e.s}}</span>
+            </sc-if>
+            <sc-if value="{{e.sold}}" hint-placeholder-val="{{false}}">
+              <span style="align-self: flex-start; font-weight: 700; font-size: 11px; letter-spacing: 0.12em; background: #ff3b3b; color: #0b0b0b; padding: 2px 6px">SOLD OUT</span>
+            </sc-if>
+          </a>
+        </sc-for>
+      </section>
+    </sc-for>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1100}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const band = (e) => "font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.05; color: " + (e.sold ? '#b98e98' : '#ece6d6') + ';';
+    const days = [
+      { dow: 'MON', num: '2', events: [
+        { t: '7PM', h: 'Jorjiana', s: '', v: 'The Echo' },
+        { t: '7PM', h: 'Todd Rundgren', s: '', v: 'The Wiltern' },
+        { t: '8PM', h: 'Gabriela Richardson', s: 'w/ 다인 Deine · $33', v: 'Zebulon' }
+      ] },
+      { dow: 'TUE', num: '3', events: [
+        { t: '6PM', h: 'Election Watch Party', s: 'In the café · free', v: 'Zebulon' },
+        { t: '7PM', h: 'Southern Culture On The Skids', s: '$33', v: 'Zebulon' },
+        { t: '7PM', h: 'Jose Madero', s: 'USA Tour 2026', v: 'The Wiltern' }
+      ] },
+      { dow: 'WED', num: '4', events: [
+        { t: '6:30PM', h: 'Spill It', s: '3 Min Mic Tour · 21+', v: 'The Echo' },
+        { t: '7PM', h: 'Man/Woman/Chainsaw', s: 'w/ Worthitpurchase', v: 'The Echo' },
+        { t: '8PM', h: 'Marci', s: 'w/ The Booyah! Kids · $27', v: 'Zebulon' }
+      ] },
+      { dow: 'THU', num: '5', events: [
+        { t: '7PM', h: 'Esteman & Daniela Spalla', s: 'Amorío USA Tour', v: 'The Belasco' },
+        { t: '7PM', h: 'Alvaro Diaz', s: 'Omakase Tour', v: 'The Wiltern' },
+        { t: '8PM', h: '454', s: '', v: 'The Echo' },
+        { t: '8PM', h: 'Holy Wave', s: 'w/ Queen Serene · $27', v: 'Zebulon' },
+        { t: '10PM', h: 'ESL II', s: 'w/ Judastongue', v: 'The Belasco' }
+      ] },
+      { dow: 'FRI', num: '6', events: [
+        { t: '7PM', h: 'Alex Cameron', s: 'w/ Josh da Costa', v: 'Zebulon', sold: true },
+        { t: '7PM', h: 'Supertaste', s: '', v: 'The Echo' },
+        { t: '7PM', h: 'Bad Gyal', s: 'Más Cara World Tour', v: 'The Wiltern' },
+        { t: '10PM', h: 'Reverberation Radio', s: 'DJ night · free', v: 'Zebulon' }
+      ] },
+      { dow: 'SAT', num: '7', events: [
+        { t: '5PM', h: 'And Always Forever 2026', s: 'Day 1', v: 'The Echo' },
+        { t: '6PM', h: 'Snuffed On Sight', s: '+ Foghorn · $24', v: 'The Paramount' },
+        { t: '7PM', h: 'Team Dresch', s: 'w/ Longstocking, The Third Sex', v: 'Zebulon', sold: true },
+        { t: '10PM', h: "Dance Till You're Dead", s: 'Indie sleaze party · free', v: 'Zebulon' }
+      ] },
+      { dow: 'SUN', num: '8', events: [
+        { t: '4PM', h: 'And Always Forever 2026', s: 'Day 2', v: 'The Echo' },
+        { t: '7PM', h: 'Buena Vista Orchestra', s: '', v: 'The Wiltern' }
+      ] }
+    ];
+    return { days: days.map((d) => ({ ...d, events: d.events.map((e) => ({ ...e, band: band(e) })) })) };
+  }
+}
+</script>
+</body>
+</html>

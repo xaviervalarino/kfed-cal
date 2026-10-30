@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Masthead options</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&amp;family=Courier+Prime:wght@400;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 1280px; height: 640px; box-sizing: border-box; background: #0b0b0b; color: #ece6d6; font-family: 'Courier Prime', monospace; padding: 40px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px">
+  <sc-for list="{{options}}" as="o" hint-placeholder-count="6">
+    <div style="border: 1px solid #34302c; display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 40px 16px 16px">
+      <span style="{{o.letters}}">KFED CAL</span>
+      <p style="margin: 0; align-self: flex-start; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; color: #b98e98">{{o.name}}</p>
+    </div>
+  </sc-for>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":640}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const defs = [
+      ['1 · BONE · RED ↘ · DUSTY PINK ↖', '#ece6d6', '#ff3b3b', '#b98e98'],
+      ['2 · BONE · RED ↘ · DIRTY GREY ↖', '#ece6d6', '#ff3b3b', '#6f6a63'],
+      ['3 · BONE · DARK RED ↘ · DUSTY PINK ↖', '#ece6d6', '#8f1d1d', '#b98e98'],
+      ['4 · RED · BONE ↘ · DIRTY GREY ↖', '#ff3b3b', '#ece6d6', '#6f6a63'],
+      ['5 · DUSTY PINK · RED ↘ · BONE ↖', '#d8b0b8', '#ff3b3b', '#ece6d6'],
+      ['6 · BONE · RED ↘ ONLY, TIGHT', '#ece6d6', '#ff3b3b', 'transparent']
+    ];
+    return {
+      options: defs.map(([name, face, dr, ul], i) => ({
+        name,
+        letters: "font-family: 'Creepster', cursive; font-size: 96px; line-height: 1; letter-spacing: 0.02em; color: " + face + '; text-shadow: ' +
+          (i === 5 ? '3px 2px 0 ' + dr : '5px 4px 0 ' + dr + ', -4px -3px 0 ' + ul) + ';'
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>

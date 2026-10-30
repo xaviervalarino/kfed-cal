@@ -1,0 +1,142 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-30T22:10:00Z"
+  },
+  "title": "KFED CAL screens",
+  "launch": {
+    "view": "canvas"
+  },
+  "pages": [],
+  "boards": {
+    "Stickers.dc.html": {
+      "x": 0,
+      "y": 300,
+      "w": 1280,
+      "h": 640,
+      "title": "Masthead options (picked #6)"
+    },
+    "Main.dc.html": {
+      "x": 0,
+      "y": 1320,
+      "w": 1280,
+      "h": 1100,
+      "title": "Desktop · list (default)",
+      "is_interactive": true
+    },
+    "Desktop-Week.dc.html": {
+      "x": 1360,
+      "y": 1320,
+      "w": 1280,
+      "h": 1100,
+      "title": "Desktop · week",
+      "is_interactive": true
+    },
+    "Desktop-Month.dc.html": {
+      "x": 2720,
+      "y": 1320,
+      "w": 1280,
+      "h": 1100,
+      "title": "Desktop · month",
+      "is_interactive": true
+    },
+    "Phone-List.dc.html": {
+      "x": 0,
+      "y": 2800,
+      "w": 390,
+      "h": 1100,
+      "title": "Phone · list",
+      "is_interactive": true
+    },
+    "Phone-Show.dc.html": {
+      "x": 470,
+      "y": 2800,
+      "w": 390,
+      "h": 1100,
+      "title": "Phone · show tapped open",
+      "is_interactive": true
+    },
+    "Phone-Week.dc.html": {
+      "x": 940,
+      "y": 2800,
+      "w": 390,
+      "h": 1100,
+      "title": "Phone · week",
+      "is_interactive": true
+    },
+    "Phone-Month.dc.html": {
+      "x": 1410,
+      "y": 2800,
+      "w": 390,
+      "h": 1100,
+      "title": "Phone · month",
+      "is_interactive": true
+    },
+    "Phone-Filters.dc.html": {
+      "x": 1880,
+      "y": 2800,
+      "w": 390,
+      "h": 1100,
+      "title": "Phone · filter sheet",
+      "is_interactive": true
+    },
+    "Status.dc.html": {
+      "x": 0,
+      "y": 4280,
+      "w": 1280,
+      "h": 1100,
+      "title": "Status page · example run (linked from the footer)",
+      "is_interactive": true
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Stickers.dc.html",
+    "Desktop-Week.dc.html",
+    "Desktop-Month.dc.html",
+    "Phone-List.dc.html",
+    "Phone-Show.dc.html",
+    "Phone-Week.dc.html",
+    "Phone-Month.dc.html",
+    "Phone-Filters.dc.html",
+    "Status.dc.html"
+  ],
+  "notes": {
+    "t-stickers": {
+      "x": 0,
+      "y": 40,
+      "text": "Masthead options",
+      "kind": "title1",
+      "maxW": 1280
+    },
+    "t-desktop": {
+      "x": 0,
+      "y": 1060,
+      "text": "Desktop",
+      "kind": "title1",
+      "maxW": 4000
+    },
+    "t-phone": {
+      "x": 0,
+      "y": 2540,
+      "text": "Phone",
+      "kind": "title1",
+      "maxW": 2270
+    },
+    "tokens": {
+      "x": 1360,
+      "y": 300,
+      "w": 420,
+      "text": "Tokens\nGround #0b0b0b · bone #ece6d6 (masthead, band names, selected) · red #ff3b3b (times, masthead slip) · light pink #f4cdd5 (venues, labels) · dusty pink #b98e98 (support lines, outlines) · rules #34302c\nIn reserve: dark red #8f1d1d\n\nMasthead: Creepster, bone, red slip 3px 2px down-right\nType: Creepster (masthead only) · Pirata One (dates only) · Barlow Condensed 700 (band names, mixed case) · Courier Prime (everything else)"
+    },
+    "t-status": {
+      "x": 0,
+      "y": 4020,
+      "text": "Scrape status",
+      "kind": "title1",
+      "maxW": 1280
+    }
+  },
+  "designSystems": []
+}

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KFED CAL — desktop month</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&amp;family=Pirata+One&amp;family=Courier+Prime:wght@400;700&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#ece6d6}a:hover{color:#ffffff}
+</style>
+</helmet>
+<div style="width: 1280px; height: 1100px; box-sizing: border-box; overflow: hidden; background: #0b0b0b; color: #ece6d6; font-family: 'Courier Prime', monospace; padding: 40px; display: flex; flex-direction: column">
+
+  <header style="display: flex; flex-direction: column; align-items: center; gap: 6px; margin-bottom: 32px">
+    <a href="Main.dc.html" aria-label="KFED CAL calendar" style="text-decoration: none; color: inherit"><h1 style="margin: 0; font-family: 'Creepster', cursive; font-weight: 400; font-size: 120px; line-height: 1; letter-spacing: 0.02em; color: #ece6d6; text-shadow: 3px 2px 0 #ff3b3b">KFED CAL</h1></a>
+    <a href="Status.dc.html" style="font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #f4cdd5; text-decoration: underline; text-underline-offset: 4px">UPDATED WED OCT 28</a>
+    </header>
+
+  <div style="display: flex; justify-content: space-between; align-items: center; gap: 24px; border-top: 1px solid #34302c; border-bottom: 1px solid #34302c; padding: 12px 0; margin-bottom: 24px">
+    <div style="display: flex; align-items: center; gap: 8px">
+      <button aria-label="Previous month" style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: transparent; color: #ece6d6; border: 1px solid #b98e98; height: 44px; padding: 0 14px">‹ PREV</button>
+      <h2 style="margin: 0 16px; font-family: 'Pirata One', cursive; font-weight: 400; font-size: 34px; line-height: 1">November</h2>
+      <button aria-label="Next month" style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: transparent; color: #ece6d6; border: 1px solid #b98e98; height: 44px; padding: 0 14px">NEXT ›</button>
+    </div>
+    <div style="display: flex; align-items: center; gap: 24px">
+      <button style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: transparent; color: #ece6d6; border: 1px solid #b98e98; height: 44px; padding: 0 14px">VENUES ▾</button>
+      <input aria-label="Search bands" placeholder="search a band…" style="width: 200px; font-family: 'Courier Prime', monospace; font-size: 15px; background: transparent; color: #ece6d6; border: 0; border-bottom: 2px solid #ece6d6; padding: 8px 2px">
+      <div style="display: flex; border: 1px solid #b98e98">
+        <button style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: transparent; color: #ece6d6; border: 0; height: 42px; padding: 0 14px">LIST</button>
+        <button style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: transparent; color: #ece6d6; border: 0; height: 42px; padding: 0 14px">WEEK</button>
+        <button style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: #b98e98; color: #0b0b0b; border: 0; height: 42px; padding: 0 14px">MONTH</button>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 32px">
+    <div style="flex-grow: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px">
+      <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px">
+        <sc-for list="{{dows}}" as="d" hint-placeholder-count="7">
+          <span style="font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #f4cdd5; padding: 0 8px 4px">{{d}}</span>
+        </sc-for>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); grid-auto-rows: 116px; gap: 4px">
+        <sc-for list="{{cells}}" as="c" hint-placeholder-count="30">
+          <button aria-label="{{c.label}}" style="{{c.style}}">
+            <span style="display: flex; justify-content: space-between; align-items: baseline">
+              <span style="font-family: 'Pirata One', cursive; font-size: 30px; line-height: 1">{{c.num}}</span>
+              <span style="{{c.countStyle}}">{{c.count}}</span>
+            </span>
+            <span style="{{c.topStyle}}">{{c.top}}</span>
+          </button>
+        </sc-for>
+      </div>
+    </div>
+
+    <aside style="width: 320px; flex-shrink: 0; display: flex; flex-direction: column">
+      <div style="display: flex; align-items: baseline; gap: 12px; padding-bottom: 8px; border-bottom: 2px solid #ece6d6">
+        <span style="font-family: 'Pirata One', cursive; font-size: 40px; line-height: 1">November 14</span>
+        <span style="font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #f4cdd5">SAT</span>
+      </div>
+      <sc-for list="{{picked}}" as="e" hint-placeholder-count="7">
+        <a href="#" style="display: flex; flex-direction: column; gap: 4px; padding: 12px 0; border-bottom: 1px solid #34302c; text-decoration: none; color: #ece6d6">
+          <span style="display: flex; gap: 8px; align-items: baseline">
+            <span style="font-weight: 700; font-size: 13px; color: #ff3b3b">{{e.t}}</span>
+            <span style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #f4cdd5">{{e.v}}</span>
+          </span>
+          <span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; line-height: 1.05">{{e.h}}</span>
+          <sc-if value="{{e.s}}" hint-placeholder-val="{{true}}">
+            <span style="font-size: 13px; color: #b98e98">{{e.s}}</span>
+          </sc-if>
+        </a>
+      </sc-for>
+    </aside>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1100}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const counts = [3,3,3,3,5,5,6, 3,2,4,4,3,4,7, 4,4,4,2,3,5,3, 3,2,2,1,0,2,3, 1,0];
+    const tops = {
+      1: 'Marilyn Manson · Dance Everywhere', 2: 'Todd Rundgren · Jorjiana', 3: 'Southern Culture On The Skids',
+      4: 'Man/Woman/Chainsaw · Marci', 5: 'Holy Wave · Alvaro Diaz', 6: 'Alex Cameron · Supertaste',
+      7: 'Team Dresch · Snuffed On Sight', 8: 'And Always Forever', 9: 'Sonderfest · GROOP',
+      10: 'Shanghai Qiutian', 11: 'Russian Circles · aeter', 12: 'Bonobo · Mercer Henderson',
+      13: 'pupsies · Jervis Campbell', 14: 'L7 · MARIS', 15: 'Nekrogoblikon · young friend',
+      16: '2DEAD BOYZ · Montazona', 17: 'The Damned · Internet Girl', 18: 'sahn', 19: 'Senses Fail · Brad Williams',
+      20: 'Boston Manor · Qendresa', 21: 'Qendresa · Rizzers', 22: 'Silverstein', 23: 'Like Nastya',
+      24: 'tripleS', 25: 'Dub Club', 27: 'Ebril · Frankie J & Bobby V', 28: 'Imminence · Cletus Strap', 29: 'Echoe Events'
+    };
+    const base = "display: flex; flex-direction: column; justify-content: space-between; gap: 4px; padding: 8px; font-family: 'Courier Prime', monospace; text-align: left; cursor: pointer; ";
+    const cells = counts.map((n, i) => {
+      const day = i + 1, on = day === 14;
+      return {
+        num: String(day),
+        label: 'November ' + day + ', ' + n + ' shows',
+        count: n ? n + ' shows' : '',
+        top: tops[day] || '',
+        style: base + (on ? 'background: #b98e98; color: #0b0b0b; border: 0;'
+          : 'background: transparent; color: ' + (n ? '#ece6d6' : '#6f6a63') + '; border: 0; border-top: 2px solid ' + (n >= 5 ? '#ece6d6' : '#34302c') + ';'),
+        countStyle: 'font-size: 12px; color: ' + (on ? '#0b0b0b' : '#f4cdd5') + ';',
+        topStyle: "font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 15px; line-height: 1.15; color: " + (on ? '#0b0b0b' : '#ece6d6') + ';'
+      };
+    });
+    return {
+      dows: ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'],
+      cells,
+      picked: [
+        { t: '7PM', v: 'The Wiltern', h: 'L7', s: 'The Last Hurrah Tour 2026' },
+        { t: '7PM', v: 'The Echo', h: 'MARIS', s: '' },
+        { t: '7PM', v: 'The Echo', h: 'The Hails', s: 'Duckpond Tour · w/ Meldrop' },
+        { t: '7PM', v: 'The Belasco', h: 'Miles Minnick', s: 'Glovember' },
+        { t: '7PM', v: 'Zebulon', h: 'River Shook', s: 'An evening with · $21' },
+        { t: '7PM', v: 'The Paramount', h: 'Yasawa Group', s: '$25' },
+        { t: '10PM', v: 'Zebulon', h: 'C*nty Classics Dance Party', s: 'Shana Sarett & Vince Rossi DJs · free' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

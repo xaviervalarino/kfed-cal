@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KFED CAL — phone list</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&amp;family=Pirata+One&amp;family=Courier+Prime:wght@400;700&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#ece6d6}a:hover{color:#ffffff}
+</style>
+</helmet>
+<div style="position: relative; width: 390px; height: 1100px; box-sizing: border-box; overflow: hidden; background: #0b0b0b; color: #ece6d6; font-family: 'Courier Prime', monospace; padding: 24px 16px; display: flex; flex-direction: column">
+  <footer style="position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 16px; border-top: 1px solid #34302c; background: #0b0b0b; font-size: 12px; color: #b98e98">
+    <span>KFED CAL · 21 venues · weekly</span>
+    <a href="Status.dc.html" style="font-weight: 700; letter-spacing: 0.1em; color: #f4cdd5">SCRAPE STATUS →</a>
+  </footer>
+
+  <header style="display: flex; flex-direction: column; align-items: center; gap: 6px; margin-bottom: 20px">
+    <a href="Phone-List.dc.html" aria-label="KFED CAL calendar" style="text-decoration: none; color: inherit"><h1 style="margin: 0; font-family: 'Creepster', cursive; font-weight: 400; font-size: 64px; line-height: 1; letter-spacing: 0.02em; color: #ece6d6; text-shadow: 2px 2px 0 #ff3b3b">KFED CAL</h1></a>
+    <a href="Status.dc.html" style="font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #f4cdd5; text-decoration: underline; text-underline-offset: 4px">UPDATED WED OCT 28</a>
+    </header>
+
+  <div style="display: flex; gap: 8px; border-top: 1px solid #34302c; border-bottom: 1px solid #34302c; padding: 12px 0; margin-bottom: 16px">
+    <button style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: #b98e98; color: #0b0b0b; border: 1px solid #b98e98; height: 44px; padding: 0 10px">TONIGHT</button>
+    <button style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: transparent; color: #ece6d6; border: 1px solid #b98e98; height: 44px; padding: 0 10px">WEEKEND</button>
+    <button style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; background: transparent; color: #ece6d6; border: 1px solid #b98e98; height: 44px; padding: 0 10px">7 DAYS</button>
+    <a href="Phone-Filters.dc.html" aria-label="Filters" style="margin-left: auto; display: flex; align-items: center; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; color: #ece6d6; border: 1px solid #b98e98; height: 42px; padding: 0 10px; text-decoration: none">FILTER</a>
+  </div>
+
+  <div style="display: flex; align-items: baseline; justify-content: space-between; padding-bottom: 8px; border-bottom: 2px solid #ece6d6">
+    <span style="font-family: 'Pirata One', cursive; font-size: 40px; line-height: 1">October 30</span>
+    <span style="font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #f4cdd5">FRI · TONIGHT</span>
+  </div>
+
+  <div style="display: flex; flex-direction: column">
+    <sc-for list="{{events}}" as="e" hint-placeholder-count="6">
+      <a href="Phone-Show.dc.html" style="display: flex; flex-direction: column; gap: 4px; padding: 12px 0; border-bottom: 1px solid #34302c; text-decoration: none; color: #ece6d6">
+        <span style="display: flex; align-items: baseline; gap: 8px">
+          <span style="font-weight: 700; font-size: 13px; color: #ff3b3b">{{e.t}}</span>
+          <span style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #f4cdd5">{{e.v}}</span>
+          <span style="margin-left: auto; font-size: 13px; color: #b98e98">{{e.p}}</span>
+        </span>
+        <span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 25px; line-height: 1.05">{{e.h}}</span>
+        <sc-if value="{{e.s}}" hint-placeholder-val="{{true}}">
+          <span style="font-size: 14px; line-height: 1.35; color: #b98e98">{{e.s}}</span>
+        </sc-if>
+      </a>
+    </sc-for>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":1100}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      events: [
+        { t: '7PM', h: 'The Tubs', s: 'w/ Touch Girl Apple Blossom', v: 'Zebulon', p: '$27' },
+        { t: '7PM', h: 'Francis of Delirium', s: 'w/ Beatrix', v: 'The Echo', p: '' },
+        { t: '7PM', h: 'Failure', s: 'The Rising Skyline Tour', v: 'The Belasco', p: '' },
+        { t: '7PM', h: 'Daði Freyr', s: '', v: 'The Wiltern', p: '' },
+        { t: '8PM', h: 'Club Nevermore', s: '3rd annual Halloween · bands + DJs + performances', v: 'Monty Bar', p: '$5–10' },
+        { t: '9:30PM', h: 'Urgent Care', s: 'Janky Smooth presents · w/ DJ Danny Dark', v: 'The Belasco', p: '' },
+        { t: '10PM', h: 'Kulture Klub', s: "The '80s Dance Party", v: 'Zebulon', p: 'free' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

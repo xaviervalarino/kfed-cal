@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KFED CAL — phone week</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&amp;family=Pirata+One&amp;family=Courier+Prime:wght@400;700&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#ece6d6}a:hover{color:#ffffff}
+</style>
+</helmet>
+<div style="width: 390px; height: 1100px; box-sizing: border-box; overflow: hidden; background: #0b0b0b; color: #ece6d6; font-family: 'Courier Prime', monospace; padding: 24px 16px; display: flex; flex-direction: column">
+
+  <header style="display: flex; flex-direction: column; align-items: center; gap: 6px; margin-bottom: 20px">
+    <a href="Phone-List.dc.html" aria-label="KFED CAL calendar" style="text-decoration: none; color: inherit"><h1 style="margin: 0; font-family: 'Creepster', cursive; font-weight: 400; font-size: 64px; line-height: 1; letter-spacing: 0.02em; color: #ece6d6; text-shadow: 2px 2px 0 #ff3b3b">KFED CAL</h1></a>
+    <a href="Status.dc.html" style="font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #f4cdd5; text-decoration: underline; text-underline-offset: 4px">UPDATED WED OCT 28</a>
+    </header>
+
+  <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #34302c; border-bottom: 1px solid #34302c; padding: 12px 0; margin-bottom: 12px">
+    <button aria-label="Previous week" style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; background: transparent; color: #ece6d6; border: 1px solid #b98e98; width: 44px; height: 44px">‹</button>
+    <h2 style="margin: 0; font-family: 'Pirata One', cursive; font-weight: 400; font-size: 30px; line-height: 1">November 2 — 8</h2>
+    <button aria-label="Next week" style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 13px; background: transparent; color: #ece6d6; border: 1px solid #b98e98; width: 44px; height: 44px">›</button>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; margin-bottom: 16px">
+    <sc-for list="{{strip}}" as="d" hint-placeholder-count="7">
+      <button aria-label="{{d.label}}" style="{{d.style}}">
+        <span style="{{d.dowStyle}}">{{d.dow}}</span>
+        <span style="display: block; font-family: 'Pirata One', cursive; font-size: 26px; line-height: 1.1">{{d.num}}</span>
+        <span style="{{d.countStyle}}">{{d.count}}</span>
+      </button>
+    </sc-for>
+  </div>
+
+  <div style="display: flex; align-items: baseline; justify-content: space-between; padding-bottom: 8px; border-bottom: 2px solid #ece6d6">
+    <span style="font-family: 'Pirata One', cursive; font-size: 40px; line-height: 1">November 7</span>
+    <span style="font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #f4cdd5">SAT</span>
+  </div>
+
+  <div style="display: flex; flex-direction: column">
+    <sc-for list="{{events}}" as="e" hint-placeholder-count="4">
+      <a href="#" style="display: flex; flex-direction: column; gap: 4px; padding: 12px 0; border-bottom: 1px solid #34302c; text-decoration: none; color: #ece6d6">
+        <span style="display: flex; align-items: baseline; gap: 8px">
+          <span style="font-weight: 700; font-size: 13px; color: #ff3b3b">{{e.t}}</span>
+          <span style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #f4cdd5">{{e.v}}</span>
+          <sc-if value="{{e.sold}}" hint-placeholder-val="{{false}}">
+            <span style="margin-left: auto; font-weight: 700; font-size: 11px; letter-spacing: 0.12em; background: #ff3b3b; color: #0b0b0b; padding: 2px 6px">SOLD OUT</span>
+          </sc-if>
+        </span>
+        <span style="{{e.band}}">{{e.h}}</span>
+        <sc-if value="{{e.s}}" hint-placeholder-val="{{true}}">
+          <span style="font-size: 14px; line-height: 1.35; color: #b98e98">{{e.s}}</span>
+        </sc-if>
+      </a>
+    </sc-for>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":1100}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const days = [['MON', '2', 3], ['TUE', '3', 3], ['WED', '4', 3], ['THU', '5', 5], ['FRI', '6', 4], ['SAT', '7', 4], ['SUN', '8', 2]];
+    const base = "display: flex; flex-direction: column; align-items: center; padding: 6px 0; min-height: 64px; cursor: pointer; font-family: 'Courier Prime', monospace; ";
+    return {
+      strip: days.map(([dow, num, n]) => {
+        const on = num === '7';
+        return {
+          dow, num, count: n + '',
+          label: dow + ' November ' + num + ', ' + n + ' shows',
+          style: base + (on ? 'background: #b98e98; color: #0b0b0b; border: 1px solid #b98e98;' : 'background: transparent; color: #ece6d6; border: 1px solid #34302c;'),
+          dowStyle: 'display: block; font-weight: 700; font-size: 11px; letter-spacing: 0.1em; color: ' + (on ? '#0b0b0b' : '#f4cdd5') + ';',
+          countStyle: 'display: block; font-size: 11px; color: ' + (on ? '#0b0b0b' : '#b98e98') + ';'
+        };
+      }),
+      events: [
+        { t: '5PM', h: 'And Always Forever 2026', s: 'Day 1 · single-day pass', v: 'The Echo' },
+        { t: '6PM', h: 'Snuffed On Sight', s: '+ Foghorn · $24', v: 'The Paramount' },
+        { t: '7PM', h: 'Team Dresch', s: 'w/ Longstocking, The Third Sex', v: 'Zebulon', sold: true },
+        { t: '10PM', h: "Dance Till You're Dead", s: 'Indie sleaze party · free', v: 'Zebulon' }
+      ].map((e) => ({ ...e, band: "font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 25px; line-height: 1.05; color: " + (e.sold ? '#b98e98' : '#ece6d6') + ';' }))
+    };
+  }
+}
+</script>
+</body>
+</html>
