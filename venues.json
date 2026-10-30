@@ -88,7 +88,7 @@
       "website": "https://www.lodgeroomhlp.com/",
       "events_page": "https://www.lodgeroomhlp.com/",
       "method": "tessera",
-      "notes": "No prices or sold-out flags: the Tessera ticket API (tickets.lodgeroomhlp.com) needs a visitor session."
+      "params": {"api": "https://tickets.lodgeroomhlp.com/api/v1"}
     },
     {
       "name": "The Vermont",

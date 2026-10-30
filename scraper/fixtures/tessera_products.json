@@ -1,0 +1,40 @@
+[
+ {
+  "frontendId": "34884",
+  "isSoldOut": false,
+  "campaigns": [
+   {
+    "name": "Day Of Show",
+    "price": 24.0,
+    "isSoldOut": false
+   }
+  ]
+ },
+ {
+  "frontendId": "34214",
+  "isSoldOut": true,
+  "campaigns": [
+   {
+    "name": "General Admission",
+    "price": 25.0,
+    "isSoldOut": true
+   }
+  ]
+ },
+ {
+  "frontendId": "35217",
+  "isSoldOut": false,
+  "campaigns": [
+   {
+    "name": "VIP Tickets",
+    "price": 100.0,
+    "isSoldOut": false
+   },
+   {
+    "name": "General Admission",
+    "price": 35.0,
+    "isSoldOut": false
+   }
+  ]
+ }
+]

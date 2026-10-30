@@ -57,7 +57,7 @@ The methods are in `scraper/methods.py`, one per source platform. `docs/VENUES.m
 | --- | --- | --- |
 | `ticketmaster` | the Ticketmaster Discovery API (needs `TICKETMASTER_API_KEY`) | `params.venue_ids`: one or more Ticketmaster venue ids |
 | `dice_venue` | a DICE venue page | `events_page`: `https://dice.fm/venue/<slug>` |
-| `tessera` | a venue site ticketed by Tessera (Lodge Room), without prices | `events_page` |
+| `tessera` | a venue site ticketed by Tessera (Lodge Room) | `events_page`, and `params.api` for prices |
 | `tribe_events` | the API of a WordPress site running The Events Calendar | `events_page`: its `/wp-json/tribe/events/v1/events?per_page=50` address |
 | `auto` | schema.org events embedded in a page | `events_page` |
 | `permanent_records` | Permanent Records Roadhouse's show table | `events_page` |

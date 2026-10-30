@@ -12,7 +12,7 @@ METHODS = {
     "dice_venue": ["events_page"],
     "monty_flyer": ["events_page"],
     "permanent_records": ["events_page"],
-    "tessera": ["events_page"],
+    "tessera": ["events_page", "params.api"],
     "ticketmaster": ["params.venue_ids"],
     "tribe_events": ["events_page"],
 }

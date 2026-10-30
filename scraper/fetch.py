@@ -16,15 +16,22 @@ class Fetcher:
         self.last = 0.0
         self.robots = {}
 
-    def get(self, url, params=None):
+    def get(self, url, params=None, headers=None):
         """GET url. Pass query values (and API keys) in params: error messages leave them out."""
+        return self.request("GET", url, params, headers)
+
+    def post(self, url, headers=None):
+        """POST to url with no body (how Tessera's ticket API starts a visitor session)."""
+        return self.request("POST", url, None, headers)
+
+    def request(self, method, url, params, headers):
         if not self.allowed(url):
             raise PermissionError(f"robots.txt does not allow fetching {url}")
         wait = self.last + self.delay - time.monotonic()
         if wait > 0:
             time.sleep(wait)
         try:
-            response = self.client.get(url, params=params)
+            response = self.client.request(method, url, params=params, headers=headers)
         finally:
             self.last = time.monotonic()
         if is_challenge(response):

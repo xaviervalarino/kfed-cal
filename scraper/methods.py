@@ -13,6 +13,7 @@ from datetime import date, datetime, timedelta
 from urllib.parse import urljoin
 
 import anthropic
+import httpx
 from bs4 import BeautifulSoup
 
 MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october",
@@ -195,18 +196,33 @@ TESSERA_SHOW = re.compile(r"eventObjects\.push\((\{.*?\})\);", re.S)
 
 
 def tessera(venue, fetcher, report):
-    """The venue's page lists each show in an `eventObjects.push({...});` call. Prices and sold-out flags are
-    left out: Tessera's ticket API only answers within a visitor session."""
+    """The venue's page lists each show in an `eventObjects.push({...});` call. The Tessera ticket API
+    (params.api) adds prices and sold-out flags. It needs a visitor session, started as the venue's own page
+    does: a POST with no body, then the session id in a SessionId header."""
     page = venue["events_page"]
-    return [tessera_event(json.loads(raw), page) for raw in TESSERA_SHOW.findall(fetcher.get(page).text)]
+    shows = [json.loads(raw) for raw in TESSERA_SHOW.findall(fetcher.get(page).text)]
+    products = {}
+    if shows:
+        api, ids = venue["params"]["api"], ",".join(str(s["id"]) for s in shows)
+        try:
+            start = fetcher.post(f"{api}/authorization/session", headers={"Content-Type": "application/json"})
+            session = start.json()["sessionId"]
+            found = fetcher.get(f"{api}/products", params={"ids": ids}, headers={"SessionId": session}).json()
+            products = {str(p.get("frontendId")): p for p in found}
+        except (httpx.HTTPError, PermissionError, ValueError, KeyError) as e:  # the listing is still good without prices
+            report["note"] = f"Prices could not be loaded ({e})."
+    return [tessera_event(s, products.get(str(s["id"])) or {}, page) for s in shows]
 
 
-def tessera_event(show, page):
+def tessera_event(show, product, page):
+    prices = [c["price"] for c in product.get("campaigns") or [] if c.get("price") is not None]
     return {
         "title": html.unescape(" / ".join(show.get("mainArtist") or [])),
         "support": [html.unescape(a) for a in show.get("additionalArtists") or []],
         "start": datetime.strptime(show["eventDate"].upper(), "%m/%d/%Y %I:%M %p").isoformat(),
         "doors": clock(show.get("doors")),
+        "price": dollars(min(prices), max(prices)) if prices else None,
+        "status": "sold_out" if product.get("isSoldOut") else None,
         "url": show.get("link") or page,
         "image": show.get("image"),
         "source_id": f"tessera:{show['id']}",

@@ -26,14 +26,17 @@ def fixture(name):
 
 class FakeFetcher:
     """Answers a URL that starts with one of `routes` with a fixture file name, a function of the request's
-    params, or a ready httpx.Response. Records every request."""
+    params, or a ready httpx.Response. Records every request as (url, params, headers)."""
 
     def __init__(self, routes):
         self.routes = routes
         self.calls = []
 
-    def get(self, url, params=None):
-        self.calls.append((url, params))
+    def post(self, url, headers=None):
+        return self.get(url, headers=headers)
+
+    def get(self, url, params=None, headers=None):
+        self.calls.append((url, params, headers))
         for prefix, answer in self.routes.items():
             if url.startswith(prefix):
                 if isinstance(answer, httpx.Response):
@@ -63,7 +66,7 @@ class TicketmasterTest(unittest.TestCase):
 
     def test_events(self):
         raw = methods.ticketmaster({"params": {"venue_ids": ["KovZ917A967"]}}, self.fetcher, {})
-        self.assertEqual([(p["page"], p["apikey"]) for _, p in self.fetcher.calls], [(0, "test-key"), (1, "test-key")])
+        self.assertEqual([(p["page"], p["apikey"]) for _, p, _ in self.fetcher.calls], [(0, "test-key"), (1, "test-key")])
         self.assertNotIn("Upgrade: Premium Viewing Deck", [e["title"] for e in raw])  # a seat upgrade, not a show
 
         events = clean(raw, "The Echo", LA, TODAY)
@@ -139,11 +142,16 @@ class DiceTest(unittest.TestCase):
 
 
 class TesseraTest(unittest.TestCase):
+    VENUE = {"events_page": "https://www.lodgeroomhlp.com/", "params": {"api": "https://tickets.lodgeroomhlp.com/api/v1"}}
+
     def test_events(self):
-        fetcher = FakeFetcher({"https://www.lodgeroomhlp.com/": "tessera.html"})
-        raw = methods.tessera({"events_page": "https://www.lodgeroomhlp.com/"}, fetcher, {})
-        events = by_title(clean(raw, "Lodge Room", LA, TODAY))
-        self.assertEqual(sorted(events), ["Desire", "Improvement Movement", "Jamila Woods"])
+        fetcher = FakeFetcher({"https://www.lodgeroomhlp.com/": "tessera.html",
+                               "https://tickets.lodgeroomhlp.com/api/v1/authorization/session":
+                                   lambda p: json.dumps({"sessionId": "test-session", "userId": None}),
+                               "https://tickets.lodgeroomhlp.com/api/v1/products": "tessera_products.json"})
+        events = by_title(clean(methods.tessera(self.VENUE, fetcher, {}), "Lodge Room", LA, TODAY))
+        self.assertEqual(fetcher.calls[2], ("https://tickets.lodgeroomhlp.com/api/v1/products",
+                                            {"ids": "34884,34214,35217"}, {"SessionId": "test-session"}))
         self.assertEqual(events["Improvement Movement"], {
             "venue": "Lodge Room",
             "title": "Improvement Movement",
@@ -151,10 +159,21 @@ class TesseraTest(unittest.TestCase):
             "details": "Your Perfect Real LIVE ’26",
             "start": "2026-10-30T20:00",
             "doors": "19:00",
+            "price": "$24",
             "url": "https://www.lodgeroomhlp.com/shows/improvement-movement-your-perfect-real-live-26/",
             "image": "https://www.lodgeroomhlp.com/wp-content/uploads/2026/07/2026.10.30-Improvement-Movement-web.jpg",
             "source_id": "tessera:34884",
         })
+        self.assertEqual(events["Desire"]["status"], "sold_out")
+        self.assertEqual(events["Jamila Woods"]["price"], "$35–100")
+
+    def test_prices_unavailable(self):
+        report = {}
+        fetcher = FakeFetcher({"https://www.lodgeroomhlp.com/": "tessera.html",
+                               "https://tickets.lodgeroomhlp.com/": httpx.Response(200, text='{"error": "no session"}')})
+        events = methods.tessera(self.VENUE, fetcher, report)
+        self.assertEqual((len(events), events[0]["price"]), (3, None))  # the shows are still listed
+        self.assertEqual(report, {"note": "Prices could not be loaded ('sessionId')."})
 
 
 class TribeEventsTest(unittest.TestCase):

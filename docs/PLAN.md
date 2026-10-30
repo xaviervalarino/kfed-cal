@@ -50,8 +50,8 @@ Port from `docs/reference/prototypes/` and register each in `METHODS` (and in `v
 - [x] `dice_venue`: from `html_dice_venue_snippet.py`, `html_dice_method.py`. Zebulon, Paramount, Glass House.
 - [x] `tessera`: from `feeds_methods_proposed.py` (`tessera`), `feeds_venue_extractors.py` (`lodge_room`).
   Lodge Room.
-  Without prices or sold-out flags: since Oct 30 2026 the ticket API answers 400 "SessionId header must be set"
-  (the venue's page first creates an anonymous session). Prices are low priority; who is playing is what counts.
+  Since Oct 30 2026 the ticket API wants a visitor session: the method starts one the way the venue's page does
+  (a POST with no body) and sends its id in a `SessionId` header.
 - [x] `tribe_events`: from `round2a_tribe_events.py`. The Vermont.
 - [x] `monty_flyer`: from `reference/probe_monty_flyer.py`. Monty Bar.
 - [x] `permanent_records`: no prototype; write it (text like "November 1st - 6PM"). Permanent Records Roadhouse.
