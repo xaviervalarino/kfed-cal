@@ -2,7 +2,7 @@ name: Update calendar
 
 on:
   schedule:
-    - cron: "0 9 1 * *"  # 09:00 UTC on the 1st of every month
+    - cron: "17 10 * * 3"  # 10:17 UTC Wednesdays = early Wednesday Pacific (3:17 AM PDT / 2:17 AM PST)
   workflow_dispatch:      # the "Run workflow" button on the Actions tab
   push:
     branches: [main]      # redeploy the site (without scraping) when code or venues change
@@ -38,13 +38,17 @@ jobs:
       - name: Scrape venues
         if: github.event_name != 'push'
         run: python -m scraper.run
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
-      - name: Commit events.json
+      - name: Commit events.json and status.json
         if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add site/events.json
+          if [ -f site/status.json ]; then git add site/status.json; fi
           git diff --cached --quiet || (git commit -m "Update events" && git push)
 
       - uses: actions/configure-pages@v5

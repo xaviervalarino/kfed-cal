@@ -6,7 +6,7 @@ A calendar of upcoming shows and events at local venues. A scraper collects each
 ## How it works
 
 1. `venues.json` lists the venues and how to scrape each one.
-2. On the 1st of every month, GitHub Actions runs `python -m scraper.run`. It scrapes every venue, removes
+2. Early every Wednesday (Pacific time), GitHub Actions runs `python -m scraper.run`. It scrapes every venue, removes
    duplicates and past events, and commits the new `site/events.json`.
 3. The workflow then publishes `site/` to GitHub Pages.
 

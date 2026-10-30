@@ -1,2 +1,4 @@
+anthropic==2.3.0
 beautifulsoup4==4.15.0
+brotli==1.2.1
 httpx==0.28.1
