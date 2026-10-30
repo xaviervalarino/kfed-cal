@@ -13,7 +13,6 @@ from datetime import date, datetime, timedelta
 from urllib.parse import urljoin
 
 import anthropic
-import httpx
 from bs4 import BeautifulSoup
 
 MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october",
@@ -201,7 +200,6 @@ def tessera(venue, fetcher, report):
     does: a POST with no body, then the session id in a SessionId header."""
     page = venue["events_page"]
     shows = [json.loads(raw) for raw in TESSERA_SHOW.findall(fetcher.get(page).text)]
-    products = {}
     if shows:
         api, ids = venue["params"]["api"], ",".join(str(s["id"]) for s in shows)
         try:
@@ -209,20 +207,23 @@ def tessera(venue, fetcher, report):
             session = start.json()["sessionId"]
             found = fetcher.get(f"{api}/products", params={"ids": ids}, headers={"SessionId": session}).json()
             products = {str(p.get("frontendId")): p for p in found}
-        except (httpx.HTTPError, PermissionError, ValueError, KeyError) as e:  # the listing is still good without prices
-            report["note"] = f"Prices could not be loaded ({e})."
-    return [tessera_event(s, products.get(str(s["id"])) or {}, page) for s in shows]
+            return [tessera_event(s, products.get(str(s["id"]), {}), page) for s in shows]
+        except Exception as e:  # any surprise in the price data: the listing is still good without prices
+            report["note"] = f"Prices could not be loaded ({type(e).__name__}: {e})."
+    return [tessera_event(s, {}, page) for s in shows]
 
 
 def tessera_event(show, product, page):
-    prices = [c["price"] for c in product.get("campaigns") or [] if c.get("price") is not None]
+    tiers = product.get("campaigns") or []
+    prices = [c["price"] for c in tiers if c.get("price") is not None]
+    sold_out = product.get("isSoldOut") or (tiers and all(c.get("isSoldOut") for c in tiers))
     return {
         "title": html.unescape(" / ".join(show.get("mainArtist") or [])),
         "support": [html.unescape(a) for a in show.get("additionalArtists") or []],
         "start": datetime.strptime(show["eventDate"].upper(), "%m/%d/%Y %I:%M %p").isoformat(),
         "doors": clock(show.get("doors")),
         "price": dollars(min(prices), max(prices)) if prices else None,
-        "status": "sold_out" if product.get("isSoldOut") else None,
+        "status": "sold_out" if sold_out else None,
         "url": show.get("link") or page,
         "image": show.get("image"),
         "source_id": f"tessera:{show['id']}",

@@ -31,8 +31,10 @@ class FakeFetcher:
     def __init__(self, routes):
         self.routes = routes
         self.calls = []
+        self.posted = []
 
     def post(self, url, headers=None):
+        self.posted.append(url)
         return self.get(url, headers=headers)
 
     def get(self, url, params=None, headers=None):
@@ -150,6 +152,7 @@ class TesseraTest(unittest.TestCase):
                                    lambda p: json.dumps({"sessionId": "test-session", "userId": None}),
                                "https://tickets.lodgeroomhlp.com/api/v1/products": "tessera_products.json"})
         events = by_title(clean(methods.tessera(self.VENUE, fetcher, {}), "Lodge Room", LA, TODAY))
+        self.assertEqual(fetcher.posted, ["https://tickets.lodgeroomhlp.com/api/v1/authorization/session"])
         self.assertEqual(fetcher.calls[2], ("https://tickets.lodgeroomhlp.com/api/v1/products",
                                             {"ids": "34884,34214,35217"}, {"SessionId": "test-session"}))
         self.assertEqual(events["Improvement Movement"], {
@@ -168,12 +171,25 @@ class TesseraTest(unittest.TestCase):
         self.assertEqual(events["Jamila Woods"]["price"], "$35–100")
 
     def test_prices_unavailable(self):
-        report = {}
-        fetcher = FakeFetcher({"https://www.lodgeroomhlp.com/": "tessera.html",
-                               "https://tickets.lodgeroomhlp.com/": httpx.Response(200, text='{"error": "no session"}')})
-        events = methods.tessera(self.VENUE, fetcher, report)
-        self.assertEqual((len(events), events[0]["price"]), (3, None))  # the shows are still listed
-        self.assertEqual(report, {"note": "Prices could not be loaded ('sessionId')."})
+        session = json.dumps({"sessionId": "test-session"})
+        for products, error in [(None, "KeyError: 'sessionId'"),  # no session id
+                                ('{"error": "bad request"}', "AttributeError"),  # not a list of products
+                                ('[{"frontendId": "34884", "campaigns": [{"price": "24.00"}]}]', "ValueError")]:
+            report = {}
+            fetcher = FakeFetcher({"https://www.lodgeroomhlp.com/": "tessera.html",
+                                   "https://tickets.lodgeroomhlp.com/api/v1/authorization/session":
+                                       lambda p: session if products else '{"error": "no session"}',
+                                   "https://tickets.lodgeroomhlp.com/api/v1/products": lambda p: products})
+            events = methods.tessera(self.VENUE, fetcher, report)
+            self.assertEqual((len(events), events[0].get("price")), (3, None), error)  # the shows are still listed
+            self.assertTrue(report["note"].startswith(f"Prices could not be loaded ({error}"), report)
+
+    def test_every_tier_sold_out(self):
+        show = {"id": 1, "eventDate": "11/20/2026 8:00 pm", "mainArtist": ["Band"]}
+        product = {"isSoldOut": False, "campaigns": [{"price": 25, "isSoldOut": True}, {"price": 40, "isSoldOut": True}]}
+        self.assertEqual(methods.tessera_event(show, product, "https://lodge.example/")["status"], "sold_out")
+        product["campaigns"][1]["isSoldOut"] = False
+        self.assertIsNone(methods.tessera_event(show, product, "https://lodge.example/")["status"])
 
 
 class TribeEventsTest(unittest.TestCase):
