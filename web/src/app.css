@@ -7,12 +7,12 @@
 
 /* Design tokens: docs/DESIGN.md */
 :root {
-  --ground: #0b0b0b;
-  --bone: #ece6d6;
-  --red: #ff3b3b;
-  --pink: #f4cdd5;
-  --dusty: #b98e98;
-  --rule: #34302c;
+  --color-ground: #0b0b0b;
+  --color-bone: #ece6d6;
+  --color-red: #ff3b3b;
+  --color-pink: #f4cdd5;
+  --color-dusty: #b98e98;
+  --color-rule: #34302c;
 
   --font-masthead: "Creepster", cursive;
   --font-date: "Pirata One", cursive;
@@ -31,13 +31,13 @@
 body {
   margin: 0;
   padding: 40px;
-  background: var(--ground);
-  color: var(--bone);
+  background: var(--color-ground);
+  color: var(--color-bone);
   font-family: var(--font-text);
 }
 
 a {
-  color: var(--bone);
+  color: var(--color-bone);
 }
 
 a:hover {
