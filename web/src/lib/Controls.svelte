@@ -66,11 +66,11 @@
 </div>
 
 <style>
-  /* Wraps to two rows on narrow desktops (about 720 to 1000px), where both groups don't fit. */
+  /* One row: the search box shrinks first. It wraps only when the buttons alone don't fit (under
+     about 860px wide in list view, 960px in week view). */
   .rail {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     gap: 12px 24px;
     margin-bottom: 24px;
@@ -80,8 +80,7 @@
   }
 
   .when,
-  .tools,
-  .filters {
+  .tools {
     display: flex;
     align-items: center;
   }
@@ -90,13 +89,20 @@
     gap: 8px;
   }
 
-  .tools,
+  /* A zero basis makes the row wrap by this group's smallest width (search at 100px), not its full one. */
+  .tools {
+    flex: 1 1 0;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+
+  /* Its children sit in the tools row; the wrapper exists so phones can hide them together. */
   .filters {
-    gap: 24px;
+    display: contents;
   }
 
   h2 {
-    margin: 0 16px;
+    margin: 0 8px;
     font-family: var(--font-date);
     font-weight: 400;
     font-size: 34px;
@@ -105,7 +111,10 @@
   }
 
   input {
-    width: 200px;
+    /* The width sets its smallest size (an input's built-in width is wider); the basis lets it grow to 200px. */
+    flex: 0 1 200px;
+    width: 100px;
+    min-width: 100px;
     padding: 8px 2px;
     border: 0;
     border-bottom: 2px solid var(--color-bone);
@@ -129,6 +138,23 @@
     display: none;
   }
 
+  /* Narrow desktops and phones: the pager shows only its arrows and "NEXT 7 DAYS" reads "7 DAYS",
+     so the bar stays on one row. This breakpoint is for the bar only. */
+  @media (max-width: 1100px) {
+    .long {
+      display: none;
+    }
+
+    .short {
+      display: inline;
+    }
+
+    .step {
+      width: 44px;
+      padding: 0;
+    }
+  }
+
   @media (max-width: 720px) {
     .rail {
       flex-direction: column;
@@ -142,11 +168,6 @@
       justify-content: space-between;
     }
 
-    .step {
-      width: 44px;
-      padding: 0;
-    }
-
     /* A week that crosses into another year ("December 28 — January 3, 2027") wraps. */
     h2 {
       margin: 0;
@@ -155,13 +176,8 @@
       white-space: normal;
     }
 
-    .long,
     .filters {
       display: none;
-    }
-
-    .short {
-      display: inline;
     }
   }
 </style>

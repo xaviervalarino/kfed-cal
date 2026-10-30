@@ -57,7 +57,7 @@ a:hover {
   color: var(--color-bone);
   font-family: var(--font-text);
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.1em;
   cursor: pointer;
 }

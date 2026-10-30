@@ -89,6 +89,10 @@ work at 390px wide.
 - [x] Filters: date picks, venues multi-select saved in localStorage, search, hide sold out; the phone filter
   sheet. Phones switch views from a second bar row (LIST / WEEK / MONTH and FILTER), which the mockups left out.
 - [ ] Open a show: tap on phones, click on desktop.
+- [ ] Shows with no event page (Monty Bar's flyer, most Permanent Records nights: their `url` is the venue's
+  homepage): show the band name as plain text, not a link, with a tooltip saying where the listing comes from
+  (Monty Bar: "From the bar's weekly flyer"). Cleanest with a contract change in `DATA.md`: the scraper leaves
+  `url` out when it would only be the homepage, and the page links only when `url` is there.
 
 ## 7. Ship
 
