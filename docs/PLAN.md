@@ -53,7 +53,7 @@ Port from `docs/reference/prototypes/` and register each in `METHODS` (and in `v
 
 Also:
 - [x] `auto`: `_walk` must descend into `event` / `events` keys (DICE nests events in `Place.event`).
-- [ ] `Fetcher`: detect bot-challenge pages (Cloudflare "Just a moment...", 403 + challenge markup) and raise a
+- [x] `Fetcher`: detect bot-challenge pages (Cloudflare "Just a moment...", 403 + challenge markup) and raise a
   clear error. Never retry with a fake User-Agent or a browser to get past one.
 - [ ] A method that needs a key raises a clear error when the env var is missing (the runner then keeps last
   week's events for that venue and the status page shows it).

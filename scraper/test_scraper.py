@@ -3,6 +3,9 @@
 import unittest
 from zoneinfo import ZoneInfo
 
+import httpx
+
+from .fetch import is_challenge
 from .methods import jsonld_events, to_event
 from .run import clean, parse_start
 
@@ -45,6 +48,13 @@ class ScraperTest(unittest.TestCase):
                           ("Nested", "2099-11-21")])
         self.assertEqual(events[0]["price"], "25")
         self.assertEqual(events[0]["venue"], "Test Hall")
+
+    def test_is_challenge(self):
+        page = "<html><title>Just a moment...</title><script src='/cdn-cgi/challenge-platform/x.js'></script>"
+        self.assertTrue(is_challenge(httpx.Response(403, text=page)))
+        self.assertTrue(is_challenge(httpx.Response(200, headers={"cf-mitigated": "challenge"}, text="")))
+        self.assertFalse(is_challenge(httpx.Response(200, text=page)))  # a normal page with Cloudflare scripts
+        self.assertFalse(is_challenge(httpx.Response(403, text="Forbidden")))
 
 
 if __name__ == "__main__":

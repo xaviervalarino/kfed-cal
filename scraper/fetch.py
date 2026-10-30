@@ -26,6 +26,9 @@ class Fetcher:
             response = self.client.get(url)
         finally:
             self.last = time.monotonic()
+        if is_challenge(response):
+            # Never try to get past it (fake User-Agent, browser): use another source for this venue.
+            raise PermissionError(f"{urlsplit(url).netloc} sent a bot challenge instead of the page. Use another source.")
         response.raise_for_status()
         return response
 
@@ -41,3 +44,12 @@ class Fetcher:
                 parser.parse([])
             self.robots[base] = parser
         return self.robots[base].can_fetch(USER_AGENT, url)
+
+
+def is_challenge(response):
+    """True for a Cloudflare-style bot challenge page."""
+    if response.headers.get("cf-mitigated") == "challenge":
+        return True
+    # Normal Cloudflare pages also load challenge-platform scripts, so only trust the markup on an error status.
+    return response.status_code in (403, 429, 503) and any(
+        m in response.text for m in ("<title>Just a moment...</title>", "challenge-platform", "cf-chl"))
