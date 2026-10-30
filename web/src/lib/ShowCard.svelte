@@ -55,6 +55,7 @@
 
   .venue {
     overflow: hidden;
+    font-weight: 700;
     font-size: 12px;
     letter-spacing: 0.1em;
     text-transform: uppercase;

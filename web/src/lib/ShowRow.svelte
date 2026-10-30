@@ -79,6 +79,7 @@
 
   .venue {
     grid-area: venue;
+    font-weight: 700;
     font-size: 13px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
