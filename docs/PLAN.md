@@ -75,19 +75,25 @@ Also:
 - [ ] One test per method: fixture in, expected events out. Test `clean` rules and status.json shape.
 - [ ] No network in tests. Mock `anthropic` for `monty_flyer`.
 
-## 6. Site (`site/`)
+## 6. Site (`web/`)
 
-Per `DESIGN.md` (reference markup in `docs/reference/design/`). Keep it dependency-free: one HTML file each,
-inline CSS and vanilla JS, Google Fonts link. Must work at 390px wide.
+Per `DESIGN.md` (reference markup in `docs/reference/design/`). A Svelte 5 + Vite + TypeScript app in `web/` that
+reads `events.json` and `status.json` (contract: `DATA.md`). The workflow builds it and deploys the build. Must
+work at 390px wide.
 
-- [ ] Rebuild `site/index.html`: reads `events.json`. List / week / month views, filters (date picks, venues
-  multi-select saved in localStorage, search, hide sold out), tap to expand on phones.
-- [ ] Add `site/status.html`: reads `status.json`.
+- [x] App shell: calendar and status pages, design tokens, self-hosted fonts, masthead with the update line.
+- [x] List view.
+- [x] Status page: reads `status.json`.
+- [x] Deploy: the workflow builds `web/` and uploads `web/dist`.
+- [ ] Week and month views.
+- [ ] Filters: date picks, venues multi-select saved in localStorage, search, hide sold out; the phone filter
+  sheet.
+- [ ] Open a show: tap on phones, click on desktop.
 
 ## 7. Ship
 
-- [ ] Run the scraper locally against the real sites (`python -m scraper.run`), check `site/status.json`, open
-  `site/index.html` with a local server (`python -m http.server -d site`).
+- [ ] Run the scraper locally against the real sites (`python -m scraper.run`), check `site/status.json`, and view
+  the site with that data (`npm --prefix web run dev:site`).
 - [ ] Push, run the workflow by hand once (Actions → Update calendar → Run workflow), check the live site.
 - [ ] Then delete the `probe` branch (owner confirms first). It holds copies of venue pages; `main` never had them.
 
