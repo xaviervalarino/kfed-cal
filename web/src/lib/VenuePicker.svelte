@@ -42,6 +42,10 @@
           {venue.name}
         </label>
       {/each}
+      <label class="sold-out">
+        <input type="checkbox" bind:checked={calendar.hideSoldOut} />
+        Hide sold out
+      </label>
     </div>
   {/if}
 </div>
@@ -76,6 +80,12 @@
     gap: 8px;
     font-size: 14px;
     cursor: pointer;
+  }
+
+  .sold-out {
+    grid-column: 1 / -1;
+    padding-top: 12px;
+    border-top: 1px solid var(--color-rule);
   }
 
   input {

@@ -35,12 +35,26 @@ export function pickRange(pick: DatePick, today: string): [string, string] {
   return [first, sunday];
 }
 
-// Lowercase without accents, so "dadi" finds "Daði Freyr".
+// Letters that NFD does not split into a base letter and an accent.
+const LOOKALIKES: Record<string, string> = {
+  ð: "d",
+  đ: "d",
+  ø: "o",
+  æ: "ae",
+  œ: "oe",
+  ß: "ss",
+  ł: "l",
+  þ: "th",
+  ı: "i",
+};
+
+// Lowercase without accents, so "dadi" finds "Daði Freyr" and "mo" finds "Mø".
 const fold = (text: string) =>
   text
     .normalize("NFD")
     .replace(/\p{Diacritic}/gu, "")
-    .toLowerCase();
+    .toLowerCase()
+    .replace(/[ðđøæœßłþı]/g, (letter) => LOOKALIKES[letter]);
 
 // Storage can be missing or blocked (private windows); the filter then lasts for the visit only.
 function readHiddenVenues(): string[] {

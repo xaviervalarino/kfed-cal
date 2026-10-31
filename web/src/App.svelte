@@ -23,6 +23,13 @@
       failed = true;
     },
   );
+
+  // A tab left open past midnight rolls over; background tabs throttle timers, so
+  // the visibilitychange handler below covers the return to the tab.
+  $effect(() => {
+    const timer = setInterval(() => calendar.refreshToday(), 60_000);
+    return () => clearInterval(timer);
+  });
 </script>
 
 <svelte:document onvisibilitychange={() => calendar.refreshToday()} />
@@ -33,6 +40,9 @@
     <p class="message">The calendar didn't load. Try again later.</p>
   {:else if file}
     <Controls {calendar} />
+    {#if calendar.view !== "list" && !calendar.visible.length && calendar.filtered}
+      <p class="message">No shows match these filters.</p>
+    {/if}
     {#if calendar.view === "week"}
       <WeekView
         shows={calendar.visible}

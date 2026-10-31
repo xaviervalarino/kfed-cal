@@ -11,6 +11,8 @@
   let dialog: HTMLDialogElement;
   let chips: HTMLElement;
   let expanded = $state(false);
+  // Where the last pointerdown landed; a plain variable, since nothing renders from it.
+  let pressed: EventTarget | null = null;
 
   const venues = $derived(calendar.venues);
   const venuesLabel = $derived(
@@ -38,13 +40,14 @@
   onclick={() => dialog.showModal()}>FILTER</button
 >
 
-<!-- The dialog's padding is zero, so a click that lands on the dialog itself hit the backdrop. -->
+<!-- The dialog's padding is zero, so a press and click that both land on the dialog itself hit the backdrop. A drag that starts inside the sheet and ends on the backdrop does not close it. -->
 <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_noninteractive_element_interactions -->
 <dialog
   bind:this={dialog}
   aria-labelledby="filters-title"
+  onpointerdown={(event) => (pressed = event.target)}
   onclick={(event) => {
-    if (event.target === dialog) dialog.close();
+    if (event.target === dialog && pressed === dialog) dialog.close();
   }}
 >
   <div class="sheet">
