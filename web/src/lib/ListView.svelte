@@ -72,7 +72,11 @@
       justify-content: space-between;
     }
 
+    /* A knockout sticker, so the date stands out while scrolling. */
     .date {
+      padding: 2px 8px 0;
+      background: var(--color-bone);
+      color: var(--color-ground);
       font-size: 40px;
     }
 

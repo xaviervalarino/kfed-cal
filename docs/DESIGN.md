@@ -54,6 +54,8 @@ Phone: TONIGHT / WEEKEND / 7 DAYS / FILTER; FILTER opens a bottom sheet (search,
 
 - **List** (default): day header = Pirata date + pink caps label ("FRIDAY · TONIGHT"), 2px bone rule. Rows: time
   (red, bold) · band (Barlow 700) with support line (dusty) · venue (pink caps) · price (dusty) or SOLD OUT chip.
+  Phone day header: the date is a bone sticker (ground text, 2px 8px padding, no rotation) with the short
+  label ("FRI · TONIGHT") on the right. The mockups in `reference/design/` predate it.
   Phone row: line 1 = time · venue · price, line 2 = band, line 3 = support.
 - **Week**: 7 ruled columns; header = pink day-of-week + Pirata numeral; rows stacked (time · venue, band, support).
   Phone: strip of 7 day buttons (dow, numeral, count; the picked day bone-filled with ground text) + that day's
