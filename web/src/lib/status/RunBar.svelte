@@ -35,6 +35,7 @@
 
   .times {
     font-size: 13px;
+    letter-spacing: 0.1em;
     color: var(--color-pink);
   }
 </style>

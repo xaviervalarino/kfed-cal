@@ -6,6 +6,7 @@
   import MonthView from "./lib/MonthView.svelte";
   import WeekView from "./lib/WeekView.svelte";
   import { getJson } from "./lib/data";
+  import { typesetShow } from "./lib/shows";
   import type { EventsFile } from "./lib/types";
 
   const calendar = new Calendar();
@@ -15,7 +16,7 @@
   getJson<EventsFile>("events.json").then(
     (loaded) => {
       file = loaded;
-      calendar.shows = loaded.events;
+      calendar.shows = loaded.events.map(typesetShow);
       calendar.venues = loaded.venues;
     },
     (error) => {
@@ -37,7 +38,7 @@
 <Masthead updated={file?.updated} />
 <main class:wide={calendar.view !== "list"}>
   {#if failed}
-    <p class="message">The calendar didn't load. Try again later.</p>
+    <p class="message">The calendar didn’t load. Try again later.</p>
   {:else if file}
     <Controls {calendar} />
     {#if calendar.view !== "list" && !calendar.visible.length && calendar.filtered}
@@ -79,6 +80,9 @@
   }
 
   .message {
+    margin: 16px 0 0;
+    font-size: 14px;
+    line-height: 1.4;
     color: var(--color-dusty);
   }
 </style>

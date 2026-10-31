@@ -20,7 +20,7 @@
   <button class="button" aria-expanded={open} onclick={() => (open = !open)}>
     VENUES{calendar.shownVenues < calendar.venues.length
       ? ` · ${calendar.shownVenues}`
-      : ""} ▾
+      : ""} <span aria-hidden="true">▾</span>
   </button>
   {#if open}
     <div class="panel">

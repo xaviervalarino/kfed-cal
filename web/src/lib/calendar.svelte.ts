@@ -48,11 +48,14 @@ const LOOKALIKES: Record<string, string> = {
   ı: "i",
 };
 
-// Lowercase without accents, so "dadi" finds "Daði Freyr" and "mo" finds "Mø".
+// Lowercase without accents, so "dadi" finds "Daði Freyr" and "mo" finds "Mø". Curly quotes
+// become straight ones, so a typed apostrophe finds the typeset one.
 const fold = (text: string) =>
   text
     .normalize("NFD")
     .replace(/\p{Diacritic}/gu, "")
+    .replace(/[’‘]/g, "'")
+    .replace(/[“”]/g, '"')
     .toLowerCase()
     .replace(/[ðđøæœßłþı]/g, (letter) => LOOKALIKES[letter]);
 
@@ -131,13 +134,15 @@ export class Calendar {
       (this.view === "list" && this.pick !== undefined),
   );
 
-  /** The pager title: "Nov 2 — 8", "Oct 26 — Nov 1", "November", "January 2027". */
+  /** The pager title: "Nov 2–8", "Oct 26 – Nov 1", "November", "January 2027". */
   title = $derived.by(() => {
     const thisYear = this.today.slice(0, 4);
     if (this.view === "week") {
       const last = addDays(this.anchor, 6);
       const sameMonth = this.anchor.slice(0, 7) === last.slice(0, 7);
-      const span = `${monthAndDay(this.anchor)} — ${sameMonth ? Number(last.slice(8)) : monthAndDay(last)}`;
+      const span = sameMonth
+        ? `${monthAndDay(this.anchor)}–${Number(last.slice(8))}`
+        : `${monthAndDay(this.anchor)} – ${monthAndDay(last)}`;
       const year = last.slice(0, 4);
       return year === thisYear ? span : `${span}, ${year}`;
     }

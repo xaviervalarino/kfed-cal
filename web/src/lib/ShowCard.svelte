@@ -1,6 +1,6 @@
 <script lang="ts">
   // A show stacked in a narrow space: a week column, or the month view's day panel.
-  import { STATUS_LABELS, supportLine, timeLabel } from "./shows";
+  import { dotJoin, STATUS_LABELS, supportLine, timeLabel } from "./shows";
   import type { Show } from "./types";
 
   let { show }: { show: Show } = $props();
@@ -8,9 +8,7 @@
   const venue = $derived(show.room ?? show.venue);
   // The mockup puts the price at the end of the support line. A sold out show has no price to show.
   const subline = $derived(
-    [supportLine(show), show.status !== "sold_out" && show.price]
-      .filter(Boolean)
-      .join(" · "),
+    dotJoin([supportLine(show), show.status !== "sold_out" && show.price]),
   );
 </script>
 

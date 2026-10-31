@@ -105,7 +105,7 @@
     margin: 0 8px;
     font-family: var(--font-date);
     font-weight: 400;
-    font-size: 34px;
+    font-size: 36px;
     line-height: 1;
     white-space: nowrap;
   }
@@ -168,7 +168,7 @@
       justify-content: space-between;
     }
 
-    /* A week that crosses into another year ("December 28 — January 3, 2027") wraps. */
+    /* A week that crosses into another year ("Dec 28 – Jan 3, 2027") wraps. */
     h2 {
       margin: 0;
       font-size: 30px;

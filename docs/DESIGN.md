@@ -21,6 +21,7 @@ behind the logo, cyan or slime green as UI colors, decorative rules or taglines 
 | pink | `#f4cdd5` | venue names, small caps labels (day of week, "UPDATED …"), counts |
 | dusty | `#b98e98` | support lines, prices, button outlines, **selected state** (fill, with black text; the picked day in month view and the phone week strip uses bone instead) |
 | rule | `#34302c` | hairlines between rows and around the control rail |
+| dim | `#817c74` | empty days in the month grid (4.75:1 on the ground) |
 | dark red | `#8f1d1d` | in reserve, unused for now |
 
 All text colors pass 4.5:1 on the ground.
@@ -30,9 +31,15 @@ All text colors pass 4.5:1 on the ground.
 | Font | Use |
 |---|---|
 | Creepster | masthead "KFED CAL" only |
-| Pirata One | dates only: day numbers, "Oct 30", "Nov 2 — 8", "November" (month view title), section titles |
+| Pirata One | dates only: day numbers, "Oct 30", "Nov 2–8", "November" (month view title), section titles |
 | Barlow Condensed 600/700 | band names, in their real case (not forced uppercase) |
 | Courier Prime 400/700 | everything else: times, venues, support, buttons, labels |
+
+Pirata One sizes: 40px day headers (list and month; the phone sticker too), 36px titles (pager title, filter
+sheet), 40px "Scrape status". Ranges use an en dash: unspaced inside a month ("Nov 2–8"), spaced across months
+("Oct 26 – Nov 1"). Scraped text is typeset when the events load: curly quotes and apostrophes, and an en dash
+for " - ". A no-break space before each "·" and after "w/" and "DOORS" keeps them with the word they follow.
+Empty and error messages share one style: Courier 14px, dusty, 1.4 line height.
 
 ## Masthead
 
@@ -43,12 +50,12 @@ The update time is when the last scrape finished.
 
 ## Controls
 
-A rail between two `rule` hairlines. Buttons: Courier 700, 13px caps, 0.1em tracking, 44px tall, 1px `dusty`
+A rail between two `rule` hairlines. Buttons: Courier 700, 14px caps, 0.1em tracking, 44px tall, 1px `dusty`
 outline, bone text. Selected: `dusty` fill, black text. Groups: date picks (TONIGHT / WEEKEND / NEXT 7 DAYS),
 VENUES ▾ (multi-select, remembered in localStorage), search (bone 2px underline), LIST / WEEK / MONTH
 segmented switch. Week and month views put ‹ PREV · title · NEXT › on the left instead of the date picks.
 Phone: TONIGHT / WEEKEND / 7 DAYS / FILTER; FILTER opens a bottom sheet (search, when, venues, hide sold out,
-"SHOW N SHOWS").
+"SEE N SHOWS").
 
 ## Views
 

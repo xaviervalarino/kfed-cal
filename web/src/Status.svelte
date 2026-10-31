@@ -25,7 +25,7 @@
     <Tiles {status} />
     <VenueTable venues={status.venues} />
   {:else if failed}
-    <p class="error">The status report didn't load. Try again later.</p>
+    <p class="error">The status report didn’t load. Try again later.</p>
   {/if}
 </main>
 
@@ -39,8 +39,9 @@
   }
 
   .error {
-    margin: 0;
+    margin: 16px 0 0;
     font-size: 14px;
-    color: var(--color-pink);
+    line-height: 1.4;
+    color: var(--color-dusty);
   }
 </style>

@@ -23,7 +23,7 @@
   const chipVenues = $derived(expanded ? venues : venues.slice(0, FIRST_CHIPS));
   const count = $derived(calendar.visible.length);
   const showLabel = $derived(
-    count === 0 ? "NO SHOWS MATCH" : `SHOW ${showCount(count).toUpperCase()}`,
+    count === 0 ? "NO SHOWS MATCH" : `SEE ${showCount(count).toUpperCase()}`,
   );
 
   // The "+ N MORE" chip leaves the page when pressed, so focus moves to the first new chip.
@@ -53,7 +53,9 @@
   <div class="sheet">
     <div class="top">
       <h2 id="filters-title">Filters</h2>
-      <button class="close" onclick={() => dialog.close()}>CLOSE ×</button>
+      <button class="close" onclick={() => dialog.close()}
+        >CLOSE <span aria-hidden="true">×</span></button
+      >
     </div>
 
     <label class="field">

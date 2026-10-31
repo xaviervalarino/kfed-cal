@@ -44,7 +44,7 @@
 
   .date {
     font-family: var(--font-date);
-    font-size: 44px;
+    font-size: 40px;
     line-height: 1;
   }
 

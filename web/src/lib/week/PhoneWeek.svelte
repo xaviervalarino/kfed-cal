@@ -100,7 +100,9 @@
   }
 
   .empty {
-    margin: 0;
+    margin: 16px 0 0;
+    font-size: 14px;
+    line-height: 1.4;
     color: var(--color-dusty);
   }
 </style>

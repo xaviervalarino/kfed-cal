@@ -105,7 +105,7 @@
         {/each}
       </ul>
     {:else}
-      <p class="none">No shows listed.</p>
+      <p class="none">No shows on {monthAndDay(picked)}.</p>
     {/if}
   </section>
 </div>
@@ -283,6 +283,7 @@
   .none {
     margin: 16px 0 0;
     font-size: 14px;
+    line-height: 1.4;
     color: var(--color-dusty);
   }
 

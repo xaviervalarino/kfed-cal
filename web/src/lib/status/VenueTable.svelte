@@ -23,9 +23,9 @@
         <th>VENUE</th>
         <th>SOURCE</th>
         <th>STATUS</th>
-        <th>SHOWS</th>
+        <th class="num">SHOWS</th>
         <th>THROUGH</th>
-        <th>W/ TIME</th>
+        <th class="num">W/ TIME</th>
         <th>NOTES</th>
       </tr>
     </thead>
@@ -35,9 +35,9 @@
           <td class="venue">{venue.name}</td>
           <td class="muted">{venue.source}</td>
           <td><StatusChip status={venue.status} /></td>
-          <td class="shows">{venue.events}</td>
+          <td class="num shows">{venue.events}</td>
           <td>{venue.through ? monthAndYear(venue.through) : ""}</td>
-          <td
+          <td class="num"
             >{venue.with_time === undefined ? "" : percent(venue.with_time)}</td
           >
           <td class="muted">{venue.note}</td>
@@ -129,6 +129,11 @@
     font-family: var(--font-band);
     font-weight: 700;
     font-size: 18px;
+  }
+
+  th.num,
+  td.num {
+    text-align: right;
   }
 
   .shows {
