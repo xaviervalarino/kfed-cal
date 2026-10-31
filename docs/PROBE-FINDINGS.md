@@ -1,8 +1,8 @@
 # Venue probe findings (rounds 1–3, Oct 30 2026)
 
 Exploration notes for turning the probes into scraper methods. Prototype code (tested offline against the
-saved pages) is in `docs/reference/prototypes/`. The saved pages themselves are only on the `probe` branch
-(`probe/out/`, round 3; round 2 is commit 63961a7). That branch gets deleted once the methods are built.
+saved pages) is in `docs/reference/prototypes/`. The saved pages were on the `probe` branch, deleted Oct 31 2026
+once the methods were built; fetch a page fresh to look at it again.
 
 ## Per venue
 

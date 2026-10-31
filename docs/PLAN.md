@@ -76,8 +76,8 @@ Also:
 
 ## 5. Tests
 
-- [x] Small, hand-trimmed fixtures in `scraper/fixtures/` (a few events per source). Make them from the saved
-  pages on the `probe` branch (`probe/out/`, or commit 63961a7 for round 2) or from a fresh local fetch. Redact
+- [x] Small, hand-trimmed fixtures in `scraper/fixtures/` (a few events per source). Make new ones from a fresh
+  local fetch (the `probe` branch's saved pages were deleted Oct 31 2026). Redact
   tokens (Mapbox `pk.eyJ…`, Google `AIza…`): GitHub push protection rejects commits that contain them.
 - [x] One test per method: fixture in, expected events out. Test `clean` rules and status.json shape.
 - [x] No network in tests. Mock `anthropic` for `monty_flyer`.
@@ -110,7 +110,7 @@ work at 390px wide.
 - [ ] Run the scraper locally against the real sites (`python -m scraper.run`), check `site/status.json`, and view
   the site with that data (`npm --prefix web run dev:site`).
 - [x] Push, run the workflow by hand once (Actions → Update calendar → Run workflow), check the live site.
-- [ ] Then delete the `probe` branch (owner confirms first). It holds copies of venue pages; `main` never had them.
+- [x] Then delete the `probe` branch (owner confirms first). It holds copies of venue pages; `main` never had them.
 
 ## Open items (not blocking)
 
