@@ -104,6 +104,7 @@ Sources, in order: the event's Ticketmaster attractions (`externalLinks`, `image
 Ticketmaster gave no links or a MusicBrainz id for (url relations, and type/area/start year; Ticketmaster's links win
 over MusicBrainz's of the same kind), then the English Wikipedia summary for acts MusicBrainz links to Wikidata.
 Lookups are cached between runs in `scraper/cache/artists.json`, which the workflow commits with the site files.
+An entry for an act no longer on the calendar is dropped once it is 90 days old.
 
 ## `site/status.json`
 

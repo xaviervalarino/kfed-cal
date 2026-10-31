@@ -104,3 +104,5 @@ requests, and links every event back to its source.
 One exception: the MusicBrainz and Wikipedia APIs. Their `robots.txt` files disallow them for crawlers, but they
 publish rules for apps, and the scraper follows those instead: one MusicBrainz request a second at most, and a
 User-Agent with a contact address and the word "bot". `ROBOTS_EXCEPTIONS` in `scraper/fetch.py` lists them.
+It also lists Wikidata's entity data (`/wiki/Special:EntityData/`), which Wikidata's `robots.txt` allows but Python
+3.13's `robots.txt` parser refuses.

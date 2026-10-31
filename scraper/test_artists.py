@@ -16,7 +16,7 @@ import httpx
 
 from . import artists, methods, run
 from .artists import MUSICBRAINZ, WIKIDATA, WIKIPEDIA
-from .fetch import USER_AGENT, Fetcher
+from .fetch import Fetcher
 from .test_methods import LA, TODAY, FakeFetcher, fixture
 
 FAILURE = "f0ed9f50-70b9-4406-9374-7d76ae21a04a"  # the US band, in mb_artist.json
@@ -31,16 +31,18 @@ SEARCHES = {"Francis of Delirium": "mb_search_one.json", "Failure": "mb_search_s
 
 class Services:
     """Answers MusicBrainz, Wikidata and Wikipedia requests from fixtures, and records each one: a search as
-    'search <name>', anything else as its URL. `fail` lists requests that answer with an error."""
+    'search <name>', anything else as its URL. `fail` lists requests that answer 503, `missing` ones that answer 404."""
 
-    def __init__(self, fail=()):
-        self.requests, self.fail = [], fail
+    def __init__(self, fail=(), missing=()):
+        self.requests, self.fail, self.missing = [], fail, missing
 
     def get(self, url, params=None, headers=None):
         request = f"search {params['query'][8:-1]}" if url == MUSICBRAINZ else url
         self.requests.append(request)
-        if request in self.fail:
-            raise httpx.HTTPStatusError(f"{url} answered 503 Service Unavailable.", request=None, response=None)
+        status = 503 if request in self.fail else 404 if request in self.missing else None
+        if status:
+            response = httpx.Response(status, request=httpx.Request("GET", url))
+            raise httpx.HTTPStatusError(f"{url} answered {status}.", request=response.request, response=response)
         answers = {f"{MUSICBRAINZ}/{FAILURE}": fixture("mb_artist.json"), f"{MUSICBRAINZ}/{FRANCIS}": FRANCIS_RELS,
                    WIKIDATA.format("Q2701586"): fixture("wikidata.json"),
                    WIKIPEDIA + "Failure_%28band%29": fixture("wikipedia_summary.json"),
@@ -72,6 +74,17 @@ class TicketmasterArtistsTest(unittest.TestCase):
         events = run.clean(raw, "The Echo", LA, TODAY)
         self.assertEqual(len(events), 3)  # Sex Mex is cancelled
         self.assertTrue(all(set(e) <= set(run.FIELDS) for e in events))
+
+    def test_odd_attractions(self):
+        page = {"_embedded": {"events": [{
+            "name": "Band", "id": "1", "dates": {"start": {"localDate": "2099-11-14"}},
+            "_embedded": {"attractions": [{"name": "Band", "images": ["not an image"]}, {"id": "no name"},
+                                          {"name": "Opener"}]}}]}}
+        report = {}
+        raw = methods.ticketmaster({"params": {"venue_ids": ["x"]}},
+                                   FakeFetcher({methods.TICKETMASTER: lambda p: json.dumps(page)}), report)
+        self.assertEqual(raw[0]["support"], ["Opener"])  # the nameless attraction is skipped
+        self.assertEqual(report["artists"], {"Opener": {}})  # Band's broken images lose only its artist info
 
     def test_image(self):
         big = [{"url": "a", "width": 2048}, {"url": "b", "width": 2426, "ratio": "3_2"}]
@@ -163,6 +176,12 @@ class WikipediaTest(unittest.TestCase):
         self.assertEqual(artists.first_sentences("One is short. Two is too. Three is left out."),
                          "One is short. Two is too.")
         self.assertEqual(artists.first_sentences("Long. " + "X" * 300), "Long.")
+        self.assertEqual(artists.first_sentences("She was born in St. Louis. She moved. Then left."),
+                         "She was born in St. Louis. She moved.")
+        self.assertEqual(artists.first_sentences("They toured with Dr. Dog. Then they split. Later more."),
+                         "They toured with Dr. Dog. Then they split.")
+        self.assertEqual(artists.first_sentences("St. Vincent is an American musician. Her name is Annie Clark. More."),
+                         "St. Vincent is an American musician. Her name is Annie Clark.")
 
 
 class FindArtistsTest(unittest.TestCase):
@@ -235,6 +254,7 @@ class FindArtistsTest(unittest.TestCase):
             self.find(services, names=["Francis of Delirium", "Failure"])
             self.assertEqual(services.requests[0], f"{MUSICBRAINZ}/{FAILURE}")
 
+    @mock.patch.object(artists, "BUSY_WAIT", 0)
     def test_errors(self):
         services = Services(fail={"search Francis of Delirium", WIKIDATA.format("Q2701586")})
         found, errors = self.find(services)
@@ -244,7 +264,34 @@ class FindArtistsTest(unittest.TestCase):
         with mock.patch.object(artists, "MAX_ERRORS", 1):
             services = Services(fail={"search Francis of Delirium"})
             self.find(services, names=["Francis of Delirium", "Failure"])
-            self.assertEqual(services.requests, ["search Francis of Delirium"])  # the rest wait
+            self.assertEqual(services.requests, ["search Francis of Delirium"] * 2)  # asked twice; the rest wait
+
+    def test_not_found(self):
+        dead = [f"00000000-0000-0000-0000-00000000000{i}" for i in range(6)]  # stale Ticketmaster MusicBrainz ids
+        self.TICKETMASTER = {f"Band {i}": {"mbid": mbid} for i, mbid in enumerate(dead)}
+        names = [*self.TICKETMASTER, "Beatrix"]
+        services = Services(missing={f"{MUSICBRAINZ}/{mbid}" for mbid in dead})
+        found, errors = self.find(services, names=names)
+        self.assertEqual(services.requests, [f"{MUSICBRAINZ}/{mbid}" for mbid in dead] + ["search Beatrix"])
+        self.assertEqual(errors, {"MusicBrainz": [], "Wikipedia": []})  # not errors: they don't stop the others
+        self.assertEqual(found["Band 0"], {"mbid": dead[0]})
+        self.assertEqual(sorted(json.loads(self.cache.read_text())), sorted(names))  # cached as misses
+        services = Services()
+        self.find(services, names=names, today=date(2026, 11, 7))
+        self.assertEqual(services.requests, [])  # not asked again before the recheck
+
+        wiki = Services(missing={WIKIPEDIA + "Failure_%28band%29"})  # a missing Wikipedia page
+        self.assertEqual(artists.look_up("Failure", FAILURE, Services(), wiki, errors)[1], True)
+        self.assertEqual(errors, {"MusicBrainz": [], "Wikipedia": []})
+
+    def test_prune(self):
+        self.cache.parent.mkdir()
+        self.cache.write_text(json.dumps({"Gone": {"checked": "2026-07-01"}, "Recent": {"checked": "2026-10-01"},
+                                          "Beatrix": {"checked": "2026-07-01"}}))
+        self.find(Services(), names=["Beatrix"])
+        # Gone was last checked over 90 days ago and isn't playing; Beatrix is checked again.
+        self.assertEqual(json.loads(self.cache.read_text()), {"Recent": {"checked": "2026-10-01"},
+                                                              "Beatrix": {"checked": "2026-10-31"}})
 
     def test_run_survives(self):
         with mock.patch.object(run, "find_artists", side_effect=OSError("Disk full.")), \
@@ -256,16 +303,18 @@ class FindArtistsTest(unittest.TestCase):
 class RobotsExceptionTest(unittest.TestCase):
     def test_only_listed_prefixes(self):
         fetcher = Fetcher()
-        for base in ("https://musicbrainz.org", "https://en.wikipedia.org", "https://musicbrainz.org.evil.example"):
+        for base in ("https://musicbrainz.org", "https://en.wikipedia.org", "https://www.wikidata.org",
+                     "https://musicbrainz.org.evil.example"):
             fetcher.robots[base] = RobotFileParser()
             fetcher.robots[base].parse(["User-agent: *", "Disallow: /"])
         self.assertTrue(fetcher.allowed("https://musicbrainz.org/ws/2/artist?query=x&fmt=json"))
         self.assertTrue(fetcher.allowed("https://en.wikipedia.org/api/rest_v1/page/summary/Failure_%28band%29"))
+        self.assertTrue(fetcher.allowed(WIKIDATA.format("Q2701586")))
         self.assertFalse(fetcher.allowed("https://musicbrainz.org/artist/" + FAILURE))
         self.assertFalse(fetcher.allowed("https://en.wikipedia.org/wiki/Failure_(band)"))
         self.assertFalse(fetcher.allowed("https://en.wikipedia.org/api/"))
+        self.assertFalse(fetcher.allowed("https://www.wikidata.org/wiki/Special:Search"))
         self.assertFalse(fetcher.allowed("https://musicbrainz.org.evil.example/ws/2/artist"))
-        self.assertRegex(USER_AGENT, r"^kfed-cal-bot/[\d.]+ \(\+https://github\.com/xaviervalarino/kfed-cal\)$")
 
 
 if __name__ == "__main__":

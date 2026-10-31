@@ -9,9 +9,13 @@ import httpx
 # MusicBrainz asks for "App/version ( contact-url )", Wikimedia for a contact and the word "bot".
 USER_AGENT = "kfed-cal-bot/0.1 (+https://github.com/xaviervalarino/kfed-cal)"
 # Documented APIs used under their published rules for apps. Their robots.txt files disallow these paths for
-# crawlers, so they skip the robots check (the one exception in CLAUDE.md, "Rules"). List API prefixes only,
-# never a site's pages.
-ROBOTS_EXCEPTIONS = ("https://musicbrainz.org/ws/2/", "https://en.wikipedia.org/api/rest_v1/")
+# crawlers, so they skip the robots check (README, "Scraping politely"). List API prefixes only, never a site's pages.
+ROBOTS_EXCEPTIONS = (
+    "https://musicbrainz.org/ws/2/",
+    "https://en.wikipedia.org/api/rest_v1/",
+    # Wikidata's robots.txt allows this path, but Python 3.13's parser reads its earlier "Disallow: /wiki/Special:".
+    "https://www.wikidata.org/wiki/Special:EntityData/",
+)
 
 
 class Fetcher:

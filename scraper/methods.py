@@ -103,7 +103,11 @@ def ticketmaster(venue, fetcher, report):
             data = fetcher.get(TICKETMASTER, params=params).json()
             found = [e for e in data.get("_embedded", {}).get("events", []) if not e.get("test") and not _add_on(e)]
             events += [tm_event(e, room=len(ids) > 1) for e in found]
-            artists.update((a["name"], tm_artist(a)) for e in found for a in e.get("_embedded", {}).get("attractions", []))
+            for a in (a for e in found for a in e.get("_embedded", {}).get("attractions", []) if a.get("name")):
+                try:
+                    artists[a["name"]] = tm_artist(a)
+                except Exception:  # artist info is extra: an odd attraction never costs the venue its events
+                    pass
             pages = data.get("page", {}).get("totalPages", 0)
             page += 1
     return events
@@ -124,9 +128,10 @@ def tm_event(e, room=False):
     lows = [p["min"] for p in e.get("priceRanges") or [] if p.get("min")]
     highs = [p["max"] for p in e.get("priceRanges") or [] if p.get("max")]
     code = e["dates"].get("status", {}).get("code")
+    attractions = e.get("_embedded", {}).get("attractions", [])
     return {
         "title": e["name"],
-        "support": [a["name"] for a in e.get("_embedded", {}).get("attractions", [])[1:]],  # headliner first
+        "support": [a["name"] for a in attractions[1:] if a.get("name")],  # headliner first
         "start": f"{day}T{time}" if day and time else day,
         "doors": doors,
         "price": dollars(min(lows), max(highs or lows)) if lows else None,

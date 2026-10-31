@@ -19,7 +19,8 @@ MUSICBRAINZ = "https://musicbrainz.org/ws/2/artist"
 WIKIDATA = "https://www.wikidata.org/wiki/Special:EntityData/{}.json"
 WIKIPEDIA = "https://en.wikipedia.org/api/rest_v1/page/summary/"
 RECHECK = timedelta(days=90)
-LOOKUPS = 600  # shortcut: a first run with ~1,200 new names takes two weeks to fill the cache
+# shortcut: a first run with ~1,200 new names takes two weeks to fill the cache. Raise it if new acts outpace 600 a week.
+LOOKUPS = 600
 MAX_ERRORS = 5  # after this many failed lookups the service is likely down: the rest wait for the next run
 MIN_SCORE = 95
 BUSY_WAIT = 5  # seconds to wait before asking MusicBrainz again after a 503
@@ -34,7 +35,8 @@ OTHER_HOSTS = ("facebook.com", "twitter.com", "x.com", "tiktok.com", "wikipedia.
                "musicbrainz.org", "last.fm", "discogs.com")
 MBID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
 QID = re.compile(r"^Q\d+$")
-SENTENCE_END = re.compile(r"(?<=[a-z0-9)\"”’][.!?])\s+(?=[A-Z0-9\"“(])")
+SENTENCE_END = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9\"“‘])")
+ABBREVIATION = re.compile(r"\b(?:St|Dr|Mr|Mrs|Ms|Jr|Sr|vs|No|Mt|Ft)\.$")  # "St. Louis" is one sentence
 
 
 def link_kind(url, homepage=False):
@@ -96,7 +98,7 @@ def mb_get(mb, url, params):
     try:
         return mb.get(url, params=params).json()
     except httpx.HTTPStatusError as e:
-        if e.response is None or e.response.status_code != 503:
+        if e.response.status_code != 503:
             raise
     time.sleep(BUSY_WAIT)
     return mb.get(url, params=params).json()
@@ -146,28 +148,42 @@ def wikipedia(wikidata, wiki):
 
 def first_sentences(text, limit=300):
     """The text's first sentence, and the second too when both fit in `limit` characters."""
-    sentences = SENTENCE_END.split(" ".join(text.split()))
+    sentences = []
+    for piece in SENTENCE_END.split(" ".join(text.split())):
+        if sentences and ABBREVIATION.search(sentences[-1]):
+            sentences[-1] += " " + piece
+        else:
+            sentences.append(piece)
     if len(sentences) > 1 and len(sentences[0]) + len(sentences[1]) < limit:
         return f"{sentences[0]} {sentences[1]}"
     return sentences[0]
 
 
 def look_up(name, mbid, mb, wiki, errors):
-    """MusicBrainz, then Wikipedia, for one act. Returns (what was found, whether every step worked)."""
+    """MusicBrainz, then Wikipedia, for one act. Returns (what was found, whether every step worked). A step that
+    answers 404 or is refused worked: it found nothing, and asking again before the recheck gets the same answer."""
     try:
         mbid = mbid or mb_search(name, mb)
         found = mb_artist(mbid, mb) if mbid else {}
     except Exception as e:  # one failed lookup doesn't stop the others
-        errors["MusicBrainz"].append(e)
-        return {}, False
+        if not permanent(e):
+            errors["MusicBrainz"].append(e)
+            return {}, False
+        found = drop_empty({"mbid": mbid})  # cached with the dead id, so the next run doesn't ask again
     wikidata = found.pop("wikidata", None)
     if wikidata:
         try:
             found.update(wikipedia(wikidata, wiki))
         except Exception as e:
-            errors["Wikipedia"].append(e)
-            return found, False
+            if not permanent(e):
+                errors["Wikipedia"].append(e)
+                return found, False
     return found, True
+
+
+def permanent(e):
+    """True for a 404 (a stale MusicBrainz id, a missing page) or a refusal (robots.txt, a bot challenge)."""
+    return isinstance(e, PermissionError) or (isinstance(e, httpx.HTTPStatusError) and e.response.status_code == 404)
 
 
 def find_artists(names, ticketmaster, mb, wiki, today=None, cache_path=CACHE):
@@ -179,7 +195,8 @@ def find_artists(names, ticketmaster, mb, wiki, today=None, cache_path=CACHE):
     stale = (today - RECHECK).isoformat()
     errors = {"MusicBrainz": [], "Wikipedia": []}
     artists, looked_up, waiting = {}, 0, 0
-    for name in dict.fromkeys(names):
+    names = dict.fromkeys(names)
+    for name in names:
         tm, found = ticketmaster.get(name, {}), {}
         if tm.get("mbid") or not tm.get("links"):
             entry = cache.get(name)
@@ -202,9 +219,11 @@ def find_artists(names, ticketmaster, mb, wiki, today=None, cache_path=CACHE):
         })
         if info:
             artists[name] = info
+    # Acts that left the calendar stay until their entry is due for a recheck.
+    cache = {name: entry for name, entry in cache.items() if name in names or entry["checked"] >= stale}
     cache_path.parent.mkdir(exist_ok=True)
     cache_path.write_text(json.dumps(cache, indent=2, ensure_ascii=False, sort_keys=True) + "\n")
-    print(f"Artists: info for {len(artists)} of {len(set(names))} names, {looked_up} looked up, "
+    print(f"Artists: info for {len(artists)} of {len(names)} names, {looked_up} looked up, "
           f"{waiting} waiting for the next run")
     return artists, errors
 
