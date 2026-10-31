@@ -79,8 +79,8 @@ def tm_artist(attraction):
 
 
 def fold(name):
-    """A name without case, accents or extra spaces, for comparing names."""
-    letters = unicodedata.normalize("NFKD", name or "")
+    """A name without case, accents, curly apostrophes or extra spaces, for comparing names."""
+    letters = unicodedata.normalize("NFKD", (name or "").replace("’", "'").replace("‘", "'"))
     return " ".join("".join(c for c in letters if not unicodedata.combining(c)).casefold().split())
 
 

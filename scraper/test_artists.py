@@ -117,6 +117,7 @@ class MusicBrainzTest(unittest.TestCase):
 
     def test_matching(self):
         self.assertEqual(artists.fold(" Beyoncé  KNOWLES"), artists.fold("beyonce knowles"))
+        self.assertEqual(artists.fold("D’LEAU"), artists.fold("D'Leau"))  # MusicBrainz uses curly apostrophes
         mb = Services()
         self.assertEqual(artists.mb_search("Francis of Delirium", mb), FRANCIS)  # one exact match
         self.assertIsNone(artists.mb_search("Failure", mb))  # several bands with that name
