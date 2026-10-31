@@ -29,6 +29,12 @@
     ["instagram", "INSTAGRAM"],
   ];
 
+  /** Acts without a Spotify or Qobuz link get a search there instead. */
+  const SEARCHES: [ArtistLinkKind, string, string][] = [
+    ["spotify", "SEARCH SPOTIFY", "https://open.spotify.com/search/"],
+    ["qobuz", "SEARCH QOBUZ", "https://www.qobuz.com/us-en/search?q="],
+  ];
+
   let dialog: HTMLDialogElement;
   // Where the last pointerdown landed; a plain variable, since nothing renders from it.
   let pressed: EventTarget | null = null;
@@ -109,122 +115,125 @@
       artist: artists[name] ?? {},
     }))}
     <div class="panel">
-      <div class="day">
-        <span class="date">{monthAndDay(day)}</span>
-        <span class="label">{weekday(day)}</span>
-      </div>
+      <div class="show">
+        <div class="day">
+          <span class="date">{monthAndDay(day)}</span>
+          <span class="label">{weekday(day)}</span>
+        </div>
 
-      <div class="when">
-        <span class="time">{timeLabel(show)}</span>
-        <span class="venue">{show.room ?? show.venue}</span>
-        <!-- autofocus: an overflowing panel is focusable too, and would take focus first. -->
-        <!-- svelte-ignore a11y_autofocus -->
-        <button class="close" autofocus onclick={() => dialog.close()}
-          >CLOSE <span aria-hidden="true">×</span></button
-        >
-      </div>
+        <div class="when">
+          <span class="time">{timeLabel(show)}</span>
+          <span class="venue">{show.room ?? show.venue}</span>
+          <!-- autofocus: an overflowing panel is focusable too, and would take focus first. -->
+          <!-- svelte-ignore a11y_autofocus -->
+          <button class="close" autofocus onclick={() => dialog.close()}
+            >CLOSE <span aria-hidden="true">×</span></button
+          >
+        </div>
 
-      <div class="what">
-        <h2 id="show-title" class:sold-out={show.status === "sold_out"}>
-          {show.title}
-        </h2>
-        {#if support}
-          <p class="support">{support}</p>
+        <div class="what">
+          <h2 id="show-title" class:sold-out={show.status === "sold_out"}>
+            {show.title}
+          </h2>
+          {#if support}
+            <p class="support">{support}</p>
+          {/if}
+        </div>
+
+        {#if image}
+          <img class="image" src={image} alt="" />
         {/if}
+
+        {#if show.status || price || doors || show.age}
+          <dl>
+            {#if show.status || price}
+              <dt>TICKETS</dt>
+              <dd class="tickets">
+                {#if show.status}
+                  <span
+                    class="status-chip"
+                    class:sold-out={show.status === "sold_out"}
+                    >{STATUS_LABELS[show.status]}</span
+                  >
+                {/if}
+                {#if price}{price}{/if}
+              </dd>
+            {/if}
+            {#if doors}
+              <dt>DOORS</dt>
+              <dd>{clockTime(doors)}</dd>
+            {/if}
+            {#if show.age}
+              <dt>AGES</dt>
+              <dd>{show.age}</dd>
+            {/if}
+          </dl>
+        {/if}
+
+        <div class="actions">
+          {#if tickets}
+            <a class="primary" href={tickets} target="_blank" rel="noopener"
+              >GET TICKETS <span aria-hidden="true">↗</span></a
+            >
+          {/if}
+          {#if website}
+            <a
+              class="button outline"
+              href={website}
+              target="_blank"
+              rel="noopener">VENUE</a
+            >
+          {/if}
+          {#if show.url !== tickets && show.url !== website}
+            <a
+              class="button outline"
+              href={show.url}
+              target="_blank"
+              rel="noopener">EVENT PAGE <span aria-hidden="true">↗</span></a
+            >
+          {/if}
+        </div>
       </div>
 
-      {#if image}
-        <img class="image" src={image} alt="" />
-      {/if}
-
-      {#if show.status || price || doors || show.age}
-        <dl>
-          {#if show.status || price}
-            <dt>TICKETS</dt>
-            <dd class="tickets">
-              {#if show.status}
-                <span
-                  class="status-chip"
-                  class:sold-out={show.status === "sold_out"}
-                  >{STATUS_LABELS[show.status]}</span
+      <div class="acts">
+        {#each acts as { name, artist } (name)}
+          <section class="act">
+            <h3>{name}</h3>
+            {#if artist.about}
+              <p class="about">{artist.about}</p>
+              {#if artist.about_source}
+                <a
+                  class="credit"
+                  href={artist.about_source}
+                  target="_blank"
+                  rel="noopener">{credit(artist.about_source)}</a
                 >
               {/if}
-              {#if price}{price}{/if}
-            </dd>
-          {/if}
-          {#if doors}
-            <dt>DOORS</dt>
-            <dd>{clockTime(doors)}</dd>
-          {/if}
-          {#if show.age}
-            <dt>AGES</dt>
-            <dd>{show.age}</dd>
-          {/if}
-        </dl>
-      {/if}
-
-      <div class="actions">
-        {#if tickets}
-          <a class="primary" href={tickets} target="_blank" rel="noopener"
-            >GET TICKETS <span aria-hidden="true">↗</span></a
-          >
-        {/if}
-        {#if website}
-          <a
-            class="button outline"
-            href={website}
-            target="_blank"
-            rel="noopener">VENUE</a
-          >
-        {/if}
-        {#if show.url !== tickets && show.url !== website}
-          <a
-            class="button outline"
-            href={show.url}
-            target="_blank"
-            rel="noopener">EVENT PAGE <span aria-hidden="true">↗</span></a
-          >
-        {/if}
+            {/if}
+            {#if artist.image && photo(artist.image) !== photo(image)}
+              <img class="image" src={artist.image} alt="" />
+            {/if}
+            <div class="links">
+              {#each LINKS as [kind, label] (kind)}
+                {#if artist.links?.[kind]}
+                  <a href={artist.links[kind]} target="_blank" rel="noopener"
+                    >{label}</a
+                  >
+                {/if}
+              {/each}
+              {#each SEARCHES as [kind, label, url] (kind)}
+                {#if !artist.links?.[kind]}
+                  <a
+                    href={url + encodeURIComponent(name)}
+                    target="_blank"
+                    rel="noopener">{label}</a
+                  >
+                {/if}
+              {/each}
+            </div>
+          </section>
+        {/each}
       </div>
-
-      {#each acts as { name, artist } (name)}
-        <section class="act">
-          <h3>{name}</h3>
-          {#if artist.about}
-            <p class="about">{artist.about}</p>
-            {#if artist.about_source}
-              <a
-                class="credit"
-                href={artist.about_source}
-                target="_blank"
-                rel="noopener">{credit(artist.about_source)}</a
-              >
-            {/if}
-          {/if}
-          {#if artist.image && photo(artist.image) !== photo(image)}
-            <img class="image" src={artist.image} alt="" />
-          {/if}
-          <div class="links">
-            {#each LINKS as [kind, label] (kind)}
-              {#if artist.links?.[kind]}
-                <a href={artist.links[kind]} target="_blank" rel="noopener"
-                  >{label}</a
-                >
-              {/if}
-            {/each}
-            <!-- Qobuz has no public API to find an act's page, so acts without one get a search. -->
-            {#if !artist.links?.qobuz}
-              <a
-                href="https://www.qobuz.com/us-en/search?q={encodeURIComponent(
-                  name,
-                )}"
-                target="_blank"
-                rel="noopener">SEARCH QOBUZ</a
-              >
-            {/if}
-          </div>
-        </section>
-      {/each}
     </div>
   {/if}
 </dialog>
@@ -232,7 +241,7 @@
 <style>
   /* Desktop: a centered panel. The browser caps a modal dialog's size, so set it outright. */
   dialog {
-    width: min(560px, calc(100% - 32px));
+    width: min(960px, calc(100% - 32px));
     max-width: none;
     max-height: calc(100dvh - 64px);
     padding: 0;
@@ -251,20 +260,49 @@
     background: color-mix(in srgb, var(--color-ground) 75%, transparent);
   }
 
+  /* Desktop: the show on the left, its acts on the right, each column scrolling on its own. */
   .panel {
     display: flex;
-    flex-direction: column;
-    gap: 12px;
+    gap: 32px;
     flex: 1;
     min-height: 0;
     padding: 24px;
+  }
+
+  .show,
+  .acts {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1 1 0;
+    min-width: 0;
     overflow-y: auto;
     overscroll-behavior: contain;
   }
 
   /* A scrolling column squashes its children to fit unless told not to. */
-  .panel > * {
+  .show > *,
+  .acts > * {
     flex-shrink: 0;
+  }
+
+  @media (min-width: 721px) {
+    /* CLOSE hangs 8px past the column's edge. The padding keeps it and its focus ring inside the scroller. */
+    .show {
+      margin-right: -8px;
+      padding-right: 8px;
+    }
+
+    .acts {
+      padding-left: 32px;
+      border-left: 1px solid var(--color-rule);
+    }
+
+    .acts > .act:first-child {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+    }
   }
 
   .day {
@@ -463,7 +501,7 @@
     text-decoration: none;
   }
 
-  /* Phone: full screen. */
+  /* Phone: full screen, one scrolling column with the acts under the show. */
   @media (max-width: 720px) {
     dialog {
       width: 100%;
@@ -474,7 +512,17 @@
     }
 
     .panel {
+      flex-direction: column;
+      gap: 12px;
       padding: 24px 16px;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+    }
+
+    /* The columns' children join the panel's one column. */
+    .show,
+    .acts {
+      display: contents;
     }
   }
 </style>

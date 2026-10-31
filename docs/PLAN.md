@@ -98,8 +98,8 @@ work at 390px wide.
 - [x] Open a show: tap on phones, click on desktop. A `#show=` dialog with tickets, venue, and per-act info and
   links (`DESIGN.md`, "Show open").
 - [x] Artist info in `events.json` (`DATA.md`, "Artist fields"): Ticketmaster attraction links and photos,
-  MusicBrainz links, Wikipedia summaries, cached in `scraper/cache/artists.json`. A Qobuz search link stands in
-  when there is no Qobuz profile link (Qobuz has no public API).
+  MusicBrainz links, Wikipedia summaries, cached in `scraper/cache/artists.json`. Spotify and Qobuz search links stand in
+  when an act has no profile link there.
 - [x] More venues: The Moroccan Lounge (Ticketmaster), Gold-Diggers (DICE).
 - [ ] Shows with no event page (Monty Bar's flyer, most Permanent Records nights: their `url` is the venue's
   homepage): the details view already hides EVENT PAGE there. Still to do: say where the listing comes from
