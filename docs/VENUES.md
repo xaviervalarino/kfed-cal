@@ -26,6 +26,7 @@ Reference client: `reference/probe_ticketmaster.py`.
 | The Roxy | KovZpZAFAIFA | 47 | same |
 | Troubadour | KovZpa4eIe | 48 | own site has dates only, no times |
 | Hollywood Bowl | KovZpZAFFvJA | 12 | or the Bowl's own feed (below); compare when building |
+| The Moroccan Lounge | KovZ917AJ5H | 76 (Oct 31) | no prices or doors times on TM; the site's calendar shows 12 and links to TM |
 
 Useful TM fields: `name`, `dates.start.localDate/localTime`, `dates.status.code` (onsale / offsale / cancelled /
 rescheduled / postponed), `url`, `images` (pick the widest 16_9), `priceRanges` (often missing),

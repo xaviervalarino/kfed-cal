@@ -84,6 +84,12 @@
       "params": {"venue_ids": ["KovZpZAFFvJA"]}
     },
     {
+      "name": "The Moroccan Lounge",
+      "website": "https://themoroccan.com/",
+      "method": "ticketmaster",
+      "params": {"venue_ids": ["KovZ917AJ5H"]}
+    },
+    {
       "name": "Lodge Room",
       "website": "https://www.lodgeroomhlp.com/",
       "events_page": "https://www.lodgeroomhlp.com/",
