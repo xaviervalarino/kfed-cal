@@ -21,7 +21,9 @@ WIKIPEDIA = "https://en.wikipedia.org/api/rest_v1/page/summary/"
 RECHECK = timedelta(days=90)
 # shortcut: a first run with ~1,200 new names takes two weeks to fill the cache. Raise it if new acts outpace 600 a week.
 LOOKUPS = 600
-MAX_ERRORS = 5  # after this many failed lookups the service is likely down: the rest wait for the next run
+# After this many failed lookups in a row the service is likely down: the rest wait for the next run. MusicBrainz
+# answers a scattered 503 now and then from shared CI addresses, so single failures don't count toward it.
+MAX_ERRORS = 5
 MIN_SCORE = 95
 BUSY_WAIT = 5  # seconds to wait before asking MusicBrainz again after a 503
 
@@ -194,7 +196,7 @@ def find_artists(names, ticketmaster, mb, wiki, today=None, cache_path=CACHE):
     cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
     stale = (today - RECHECK).isoformat()
     errors = {"MusicBrainz": [], "Wikipedia": []}
-    artists, looked_up, waiting = {}, 0, 0
+    artists, looked_up, waiting, failing = {}, 0, 0, 0
     names = dict.fromkeys(names)
     for name in names:
         tm, found = ticketmaster.get(name, {}), {}
@@ -202,11 +204,12 @@ def find_artists(names, ticketmaster, mb, wiki, today=None, cache_path=CACHE):
             entry = cache.get(name)
             if entry and entry["checked"] >= stale and tm.get("mbid") in (None, entry.get("mbid")):
                 found = entry
-            elif looked_up >= LOOKUPS or sum(map(len, errors.values())) >= MAX_ERRORS:
+            elif looked_up >= LOOKUPS or failing >= MAX_ERRORS:
                 waiting += 1
             else:
                 looked_up += 1
                 found, complete = look_up(name, tm.get("mbid"), mb, wiki, errors)
+                failing = 0 if complete else failing + 1
                 if complete:
                     cache[name] = {"checked": today.isoformat(), **found}
         links = {**found.get("links", {}), **tm.get("links", {})}  # Ticketmaster's win

@@ -265,6 +265,13 @@ class FindArtistsTest(unittest.TestCase):
             services = Services(fail={"search Francis of Delirium"})
             self.find(services, names=["Francis of Delirium", "Failure"])
             self.assertEqual(services.requests, ["search Francis of Delirium"] * 2)  # asked twice; the rest wait
+        self.cache.unlink()
+        self.TICKETMASTER = {**self.TICKETMASTER, "Francis Again": {"mbid": FRANCIS}}
+        with mock.patch.object(artists, "MAX_ERRORS", 2):
+            services = Services(fail={"search Francis of Delirium", "search Beatrix"})
+            self.find(services, names=["Francis of Delirium", "Failure", "Beatrix", "Francis Again"])
+            # Two failures, but not in a row: a lookup that works in between resets the count.
+            self.assertEqual(services.requests[-1], f"{MUSICBRAINZ}/{FRANCIS}")
 
     def test_not_found(self):
         dead = [f"00000000-0000-0000-0000-00000000000{i}" for i in range(6)]  # stale Ticketmaster MusicBrainz ids
