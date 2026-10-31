@@ -73,8 +73,8 @@ export function dayFormat(options: Intl.DateTimeFormatOptions) {
   return (day: string) => format.format(new Date(day));
 }
 
-/** "October 30" */
-export const monthAndDay = dayFormat({ month: "long", day: "numeric" });
+/** "Oct 30" */
+export const monthAndDay = dayFormat({ month: "short", day: "numeric" });
 
 /** "November" */
 export const monthName = dayFormat({ month: "long" });

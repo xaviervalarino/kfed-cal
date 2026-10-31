@@ -30,7 +30,7 @@ All text colors pass 4.5:1 on the ground.
 | Font | Use |
 |---|---|
 | Creepster | masthead "KFED CAL" only |
-| Pirata One | dates only: day numbers, "October 30", "November 2 — 8", "November", section titles |
+| Pirata One | dates only: day numbers, "Oct 30", "Nov 2 — 8", "November" (month view title), section titles |
 | Barlow Condensed 600/700 | band names, in their real case (not forced uppercase) |
 | Courier Prime 400/700 | everything else: times, venues, support, buttons, labels |
 

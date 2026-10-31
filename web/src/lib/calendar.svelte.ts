@@ -131,7 +131,7 @@ export class Calendar {
       (this.view === "list" && this.pick !== undefined),
   );
 
-  /** The pager title: "November 2 — 8", "October 26 — November 1", "November", "January 2027". */
+  /** The pager title: "Nov 2 — 8", "Oct 26 — Nov 1", "November", "January 2027". */
   title = $derived.by(() => {
     const thisYear = this.today.slice(0, 4);
     if (this.view === "week") {
