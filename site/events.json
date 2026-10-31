@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T20:28:13+00:00",
+  "updated": "2026-10-31T21:49:53+00:00",
   "timezone": "America/Los_Angeles",
   "artists": {
     "Marilyn Manson": {
@@ -127,6 +127,11 @@
         "instagram": "https://www.instagram.com/joaqu.n/"
       },
       "mbid": "5a0bd131-4644-4860-aee7-d281d9f2941e"
+    },
+    "Heads Will Roll": {
+      "about": "Group.",
+      "about_source": "https://musicbrainz.org/artist/860ee995-2c73-414c-847c-931e9ab59269",
+      "mbid": "860ee995-2c73-414c-847c-931e9ab59269"
     },
     "Yoi Toki": {
       "image": "https://s1.ticketm.net/dam/a/d85/eeac747d-012e-48c0-a0bc-38d021337d85_RETINA_LANDSCAPE_16_9.jpg"
@@ -257,6 +262,19 @@
       },
       "mbid": "7f87c3a7-2fde-4ea9-a83b-3e237d446cc5"
     },
+    "Friday Pilots Club": {
+      "about": "Group from United States, formed 2017.",
+      "about_source": "https://musicbrainz.org/artist/27afdb7c-c932-4698-9d2a-96d7199acbed",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3PgEvPJKRuil74QPX8wtXY",
+        "apple_music": "https://music.apple.com/us/artist/935146748",
+        "soundcloud": "https://soundcloud.com/friday-pilots-club",
+        "youtube": "https://www.youtube.com/channel/UCmwNzXsDf2cL0WS4Xrkb31g",
+        "homepage": "https://www.fridaypilotsclub.com/",
+        "instagram": "https://www.instagram.com/fridaypilotsclub/"
+      },
+      "mbid": "27afdb7c-c932-4698-9d2a-96d7199acbed"
+    },
     "Bizou": {
       "about": "Group, formed 2018.",
       "about_source": "https://musicbrainz.org/artist/9cfd569d-67b9-4de1-a777-8b99f1f51436",
@@ -375,6 +393,19 @@
     },
     "Wonderfox": {
       "image": "https://s1.ticketm.net/dam/a/7d0/0c0f7c00-0235-4ab0-9978-cc758d4507d0_RETINA_LANDSCAPE_16_9.jpg"
+    },
+    "Tommy Lefroy": {
+      "about": "Tommy Lefroy is an indie rock duo based in London, England, consisting of Canadian singer Tessa Mouzourakis and American singer Wynter Bethel. They received a Juno Award nomination in the Breakthrough Group of the Year category at the 2023 ceremony.",
+      "about_source": "https://en.wikipedia.org/wiki/Tommy_Lefroy",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3vldh5Ceynytj6Iglw4haP",
+        "apple_music": "https://music.apple.com/us/artist/1552366962",
+        "soundcloud": "https://soundcloud.com/tommylefroy",
+        "youtube": "https://www.youtube.com/channel/UCtqWygrJaLTkzeRRJT7k2LA",
+        "homepage": "https://www.tommylefroy.com/",
+        "instagram": "https://www.instagram.com/tommylefroy/"
+      },
+      "mbid": "12b95b7d-b422-4de6-b95a-32388f6073cf"
     },
     "Taylor Bickett": {
       "about": "Person.",
@@ -531,6 +562,16 @@
         "instagram": "https://www.instagram.com/thelastwildbuffalo/"
       }
     },
+    "Ava Lions": {
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5l0EWKpT8ngoFw8JkIRxex",
+        "qobuz": "https://open.qobuz.com/artist/23720453",
+        "apple_music": "https://music.apple.com/us/artist/1766172974",
+        "soundcloud": "https://soundcloud.com/user-290304855",
+        "instagram": "https://www.instagram.com/ava.lions/"
+      },
+      "mbid": "349cddfa-d0af-44cd-9c9d-aed4068cfb26"
+    },
     "Alas, I Am Myself": {
       "about": "Person.",
       "about_source": "https://musicbrainz.org/artist/34e8dc40-fc75-417e-8c7d-179453ecf214",
@@ -599,6 +640,21 @@
         "instagram": "https://www.instagram.com/sisterhazelband/"
       },
       "mbid": "3b141e34-8c02-4074-b68a-7d64e3212acd"
+    },
+    "Genesis Owusu": {
+      "about": "Kofi Owusu-Ansah, known professionally as Genesis Owusu, is a Ghanaian-Australian rapper and singer from Canberra. He is the younger brother of fellow hip hop rapper Citizen Kay.",
+      "about_source": "https://en.wikipedia.org/wiki/Genesis_Owusu",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/1HvH97rzvCH6lfnLlgyfke",
+        "bandcamp": "https://genesisowusu.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/3162191",
+        "apple_music": "https://music.apple.com/gh/artist/1045380633",
+        "soundcloud": "https://soundcloud.com/genesis-owusu",
+        "youtube": "https://www.youtube.com/channel/UC5wpqD21ZgEcS78Nft4t5Bw",
+        "homepage": "https://www.genesisowusu.com/",
+        "instagram": "https://www.instagram.com/genesisowusu/"
+      },
+      "mbid": "632258cb-4ab5-4f2d-be29-bcc641a275eb"
     },
     "After Louise": {
       "about": "Formed 2026.",
@@ -687,6 +743,19 @@
         "instagram": "https://www.instagram.com/msrebeccablack/"
       },
       "mbid": "312c7cc1-9b5c-4406-963b-9f73f50674c0"
+    },
+    "Sun Room": {
+      "about": "Group from California.",
+      "about_source": "https://musicbrainz.org/artist/4ef0f37a-c8bd-43a1-a6b6-8e1218fd6d6c",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4ANMwDtqwfkzPgFoUoLZ3Y",
+        "bandcamp": "https://sunroomfarfisa.bandcamp.com/",
+        "apple_music": "https://music.apple.com/fr/artist/1521177584",
+        "youtube": "https://www.youtube.com/@sunroom_band",
+        "homepage": "http://sunroomtheband.com/",
+        "instagram": "https://www.instagram.com/sunroomband/"
+      },
+      "mbid": "4ef0f37a-c8bd-43a1-a6b6-8e1218fd6d6c"
     },
     "Carl Cox": {
       "about": "Person.",
@@ -1404,6 +1473,15 @@
       "about_source": "https://musicbrainz.org/artist/c114f39a-281e-4e66-82c6-6a0d763c5cb2",
       "mbid": "c114f39a-281e-4e66-82c6-6a0d763c5cb2"
     },
+    "Fox Royale": {
+      "about": "Group, formed 2020.",
+      "about_source": "https://musicbrainz.org/artist/6312b3ac-1118-4175-8ac7-ef9579c17fa9",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3FddvE2NYrGSS0g0cMy8om",
+        "homepage": "https://www.wearefoxroyale.com/"
+      },
+      "mbid": "6312b3ac-1118-4175-8ac7-ef9579c17fa9"
+    },
     "Kennedy Ryon": {
       "about": "Person from United States.",
       "about_source": "https://musicbrainz.org/artist/d633c911-8723-4364-a97f-ecbd5638533b",
@@ -1924,6 +2002,19 @@
         "instagram": "https://www.instagram.com/bandofheathens"
       }
     },
+    "Sina Bathaie": {
+      "about": "From Toronto.",
+      "about_source": "https://musicbrainz.org/artist/06d988e0-c05e-4b29-a85d-dd7688f27b7c",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4ZOwX9evB8c6oLayzq2OY8",
+        "apple_music": "https://music.apple.com/gb/artist/535528570",
+        "soundcloud": "https://soundcloud.com/sinabathaie",
+        "youtube": "https://www.youtube.com/sinabathaie",
+        "homepage": "https://www.sinabathaie.com/",
+        "instagram": "https://www.instagram.com/sinabathaie/"
+      },
+      "mbid": "06d988e0-c05e-4b29-a85d-dd7688f27b7c"
+    },
     "Mercer Henderson": {
       "about": "Person from United States.",
       "about_source": "https://musicbrainz.org/artist/7062683d-df79-4b48-a820-ccc27da43401",
@@ -2417,6 +2508,12 @@
       },
       "mbid": "a374846a-b434-4a07-abbb-769dc307bcb2"
     },
+    "DONUTS": {
+      "links": {
+        "instagram": "https://www.instagram.com/donuts_band/"
+      },
+      "mbid": "5bc99d0a-d0e5-44dd-8ac7-bcf54005bebc"
+    },
     "Oso Oso": {
       "about": "Oso Oso is an American rock band from Long Beach, New York. Jade Lilitri, formerly of State Lines, is the only permanent member.",
       "about_source": "https://en.wikipedia.org/wiki/Oso_Oso",
@@ -2470,6 +2567,20 @@
       },
       "mbid": "33fc0741-8594-48a1-8846-584d8502ac80"
     },
+    "Wrabel": {
+      "about": "Stephen Samuel Wrabel (born January 7, 1989), known mononymously as Wrabel, is an American musician, singer, songwriter, and record producer based in Los Angeles.",
+      "about_source": "https://en.wikipedia.org/wiki/Wrabel",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7r2uG6BlFXKcwmh9ItqlII",
+        "qobuz": "https://open.qobuz.com/artist/1153818",
+        "apple_music": "https://itunes.apple.com/us/artist/id435072161",
+        "soundcloud": "https://soundcloud.com/wrabel",
+        "youtube": "https://www.youtube.com/channel/UCE3cMcexvR056xF-woe2E8g",
+        "homepage": "https://wrabelmusic.com/",
+        "instagram": "https://www.instagram.com/wrabel/"
+      },
+      "mbid": "f2cf9f22-52b9-4376-a131-5baf9aeab92b"
+    },
     "Hayley Warner": {
       "about": "Hayley Warner is an Australian singer-songwriter. In 2009, she finished as runner-up in the seventh and final Australian Idol, and was noted for her high-energy performances and vast vocal range.",
       "about_source": "https://en.wikipedia.org/wiki/Hayley_Warner",
@@ -2501,7 +2612,19 @@
       "mbid": "cdeefae7-b8e2-4972-8730-4611013837de"
     },
     "Party Cannon": {
-      "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Party Cannon are a slam death metal band from Dunfermline, Scotland, formed in 2010.",
+      "about_source": "https://en.wikipedia.org/wiki/Party_Cannon",
+      "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5Oz5WX5xkESHBH5I4Wp09C",
+        "bandcamp": "https://partycannon.bandcamp.com/",
+        "apple_music": "https://itunes.apple.com/gb/artist/id906091085",
+        "soundcloud": "https://soundcloud.com/partycannonofficial",
+        "youtube": "https://www.youtube.com/channel/UCZ4pe6xoIFn0k_UWe0lkqrA",
+        "homepage": "https://party-cannon.com/",
+        "instagram": "https://www.instagram.com/party_cannon_official/"
+      },
+      "mbid": "ffe9fbb6-915a-41d9-b7c2-2f3e8a63bd9a"
     },
     "young friend": {
       "about": "Person from Canada.",
@@ -3311,6 +3434,11 @@
       "about_source": "https://musicbrainz.org/artist/2161ba8b-c936-45c5-8863-d70398e6396d",
       "mbid": "2161ba8b-c936-45c5-8863-d70398e6396d"
     },
+    "Skylar Kaplan": {
+      "about": "Person from United States.",
+      "about_source": "https://musicbrainz.org/artist/75957e5d-f852-419c-979c-b3c1ebaf0b15",
+      "mbid": "75957e5d-f852-419c-979c-b3c1ebaf0b15"
+    },
     "girlsweetvoiced": {
       "image": "https://s1.ticketm.net/dam/a/477/15c25321-cd22-46bc-951d-e9bbd0ff4477_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
@@ -4111,6 +4239,12 @@
       },
       "mbid": "e0ededb4-6085-4f68-90f7-89bc560930a3"
     },
+    "D'Leau": {
+      "links": {
+        "spotify": "https://open.spotify.com/artist/33ZK4nYxwuvdVW7vmepMYk"
+      },
+      "mbid": "920e68bf-2e29-4351-8518-9a3a3e508e54"
+    },
     "Broadway Rave": {
       "image": "https://s1.ticketm.net/dam/a/35b/608df499-b9b5-4197-9243-e0aa1227435b_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
@@ -4355,7 +4489,18 @@
       }
     },
     "Moon Panda": {
-      "image": "https://s1.ticketm.net/dam/a/a5b/82576a57-99ce-45ee-912d-79b0a9596a5b_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from Denmark.",
+      "about_source": "https://musicbrainz.org/artist/516ac132-ad0e-4185-b21e-ed03a5a2955f",
+      "image": "https://s1.ticketm.net/dam/a/a5b/82576a57-99ce-45ee-912d-79b0a9596a5b_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2Ghddt4G7272vYt4xOyYWm",
+        "bandcamp": "https://moonpanda.bandcamp.com/",
+        "apple_music": "https://itunes.apple.com/gb/artist/id1174384136",
+        "soundcloud": "https://soundcloud.com/moonpandamusic",
+        "homepage": "http://moon-panda.com/",
+        "instagram": "https://www.instagram.com/moonpandamusic/"
+      },
+      "mbid": "516ac132-ad0e-4185-b21e-ed03a5a2955f"
     },
     "Florrie": {
       "about": "Florence Ellen Arnold, better known as Florrie, is an English pop singer-songwriter, drummer and model.",
@@ -4807,6 +4952,14 @@
         "apple_music": "https://itunes.apple.com/mx/artist/id254338624"
       },
       "mbid": "b80923ea-1135-4401-a15e-a4cfbe5e94ed"
+    },
+    "Dale Crover": {
+      "about": "Dale Crover is an American rock musician. He is best known as the drummer for Melvins and has also been the drummer for Men of Porn, Shrinebuilder, Crystal Fairy and, for a brief time, Nirvana.",
+      "about_source": "https://en.wikipedia.org/wiki/Dale_Crover",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4IRzt4Zde0xpbbc2BtsRGm"
+      },
+      "mbid": "9b93a71b-1484-4bea-b096-f660c1161f8a"
     },
     "MEEK": {
       "image": "https://s1.ticketm.net/dam/a/e15/72145ee6-db57-4d73-8fbf-35f8594dee15_RETINA_LANDSCAPE_16_9.jpg",
@@ -5642,6 +5795,18 @@
       },
       "mbid": "9c8cbbb3-aa96-41f3-8e52-3c238c944ad4"
     },
+    "First Day Back": {
+      "about": "Group from Santa Cruz, formed 2024.",
+      "about_source": "https://musicbrainz.org/artist/6c03ef9f-ff21-40eb-ba7c-68c1c724b26f",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7DgsNBbuNxmm5et9oYHJgx",
+        "bandcamp": "https://firstdayback.bandcamp.com/",
+        "apple_music": "https://music.apple.com/gb/artist/1816855014",
+        "homepage": "https://firstdayback.net/",
+        "instagram": "https://www.instagram.com/firstdayback_/"
+      },
+      "mbid": "6c03ef9f-ff21-40eb-ba7c-68c1c724b26f"
+    },
     "DragonForce": {
       "about": "DragonForce are a British power metal band from London, formed in 1999. They are known for their long and fast guitar solos, fantasy-themed lyrics and retro video game-influenced sound.",
       "about_source": "https://en.wikipedia.org/wiki/DragonForce",
@@ -6026,6 +6191,17 @@
       },
       "mbid": "a6683d1e-855f-4bff-9cc4-9e45a921ef49"
     },
+    "Billy Gibbons": {
+      "about": "William Frederick Gibbons is an American rock musician who is the founder, guitarist, primary songwriter, lead vocalist and only constant member of ZZ Top.",
+      "about_source": "https://en.wikipedia.org/wiki/Billy_Gibbons",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4DqeVw9M195lj22iU1elxD",
+        "apple_music": "https://music.apple.com/us/artist/185563",
+        "youtube": "https://music.youtube.com/channel/UCuOqKeBagNjbeq16fC1hFLA",
+        "instagram": "https://www.instagram.com/billyfgibbons/"
+      },
+      "mbid": "f2c2f494-c2c3-42f9-85a8-576da85f9b90"
+    },
     "Kim Petras": {
       "about": "Kim Petras is a German singer and songwriter based in Los Angeles. After gaining international media attention for transitioning as a teenager, she released her debut EP, One Piece of Tape (2011), and wrote tracks for Fergie, JoJo, Skylar Simone, and Twice.",
       "about_source": "https://en.wikipedia.org/wiki/Kim_Petras",
@@ -6116,7 +6292,18 @@
       "mbid": "8a744775-e8b1-4554-9f7b-96939b07c829"
     },
     "Breakup Shoes": {
-      "image": "https://s1.ticketm.net/dam/a/385/b4cdc416-3579-4574-b48e-9d568512a385_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group.",
+      "about_source": "https://musicbrainz.org/artist/ffb7aaa7-6c87-4d64-885c-b89c7eb3322e",
+      "image": "https://s1.ticketm.net/dam/a/385/b4cdc416-3579-4574-b48e-9d568512a385_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3kE0TeA4n6FZD1UG6ctB0m",
+        "bandcamp": "https://breakupshoes.bandcamp.com/",
+        "apple_music": "https://music.apple.com/us/artist/1102802235",
+        "youtube": "https://www.youtube.com/channel/UCPHJKsfTMBEibp_pvmtwEVg",
+        "homepage": "https://www.breakupshoes.com/",
+        "instagram": "https://www.instagram.com/breakupshoes/"
+      },
+      "mbid": "ffb7aaa7-6c87-4d64-885c-b89c7eb3322e"
     },
     "Robber Robber": {
       "image": "https://s1.ticketm.net/dam/a/054/ceded332-46af-47b2-9a90-e12fe5db7054_RETINA_LANDSCAPE_16_9.jpg",
@@ -6136,6 +6323,28 @@
     },
     "The Nutcracker": {
       "image": "https://s1.ticketm.net/dam/a/322/1a42a97d-e908-484a-89c2-e23974317322_RETINA_LANDSCAPE_16_9.jpg"
+    },
+    "The Spyrals": {
+      "about": "Group from United States.",
+      "about_source": "https://musicbrainz.org/artist/80a164d6-9ccc-4dd2-a4e7-6c8a2e9f5d32",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/1jCVSnyE6YOGqiKJXVRj6q",
+        "bandcamp": "https://thespyrals.bandcamp.com/",
+        "apple_music": "https://music.apple.com/au/artist/328945091",
+        "soundcloud": "https://soundcloud.com/spyrals",
+        "youtube": "https://www.youtube.com/channel/UC_p-i57_1PiSIK8P65vj_qw",
+        "instagram": "https://www.instagram.com/thespyrals/"
+      },
+      "mbid": "80a164d6-9ccc-4dd2-a4e7-6c8a2e9f5d32"
+    },
+    "Alex E.T.": {
+      "about": "Person from Los Angeles.",
+      "about_source": "https://musicbrainz.org/artist/b735d7cc-ff27-49e9-8bca-4f1cd2e557ee",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/67jvGkRg7q78dEJ7Hr1G3v",
+        "bandcamp": "https://alexet.bandcamp.com/"
+      },
+      "mbid": "b735d7cc-ff27-49e9-8bca-4f1cd2e557ee"
     },
     "cr1tter": {
       "image": "https://s1.ticketm.net/dam/a/1e2/61661cd2-42da-4a0a-ae7d-eee0e6c481e2_RETINA_LANDSCAPE_16_9.jpg",
@@ -6164,8 +6373,38 @@
         "instagram": "https://www.instagram.com/ravejesusmusic/"
       }
     },
+    "Pokey LaFarge": {
+      "about": "Pokey LaFarge is an American musician and singer-songwriter.",
+      "about_source": "https://en.wikipedia.org/wiki/Pokey_LaFarge",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6hAUCkzZpoYGObd8qFW5TT",
+        "bandcamp": "https://pokeylafarge.bandcamp.com/",
+        "apple_music": "https://itunes.apple.com/us/artist/id209549495",
+        "soundcloud": "https://soundcloud.com/pokeylafarge",
+        "youtube": "https://www.youtube.com/user/MrPokeylafarge",
+        "homepage": "http://www.pokeylafarge.net/",
+        "instagram": "https://www.instagram.com/pokeylafarge/"
+      },
+      "mbid": "c76dd1b2-b35f-48c6-89e3-09dadb67284c"
+    },
+    "Cicada Rhythm": {
+      "about": "Group from United States.",
+      "about_source": "https://musicbrainz.org/artist/c9563f09-98f7-4884-ba27-da9306b745ae",
+      "links": {
+        "bandcamp": "https://cicadarhythm.bandcamp.com/",
+        "homepage": "http://cicadarhythm.org/"
+      },
+      "mbid": "c9563f09-98f7-4884-ba27-da9306b745ae"
+    },
     "Have Heart": {
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Have Heart are an American straight edge hardcore punk band formed in New Bedford, Massachusetts in 2002. The band recorded a demo that was released in 2003.",
+      "about_source": "https://en.wikipedia.org/wiki/Have_Heart",
+      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6e0QWfEFmK6AguLy02mlqi",
+        "apple_music": "https://music.apple.com/gb/artist/148043128"
+      },
+      "mbid": "e519e012-e1a3-4592-b3f6-5a16227ab654"
     },
     "Venna": {
       "image": "https://s1.ticketm.net/dam/a/9fb/441098e2-e20c-4ea7-b650-30e4256e49fb_RETINA_LANDSCAPE_16_9.jpg"
@@ -6192,8 +6431,11 @@
       }
     },
     "SosMula": {
+      "about": "City Morgue was an American hip hop duo from New York City, which consisted of rappers ZillaKami and SosMula. The duo was active from the year 2017 to the year 2024 and have released four studio albums, along with numerous singles.",
+      "about_source": "https://en.wikipedia.org/wiki/City_Morgue",
       "image": "https://s1.ticketm.net/dam/a/e45/635d7a14-b3bb-4b3c-84b1-734df2071e45_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
+        "spotify": "https://open.spotify.com/artist/7fFfPSHnrplQpezV79CFYc",
         "instagram": "https://www.instagram.com/sosmula/"
       },
       "mbid": "87878682-624a-44a7-96dd-7e42421013a2"
@@ -6205,6 +6447,8 @@
       }
     },
     "Shaun Cassidy": {
+      "about": "Shaun Paul Cassidy is an American singer, actor, television producer and screenwriter. He has created or produced a number of television series, including American Gothic, Roar, and Invasion.",
+      "about_source": "https://en.wikipedia.org/wiki/Shaun_Cassidy",
       "image": "https://s1.ticketm.net/dam/a/f22/1dd60ddf-4e16-4985-bfdc-b5c616b7ef22_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6XJ5IHDtW2OkjtwVllkANt?autoplay=true",
@@ -6215,10 +6459,23 @@
       },
       "mbid": "df9ed132-5b6a-4e7d-a468-033cffc21947"
     },
+    "Santa Sabbath": {
+      "about": "Group from Los Angeles, formed 2008.",
+      "about_source": "https://musicbrainz.org/artist/f1cb672e-466d-4428-bacb-9a6325ff9356",
+      "links": {
+        "bandcamp": "https://santasabbath.bandcamp.com/",
+        "youtube": "https://www.youtube.com/channel/UCq2a8JF5kYnCk6-oQArYzgg"
+      },
+      "mbid": "f1cb672e-466d-4428-bacb-9a6325ff9356"
+    },
     "Blu": {
+      "about": "Johnson Barnes III, better known by his stage name Blu, is an American rapper and record producer from Los Angeles, California. He performs as one half of the duo Blu & Exile, which was formed in 2007 and who released their debut studio album, Below the Heavens in July of that year.",
+      "about_source": "https://en.wikipedia.org/wiki/Blu_(rapper)",
       "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/0mC8byrx1zDu7W1ajRgR2T?autoplay=true",
+        "bandcamp": "https://blu-ep.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/448776",
         "apple_music": "https://music.apple.com/ca/artist/bl%C3%BC/1592334858",
         "youtube": "https://www.youtube.com/channel/UCArwJ_oPoBLWAf-gyBTLrTg",
         "instagram": "https://www.instagram.com/bluherfavcolor/?hl=en"
@@ -6229,7 +6486,14 @@
       "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg"
     },
     "Trizz": {
-      "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person.",
+      "about_source": "https://musicbrainz.org/artist/d885b9e7-7d94-4674-af64-45a2a8d5487e",
+      "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4QwsxEekjYcqWkuqk2M8fb",
+        "apple_music": "https://itunes.apple.com/us/artist/id413100594"
+      },
+      "mbid": "d885b9e7-7d94-4674-af64-45a2a8d5487e"
     },
     "CAM GNARLY": {
       "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg"
@@ -6241,7 +6505,13 @@
       }
     },
     "Dirty Birdy": {
-      "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from California.",
+      "about_source": "https://musicbrainz.org/artist/33a1dcc2-2af3-49e7-b77b-cd62b88c7688",
+      "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7wP0iHDhXO6uaLCgsEH76f"
+      },
+      "mbid": "33a1dcc2-2af3-49e7-b77b-cd62b88c7688"
     },
     "Eugene O'Neil": {
       "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
@@ -6250,7 +6520,16 @@
       }
     },
     "John Mulaney": {
-      "image": "https://s1.ticketm.net/dam/a/b30/ccd9ebe2-c301-4487-bbe4-5bd6be744b30_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "John Edmund Mulaney is an American stand-up comedian, actor, writer, and producer.",
+      "about_source": "https://en.wikipedia.org/wiki/John_Mulaney",
+      "image": "https://s1.ticketm.net/dam/a/b30/ccd9ebe2-c301-4487-bbe4-5bd6be744b30_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5K6CrtQfpRipgTDZbaSj7k",
+        "youtube": "https://www.youtube.com/channel/UCOsnp8EBkkfujh4Kcby7oUQ",
+        "homepage": "http://www.johnmulaney.com/",
+        "instagram": "https://www.instagram.com/johnmulaney/"
+      },
+      "mbid": "c2159cf3-40a5-4215-a30b-a952ac3f8aca"
     },
     "Dance Yourself Clean": {
       "image": "https://s1.ticketm.net/dam/a/931/434c8d00-6980-454e-88d6-ecbb3ed34931_1509121_RETINA_LANDSCAPE_16_9.jpg",
@@ -6263,13 +6542,26 @@
       }
     },
     "Azyr": {
-      "image": "https://s1.ticketm.net/dam/a/e67/55b943ec-efcc-4fa1-a7f5-810e1c8b9e67_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from United Kingdom.",
+      "about_source": "https://musicbrainz.org/artist/beed85a2-8c83-4557-bdd8-3e91074a1c70",
+      "image": "https://s1.ticketm.net/dam/a/e67/55b943ec-efcc-4fa1-a7f5-810e1c8b9e67_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/1Ujj9Jh1Z4tDJ4j6qGRml8",
+        "bandcamp": "https://azyr.bandcamp.com/",
+        "apple_music": "https://music.apple.com/us/artist/1554917375",
+        "youtube": "https://www.youtube.com/@AzyrMusic",
+        "instagram": "https://www.instagram.com/azyr_music/"
+      },
+      "mbid": "beed85a2-8c83-4557-bdd8-3e91074a1c70"
     },
     "Neurosis": {
+      "about": "Group from Bogotá, formed 1987.",
+      "about_source": "https://musicbrainz.org/artist/3fb418fa-3c6e-412a-9218-12adb0408192",
       "image": "https://s1.ticketm.net/dam/a/5be/17d2b26c-8427-4dc5-8d1f-55c7d7a595be_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6xk1mV758v4wEsmUiopiuB",
         "apple_music": "https://music.apple.com/us/artist/neurosis/18870036",
+        "soundcloud": "https://soundcloud.com/neurosiscolombia",
         "youtube": "https://www.youtube.com/user/jorgemackenzie2008",
         "homepage": "http://neurosiscolombia.com/",
         "instagram": "https://www.instagram.com/neurosiscolombia/"
@@ -6277,19 +6569,27 @@
       "mbid": "3fb418fa-3c6e-412a-9218-12adb0408192"
     },
     "Hieroglyphics": {
+      "about": "Hieroglyphics, also known as the Hieroglyphics Crew and Hiero, is an American underground hip hop collective based in Oakland, California.",
+      "about_source": "https://en.wikipedia.org/wiki/Hieroglyphics_(group)",
       "image": "https://s1.ticketm.net/dam/a/67f/cf5645df-aef6-436a-bb77-28458812d67f_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/0XTSrpKEUhzQ5aiYswppxh?autoplay=true",
+        "bandcamp": "https://hieroglyphicsimperium.bandcamp.com/",
         "apple_music": "https://music.apple.com/us/artist/hieroglyphics/6561970",
+        "soundcloud": "https://soundcloud.com/hieroglyphics-1",
         "youtube": "https://www.youtube.com/user/TheHieroglyphics",
+        "homepage": "http://www.hieroglyphics.com/",
         "instagram": "https://www.instagram.com/therealhierocrew/?hl=en"
       },
       "mbid": "72609007-4227-4bdd-a993-1e92df52527a"
     },
     "Goapele": {
+      "about": "Goapele Mohlabane is an American soul and R&B singer-songwriter. Her name means to move forward in Setswana, a Southern African language.",
+      "about_source": "https://en.wikipedia.org/wiki/Goapele",
       "image": "https://s1.ticketm.net/dam/a/934/2f00353f-861d-4597-ad01-946567afc934_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/1foCMRbxVRo99EWPglSD3n?si=35AjJdFlSfmfOWMf19ggjQ&nd=1",
+        "bandcamp": "https://goapele.bandcamp.com/",
         "apple_music": "https://music.apple.com/us/artist/goapele/2356702",
         "youtube": "https://www.youtube.com/user/goapelemusic",
         "homepage": "http://goapele.com/",
@@ -6298,13 +6598,37 @@
       "mbid": "fc272874-7f58-40ab-979c-1a1250f365f1"
     },
     "Tha Alkaholiks": {
-      "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Tha Alkaholiks, also known as Tha Liks, is an American hip hop trio from Los Angeles. Since the early 1990s they have produced party music with a hardcore hip hop edge, powered by the beats and rhymes of DJ, producer and rapper E-Swift and the rhymes of J-Ro and Tash.",
+      "about_source": "https://en.wikipedia.org/wiki/Tha_Alkaholiks",
+      "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2FiRV4AeJUGaW98BhDIAKI",
+        "apple_music": "https://music.apple.com/gb/artist/200367",
+        "homepage": "http://alkaholiks.com/"
+      },
+      "mbid": "06993821-4d81-469e-b258-f64d361c0791"
     },
     "Blu & Exile": {
-      "image": "https://s1.ticketm.net/dam/a/bfa/9559c298-9077-4ca8-a535-7d0f69154bfa_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Blu & Exile are an American hip-hop duo, formed in 2007, composed of rapper Blu and hip-hop producer Exile.",
+      "about_source": "https://en.wikipedia.org/wiki/Blu_%26_Exile",
+      "image": "https://s1.ticketm.net/dam/a/bfa/9559c298-9077-4ca8-a535-7d0f69154bfa_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/567CChDKZrtF4rnk2r5JeP",
+        "bandcamp": "https://bluandexile.bandcamp.com/",
+        "apple_music": "https://itunes.apple.com/us/artist/id256776566",
+        "youtube": "https://www.youtube.com/channel/UCyku6mjf_2THrpQPpdVj1Xg"
+      },
+      "mbid": "681aefe6-c611-4c43-ae2d-726ea058fb96"
     },
     "Jay Worthy": {
-      "image": "https://s1.ticketm.net/dam/a/69f/5929edc2-bc92-405e-8be5-b82196cf669f_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from United States.",
+      "about_source": "https://musicbrainz.org/artist/5114e1fc-7dbd-47e3-aa6e-83cc2f9d3474",
+      "image": "https://s1.ticketm.net/dam/a/69f/5929edc2-bc92-405e-8be5-b82196cf669f_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7jDblfQQLFAZCKXFfoGZ9Q",
+        "instagram": "https://www.instagram.com/jayworthy142/"
+      },
+      "mbid": "5114e1fc-7dbd-47e3-aa6e-83cc2f9d3474"
     },
     "Medusa": {
       "image": "https://s1.ticketm.net/dam/a/8e8/b6281313-0d82-48aa-b567-ced65bf7f8e8_RETINA_LANDSCAPE_16_9.jpg"
@@ -6329,18 +6653,42 @@
       }
     },
     "Swirlies": {
-      "image": "https://s1.ticketm.net/dam/a/9f4/1dcc259b-bc6f-4e92-8029-3cc6e27739f4_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Swirlies is an American indie rock band formed in Boston in 1990. Since their first records in the early 1990s, the band has released studio and home recordings that blend shoegaze and twee pop with electronica and lo-fi music.",
+      "about_source": "https://en.wikipedia.org/wiki/Swirlies",
+      "image": "https://s1.ticketm.net/dam/a/9f4/1dcc259b-bc6f-4e92-8029-3cc6e27739f4_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0Zk7We5BZoDR40himAI86D",
+        "bandcamp": "https://swirlies.bandcamp.com/",
+        "apple_music": "https://music.apple.com/us/artist/205714775",
+        "homepage": "http://rcarchives.com/swirlies/"
+      },
+      "mbid": "4ec4a033-ba44-41ca-8e09-3bf94fc08523"
+    },
+    "Sleepaway Camp": {
+      "mbid": "1ae4818f-9c5f-47ce-8807-5fff7e0cbe59"
     },
     "CID": {
       "image": "https://s1.ticketm.net/dam/a/e39/c18197c8-f6b5-4cbb-88e2-121dc293de39_RETINA_LANDSCAPE_16_9.jpg"
     },
     "Emo Kids": {
-      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from Los Angeles, formed 2023.",
+      "about_source": "https://musicbrainz.org/artist/e64b9893-a9fe-47eb-ab0e-d698002b70a8",
+      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4UalCEug3n0MZagNRmjYUs",
+        "youtube": "https://www.youtube.com/@emokidsofficial",
+        "homepage": "http://www.emo-kids.com/",
+        "instagram": "https://www.instagram.com/emokidsofficial/"
+      },
+      "mbid": "e64b9893-a9fe-47eb-ab0e-d698002b70a8"
     },
     "Greensky Bluegrass": {
+      "about": "Greensky Bluegrass is a five-piece American bluegrass jam band founded in Kalamazoo, Michigan in mid-2000. The band has evolved over the years, growing from 3 to 5 members, adding electric effects, and touring with a full light show.",
+      "about_source": "https://en.wikipedia.org/wiki/Greensky_Bluegrass",
       "image": "https://s1.ticketm.net/dam/a/2fb/c34d8807-4bf6-4a72-8c83-e3c2379e82fb_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/33bzrYoIWLx5uox3y0VtHn",
+        "qobuz": "https://open.qobuz.com/artist/4106252",
         "apple_music": "https://music.apple.com/us/artist/greensky-bluegrass/187258500",
         "youtube": "https://www.youtube.com/user/GreenskyBluegrass",
         "homepage": "http://www.greenskybluegrass.com/",
@@ -6354,11 +6702,35 @@
         "spotify": "https://open.spotify.com/artist/2uVTJrWgoWoJmImS2I0KVE"
       }
     },
+    "Taper’s Choice": {
+      "about": "Group, formed 2021.",
+      "about_source": "https://musicbrainz.org/artist/2f21ae90-e892-48a1-9ab8-f1e476d8cfd8",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2hdj9S5AHGhs0VEM4RHYvL",
+        "bandcamp": "https://taperschoice.bandcamp.com/",
+        "apple_music": "https://music.apple.com/us/artist/1838505039",
+        "instagram": "https://www.instagram.com/taperschoice/"
+      },
+      "mbid": "2f21ae90-e892-48a1-9ab8-f1e476d8cfd8"
+    },
     "Twinsick": {
+      "about": "Group from Minneapolis.",
+      "about_source": "https://musicbrainz.org/artist/28786a5a-cc06-4673-8d3d-a9db6e20446d",
       "image": "https://s1.ticketm.net/dam/a/d81/d542690d-534c-4cf5-af96-e03917c4dd81_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4WfO14YgktUYkdLMrHgTeF",
+        "qobuz": "https://www.qobuz.com/us-en/interpreter/twinsick/6313930",
+        "apple_music": "https://music.apple.com/us/artist/1492365725",
+        "soundcloud": "https://soundcloud.com/twinsick",
+        "youtube": "https://www.youtube.com/channel/UClEksMI1qZ02fjPBHiNP3bA",
+        "homepage": "https://www.twinsickmusic.com/",
+        "instagram": "https://www.instagram.com/twinsick/"
+      },
       "mbid": "28786a5a-cc06-4673-8d3d-a9db6e20446d"
     },
     "Koo Koo": {
+      "about": "Koo Koo is an American kids' pop, EDM and hip-hop comedy disco duo from Minneapolis, Minnesota, consisting of vocalists Bryan Atchison and Neil Olstad.",
+      "about_source": "https://en.wikipedia.org/wiki/Koo_Koo_(duo)",
       "image": "https://s1.ticketm.net/dam/a/ca1/abc11b54-19d1-4c26-8e65-5526c87b5ca1_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/7BZ3v2GTT5KHVmc9Gk1sRb?autoplay=true",
@@ -6379,7 +6751,16 @@
       }
     },
     "Sadistic Intent": {
-      "image": "https://s1.ticketm.net/dam/a/158/7e69d048-cc27-47fe-a97c-ab81fe9f0158_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Sadistic Intent is an American death metal band from Los Angeles. Active since 1987, it is one of the longest-standing death metal acts in California, and a prominent Latino metal band.",
+      "about_source": "https://en.wikipedia.org/wiki/Sadistic_Intent",
+      "image": "https://s1.ticketm.net/dam/a/158/7e69d048-cc27-47fe-a97c-ab81fe9f0158_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/753MqSiIV08l2flq3AMn7e",
+        "apple_music": "https://itunes.apple.com/us/artist/id263611381",
+        "youtube": "https://www.youtube.com/channel/UCNNwQlcIvV2MjjaXxEIoZjA",
+        "instagram": "https://www.instagram.com/sadistic_intent666/"
+      },
+      "mbid": "b16573b8-6898-43a9-86fa-5621d51a585d"
     },
     "Mysta Crooks": {
       "image": "https://s1.ticketm.net/dam/c/27e/458d1b62-6e4f-4ffd-8941-9ed303d8e27e_106041_RETINA_LANDSCAPE_16_9.jpg",
@@ -6388,9 +6769,15 @@
       }
     },
     "Seth David": {
+      "about": "Person from United States.",
+      "about_source": "https://musicbrainz.org/artist/ee070414-5bdf-470d-9d5e-98c766dbeede",
       "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
-        "soundcloud": "https://soundcloud.com/sethdavidmusic"
+        "spotify": "https://open.spotify.com/artist/1wfOprPxy1C22S9zV8tK3b",
+        "apple_music": "https://music.apple.com/us/artist/1494831741",
+        "soundcloud": "https://soundcloud.com/sethdavidmusic",
+        "youtube": "https://www.youtube.com/channel/UCOau6mqFYpd8xWmJcg6HxRQ",
+        "instagram": "https://www.instagram.com/iamsethdavid/"
       },
       "mbid": "ee070414-5bdf-470d-9d5e-98c766dbeede"
     },
@@ -6404,7 +6791,18 @@
       }
     },
     "Tender Misfit": {
-      "image": "https://s1.ticketm.net/dam/a/087/a7776c42-f2f4-4de8-b1e1-f5af41112087_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from Los Angeles.",
+      "about_source": "https://musicbrainz.org/artist/a650ce83-af00-492e-8f3d-e5a18d4be624",
+      "image": "https://s1.ticketm.net/dam/a/087/a7776c42-f2f4-4de8-b1e1-f5af41112087_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/1fkaNNQRGflvAClVJM0b6I",
+        "qobuz": "https://open.qobuz.com/artist/19355576",
+        "apple_music": "https://music.apple.com/gb/artist/1695060408",
+        "soundcloud": "https://soundcloud.com/tendermisfit",
+        "youtube": "https://www.youtube.com/@TenderMisfit",
+        "instagram": "https://www.instagram.com/tender.misfit/"
+      },
+      "mbid": "a650ce83-af00-492e-8f3d-e5a18d4be624"
     },
     "fakemink": {
       "image": "https://s1.ticketm.net/dam/a/979/7f842d94-48ac-47cb-bc6c-a6f81b9c8979_RETINA_LANDSCAPE_16_9.jpg",
@@ -6414,9 +6812,12 @@
       }
     },
     "Fruition": {
+      "about": "Group from Portland.",
+      "about_source": "https://musicbrainz.org/artist/c02617f9-2408-4434-8588-d06a123b73c0",
       "image": "https://s1.ticketm.net/dam/a/385/72c4a1db-a9d8-45f7-a39c-3bb60843b385_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/4dDqxbEKfPN3RZYrGr36y8?si=PEOtkjriSVa5Su8z7asGNQ&nd=1",
+        "bandcamp": "https://fruition.bandcamp.com/",
         "apple_music": "https://music.apple.com/us/artist/fruition/189732852",
         "youtube": "https://www.youtube.com/channel/UC-O06ZBISMmhEtjZPalTCVw?view_as=subscriber",
         "homepage": "https://www.fruitionband.com/",
@@ -6431,10 +6832,15 @@
       }
     },
     "Portugal the Man": {
+      "about": "Portugal. The Man is an American rock band from Wasilla, Alaska, and based in Portland, Oregon.",
+      "about_source": "https://en.wikipedia.org/wiki/Portugal._The_Man",
       "image": "https://s1.ticketm.net/dam/a/0bc/8160dfe2-3a9d-489a-8c36-b3e901e450bc_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/4kI8Ie27vjvonwaB2ePh8T",
+        "bandcamp": "https://portugaltheman.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/596410",
         "apple_music": "https://music.apple.com/us/artist/portugal-the-man/167649475",
+        "soundcloud": "https://soundcloud.com/portugaltheman",
         "youtube": "https://www.youtube.com/user/Portugalthemanband",
         "homepage": "https://www.portugaltheman.com/",
         "instagram": "https://www.instagram.com/portugaltheman/"
@@ -6442,9 +6848,12 @@
       "mbid": "3599a39e-4e10-4cb5-90d4-c8a015ebc73b"
     },
     "Anthony Green": {
+      "about": "Anthony Green is an American singer from Doylestown, Pennsylvania. He is currently the lead singer of Circa Survive, the Sound of Animals Fighting, and L.S.",
+      "about_source": "https://en.wikipedia.org/wiki/Anthony_Green_(musician)",
       "image": "https://s1.ticketm.net/dam/a/8d6/0255bae3-b021-4c51-9ef7-c615cd9f98d6_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/0hxmHf6CqXsOLWgGXjmr7I",
+        "bandcamp": "https://anthonygreen.bandcamp.com/",
         "apple_music": "https://music.apple.com/us/artist/anthony-green/131770847",
         "youtube": "https://www.youtube.com/channel/UCLaoQSKeOTiFHb5ePLuLnEg",
         "homepage": "https://www.anthonygreenmusic.com/",
@@ -6453,15 +6862,44 @@
       "mbid": "eba4c290-2ce6-42c9-affd-5b1ffab84a8f"
     },
     "ALLEYCVT": {
+      "about": "Person.",
+      "about_source": "https://musicbrainz.org/artist/2590b6d4-648a-4092-9850-f614d6df51ca",
       "image": "https://s1.ticketm.net/dam/a/a57/da799429-64c6-4e21-8747-6eb326bc4a57_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4JxRK2gxmri7L7OWaxnVD1",
+        "apple_music": "https://music.apple.com/gb/artist/1560524882",
+        "homepage": "https://alleycvt.com/",
+        "instagram": "https://www.instagram.com/alleycvt/"
+      },
       "mbid": "2590b6d4-648a-4092-9850-f614d6df51ca"
     },
     "Sippy": {
+      "about": "Person from United States.",
+      "about_source": "https://musicbrainz.org/artist/5cca49ac-0b1a-4e4f-8541-b23cd109c3da",
       "image": "https://s1.ticketm.net/dam/a/83c/85e2e6a5-edba-4433-9135-2f6dd8df483c_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4LLYqe8ogaK9wC1xHlvR5S",
+        "apple_music": "https://music.apple.com/au/artist/444191039",
+        "soundcloud": "https://soundcloud.com/sippyau",
+        "youtube": "https://www.youtube.com/channel/UC5UaWRkFvuAY1FwfG16N19w",
+        "instagram": "https://www.instagram.com/sippyau/"
+      },
       "mbid": "5cca49ac-0b1a-4e4f-8541-b23cd109c3da"
     },
     "Machaki": {
-      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from United States.",
+      "about_source": "https://musicbrainz.org/artist/ca585a45-7029-47e4-b77d-da199c14a52b",
+      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7q7lcKyRzbFGozvjfwjtHZ",
+        "bandcamp": "https://machaki.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/18842569",
+        "apple_music": "https://music.apple.com/us/artist/1678676913",
+        "soundcloud": "https://soundcloud.com/mvchaki",
+        "youtube": "https://www.youtube.com/channel/UCBnL67QYHzeqj8zb1vDE77A",
+        "instagram": "https://www.instagram.com/mvchaki/"
+      },
+      "mbid": "ca585a45-7029-47e4-b77d-da199c14a52b"
     },
     "Carlile Family Band": {
       "image": "https://s1.ticketm.net/dam/a/421/7a7e0e48-13ae-4368-8829-a97274578421_RETINA_LANDSCAPE_16_9.jpg",
@@ -6470,18 +6908,37 @@
       }
     },
     "Doctor P": {
+      "about": "Doctor P is the stage name of the English dubstep producer and DJ, Shaun Brockhurst. Brockhurst has also produced drum and bass under the aliases Sounds Destructive, Slum Dogz and DJ Picto.",
+      "about_source": "https://en.wikipedia.org/wiki/Doctor_P",
       "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/0tgjwsn1Lpjj8kKEvWm0KQ?autoplay=true",
+        "qobuz": "https://open.qobuz.com/artist/429213",
         "apple_music": "https://music.apple.com/us/artist/doctor-p/337725870",
-        "homepage": "https://www.doctorp.co.uk/"
+        "soundcloud": "https://soundcloud.com/doctorpcircus",
+        "youtube": "https://music.youtube.com/channel/UCVZ10QF214t4pFGiFr2pkEw",
+        "homepage": "https://www.doctorp.co.uk/",
+        "instagram": "https://www.instagram.com/doctorpcircus/"
       },
       "mbid": "569f11cd-2d27-40da-9b01-237f7837db77"
     },
     "Lucky": {
       "image": "https://s1.ticketm.net/dam/a/d89/fbd97466-7b97-42ef-8e8b-e3465b74bd89_641931_RETINA_LANDSCAPE_16_9.jpg"
     },
+    "The Greyboy Allstars": {
+      "about": "The Greyboy Allstars are an American soul-jazz band from San Diego, California, United States, whose current members include Karl Denson on Saxophone, Robert Walter on Keys, Mike Andrews on guitar, Chris Stillwell on bass and Aaron Redfield on drums. They have released eight albums to date.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Greyboy_Allstars",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3G8x1XQX8nCXYouEfMrP07",
+        "bandcamp": "https://thegreyboyallstars.bandcamp.com/",
+        "apple_music": "https://music.apple.com/gb/artist/6326444",
+        "homepage": "http://www.greyboyallstars.com/"
+      },
+      "mbid": "448913ad-9a62-4278-abbe-07b35cae6c73"
+    },
     "TesseracT": {
+      "about": "Group from Serbia.",
+      "about_source": "https://musicbrainz.org/artist/acaede2d-f652-4a37-9ce0-efd994a3e678",
       "image": "https://s1.ticketm.net/dam/a/067/43d71121-af67-4463-a2a3-6e179dcb1067_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/23ytwhG1pzX6DIVWRWvW1r",
@@ -6508,9 +6965,13 @@
       "image": "https://s1.ticketm.net/dam/a/b37/ea280895-dc63-41ad-a6f3-c9ce5b7acb37_RETINA_LANDSCAPE_16_9.jpg"
     },
     "The Flatliners": {
+      "about": "The Flatliners are a Canadian punk rock band from Richmond Hill, Ontario. Since their formation in 2002, the band has been a growing influence in the Toronto punk/ska movement, with consistently well-received albums and live shows.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Flatliners",
       "image": "https://s1.ticketm.net/dam/a/950/255ff022-cd8b-4665-8e99-37719330d950_459361_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6bx5jeXP6LSRVY29adUFdB",
+        "bandcamp": "https://theflatliners.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/632643",
         "apple_music": "https://music.apple.com/us/artist/the-flatliners/41735804",
         "youtube": "https://www.youtube.com/channel/UCy28hSDuYmAnFZWC_lECnyg",
         "homepage": "http://www.theflatliners.com/",
@@ -6518,11 +6979,24 @@
       },
       "mbid": "e5b8c0f3-0752-4a76-987a-96098ce9d490"
     },
+    "Dead Floyd": {
+      "about": "Group from Fort Collins, formed 2009.",
+      "about_source": "https://musicbrainz.org/artist/198382a4-51d3-4f9b-b043-d0260b442d92",
+      "links": {
+        "homepage": "http://deadfloyd.com/"
+      },
+      "mbid": "198382a4-51d3-4f9b-b043-d0260b442d92"
+    },
     "I DONT KNOW HOW BUT THEY FOUND ME": {
+      "about": "I Dont Know How but They Found Me, often shortened to IDKHow, is an American indie pop solo project based in Salt Lake City, Utah, fronted by singer-songwriter Dallon Weekes.",
+      "about_source": "https://en.wikipedia.org/wiki/I_Dont_Know_How_but_They_Found_Me",
       "image": "https://s1.ticketm.net/dam/a/9ad/5fc63b9b-a027-4aad-8abe-8c93898149ad_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/0Raaw7kr1Vzat4ZvHzjsJR?autoplay=true",
+        "bandcamp": "https://idkhow.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/3907605",
         "apple_music": "https://music.apple.com/us/artist/i-dont-know-how-but-they-found-me/1264896392",
+        "soundcloud": "https://soundcloud.com/idontknowhowbuttheyfoundme",
         "youtube": "https://www.youtube.com/channel/UCPeiIDYMwZQpL7aocblfqtQ",
         "homepage": "https://idkhow.com/",
         "instagram": "https://www.instagram.com/idkhow/"
@@ -6537,7 +7011,17 @@
       }
     },
     "Ruth B": {
+      "about": "Ruth Berhe is a Canadian singer and songwriter from Edmonton, Alberta. She started by singing songs on Vine in early 2013.",
+      "about_source": "https://en.wikipedia.org/wiki/Ruth_B.",
       "image": "https://s1.ticketm.net/dam/a/76a/deacd111-4055-4722-9f53-ce830be5e76a_566811_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2WzaAvm2bBCf4pEhyuDgCY",
+        "apple_music": "https://itunes.apple.com/mx/artist/id1037048423",
+        "soundcloud": "https://soundcloud.com/ruthbofficial",
+        "youtube": "https://www.youtube.com/channel/UCeS41kdYfgz5L2LmtW_Yaog",
+        "homepage": "http://ruthbofficial.com/",
+        "instagram": "https://www.instagram.com/itsruthb/"
+      },
       "mbid": "fa44d136-fa40-4187-b522-8e262b41ac7a"
     },
     "Jon Bryant": {
@@ -6551,21 +7035,79 @@
       }
     },
     "Laszewo": {
+      "about": "Group from Santa Barbara.",
+      "about_source": "https://musicbrainz.org/artist/8eea42ed-bece-4802-b6f2-1873d16795e6",
       "image": "https://s1.ticketm.net/dam/a/826/bbc04f1e-b7b8-42f6-bba5-56b6c2e4f826_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6jxGLrn1I14RIeRYodOpLN",
+        "qobuz": "https://open.qobuz.com/artist/7414077",
+        "apple_music": "https://music.apple.com/gb/artist/1438035296",
+        "youtube": "https://music.youtube.com/channel/UCEDalVCrCsajFYTPjd2bdiw",
+        "instagram": "https://www.instagram.com/laszewo/"
+      },
       "mbid": "8eea42ed-bece-4802-b6f2-1873d16795e6"
     },
+    "Temachii": {
+      "about": "Person from San Antonio.",
+      "about_source": "https://musicbrainz.org/artist/16a62999-cfea-49c0-bf54-0953e6e6910f",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6C28zKEQyk8yNoiQcqWbcQ",
+        "bandcamp": "https://temachii.bandcamp.com/",
+        "apple_music": "https://music.apple.com/us/artist/1584931431",
+        "youtube": "https://www.youtube.com/channel/UC0W-L2o4TGwc-ypCEJT9Rbg",
+        "instagram": "https://www.instagram.com/temachii/"
+      },
+      "mbid": "16a62999-cfea-49c0-bf54-0953e6e6910f"
+    },
+    "Inner Magic": {
+      "about": "Group from United States, formed 2026.",
+      "about_source": "https://musicbrainz.org/artist/b0ec9e24-87eb-43e5-a5b9-36f8ec557c05",
+      "links": {
+        "instagram": "https://www.instagram.com/innermagicmuzik/"
+      },
+      "mbid": "b0ec9e24-87eb-43e5-a5b9-36f8ec557c05"
+    },
     "Pratt & Moody": {
-      "image": "https://s1.ticketm.net/dam/a/d93/7ff43c21-8c69-48f9-9ef9-fcb7f2ec1d93_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from Finland.",
+      "about_source": "https://musicbrainz.org/artist/38d9dcd9-9f4a-40f9-ba8a-39a8493468b9",
+      "image": "https://s1.ticketm.net/dam/a/d93/7ff43c21-8c69-48f9-9ef9-fcb7f2ec1d93_RETINA_LANDSCAPE_16_9.jpg",
+      "mbid": "38d9dcd9-9f4a-40f9-ba8a-39a8493468b9"
     },
     "Vansire": {
+      "about": "Vansire is an American dream pop band from Rochester, Minnesota, consisting of Josh Augustin and Sam Winemiller. They are currently signed to Spirit Goth Records.",
+      "about_source": "https://en.wikipedia.org/wiki/Vansire",
       "image": "https://s1.ticketm.net/dam/a/948/85bd4412-da8f-4e25-b70e-746de9a47948_1638801_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6ft7JnxMyZhp7N52qzHymY",
+        "bandcamp": "https://vansire.bandcamp.com/",
+        "apple_music": "https://music.apple.com/us/artist/1039595626",
+        "youtube": "https://www.youtube.com/channel/UCOe4WGGc_I32GfZcbOuLCFg",
+        "homepage": "https://www.vansiretheband.com/"
+      },
       "mbid": "0a7920d5-135b-4bca-885c-ebd79f0d5d9f"
     },
     "Eliza McLamb": {
-      "image": "https://s1.ticketm.net/dam/a/473/9c0cb4bb-440f-475f-844b-7ed4f4ef5473_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Eliza McLamb is an American indie rock musician from Chapel Hill, North Carolina.",
+      "about_source": "https://en.wikipedia.org/wiki/Eliza_McLamb",
+      "image": "https://s1.ticketm.net/dam/a/473/9c0cb4bb-440f-475f-844b-7ed4f4ef5473_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5jy9tglmQRLmTmcqz2qyUa",
+        "bandcamp": "https://elizamclambmusic.bandcamp.com/",
+        "apple_music": "https://music.apple.com/us/artist/1015199455"
+      },
+      "mbid": "1a81a97c-caf7-4f63-aceb-b10fdf055dfb"
     },
     "Not A Toy": {
-      "image": "https://s1.ticketm.net/dam/a/33e/156bcd37-eba7-40b4-9384-c6b474aa033e_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from Denver, formed 2020.",
+      "about_source": "https://musicbrainz.org/artist/80aebb6c-e423-4809-8bb3-6267c69b6263",
+      "image": "https://s1.ticketm.net/dam/a/33e/156bcd37-eba7-40b4-9384-c6b474aa033e_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7uiWgFc6g98QsoDKotM3T4",
+        "youtube": "https://www.youtube.com/user/ShatterproofLive",
+        "homepage": "https://notatoyofficial.com/",
+        "instagram": "https://www.instagram.com/notatoy/"
+      },
+      "mbid": "80aebb6c-e423-4809-8bb3-6267c69b6263"
     },
     "The Sways": {
       "image": "https://s1.ticketm.net/dam/a/1f0/6495b500-20ba-4424-95ec-16bd280cf1f0_RETINA_LANDSCAPE_16_9.jpg",
@@ -6574,10 +7116,13 @@
       }
     },
     "Grizfolk": {
+      "about": "Grizfolk is an American alternative rock band consisting of Adam Roth, Bill Delia (drums), and Ryan Williams (bass). Based in Nashville, Grizfolk released their debut EP, From the Spark, in February 2014.",
+      "about_source": "https://en.wikipedia.org/wiki/Grizfolk",
       "image": "https://s1.ticketm.net/dam/a/7ec/80adbea2-f6e1-41dc-83d2-eb32260907ec_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6Xa4nbrSTfbioA4lLShbjh",
         "apple_music": "https://music.apple.com/ca/artist/grizfolk/682209901",
+        "soundcloud": "https://soundcloud.com/grizfolk",
         "youtube": "https://www.youtube.com/user/grizfolk",
         "homepage": "https://www.grizfolk.com/",
         "instagram": "http://instagram.com/grizfolk"
@@ -6585,7 +7130,18 @@
       "mbid": "b87e7d38-aadb-47ba-822c-6fe3e71a34a7"
     },
     "Winona Fighter": {
-      "image": "https://s1.ticketm.net/dam/a/451/344fb09f-a2f8-4c6c-89b6-a5ef9c213451_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from Nashville, formed 2022.",
+      "about_source": "https://musicbrainz.org/artist/18696c37-c6b4-47c0-898b-5db77305b6a7",
+      "image": "https://s1.ticketm.net/dam/a/451/344fb09f-a2f8-4c6c-89b6-a5ef9c213451_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/1u5SWpU4mZSziEz2hdPSWQ",
+        "qobuz": "https://open.qobuz.com/artist/15973736",
+        "apple_music": "https://music.apple.com/gb/artist/1618260492",
+        "youtube": "https://www.youtube.com/channel/UCmJw0iV9J05v4MCSeW1ju4A",
+        "homepage": "https://winonafighter.com/",
+        "instagram": "https://www.instagram.com/winonafighter/"
+      },
+      "mbid": "18696c37-c6b4-47c0-898b-5db77305b6a7"
     },
     "ESPRIT 空想": {
       "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
@@ -6602,7 +7158,18 @@
       }
     },
     "NEMZZZ": {
+      "about": "Nemiah Emmanuel Simms, known professionally as Nemzzz, is a British rapper who gained recognition in 2021 with the tracks \"Elevate\" and \"2MS\". He released his first mixtape Do Not Disturb in 2024, which debuted at number 17 on the UK Albums Chart.",
+      "about_source": "https://en.wikipedia.org/wiki/Nemzzz",
       "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3DHtfeD4PsmR9YGhCP4VF7",
+        "qobuz": "https://open.qobuz.com/artist/13008250",
+        "apple_music": "https://music.apple.com/gb/artist/1434427948",
+        "soundcloud": "https://soundcloud.com/nemiah551",
+        "youtube": "https://www.youtube.com/channel/UC3ytAKP00gWDkiOrcKfOwTQ",
+        "homepage": "https://www.nemzzz.com/",
+        "instagram": "https://www.instagram.com/nemzzz_/"
+      },
       "mbid": "d2a36c92-546b-4b81-b31b-23e21d2ea6ee"
     },
     "Madds Buckley": {
@@ -6620,19 +7187,49 @@
       }
     },
     "AJ McLean": {
+      "about": "Alexander James McLean is an American singer. He is a founding member of the pop vocal group Backstreet Boys.",
+      "about_source": "https://en.wikipedia.org/wiki/AJ_McLean",
       "image": "https://s1.ticketm.net/dam/a/6b5/840992b1-69c9-4339-9643-227101ea36b5_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5RFf1gyPc9lMOtCq2k6tLl",
+        "apple_music": "https://music.apple.com/us/artist/1480610",
+        "homepage": "http://ajmclean.com/"
+      },
       "mbid": "037b679d-ab3c-4434-a38b-74700ee48890"
     },
     "Danz CM": {
-      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Danz CM is an American record producer, songwriter, composer, singer and graphic designer.",
+      "about_source": "https://en.wikipedia.org/wiki/Danz_CM",
+      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "qobuz": "https://open.qobuz.com/artist/8155919",
+        "apple_music": "https://music.apple.com/us/artist/1539515667",
+        "soundcloud": "https://soundcloud.com/computer-magic",
+        "homepage": "https://www.zdanz.com/"
+      },
+      "mbid": "8892aaf7-f88a-4687-a82b-f7192d5b68f6"
     },
     "Spacemoth": {
-      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from United States.",
+      "about_source": "https://musicbrainz.org/artist/0845d9a3-2083-4fc1-bd5f-e49de92ae945",
+      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3sr90MQWUwn8lHbzZfSGxA",
+        "bandcamp": "https://ssspacemoth.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/2573593",
+        "apple_music": "https://music.apple.com/us/artist/1513764837",
+        "homepage": "http://spacemoth.space/",
+        "instagram": "https://www.instagram.com/spacemoth__/"
+      },
+      "mbid": "0845d9a3-2083-4fc1-bd5f-e49de92ae945"
     },
     "Dark Star Orchestra": {
+      "about": "Dark Star Orchestra is a Grateful Dead tribute band formed in Chicago, Illinois. They serve now as an international touring tribute band to the rock group the Grateful Dead.",
+      "about_source": "https://en.wikipedia.org/wiki/Dark_Star_Orchestra",
       "image": "https://s1.ticketm.net/dam/a/8d5/ee5c2283-760d-4183-9bc1-3bd0f79708d5_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/4VjljDo2biBRVJ1WEXZ8GE?autoplay=true",
+        "bandcamp": "https://darkstarorchestra.bandcamp.com/",
         "apple_music": "https://music.apple.com/ca/artist/dark-star-orchestra/257543477",
         "youtube": "https://www.youtube.com/user/darkstarorchestra",
         "homepage": "http://www.darkstarorchestra.net/",
@@ -6641,9 +7238,13 @@
       "mbid": "e477d9c0-1f35-40f7-ad1a-b915d2523b84"
     },
     "AJJ": {
+      "about": "AJJ is an American folk punk band from Phoenix, Arizona, originally formed in 2004 as Andrew Jackson Jihad. Their lyrics handle themes of shyness, poverty, humanity, religion, addiction, existentialism, and politics.",
+      "about_source": "https://en.wikipedia.org/wiki/AJJ_(band)",
       "image": "https://s1.ticketm.net/dam/a/b7c/dd3742e3-e115-473a-a111-05876e110b7c_1211951_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/4IDpDJIDfK96HMLD4Tphyl?si=WgvXO5SwSq-RT-e631RKhQ&nd=1",
+        "bandcamp": "https://ajjtheband.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/2573590",
         "apple_music": "https://music.apple.com/us/artist/ajj/265075519",
         "youtube": "https://www.youtube.com/ajjtheband",
         "homepage": "http://www.andrewjacksonjihad.com/",
@@ -6652,7 +7253,11 @@
       "mbid": "5e1dbdb2-87ac-41ff-9960-4a42a872327a"
     },
     "Zen Freeman": {
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg"
+      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6WIXrNpbpGraLXs5vhEYJG"
+      },
+      "mbid": "bccef0dc-a2ce-47e0-bb2a-2a536e1ac724"
     },
     "Wolves In the Throne Room": {
       "image": "https://s1.ticketm.net/dam/a/115/3feebec5-2d24-40bc-b773-442ee35bf115_RETINA_LANDSCAPE_16_9.jpg",
@@ -6665,10 +7270,22 @@
       }
     },
     "Stygian Bough": {
-      "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from United States, formed 2020.",
+      "about_source": "https://musicbrainz.org/artist/afbf1174-5a04-4881-95d0-4dc38f69ca3c",
+      "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg",
+      "mbid": "afbf1174-5a04-4881-95d0-4dc38f69ca3c"
     },
     "SPIRIT POSSESSION": {
-      "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from United States, formed 2019.",
+      "about_source": "https://musicbrainz.org/artist/933016e3-5aff-41ae-9e44-6dd1b7214e91",
+      "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7mAAXOXKHM2LybbQGfbzRX",
+        "bandcamp": "https://spiritpossession.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/7580177",
+        "apple_music": "https://music.apple.com/us/artist/1514387937"
+      },
+      "mbid": "933016e3-5aff-41ae-9e44-6dd1b7214e91"
     },
     "Odezenne": {
       "image": "https://s1.ticketm.net/dam/a/e37/b1974af3-2bbf-41cd-bed8-f3f5a821ee37_RETINA_LANDSCAPE_16_9.jpg",
@@ -6680,10 +7297,14 @@
       }
     },
     "Blue October": {
+      "about": "Blue October is an American rock band originally from Houston, Texas, formed in 1995. It currently consists of singer/guitarist Justin Furstenfeld, drummer Jeremy Furstenfeld, multi-instrumentalist Ryan Delahoussaye, bassist Matt Noveskey, and lead guitarist Will Knaak.",
+      "about_source": "https://en.wikipedia.org/wiki/Blue_October",
       "image": "https://s1.ticketm.net/dam/a/472/1426901f-6f24-44ff-986e-54c2f1743472_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/1TJbmc7jTpw78GKCiMpvDh",
+        "qobuz": "https://www.qobuz.com/de-de/interpreter/-/395830",
         "apple_music": "https://music.apple.com/us/artist/blue-october/559128",
+        "soundcloud": "https://soundcloud.com/blueoctoberband",
         "youtube": "https://www.youtube.com/user/blueoctoberofficial",
         "homepage": "https://www.blueoctober.com/",
         "instagram": "http://instagram.com/blueoctoberband"
@@ -6691,8 +7312,15 @@
       "mbid": "d6a3eeec-cde0-4c10-89b2-93e0bd5f34e6"
     },
     "Polyphia": {
+      "about": "Polyphia is an American rock band based in Plano, Texas, formed in 2010. The group consists of guitarists Tim Henson and Scott LePage, bassist Clay Gober, and drummer Clay Aeschliman.",
+      "about_source": "https://en.wikipedia.org/wiki/Polyphia",
       "image": "https://s1.ticketm.net/dam/a/d0c/4429459a-7a75-4e95-899b-955fa0bded0c_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
+        "spotify": "https://open.spotify.com/artist/4vGrte8FDu062Ntj0RsPiZ",
+        "bandcamp": "https://polyphia.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/2378871",
+        "apple_music": "https://itunes.apple.com/us/artist/id640294344",
+        "soundcloud": "https://soundcloud.com/polyphiaofficial",
         "youtube": "https://www.youtube.com/channel/UCDe08Fs0s0YKJuk5h45csAQ",
         "homepage": "https://www.polyphia.com/",
         "instagram": "https://www.instagram.com/polyphia/"
@@ -6710,10 +7338,28 @@
       }
     },
     "Eddie 9V": {
-      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from Atlanta.",
+      "about_source": "https://musicbrainz.org/artist/bf530a68-5477-4e06-a4d7-4151e6ef6a52",
+      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2GHXeEEol7BPT31flS6O1B",
+        "bandcamp": "https://eddie9v.bandcamp.com/",
+        "apple_music": "https://music.apple.com/gb/artist/1479464445",
+        "youtube": "https://www.youtube.com/channel/UCtTJjdnHdIp9AWe0SK64-KQ",
+        "homepage": "https://www.eddie9volt.com/",
+        "instagram": "https://www.instagram.com/eddie9volt/"
+      },
+      "mbid": "bf530a68-5477-4e06-a4d7-4151e6ef6a52"
     },
     "Coey Redd": {
-      "image": "https://s1.ticketm.net/dam/a/fb3/9ff5b97e-18a4-4fad-89de-b29c533a5fb3_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from United States, born 1994.",
+      "about_source": "https://musicbrainz.org/artist/57a40f1f-7ed1-4285-9670-37721a4c4dee",
+      "image": "https://s1.ticketm.net/dam/a/fb3/9ff5b97e-18a4-4fad-89de-b29c533a5fb3_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7ivQNXAy0u5K5Aucy4AMEy",
+        "apple_music": "https://music.apple.com/us/artist/1442665097"
+      },
+      "mbid": "57a40f1f-7ed1-4285-9670-37721a4c4dee"
     },
     "Aubory Bugg": {
       "image": "https://s1.ticketm.net/dam/a/6cc/fd16866b-9889-4dbb-a9eb-7ff061b9e6cc_RETINA_LANDSCAPE_16_9.jpg",
@@ -6722,6 +7368,19 @@
         "instagram": "https://www.instagram.com/auborybugg/"
       }
     },
+    "Lael Neale": {
+      "about": "Person from Los Angeles.",
+      "about_source": "https://musicbrainz.org/artist/8319a659-b885-4b48-927b-3ce8580fb32b",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7mi56yFiPlaLW2PtsZnoWF",
+        "bandcamp": "https://laelneale.bandcamp.com/",
+        "soundcloud": "https://soundcloud.com/laelneale",
+        "youtube": "https://www.youtube.com/laelneale",
+        "homepage": "http://laelneale.com/",
+        "instagram": "https://www.instagram.com/laelneale/"
+      },
+      "mbid": "8319a659-b885-4b48-927b-3ce8580fb32b"
+    },
     "Emelie Trahan": {
       "image": "https://s1.ticketm.net/dam/a/dd5/475a3da1-bdd4-4d69-b30c-f0560066edd5_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
@@ -6729,9 +7388,13 @@
       }
     },
     "Rhiannon Giddens": {
+      "about": "Rhiannon Giddens is an American musician, actress, and author known for her eclectic folk music. She is a founding member of the group Carolina Chocolate Drops, where she was the lead singer and played fiddle and banjo.",
+      "about_source": "https://en.wikipedia.org/wiki/Rhiannon_Giddens",
       "image": "https://s1.ticketm.net/dam/a/3a5/55aa9e8e-e22d-4d25-868b-d692810473a5_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/1EI0NtLHoh9KBziYCeN1vM?si=g3exTneVS72IURGy8qnWXA&nd=1",
+        "bandcamp": "https://rhiannongiddens.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/513184",
         "apple_music": "https://music.apple.com/us/artist/rhiannon-giddens/271874135",
         "youtube": "https://www.youtube.com/channel/UCTQvn1-6IhiMo994ivalgmA",
         "homepage": "https://www.rhiannongiddens.com/",
@@ -6740,7 +7403,20 @@
       "mbid": "3f7574d9-94f3-46dc-8228-9d7358019d9f"
     },
     "Ikkimel": {
-      "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Melina Gaby Strauß, known professionally as Ikkimel, is a German rapper from Berlin-Tempelhof.",
+      "about_source": "https://en.wikipedia.org/wiki/Ikkimel",
+      "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0CzoJbqBbtBNLArLyAFDPn",
+        "bandcamp": "https://ikkimel.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/11891800",
+        "apple_music": "https://itunes.apple.com/de/artist/id1595090263",
+        "soundcloud": "https://soundcloud.com/ikkimel",
+        "youtube": "https://www.youtube.com/channel/UCB3ZjRaAlknXi3mVx_YDrTQ",
+        "homepage": "https://www.ikkimel.de/",
+        "instagram": "https://www.instagram.com/ikkimel42/"
+      },
+      "mbid": "b0061f91-ca53-45b9-ad13-d217f4f6caa2"
     },
     "The Suicide Machines": {
       "image": "https://s1.ticketm.net/dam/a/74b/300558dc-0bbb-4350-9d31-8f3e0e30d74b_RETINA_LANDSCAPE_16_9.jpg",
@@ -6752,10 +7428,15 @@
       }
     },
     "The Aggrolites": {
+      "about": "The Aggrolites are an American reggae band from Los Angeles, California, United States, which formed in 2002.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Aggrolites",
       "image": "https://s1.ticketm.net/dam/a/86d/9f527805-e513-45bf-8199-5102c49fa86d_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/5tdgsoMr7dIrcVUVauzuvM?autoplay=true",
+        "bandcamp": "https://theaggrolites.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/376551",
         "apple_music": "https://itunes.apple.com/us/artist/id28428010",
+        "soundcloud": "https://soundcloud.com/theaggrolites",
         "youtube": "https://www.youtube.com/user/theaggrolitestv",
         "homepage": "http://aggroreggae.com/",
         "instagram": "https://www.instagram.com/theaggrolites/"
@@ -6763,9 +7444,12 @@
       "mbid": "ac241ded-3430-4f42-8451-f78667cc2f52"
     },
     "Wade Bowen": {
+      "about": "Paul Wade Bowen is an American Texas country and red dirt singer from Waco, Texas, United States.",
+      "about_source": "https://en.wikipedia.org/wiki/Wade_Bowen",
       "image": "https://s1.ticketm.net/dam/a/73a/26f157ab-52df-4005-8647-5a507e1e473a_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/3OftZbLfcqulxWNZMX8zLI?autoplay=true",
+        "qobuz": "https://open.qobuz.com/artist/663416",
         "apple_music": "https://music.apple.com/us/artist/wade-bowen/26516840",
         "youtube": "https://www.youtube.com/user/wadebowen",
         "homepage": "http://www.wadebowen.com/",
@@ -6783,19 +7467,48 @@
       "image": "https://s1.ticketm.net/dam/a/5ae/2418e6e7-712b-4099-906c-8f527e8c65ae_RETINA_LANDSCAPE_16_9.jpg"
     },
     "Shane Torres": {
-      "image": "https://s1.ticketm.net/dam/a/4fb/adddd843-10c3-4448-aeb2-9b4ad457d4fb_1475921_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from United States.",
+      "about_source": "https://musicbrainz.org/artist/98af0448-298d-4e23-97cd-da1a2631b4c1",
+      "image": "https://s1.ticketm.net/dam/a/4fb/adddd843-10c3-4448-aeb2-9b4ad457d4fb_1475921_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "homepage": "http://www.shaneisacomedian.com/",
+        "instagram": "https://www.instagram.com/syrupmountain/"
+      },
+      "mbid": "98af0448-298d-4e23-97cd-da1a2631b4c1"
     },
     "El David Aguilar": {
-      "image": "https://s1.ticketm.net/dam/a/8ee/83299177-1d0a-419a-aa9d-e2c68928d8ee_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Rodolfo David Aguilar Dorantes, better known as El David Aguilar is a Mexican singer-songwriter. He was released several studio albums, both independently and under a record label, and has worked with artists such as Mon Laferte, Jorge Drexler and Natalia Lafourcade.",
+      "about_source": "https://en.wikipedia.org/wiki/El_David_Aguilar",
+      "image": "https://s1.ticketm.net/dam/a/8ee/83299177-1d0a-419a-aa9d-e2c68928d8ee_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4exC9EVGcJb6F33htBWbkk",
+        "youtube": "https://www.youtube.com/@eldavidaguilar",
+        "instagram": "https://www.instagram.com/eldavidaguilar/"
+      },
+      "mbid": "eea38270-2bc5-41d6-b4a2-01921a783c6c"
     },
     "The High Kings": {
-      "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "The High Kings is an Irish folk group formed in Dublin in 2008. The band consists of Finbarr Clancy, Brian Dunphy, Darren Holden, and Paul O'Brien.",
+      "about_source": "https://en.wikipedia.org/wiki/The_High_Kings",
+      "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6wXjctGBzxkT0ghwfQ8FC0",
+        "qobuz": "https://open.qobuz.com/artist/551958",
+        "apple_music": "https://music.apple.com/gb/artist/273311795",
+        "homepage": "http://www.thehighkings.com/"
+      },
+      "mbid": "96d83e40-01e7-46c6-baaf-a84363b30af1"
     },
     "La Roux": {
+      "about": "La Roux is an English synth-pop act formed in 2008 by singer Elly Jackson and record producer Ben Langmaid. The act's debut album La Roux (2009) was a critical and commercial success, winning a Grammy Award and producing hit singles such as \"In for the Kill\" and \"Bulletproof\".",
+      "about_source": "https://en.wikipedia.org/wiki/La_Roux",
       "image": "https://s1.ticketm.net/dam/a/e50/b3b13930-b027-490d-a5a7-364dbb1ace50_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/album/3avEg43Aiv7ASXT9S33Dxu",
+        "bandcamp": "https://larouxuk.bandcamp.com/",
+        "qobuz": "https://www.qobuz.com/us-en/interpreter/la-roux/53740",
         "apple_music": "https://music.apple.com/us/album/feedback-feat-baby-tate-single/1648829677",
+        "soundcloud": "https://soundcloud.com/la-roux-official",
         "youtube": "https://www.youtube.com/user/larouxofficial",
         "homepage": "http://www.universal-music.co.jp/u-pop/artist/laroux/",
         "instagram": "https://instagram.com/larouxofficial"
@@ -6803,10 +7516,15 @@
       "mbid": "88d1360a-bc2d-47df-90d1-d2de285560aa"
     },
     "Bad Suns": {
+      "about": "Bad Suns is an American rock band from Woodland Hills, California, formed in 2010. The band currently consists of Christo Bowman, Gavin Bennett, and Miles Morris.",
+      "about_source": "https://en.wikipedia.org/wiki/Bad_Suns",
       "image": "https://s1.ticketm.net/dam/a/065/aaa66dd1-c7ad-4e3f-8c83-7f7004aae065_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/0YhUSm86okLWldQVwJkLlP?autoplay=true",
+        "bandcamp": "https://badsunsmusic.bandcamp.com/",
+        "qobuz": "https://www.qobuz.com/gb-en/interpreter/bad-suns/download-streaming-albums",
         "apple_music": "https://music.apple.com/ca/artist/bad-suns/623897863",
+        "soundcloud": "https://soundcloud.com/badsuns",
         "youtube": "https://www.youtube.com/user/BadSunsVideo",
         "homepage": "https://badsuns.com/",
         "instagram": "http://instagram.com/badsuns"
@@ -6814,10 +7532,15 @@
       "mbid": "95015b4c-1aef-4e28-9d36-c9546c194f0c"
     },
     "Beast In Black": {
+      "about": "Beast in Black is a Finnish heavy metal band formed in Helsinki in 2015 by guitarist and songwriter Anton Kabanen. The band's blend of power metal, 80s pop, and electronic music, as well as their energetic live performances, have made them pioneers of their genre.",
+      "about_source": "https://en.wikipedia.org/wiki/Beast_in_Black",
       "image": "https://s1.ticketm.net/dam/a/4c1/2e6e5393-b674-437d-9bf8-9db8ce1044c1_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6tuB64RT4JeCEBWxwYmHkl?autoplay=true",
+        "bandcamp": "https://beastinblack.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/3268485",
         "apple_music": "https://music.apple.com/ca/artist/beast-in-black/1275559022",
+        "soundcloud": "https://soundcloud.com/beastinblack",
         "youtube": "https://www.youtube.com/BeastInBlack",
         "homepage": "https://beastinblack.com/",
         "instagram": "https://www.instagram.com/bib_band/"
@@ -6825,38 +7548,97 @@
       "mbid": "bba23ba3-5f01-4b19-b57b-8ce3230573de"
     },
     "Gloryhammer": {
+      "about": "Gloryhammer are a British power metal band founded by keyboardist Christopher Bowes, lead vocalist of the band Alestorm. Each member of the band represents a character in the story concept.",
+      "about_source": "https://en.wikipedia.org/wiki/Gloryhammer",
       "image": "https://s1.ticketm.net/dam/a/00b/c66edfe6-481a-499e-97a4-785a48ada00b_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
+        "spotify": "https://open.spotify.com/artist/7dkEByOe0oHqc54qU4hwzV",
+        "bandcamp": "https://gloryhammer.bandcamp.com/",
         "apple_music": "https://itunes.apple.com/gb/artist/id609712495",
+        "soundcloud": "https://soundcloud.com/gloryhammer-official",
+        "youtube": "https://www.youtube.com/@gloryhammer",
         "homepage": "http://www.gloryhammer.com/",
         "instagram": "https://www.instagram.com/gloryhammerofficial/"
       },
       "mbid": "85997032-ff48-4383-b86a-a920d4230a0b"
     },
     "Good Boy Daisy": {
-      "image": "https://s1.ticketm.net/dam/a/fdb/adb3f447-2347-467b-a186-1242f5aecfdb_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from United States, formed 2015.",
+      "about_source": "https://musicbrainz.org/artist/bd19d928-fdab-4c46-b97c-9df9f5a2dde6",
+      "image": "https://s1.ticketm.net/dam/a/fdb/adb3f447-2347-467b-a186-1242f5aecfdb_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/48LeC49ZUI6oXfZrTA2QlL",
+        "apple_music": "https://itunes.apple.com/us/artist/id1162056840",
+        "youtube": "https://www.youtube.com/goodboydaisy",
+        "homepage": "https://goodboydaisy.com/",
+        "instagram": "https://www.instagram.com/goodboydaisy/"
+      },
+      "mbid": "bd19d928-fdab-4c46-b97c-9df9f5a2dde6"
     },
     "The Flaming Lips": {
+      "about": "The Flaming Lips are an American psychedelic rock band formed in 1983 in Oklahoma City, Oklahoma. The band currently consists of Wayne Coyne, Derek Brown, Matt Duckworth Kirksey, AJ Slaughter and Tommy McKenzie (bass).",
+      "about_source": "https://en.wikipedia.org/wiki/The_Flaming_Lips",
       "image": "https://s1.ticketm.net/dam/a/239/82be3e8e-d230-4ff2-a0c1-b53e6e935239_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/16eRpMNXSQ15wuJoeqguaB",
+        "qobuz": "https://www.qobuz.com/us-en/interpreter/the-flaming-lips/68456",
         "apple_music": "https://music.apple.com/us/artist/the-flaming-lips/156604",
+        "soundcloud": "https://soundcloud.com/theflaminglipsofficial",
         "youtube": "https://www.youtube.com/user/flaminglips",
-        "homepage": "http://www.flaminglips.com/"
+        "homepage": "http://www.flaminglips.com/",
+        "instagram": "https://www.instagram.com/waynecoyne5/"
       },
       "mbid": "1f43d76f-8edf-44f6-aaf1-b65f05ad9402"
     },
     "Brooke Alexx": {
-      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from United States.",
+      "about_source": "https://musicbrainz.org/artist/b17da827-9bb0-4975-91cf-fb7cb18cab2e",
+      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/76OGIUhWyFyKOvhRuueDa7",
+        "qobuz": "https://open.qobuz.com/artist/4468810",
+        "apple_music": "https://music.apple.com/us/artist/870557676",
+        "soundcloud": "https://soundcloud.com/brookealexx",
+        "homepage": "https://www.brookealexx.com/",
+        "instagram": "https://www.instagram.com/brookealexx/"
+      },
+      "mbid": "b17da827-9bb0-4975-91cf-fb7cb18cab2e"
     },
     "Fake Names": {
-      "image": "https://s1.ticketm.net/dam/a/935/c1d96caa-f1f0-489f-893e-b6e258806935_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group, formed 2016.",
+      "about_source": "https://musicbrainz.org/artist/a4271e33-8969-4dd8-9e3c-88b269e89fe0",
+      "image": "https://s1.ticketm.net/dam/a/935/c1d96caa-f1f0-489f-893e-b6e258806935_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4NfSqwWc96WkRxN1LeFXGx",
+        "soundcloud": "https://soundcloud.com/fakenames",
+        "youtube": "https://www.youtube.com/channel/UCetyXqZxqd2j2am075yeV4g",
+        "homepage": "http://epitaph.com/artists/fake-names/bio",
+        "instagram": "https://www.instagram.com/fakenamesofficial/"
+      },
+      "mbid": "a4271e33-8969-4dd8-9e3c-88b269e89fe0"
     },
     "Mrs. Magician": {
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from United States.",
+      "about_source": "https://musicbrainz.org/artist/26f77379-968b-4435-b486-fc9acb4590d3",
+      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "soundcloud": "https://soundcloud.com/mrs-magician/"
+      },
+      "mbid": "26f77379-968b-4435-b486-fc9acb4590d3"
     },
     "Bella Poarch": {
-      "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Denarie Bautista Taylor, known professionally as Bella Poarch, is a Filipino and American social media personality, singer, and U.S. Navy veteran.",
+      "about_source": "https://en.wikipedia.org/wiki/Bella_Poarch",
+      "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/26cMerAxjx9GedFt0lMDjm",
+        "qobuz": "https://open.qobuz.com/artist/7903556",
+        "apple_music": "https://music.apple.com/ca/artist/1567245769",
+        "soundcloud": "https://soundcloud.com/bellapoarch",
+        "youtube": "https://www.youtube.com/channel/UCCY_8y1FjtOegxKB4s2bWqw",
+        "instagram": "https://www.instagram.com/bellapoarch/"
+      },
+      "mbid": "6e29613f-68dd-4a24-add2-9a9962de2523"
     },
     "Devvy Dub": {
       "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
@@ -6865,10 +7647,15 @@
       }
     },
     "Ashe": {
+      "about": "Ashlyn Rae \"Ashe\" Willson is an American singer-songwriter. She is known for her 2019 single \"Moral of the Story\", which was featured in the Netflix film To All the Boys: P.S.",
+      "about_source": "https://en.wikipedia.org/wiki/Ashe_(singer)",
       "image": "https://s1.ticketm.net/dam/a/a3b/feb22590-d013-4f99-a8c1-aad0fb3d0a3b_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6P5NO5hzJbuOqSdyPB7SJM?si=LZDwjgVUQtOftgwPVquXeQ&nd=1",
+        "bandcamp": "https://ashemusic1.bandcamp.com/",
+        "qobuz": "https://www.qobuz.com/us-en/interpreter/-/1164701",
         "apple_music": "https://music.apple.com/us/artist/ashe/1234718215",
+        "soundcloud": "https://soundcloud.com/ashe",
         "youtube": "https://www.youtube.com/channel/UCYx21h__0wVW2wBWX7sQP1A",
         "homepage": "https://www.ashe-music.com/",
         "instagram": "https://www.instagram.com/ashemusic/"
@@ -6876,20 +7663,46 @@
       "mbid": "36086094-c2a4-49b9-8572-0fbf12fc3409"
     },
     "Claire Rosinkranz": {
+      "about": "Claire Rosinkranz is an American singer-songwriter from Southern California. She has been making music with her father since her youth.",
+      "about_source": "https://en.wikipedia.org/wiki/Claire_Rosinkranz",
       "image": "https://s1.ticketm.net/dam/a/b44/64ccbad2-a7be-4fdc-9ffe-80476b00db44_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3V0ZQW0dNuVaFtbVYgSI24",
+        "qobuz": "https://open.qobuz.com/artist/5646304",
+        "apple_music": "https://music.apple.com/us/artist/1483262366",
+        "soundcloud": "https://soundcloud.com/clairerosinkranz",
+        "youtube": "https://music.youtube.com/channel/UCj-1H9EuZGSgz4lnY1bKfmQ",
+        "homepage": "https://clairerosinkranz.com/",
+        "instagram": "https://www.instagram.com/clairerosinkranz/"
+      },
       "mbid": "4ccfc097-7034-4aa7-97c3-b5d4ed52865a"
     },
     "Jack Kays": {
+      "about": "Jack Kays is an American musician and singer-songwriter from Cincinnati, Ohio.",
+      "about_source": "https://en.wikipedia.org/wiki/Jack_Kays",
       "image": "https://s1.ticketm.net/dam/a/ece/654ef6c5-0ef8-4943-9ea7-fcec7de0cece_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/24qqDoA4BBXVnPOdHBjT54",
+        "qobuz": "https://open.qobuz.com/artist/7988795",
+        "apple_music": "https://music.apple.com/us/artist/1421268766",
         "homepage": "https://www.jackkays.com/",
         "instagram": "https://www.instagram.com/jackkays/?hl=en"
       },
       "mbid": "d4bff576-7afd-4bac-9884-280b43afe8fa"
     },
     "Willowake": {
-      "image": "https://s1.ticketm.net/dam/a/df8/756dd300-1d32-4fc3-bc51-380228aeadf8_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from United States.",
+      "about_source": "https://musicbrainz.org/artist/4173d4eb-ac42-426f-acb4-563d69b22bcf",
+      "image": "https://s1.ticketm.net/dam/a/df8/756dd300-1d32-4fc3-bc51-380228aeadf8_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/1DdLuQwxYMLYx7QJ0ZwNsC",
+        "bandcamp": "https://willowake.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/15339910",
+        "apple_music": "https://music.apple.com/gb/artist/1641476289",
+        "youtube": "https://www.youtube.com/channel/UCBEIZf2ARp5pY2iZpL3ca8Q",
+        "instagram": "https://www.instagram.com/willowakee/"
+      },
+      "mbid": "4173d4eb-ac42-426f-acb4-563d69b22bcf"
     },
     "Dear Cincinnati": {
       "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
@@ -6898,7 +7711,17 @@
       }
     },
     "Girl Ultra": {
-      "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Mariana de Miguel, better known as Girl Ultra, is a Mexican R&B artist. She signed to Mexican label Finesse Records in 2016 and released her debut EP, Boys, in 2017.",
+      "about_source": "https://en.wikipedia.org/wiki/Girl_Ultra",
+      "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7i1CyQ1fogh4bkj3EPj3ls",
+        "qobuz": "https://open.qobuz.com/artist/4135482",
+        "apple_music": "https://music.apple.com/gb/artist/1207957662",
+        "soundcloud": "https://soundcloud.com/girlultra",
+        "instagram": "https://www.instagram.com/girlultra/"
+      },
+      "mbid": "722c286b-39aa-4757-ad40-d2e5550bd254"
     },
     "Modal Nodes": {
       "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
@@ -6927,6 +7750,20 @@
         "instagram": "https://www.instagram.com/cirithungolband"
       }
     },
+    "Deerhoof": {
+      "about": "Deerhoof is an American musical group formed in San Francisco in 1994. It consists of founding drummer Greg Saunier, bassist and singer Satomi Matsuzaki, and guitarists John Dieterich and Ed Rodriguez.",
+      "about_source": "https://en.wikipedia.org/wiki/Deerhoof",
+      "links": {
+        "bandcamp": "https://deerhoof.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/323291",
+        "apple_music": "https://music.apple.com/us/artist/2894441",
+        "soundcloud": "https://soundcloud.com/deerhoof-music",
+        "youtube": "https://www.youtube.com/channel/UCxf-CxpxRM86xHot89BTlDw",
+        "homepage": "https://deerhoof.website/",
+        "instagram": "https://www.instagram.com/deerhoof/"
+      },
+      "mbid": "11eabe0c-2638-4808-92f9-1dbd9c453429"
+    },
     "ANNA SHOEMAKER": {
       "image": "https://s1.ticketm.net/dam/a/1e0/f3b3ab21-5791-4a86-a221-d2d9a75621e0_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
@@ -6936,10 +7773,15 @@
       }
     },
     "Sylvan Esso": {
+      "about": "Sylvan Esso is an American electropop duo based in Durham, North Carolina which was formed in 2013. The band consists of singer Amelia Meath and producer Nick Sanborn.",
+      "about_source": "https://en.wikipedia.org/wiki/Sylvan_Esso",
       "image": "https://s1.ticketm.net/dam/a/676/983a21d6-933e-4fb7-9f83-7d73c6e16676_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/39vA9YljbnOApXKniLWBZv?autoplay=true",
+        "bandcamp": "https://sylvanesso.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/1610821",
         "apple_music": "https://music.apple.com/us/artist/sylvan-esso/661273932",
+        "soundcloud": "https://soundcloud.com/sylvanesso",
         "youtube": "https://www.youtube.com/channel/UCb8sEm2FC4V0bM2p4Gg7oNA",
         "homepage": "http://www.sylvanesso.com/",
         "instagram": "http://instagram.com/sylvanesso"
@@ -6947,6 +7789,8 @@
       "mbid": "c4593b34-2a94-4e44-ae10-4a0f4c0b4da8"
     },
     "Melvin Seals and JGB": {
+      "about": "JGB is an American rock band led by Melvin Seals, who plays electric organ. Its mission is to continue the musical legacy of the Jerry Garcia Band, of which Seals was a longtime member.",
+      "about_source": "https://en.wikipedia.org/wiki/JGB_(band)",
       "image": "https://s1.ticketm.net/dam/a/7c3/99916988-bb2e-476b-9075-a9c31f9977c3_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/playlist/1QXD3abweoTdkoAZzwGRqs",
@@ -6956,31 +7800,72 @@
       "mbid": "6d516230-b18f-4ba9-95b1-4e7aa6646a4b"
     },
     "Costa": {
+      "about": "Person from Sri Lanka, born 1992.",
+      "about_source": "https://musicbrainz.org/artist/be7c966e-d73e-4aad-b36f-38096b032d34",
       "image": "https://s1.ticketm.net/dam/a/be6/61a0367e-b070-4d48-8354-8de1a2383be6_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/0xQI3u4hVl2KnZf5tq38LR?autoplay=true",
         "apple_music": "https://music.apple.com/ca/artist/costa/1568181262",
         "youtube": "https://www.youtube.com/channel/UC6ClgNoiMI8i6EVnBBmlE1Q",
+        "homepage": "https://link.airxone.co/costa",
         "instagram": "https://www.instagram.com/costamaarley/"
       },
       "mbid": "be7c966e-d73e-4aad-b36f-38096b032d34"
     },
     "SHOSH": {
-      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from United Kingdom.",
+      "about_source": "https://musicbrainz.org/artist/6de0933e-1873-490c-8349-deb2bdf3313b",
+      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/1emgVmY6u8GGlRhkHESKKH",
+        "qobuz": "https://open.qobuz.com/artist/6791568",
+        "apple_music": "https://music.apple.com/gb/artist/346103929",
+        "soundcloud": "https://soundcloud.com/shosh_ukg",
+        "instagram": "https://www.instagram.com/shosh_music/"
+      },
+      "mbid": "6de0933e-1873-490c-8349-deb2bdf3313b"
     },
     "Chris Mitchell": {
       "image": "https://s1.ticketm.net/dam/a/f64/4abdee98-f353-414d-a6e3-4151c050bf64_RETINA_LANDSCAPE_16_9.jpg"
     },
     "MorMor": {
+      "about": "Seth Nyquist, better known as MorMor, is a Canadian indie pop musician.",
+      "about_source": "https://en.wikipedia.org/wiki/MorMor",
       "image": "https://s1.ticketm.net/dam/a/326/8262d4ac-b29b-43f1-9645-ca44c42fa326_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/63vaeIIBKIe9zT91EORVbr",
+        "bandcamp": "https://mormor.bandcamp.com/",
+        "apple_music": "https://itunes.apple.com/us/artist/id1349838653",
+        "soundcloud": "https://soundcloud.com/mormor_music",
+        "youtube": "https://www.youtube.com/channel/UCe1BaLEVtyr5Aqc2FpRSUsA",
+        "homepage": "http://www.mormormusic.com/",
+        "instagram": "https://www.instagram.com/mormor.mormor.mormor/"
+      },
       "mbid": "8c92e1b3-727b-49de-b624-28e09c345ff8"
     },
     "Tophouse": {
+      "about": "Group from Missoula, formed 2015.",
+      "about_source": "https://musicbrainz.org/artist/accd0785-20a2-4e5a-a85a-3489e3698b15",
       "image": "https://s1.ticketm.net/dam/a/5f9/f37589eb-8db4-4d3d-949b-e8e2245a85f9_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5WvwaJTMkZ5jb06EwCt34K",
+        "youtube": "https://www.youtube.com/channel/UCT8fivDDvCbaGUwIoGayKaQ",
+        "homepage": "https://tophousetheband.com/",
+        "instagram": "https://www.instagram.com/tophousetheband/"
+      },
       "mbid": "accd0785-20a2-4e5a-a85a-3489e3698b15"
     },
     "Sungazer": {
+      "about": "Group from United States.",
+      "about_source": "https://musicbrainz.org/artist/beb404c4-9d0b-4042-a56c-aad7673c677d",
       "image": "https://s1.ticketm.net/dam/a/9a5/04fb1f5f-d00d-45ca-9ec8-d7074f2f89a5_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/1uvnDqn7UvVy6orSq1E2YF",
+        "bandcamp": "https://sungazermusic.bandcamp.com/",
+        "apple_music": "https://music.apple.com/gb/artist/1407146658",
+        "homepage": "https://www.sungazermusic.com/",
+        "instagram": "https://www.instagram.com/sungazerrrr/"
+      },
       "mbid": "beb404c4-9d0b-4042-a56c-aad7673c677d"
     },
     "Button Masher": {
@@ -6991,23 +7876,62 @@
       }
     },
     "Blondshell": {
+      "about": "Sabrina Mae Teitelbaum, better known as Blondshell, is an American indie rock singer, songwriter and musician based in Los Angeles, California. Following an early pop-leaning career under the name BAUM, she debuted as Blondshell in June 2022 with the single \"Olympus\".",
+      "about_source": "https://en.wikipedia.org/wiki/Blondshell",
       "image": "https://s1.ticketm.net/dam/a/ab6/643e4426-6ab7-48c1-adaa-414d0dadfab6_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/7qrEXiLLnWkkYHhadZ1Oij",
+        "bandcamp": "https://blondshell.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/14410851",
         "apple_music": "https://music.apple.com/us/artist/blondshell/1624592688",
         "youtube": "https://www.youtube.com/channel/UCJ1FMy0FK0aSeXosWvGXShg",
+        "homepage": "https://www.blondshellmusic.com/",
         "instagram": "https://www.instagram.com/blondshell/"
       },
       "mbid": "f6621a8d-5644-460a-b0a8-9171cb2c595d"
     },
+    "Sparklmami": {
+      "about": "Person from Chicago.",
+      "about_source": "https://musicbrainz.org/artist/7c24688e-7861-46f8-89c8-5f00935e9a80",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/50NGgQQCV0QLrOefzyuNh0",
+        "apple_music": "https://music.apple.com/us/artist/1744420942",
+        "instagram": "https://www.instagram.com/sparklmami/"
+      },
+      "mbid": "7c24688e-7861-46f8-89c8-5f00935e9a80"
+    },
+    "Dani Offline": {
+      "mbid": "1aafa6cc-acc9-4fa4-977a-b706aafdc53b"
+    },
     "James Marriott": {
-      "image": "https://s1.ticketm.net/dam/a/d56/9c44f9f0-a060-494d-94c9-f0de64256d56_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "James William Marriott is a Swiss-born English musician and YouTuber. He is best known for his 2025 No. 1 UK-charting album Don't Tell the Dog and 2026 top-40 single \"California Rain\".",
+      "about_source": "https://en.wikipedia.org/wiki/James_Marriott",
+      "image": "https://s1.ticketm.net/dam/a/d56/9c44f9f0-a060-494d-94c9-f0de64256d56_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/14apS9tKI3K30GK92BNQUL",
+        "youtube": "https://www.youtube.com/@JamesMarriottOfficial",
+        "instagram": "https://www.instagram.com/JamesMarriottYT/"
+      },
+      "mbid": "afe148c6-63ed-43c7-9db1-36fb7c87a44f"
     },
     "Wasia Project": {
+      "about": "David Scott, also known by his stage name the Kiffness, is a South African musician, producer, and parody artist who is the founder and lead singer of the band the Kiffness. Despite the band's name, Scott is referred to as the Kiffness alone.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Kiffness",
       "image": "https://s1.ticketm.net/dam/a/65e/2fc549f9-eabf-448d-a183-fec9309ff65e_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6t41YgqHULlgOq9TK1kcrG",
+        "qobuz": "https://open.qobuz.com/artist/867816",
+        "apple_music": "https://itunes.apple.com/artist/id504380576",
+        "soundcloud": "https://soundcloud.com/thekiffness",
+        "youtube": "https://www.youtube.com/channel/UCFy846QdKs3LbLgBpSqPcdg",
+        "homepage": "https://www.thekiffness.com/",
+        "instagram": "https://www.instagram.com/thekiffness/"
+      },
       "mbid": "9f191776-ae9c-41e7-809c-6bc2baffbc01"
     },
     "The Lemonheads": {
+      "about": "Group from United States, formed 1991.",
+      "about_source": "https://musicbrainz.org/artist/4478bd92-582a-457d-be78-367e1418dc0f",
       "image": "https://s1.ticketm.net/dam/a/658/6a2eb769-43e2-4892-94ac-55a685483658_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6w7fc6IZlo5zwBaKT5jU1X?autoplay=true",
@@ -7018,10 +7942,14 @@
       "mbid": "4478bd92-582a-457d-be78-367e1418dc0f"
     },
     "Chelsea Cutler": {
+      "about": "Chelsea Emily Cutler is an American singer, songwriter, and producer from Westport, Connecticut. She released her debut studio album, How to Be Human, in January 2020 through Republic Records.",
+      "about_source": "https://en.wikipedia.org/wiki/Chelsea_Cutler",
       "image": "https://s1.ticketm.net/dam/a/7d1/32b54357-e7e8-4c9a-938d-5d780e6ba7d1_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/5JMLG56F1X5mFmWNmS0iAp?autoplay=true&v=A",
+        "qobuz": "https://open.qobuz.com/artist/2723554",
         "apple_music": "https://music.apple.com/ca/artist/chelsea-cutler/398935148",
+        "soundcloud": "https://soundcloud.com/chelseacutler",
         "youtube": "https://www.youtube.com/channel/UCL7hBIFFV1RAkmyvoXdyzjg",
         "homepage": "https://www.chelseacutler.com/",
         "instagram": "https://www.instagram.com/chelseacutler/"
@@ -7039,10 +7967,33 @@
       }
     },
     "Vir Das": {
-      "image": "https://s1.ticketm.net/dam/a/17c/00b7e436-dcc6-418f-8ac1-780f6f77f17c_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from India.",
+      "about_source": "https://musicbrainz.org/artist/378b350e-e23e-4b98-a41e-92a505e3abf9",
+      "image": "https://s1.ticketm.net/dam/a/17c/00b7e436-dcc6-418f-8ac1-780f6f77f17c_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/60SchmE7vekUDWfuqwIcnB"
+      },
+      "mbid": "378b350e-e23e-4b98-a41e-92a505e3abf9"
     },
     "CROOKED FINGERS": {
-      "image": "https://s1.ticketm.net/dam/a/2f9/2d3cf6da-0ae8-45ca-a21f-034708c362f9_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Crooked Fingers is an American indie rock band, led by the former Archers of Loaf frontman Eric Bachmann. A vehicle for Bachmann's songwriting, the band's lineup changed between each record.",
+      "about_source": "https://en.wikipedia.org/wiki/Crooked_Fingers",
+      "image": "https://s1.ticketm.net/dam/a/2f9/2d3cf6da-0ae8-45ca-a21f-034708c362f9_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6j9elOE3U0Fklu0ATR9nQ0",
+        "bandcamp": "https://crookedfingers.bandcamp.com/",
+        "apple_music": "https://music.apple.com/us/artist/5450399",
+        "soundcloud": "https://soundcloud.com/crookedfingersofficial"
+      },
+      "mbid": "d935bec6-cab7-46cc-bf8b-ca089563b985"
+    },
+    "Al Olender": {
+      "about": "Person from Kingston.",
+      "about_source": "https://musicbrainz.org/artist/3916f144-8deb-4c33-a7cc-74a5eb106691",
+      "links": {
+        "bandcamp": "https://alolender.bandcamp.com/"
+      },
+      "mbid": "3916f144-8deb-4c33-a7cc-74a5eb106691"
     },
     "Alex Amen": {
       "image": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_RETINA_LANDSCAPE_16_9.jpg",
@@ -7051,14 +8002,26 @@
       }
     },
     "Braxton Keith": {
+      "about": "Person from United States.",
+      "about_source": "https://musicbrainz.org/artist/fcd96c03-d107-4071-911d-62f78cd632bb",
       "image": "https://s1.ticketm.net/dam/a/000/4f05aef6-86a5-4df4-8ae5-3ae516c48000_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5JHw4x1RYIlwNfCq6FNXxf",
+        "apple_music": "https://music.apple.com/us/artist/1461689256",
+        "youtube": "https://www.youtube.com/BraxtonKeith",
+        "homepage": "https://www.braxtonkeithmusic.com/",
+        "instagram": "https://www.instagram.com/braxton.keith/"
+      },
       "mbid": "fcd96c03-d107-4071-911d-62f78cd632bb"
     },
     "Eluveitie": {
+      "about": "Eluveitie is a Swiss folk metal band from Winterthur, Zürich, founded in 2002 by Chrigel Glanzmann. The project's first demo, Vên, was released in 2003.",
+      "about_source": "https://en.wikipedia.org/wiki/Eluveitie",
       "image": "https://s1.ticketm.net/dam/a/653/4db18fb1-53ea-4c87-a0d9-298c4698a653_1278431_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/5X0N2k3qMnI8kSrGJT3kfT",
         "apple_music": "https://itunes.apple.com/us/artist/id269358403",
+        "soundcloud": "https://soundcloud.com/eluveitie",
         "youtube": "https://www.youtube.com/user/eluveitieofficial",
         "homepage": "http://eluveitie.ch/",
         "instagram": "https://www.instagram.com/eluveitie_official/"
@@ -7072,20 +8035,56 @@
       }
     },
     "ILLUMISHADE": {
-      "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Illumishade is a Swiss progressive metal band. The band was founded in 2019 by Eluveitie band members Fabienne Erni and Jonas Wolf and makes cinematic and fantasy music, combined with rock and heavy metal.",
+      "about_source": "https://en.wikipedia.org/wiki/Illumishade",
+      "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0Jjf1JZMQZeXyrZAfKEMcg",
+        "bandcamp": "https://illumishade.bandcamp.com/",
+        "apple_music": "https://music.apple.com/ch/artist/1494763050",
+        "youtube": "https://www.youtube.com/channel/UC_pdnxknLVc9IeJlIl6y26g",
+        "homepage": "https://www.illumishade.ch/",
+        "instagram": "https://www.instagram.com/illumishade_official/"
+      },
+      "mbid": "24241a76-75dc-4620-acef-acf2de41e706"
     },
     "Surfaces": {
+      "about": "Surfaces is an American music group based in College Station, Texas. Their music is a blend of surf music, jazz, soul, pop rock, hip hop, reggae, and calypso.",
+      "about_source": "https://en.wikipedia.org/wiki/Surfaces_(band)",
       "image": "https://s1.ticketm.net/dam/a/c22/f796d218-3567-4a4c-8703-4c73d7bccc22_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4ETSs924pXMzjIeD6E9b4u",
+        "qobuz": "https://www.qobuz.com/us-en/interpreter/surfaces/4554241",
+        "apple_music": "https://music.apple.com/us/artist/1168766439",
+        "youtube": "https://music.youtube.com/channel/UCW2dos8JCmoT7Dd2aJjFoNw",
+        "homepage": "https://www.surfacesmusic.com/"
+      },
       "mbid": "7442fbfa-00ad-4e3b-8f45-9d2c62786eed"
     },
     "Collect 200": {
-      "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from London.",
+      "about_source": "https://musicbrainz.org/artist/afdf1c06-a7af-49dd-b18d-9a7a40e8e1f6",
+      "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3MFpHeyqVwW0n7mZbJPNyE",
+        "qobuz": "https://open.qobuz.com/artist/26289099",
+        "apple_music": "https://music.apple.com/au/artist/1804375505",
+        "soundcloud": "https://soundcloud.com/collect-200",
+        "youtube": "https://www.youtube.com/@Collect200official",
+        "instagram": "https://www.instagram.com/collect200/"
+      },
+      "mbid": "afdf1c06-a7af-49dd-b18d-9a7a40e8e1f6"
     },
     "Haken": {
+      "about": "Haken are an English progressive metal band formed in 2007 by multi-instrumentalist Richard Henshall, guitarist Matthew Marshall, and vocalist Ross Jennings.",
+      "about_source": "https://en.wikipedia.org/wiki/Haken_(band)",
       "image": "https://s1.ticketm.net/dam/a/a38/3715e309-abc0-42f7-86a4-2676b58ffa38_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/2SRIVGDkdqQnrQdaXxDkJt",
+        "bandcamp": "https://hakenofficial.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/310938",
         "apple_music": "https://itunes.apple.com/gb/artist/id363702196",
+        "soundcloud": "https://soundcloud.com/hakenofficial",
         "youtube": "https://www.youtube.com/user/HakenOfficial",
         "homepage": "http://hakenmusic.com/",
         "instagram": "https://www.instagram.com/haken_official/"
@@ -7093,9 +8092,15 @@
       "mbid": "0246a3fd-a254-416d-8cd2-e31da4ac6f59"
     },
     "Thank You Scientist": {
+      "about": "Thank You Scientist is an American progressive rock band from Montclair, New Jersey. Their first EP, The Perils of Time Travel, was released in 2011, and their debut studio album, Maps of Non-Existent Places, releasing three years later, was named the \"Revolver Album of the Week\" in October 2014.",
+      "about_source": "https://en.wikipedia.org/wiki/Thank_You_Scientist",
       "image": "https://s1.ticketm.net/dam/a/e2f/8b75a244-f4c7-4dc5-a400-faf24ba0ee2f_951521_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/4YygB8sfxuIcj2p0G9kpQ5",
+        "bandcamp": "https://eirthankyouscientist.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/1961470",
+        "apple_music": "https://itunes.apple.com/us/artist/id414127865",
+        "youtube": "https://www.youtube.com/user/thankyouscientist",
         "homepage": "http://www.thankyouscientist.net/",
         "instagram": "https://www.instagram.com/thankyouscientist"
       },
@@ -7111,15 +8116,32 @@
       "image": "https://s1.ticketm.net/dam/a/d30/f41f266d-db5b-4fe4-af7c-91fe682a9d30_RETINA_LANDSCAPE_16_9.jpg"
     },
     "49 Winchester": {
+      "about": "Group from United States, formed 2013.",
+      "about_source": "https://musicbrainz.org/artist/3ddb5fd0-3831-4ca6-931e-336ac03173a7",
       "image": "https://s1.ticketm.net/dam/a/ec8/ab9217fe-241e-48e1-99ec-ea02f8969ec8_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/1JWMpIl0nhqFJNdO3IOQ20",
+        "bandcamp": "https://49winchester.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/4909682",
         "apple_music": "https://music.apple.com/us/artist/49-winchester/869425058",
         "youtube": "https://www.youtube.com/user/49WINCHESTER",
         "homepage": "https://49winchester.com/",
         "instagram": "https://www.instagram.com/49WINCHESTER/"
       },
       "mbid": "3ddb5fd0-3831-4ca6-931e-336ac03173a7"
+    },
+    "Ruby Waters": {
+      "about": "Person from Toronto.",
+      "about_source": "https://musicbrainz.org/artist/026a38c8-43eb-4cf9-924f-ada3919970d8",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5ybU1P0ufoGH5CMclUKebd",
+        "qobuz": "https://open.qobuz.com/artist/7944094",
+        "apple_music": "https://itunes.apple.com/ca/artist/id1441595388",
+        "youtube": "https://www.youtube.com/channel/UCYEe-aKzDQUiajLjb6kkjiA",
+        "homepage": "https://www.rubywatersmusic.com/",
+        "instagram": "https://www.instagram.com/rubywatersmusic/"
+      },
+      "mbid": "026a38c8-43eb-4cf9-924f-ada3919970d8"
     },
     "DUUNES": {
       "image": "https://s1.ticketm.net/dam/a/907/8d4babec-5030-47a7-9eaa-1ca158a68907_RETINA_LANDSCAPE_16_9.jpg",
@@ -7129,11 +8151,34 @@
         "instagram": "https://www.instagram.com/duunes.band/"
       }
     },
+    "Salami Rose Joe Louis": {
+      "about": "Lindsay Olsen, known professionally as Salami Rose Joe Louis, is an American musician, composer, producer, and multi-instrumentalist.",
+      "about_source": "https://en.wikipedia.org/wiki/Salami_Rose_Joe_Louis",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6EHS9kZ9PpeXaJ4wZO3FSX",
+        "bandcamp": "https://salamirosejoelouismusic.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/2464033",
+        "apple_music": "https://itunes.apple.com/us/artist/id1055288813",
+        "soundcloud": "https://soundcloud.com/salami-rose-joe-louis",
+        "youtube": "https://www.youtube.com/@salamirosejoelouis6678",
+        "instagram": "https://www.instagram.com/salamirosejoelouis/"
+      },
+      "mbid": "768633eb-8810-4fbe-aabb-f891c07d29d3"
+    },
+    "Daniel Donato's Cosmic Country": {
+      "about": "Group from Nashville, formed 2021.",
+      "about_source": "https://musicbrainz.org/artist/f9d9e995-c8a1-48f5-a112-90353670f91d",
+      "mbid": "f9d9e995-c8a1-48f5-a112-90353670f91d"
+    },
     "Michelle Branch": {
+      "about": "Michelle Jacquet Branch is an American singer, songwriter, and guitarist. She won a Grammy Award for Best Pop Collaboration with Vocals with Santana for their 2002 single, \"The Game of Love\".",
+      "about_source": "https://en.wikipedia.org/wiki/Michelle_Branch",
       "image": "https://s1.ticketm.net/dam/a/56d/9638c963-033e-415a-a69b-754e19edb56d_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/5rScKX1Sh1U67meeUyTGwk?autoplay=true",
+        "qobuz": "https://open.qobuz.com/artist/239008",
         "apple_music": "https://music.apple.com/ca/artist/michelle-branch/1054040",
+        "soundcloud": "https://soundcloud.com/michellebranch",
         "youtube": "https://www.youtube.com/user/michellebranchtv",
         "homepage": "http://www.michellebranch.com/",
         "instagram": "http://instagram.com/michellebranch"
@@ -7141,10 +8186,14 @@
       "mbid": "a10f94a9-2a3c-4166-b9fa-a7bed0bf7d96"
     },
     "CHVRCHES": {
+      "about": "Chvrches are a Scottish synth-pop band from Glasgow, formed in September 2011. The band consists of Lauren Mayberry, Iain Cook, Martin Doherty and, unofficially since 2018, Jonny Scott.",
+      "about_source": "https://en.wikipedia.org/wiki/Chvrches",
       "image": "https://s1.ticketm.net/dam/a/c8e/0b4a619b-3da4-4618-8a83-b1c33139ec8e_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/3CjlHNtplJyTf9npxaPl5w",
+        "qobuz": "https://open.qobuz.com/artist/934333",
         "apple_music": "https://itunes.apple.com/us/artist/id566867492",
+        "soundcloud": "https://soundcloud.com/chvrches",
         "youtube": "https://www.youtube.com/user/CHVRCHES",
         "homepage": "http://chvrch.es/",
         "instagram": "https://www.instagram.com/chvrches/"
@@ -7152,36 +8201,84 @@
       "mbid": "6a93afbb-257f-4166-b389-9f2a1e5c5df8"
     },
     "Wheeler Walker Jr.": {
+      "about": "Benjamin Isaac Hoffman is an American comedian, actor, writer, and musician. Hoffman is better known by his country musician alter ego Wheeler Walker Jr., as whom he has released six studio albums.",
+      "about_source": "https://en.wikipedia.org/wiki/Ben_Hoffman",
       "image": "https://s1.ticketm.net/dam/a/059/8070547d-bbbd-4e18-aeda-59028003c059_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6PjV05LlULv9XmFu7HeAia",
+        "qobuz": "https://open.qobuz.com/artist/2962142",
         "apple_music": "https://music.apple.com/us/artist/wheeler-walker-jr/1031980513",
+        "soundcloud": "https://soundcloud.com/wheelerwalkerjr",
         "youtube": "https://www.youtube.com/channel/UCQfhq6xJ_oVcKVI2PJ3cyzg",
         "homepage": "https://www.wheelerwalkerjr.com/",
         "instagram": "https://www.instagram.com/wheelerwalkerjr/"
       },
       "mbid": "1886d75c-13be-42c4-a6e6-59a18d1ac877"
     },
+    "Helena Deland": {
+      "about": "Helena Deland McCullagh is a Canadian singer-songwriter. To date she has released five EPs: Drawing Room (2016) and From the Series of Songs \"Altogether Unaccompanied\" Vol.",
+      "about_source": "https://en.wikipedia.org/wiki/Helena_Deland",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0BJeP79i5wKgCqsEEiQ7G0",
+        "bandcamp": "https://helenadeland.bandcamp.com/",
+        "apple_music": "https://itunes.apple.com/ca/artist/id961746386",
+        "soundcloud": "https://soundcloud.com/helena-deland",
+        "youtube": "https://www.youtube.com/channel/UCeyCb16pw1fXvxkHpSfr9dg",
+        "homepage": "http://helenadeland.com/",
+        "instagram": "https://www.instagram.com/helena_deland/"
+      },
+      "mbid": "3bfbe43b-dfb7-4e6a-bdee-1a554f168f1c"
+    },
     "Käärijä": {
-      "image": "https://s1.ticketm.net/dam/a/cbf/501bb4f4-46ba-4eb0-9434-b7bb5a17acbf_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Jere Mikael Pöyhönen, known professionally as Käärijä, is a Finnish rapper, singer and songwriter. He represented Finland in the Eurovision Song Contest 2023 with the song \"Cha Cha Cha\", placing second with 526 points and finishing first in the public vote with 376.",
+      "about_source": "https://en.wikipedia.org/wiki/K%C3%A4%C3%A4rij%C3%A4",
+      "image": "https://s1.ticketm.net/dam/a/cbf/501bb4f4-46ba-4eb0-9434-b7bb5a17acbf_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6LkMGN0t3HDNL8hIvma70r",
+        "apple_music": "https://music.apple.com/gb/artist/1113418861",
+        "soundcloud": "https://soundcloud.com/kaarija-music",
+        "youtube": "https://www.youtube.com/channel/UC6azl83h9L7uqy0ChHk9VaQ",
+        "instagram": "https://www.instagram.com/paidatonriehuja/"
+      },
+      "mbid": "7d863b14-ff39-49e0-9efc-956e15769457"
     },
     "Saxsquatch": {
-      "image": "https://s1.ticketm.net/dam/a/ce2/cf8bb850-86ba-49b1-99b5-e3b42c790ce2_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from Kalamazoo.",
+      "about_source": "https://musicbrainz.org/artist/4b7c152d-1fc8-4ff3-a693-1616bd36d773",
+      "image": "https://s1.ticketm.net/dam/a/ce2/cf8bb850-86ba-49b1-99b5-e3b42c790ce2_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0rsyQklwpBiAvkeXbnFB1t",
+        "bandcamp": "https://saxsquatch.bandcamp.com/",
+        "apple_music": "https://music.apple.com/gb/artist/1273329937",
+        "soundcloud": "https://soundcloud.com/saxsquatch-362935071",
+        "youtube": "https://www.youtube.com/channel/UCsk4ifMbqblkpB8gidE-97g",
+        "homepage": "https://saxsquatch.net/",
+        "instagram": "https://www.instagram.com/Saxsquatch/"
+      },
+      "mbid": "4b7c152d-1fc8-4ff3-a693-1616bd36d773"
     },
     "Bess Atwell": {
+      "about": "Bess Harriet Hildick-Smith, known professionally as Bess Atwell, is an English indie folk musician.",
+      "about_source": "https://en.wikipedia.org/wiki/Bess_Atwell",
       "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6Pim5E5Lm03COsjHj2aEiK?autoplay=true",
+        "qobuz": "https://open.qobuz.com/artist/2540744",
         "apple_music": "https://music.apple.com/us/artist/bess-atwell/1074167187",
+        "soundcloud": "https://soundcloud.com/bessatwell",
         "youtube": "https://www.youtube.com/user/Bessiesmusic15",
+        "homepage": "https://www.bessatwell.com/",
         "instagram": "https://www.instagram.com/bessatwell/"
       },
       "mbid": "cf4e6105-7184-4d36-ac48-a0f07f1b49df"
     },
     "The Growlers": {
+      "about": "The Growlers is an American band from southern California. They began their career in the Orange County city of Dana Point, California in 2006.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Growlers",
       "image": "https://s1.ticketm.net/dam/a/39d/4020ba9d-3be3-4f24-a501-e634d393c39d_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/2RhgnQNC74QoBlaUvT4MEe",
+        "bandcamp": "https://thegrowlers.bandcamp.com/",
         "apple_music": "https://music.apple.com/us/artist/the-growlers/265112052",
         "youtube": "https://www.youtube.com/channel/UC0lY-vzJffCCllbw3G5FaCw",
         "homepage": "http://thegrowlers.com/",
@@ -7193,9 +8290,12 @@
       "image": "https://s1.ticketm.net/dam/a/f9f/c80fae44-587a-4b21-b71f-7d7d054eff9f_RETINA_LANDSCAPE_16_9.jpg"
     },
     "twen": {
+      "about": "Twen is an American rock band formed in 2016 in Boston, Massachusetts. The band is composed of vocalist Jane Fitzsimmons and guitarist Ian Jones, who also produces the band's music.",
+      "about_source": "https://en.wikipedia.org/wiki/Twen_(band)",
       "image": "https://s1.ticketm.net/dam/a/b08/86be77df-5dc6-4629-85b8-05f8d9340b08_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/7iyWvxyp2SxGg3L66TmHbO?si=B-8_UyDmRu6ZRc8Z4bkLpg",
+        "bandcamp": "https://twen.bandcamp.com/",
         "apple_music": "https://music.apple.com/us/artist/twen/284936071",
         "youtube": "https://www.youtube.com/channel/UCqYo5MD_ATGUh0YeLNR7Q5Q",
         "homepage": "https://www.twenband.com/",
@@ -7207,9 +8307,13 @@
       "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
     },
     "The Plot In You": {
+      "about": "The Plot in You is an American metalcore band formed in Hancock County, Ohio in 2010. Originally a side project of former Before Their Eyes member Landon Tewers, the group is composed of Tewers, guitarist Josh Childress, bassist Ethan Yoder and drummer Michael Cooper.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Plot_in_You",
       "image": "https://s1.ticketm.net/dam/a/129/460ac8c0-a54b-4292-a3d5-57fd640be129_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/1cJ5tVoeAEFcZBAwSZ0CtF",
+        "bandcamp": "https://theplotinyou.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/578212",
         "apple_music": "https://music.apple.com/us/artist/the-plot-in-you/378491136",
         "youtube": "https://www.youtube.com/channel/UCzN24dxvr6zsELPkKDKzOlw",
         "homepage": "https://theplotinyou.com/",
@@ -7218,10 +8322,15 @@
       "mbid": "c2e7d4ac-5e30-4b55-99b7-e49d99fd7c63"
     },
     "VNV Nation": {
+      "about": "VNV Nation, also known as Victory Not Vengeance, are an Irish-German electronic music group formed in London, based out of Hamburg, and led by Ronan Harris in the roles of singer, songwriter and producer, with live members being keyboardists David Gerlach and Gabriel Shaw, and percussionist Chris Roberts.",
+      "about_source": "https://en.wikipedia.org/wiki/VNV_Nation",
       "image": "https://s1.ticketm.net/dam/a/4c3/e3081e7f-e1a4-4dc1-901c-ecdeddc794c3_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/4KlYg0F5KG9QNDFKaeTNAy?autoplay=true",
+        "bandcamp": "https://vnvnation.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/79721",
         "apple_music": "https://music.apple.com/us/artist/vnv-nation/49251259",
+        "soundcloud": "https://soundcloud.com/vnvnation",
         "youtube": "https://www.youtube.com/user/channelvnv",
         "homepage": "http://www.vnvnation.com/",
         "instagram": "https://www.instagram.com/vnvnationofficial/?hl=en"
@@ -7230,6 +8339,14 @@
     },
     "Bo Staloch": {
       "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+    },
+    "TMOTV": {
+      "about": "Group from United States, formed 2026.",
+      "about_source": "https://musicbrainz.org/artist/1a89c2da-e598-472f-83fa-ce03c5773e10",
+      "links": {
+        "instagram": "https://www.instagram.com/tmotv2026/"
+      },
+      "mbid": "1a89c2da-e598-472f-83fa-ce03c5773e10"
     },
     "Twin Temple": {
       "image": "https://s1.ticketm.net/dam/a/0d3/a45c9344-36cc-4ad3-9d67-afc7872870d3_RETINA_LANDSCAPE_16_9.jpg",
@@ -7244,11 +8361,42 @@
     "Twilight In Concert": {
       "image": "https://s1.ticketm.net/dam/a/c7c/abcff54a-2554-4f27-b7ce-539e34d50c7c_RETINA_LANDSCAPE_16_9.jpg"
     },
+    "ACTORS": {
+      "about": "Actors are a Canadian post-punk band from Vancouver, British Columbia, formed in 2012. The band consists of founder Jason Corbett, Shannon Hemmett, Kendall Wooding, and Adam Fink (drums).",
+      "about_source": "https://en.wikipedia.org/wiki/Actors_(band)",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2Gs4t6zBT69DSluLvaEBWK",
+        "bandcamp": "https://actors.bandcamp.com/",
+        "apple_music": "https://music.apple.com/us/artist/514998571",
+        "soundcloud": "https://soundcloud.com/actors1984",
+        "youtube": "https://www.youtube.com/channel/UCaCBAtliMofjPZ9knY0jjmw",
+        "homepage": "https://www.actorstheband.com/",
+        "instagram": "https://www.instagram.com/actorsmusic/"
+      },
+      "mbid": "230f2c85-8b1c-4e88-ab5d-0d015a4bbe16"
+    },
+    "The Discussion": {
+      "about": "Group from Los Angeles.",
+      "about_source": "https://musicbrainz.org/artist/f5e7676d-203f-4642-8ff7-7635d78d6d4a",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0Ybgs3BDKaZFqWkve8tqfk",
+        "bandcamp": "https://thediscussion.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/6598139",
+        "apple_music": "https://music.apple.com/gb/artist/1450763617",
+        "youtube": "https://www.youtube.com/channel/UCbMCJB682Rxc9G9OrATE4Dg",
+        "instagram": "https://www.instagram.com/The_Discussion_/"
+      },
+      "mbid": "f5e7676d-203f-4642-8ff7-7635d78d6d4a"
+    },
     "Kid Francescoli": {
+      "about": "Kid Francescoli is an electropop project by French musician Mathieu Hocine. The project was founded by Hocine in 2002 in Marseille.",
+      "about_source": "https://en.wikipedia.org/wiki/Kid_Francescoli",
       "image": "https://s1.ticketm.net/dam/a/c46/3e6b560f-900d-49c6-8580-91ae954a5c46_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/2G7QgTep5IsJHGHm1hXygD",
+        "bandcamp": "https://kidfrancescoli.bandcamp.com/",
         "apple_music": "https://music.apple.com/fr/artist/kid-francescoli/166159962",
+        "soundcloud": "https://soundcloud.com/kidfrancescoli",
         "youtube": "https://www.youtube.com/user/kidfrancescoli/featured",
         "homepage": "http://kidfrancescoli.com/",
         "instagram": "https://www.instagram.com/kidfrancescoli/"
@@ -7276,7 +8424,10 @@
       }
     },
     "Libidinous Acts": {
-      "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from California.",
+      "about_source": "https://musicbrainz.org/artist/490f3182-9050-402a-af26-e67468d05ce1",
+      "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg",
+      "mbid": "490f3182-9050-402a-af26-e67468d05ce1"
     },
     "Susannah Joffe": {
       "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
@@ -7293,7 +8444,18 @@
       "image": "https://s1.ticketm.net/dam/a/239/d25c56be-3d08-4c4a-a031-80073f15c239_RETINA_LANDSCAPE_16_9.jpg"
     },
     "DEATHBYROMY": {
+      "about": "Romy Maxine Flores, known professionally as DeathbyRomy, is an American singer-songwriter. Born and raised in Los Angeles, California, she began performing music professionally at age 15.",
+      "about_source": "https://en.wikipedia.org/wiki/DeathbyRomy",
       "image": "https://s1.ticketm.net/dam/a/aaa/d54491c8-f454-4b33-8d31-88864f8d9aaa_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7aWpPjjgItUnXljFxYYKZI",
+        "qobuz": "https://open.qobuz.com/artist/3796226",
+        "apple_music": "https://music.apple.com/us/artist/1269402784",
+        "soundcloud": "https://soundcloud.com/deathbyromy",
+        "youtube": "https://www.youtube.com/channel/UCvkAgw6wxAD7uuqhstHE9JA",
+        "homepage": "http://www.deathbyromy.com/",
+        "instagram": "https://www.instagram.com/deathbyromy/"
+      },
       "mbid": "79afaf00-a4d9-4457-a4ff-a126bc31bdaf"
     },
     "bodyimage": {
@@ -7313,16 +8475,25 @@
       "image": "https://s1.ticketm.net/dam/a/099/27336af0-5421-45a4-a44a-722c63ba6099_RETINA_LANDSCAPE_16_9.jpg"
     },
     "Oscar Ortiz": {
-      "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_LANDSCAPE_16_9.jpg"
+      "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0FvHxb8a4I0A2i8jKCsFei",
+        "qobuz": "https://open.qobuz.com/artist/1321624"
+      },
+      "mbid": "f1ceaef7-7a22-47ff-b64c-432d833e1dc3"
     },
     "Frank Turner & The Sleeping Souls": {
       "image": "https://s1.ticketm.net/dam/a/a89/bf9d2ec6-252e-48ef-b157-1d9195f51a89_RETINA_LANDSCAPE_16_9.jpg"
     },
     "Skinny Lister": {
+      "about": "Skinny Lister are a British band formed in London in 2009. They were a five-piece band until October 2013 when a drummer was added.",
+      "about_source": "https://en.wikipedia.org/wiki/Skinny_Lister",
       "image": "https://s1.ticketm.net/dam/a/ca5/4125bf02-6a97-438a-a280-86b4d1932ca5_841211_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/30VFmfxKlxl2LmNe6rtMis",
+        "bandcamp": "https://skinnylister.bandcamp.com/",
         "apple_music": "https://music.apple.com/us/artist/skinny-lister/314416620",
+        "soundcloud": "https://soundcloud.com/skinnylister",
         "youtube": "https://www.youtube.com/user/skinnylister",
         "homepage": "http://skinnylister.com/",
         "instagram": "https://instagram.com/skinnylister/"
@@ -7339,19 +8510,55 @@
         "instagram": "https://www.instagram.com/beans.on.toast/"
       }
     },
+    "Camel Power Club": {
+      "about": "Group from France, formed 2014.",
+      "about_source": "https://musicbrainz.org/artist/50ff982e-6da3-4116-b648-166a87c302bd",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2ziSUHAT6LbHKCJIlwHhDG",
+        "bandcamp": "https://camelpowerclub.bandcamp.com/",
+        "apple_music": "https://itunes.apple.com/us/artist/id922958922",
+        "soundcloud": "https://soundcloud.com/camel-power-club",
+        "youtube": "https://www.youtube.com/user/CamelPowerClub",
+        "homepage": "https://www.camelpower.club/",
+        "instagram": "https://www.instagram.com/camelpowerclub/"
+      },
+      "mbid": "50ff982e-6da3-4116-b648-166a87c302bd"
+    },
     "Dj Suzy": {
-      "image": "https://s1.ticketm.net/dam/a/3a2/72cf45c8-f25f-4da3-8c3b-caf0e21ea3a2_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person.",
+      "about_source": "https://musicbrainz.org/artist/c87d886c-413a-4c1e-a042-42f612e2a226",
+      "image": "https://s1.ticketm.net/dam/a/3a2/72cf45c8-f25f-4da3-8c3b-caf0e21ea3a2_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5RyMh1IvhH3f3mKNItWdMc",
+        "qobuz": "https://open.qobuz.com/artist/17966719",
+        "apple_music": "https://music.apple.com/us/artist/1694306332",
+        "youtube": "https://www.youtube.com/channel/UCdi1HPUKhK-Z7Y9cvQHe01g",
+        "homepage": "https://www.djsuzy.online/",
+        "instagram": "https://www.instagram.com/djsuzyy/"
+      },
+      "mbid": "c87d886c-413a-4c1e-a042-42f612e2a226"
     },
     "Games We Play": {
+      "about": "Group from United States.",
+      "about_source": "https://musicbrainz.org/artist/00098144-9160-4eb0-9986-f2c0b04623fa",
       "image": "https://s1.ticketm.net/dam/a/414/90c4598d-f7ca-456d-af60-231548d90414_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/4yP4eYthbuCNIcoQtqwj40?si=FMH-Q4JvQrCdnK-W9AQXPg&nd=1",
+        "apple_music": "https://music.apple.com/fr/artist/924630114",
         "instagram": "https://www.instagram.com/gamesweplay/?hl=en"
       },
       "mbid": "00098144-9160-4eb0-9986-f2c0b04623fa"
     },
     "Bears in Trees": {
-      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Bears in Trees are an English indie rock band from Croydon, South London, England. The group consists of bassist and vocalist Iain Gillespie, drummer George Berry, vocalist Callum Litchfield and guitarist Nicholas \"Nick\" Peters.",
+      "about_source": "https://en.wikipedia.org/wiki/Bears_in_Trees",
+      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4dAQ5VFw5nhwA6rTf3ENQ2",
+        "qobuz": "https://open.qobuz.com/artist/4214912",
+        "apple_music": "https://music.apple.com/gb/artist/1259787420"
+      },
+      "mbid": "c9dc6427-4aba-4af0-87b0-c87bd436aaa4"
     },
     "Yohay Sponder": {
       "image": "https://s1.ticketm.net/dam/a/b31/444203c6-5565-4d2f-887e-b3a13edbdb31_RETINA_LANDSCAPE_16_9.jpg",
@@ -7360,10 +8567,14 @@
       }
     },
     "Gus Dapperton": {
+      "about": "Brendan Patrick Rice, better known by his stage name Gus Dapperton, is an American singer and songwriter from Warwick, New York.",
+      "about_source": "https://en.wikipedia.org/wiki/Gus_Dapperton",
       "image": "https://s1.ticketm.net/dam/a/6b2/284cbbda-7418-4e71-8435-8018679516b2_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6sHCvZe1PHrOAuYlwTLNH4?autoplay=true",
+        "qobuz": "https://open.qobuz.com/artist/3712170",
         "apple_music": "https://music.apple.com/us/artist/gus-dapperton/1083049158",
+        "soundcloud": "https://soundcloud.com/gus-dapperton",
         "youtube": "https://www.youtube.com/channel/UCwgJxVEneDomVhX8eGZtLGA",
         "homepage": "http://gusdapperton.com/",
         "instagram": "https://www.instagram.com/gusdapperton/"
@@ -7376,14 +8587,43 @@
         "homepage": "http://www.thisiscantina.com/"
       }
     },
+    "Rising Appalachia": {
+      "about": "Rising Appalachia is an American Appalachian folk music group, led by multi-instrumentalist sisters Leah Song and Chloe Smith. Their music is rooted in the landscapes of Atlanta, New Orleans, and the southern Blue Ridge Mountains of Appalachia.",
+      "about_source": "https://en.wikipedia.org/wiki/Rising_Appalachia",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3I6e2ZqqoxQhXc9z7Tp5ci",
+        "bandcamp": "https://risingappalachia.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/3538036",
+        "apple_music": "https://music.apple.com/us/artist/252429113",
+        "soundcloud": "https://soundcloud.com/risingappalachia",
+        "youtube": "https://www.youtube.com/channel/UCRmxz4fw_LzwQF19LKXgRVg",
+        "homepage": "http://www.risingappalachia.com/",
+        "instagram": "https://www.instagram.com/risingappalachia/"
+      },
+      "mbid": "93aaaeb2-bd6a-48dd-9302-ad99555ba1f8"
+    },
     "Rikas": {
-      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from Stuttgart.",
+      "about_source": "https://musicbrainz.org/artist/59c85e04-a68a-4784-a7a0-d362085704ed",
+      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3OWO2LOPTl1u6XvJHkwHmd",
+        "apple_music": "https://itunes.apple.com/us/artist/id1298523758",
+        "soundcloud": "https://soundcloud.com/rikasband",
+        "homepage": "https://www.rikasband.de/",
+        "instagram": "https://www.instagram.com/rikasband/"
+      },
+      "mbid": "59c85e04-a68a-4784-a7a0-d362085704ed"
     },
     "Nothing But Thieves": {
+      "about": "Nothing but Thieves are an English rock band, formed in 2012 in Southend-on-Sea, Essex consisting of lead vocalist and guitarist Conor Mason, guitarist Joe Langridge-Brown, guitarist and keyboardist Dominic Craik, bassist Philip Blake, and drummer James Price.",
+      "about_source": "https://en.wikipedia.org/wiki/Nothing_but_Thieves",
       "image": "https://s1.ticketm.net/dam/a/434/6c97c7ee-f145-4391-8509-a68733397434_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/1kDGbuxWknIKx4FlgWxiSp?si=moVwO6-3TeOxo1t3xExbWA&nd=1",
+        "qobuz": "https://open.qobuz.com/artist/1841735",
         "apple_music": "https://music.apple.com/us/artist/nothing-but-thieves/524830875?uo=4&app=music",
+        "soundcloud": "https://soundcloud.com/nothingbutthieves",
         "youtube": "https://www.youtube.com/user/NBTVEVO",
         "homepage": "https://www.nbthieves.com/",
         "instagram": "https://www.instagram.com/nothingbutthieves/?hl=en"
@@ -7391,9 +8631,13 @@
       "mbid": "7e2e4e3a-4e85-4d5a-b78e-5e4afd467a3e"
     },
     "Iceage": {
+      "about": "Iceage is a Danish punk rock band from Copenhagen. The band was formed in 2008 and has released the albums New Brigade (2011), You're Nothing (2013), Plowing Into the Field of Love (2014), Beyondless (2018), Seek Shelter (2021) and For Love of Grace & the Hereafter (2026).",
+      "about_source": "https://en.wikipedia.org/wiki/Iceage",
       "image": "https://s1.ticketm.net/dam/a/da0/003c5ce6-bba5-4f8e-b20b-1998ce34ada0_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/03hlOXqRyyXO3ectp3eEbU?autoplay=true",
+        "bandcamp": "https://iceage.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/615979",
         "apple_music": "https://music.apple.com/us/artist/iceage/406846711",
         "youtube": "https://www.youtube.com/channel/UCzqKpls-68LMQccDGM7jvhw",
         "homepage": "http://iceagecopenhagen.eu/",
@@ -7402,13 +8646,24 @@
       "mbid": "7e01053e-e701-4e55-8a29-b8cfdcdee205"
     },
     "Arthur Hill": {
-      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from United Kingdom, born 1999.",
+      "about_source": "https://musicbrainz.org/artist/174f4acf-894a-4baa-a603-52ca36b560fb",
+      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6Fe2C2iHDbs3yoKRvtVtdg",
+        "apple_music": "https://music.apple.com/us/artist/1207962876"
+      },
+      "mbid": "174f4acf-894a-4baa-a603-52ca36b560fb"
     },
     "Lucky Daye": {
+      "about": "David Debrandon Brown, professionally known as Lucky Daye, is an American singer-songwriter who works in the R&B genre.",
+      "about_source": "https://en.wikipedia.org/wiki/Lucky_Daye",
       "image": "https://s1.ticketm.net/dam/a/ed3/9043da81-256a-49a0-9505-5808202eded3_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/5Vuvs6Py2JRU7WiFDVsI7J",
+        "qobuz": "https://open.qobuz.com/artist/3977771",
         "apple_music": "https://music.apple.com/us/artist/lucky-daye/1110820355",
+        "soundcloud": "https://soundcloud.com/luckydaye",
         "youtube": "https://www.youtube.com/channel/UCAo7GQQLYTEHpkkqiW2ukiw",
         "homepage": "https://www.luckydaye.com/",
         "instagram": "https://www.instagram.com/iamluckydaye/"
@@ -7416,13 +8671,27 @@
       "mbid": "a7472b5e-9b6e-48a6-b910-37c940487086"
     },
     "Four Year Strong": {
-      "image": "https://s1.ticketm.net/dam/a/8df/83e96761-5858-4c7e-9ef9-f76c9ccc98df_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Four Year Strong is an American pop-punk band from Worcester, Massachusetts, formed in 2001. The group consists of vocalists and guitarists Dan O'Connor and Alan Day, bassist Joe Weiss, and drummer Jake Massucco.",
+      "about_source": "https://en.wikipedia.org/wiki/Four_Year_Strong",
+      "image": "https://s1.ticketm.net/dam/a/8df/83e96761-5858-4c7e-9ef9-f76c9ccc98df_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0qqxspZOkbN00bu6DaRIrn",
+        "apple_music": "https://itunes.apple.com/us/artist/id192476371",
+        "youtube": "https://www.youtube.com/user/fouryearstrong",
+        "homepage": "http://fouryearstrongmusic.com/",
+        "instagram": "https://www.instagram.com/fouryearstrong/"
+      },
+      "mbid": "c0a138e2-cef7-471b-8fbb-524e1076256a"
     },
     "Drug Church": {
+      "about": "Drug Church is an American hardcore band from Albany, New York, United States. The band has released five albums, as well as several EPs.",
+      "about_source": "https://en.wikipedia.org/wiki/Drug_Church",
       "image": "https://s1.ticketm.net/dam/a/65f/5202d130-dac1-48f0-beb3-c54b8406f65f_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6q4AmzK3GzCuEzkurnYuEQ?autoplay=true",
+        "bandcamp": "https://drugchurch.bandcamp.com/",
         "apple_music": "https://music.apple.com/us/artist/drug-church/535993200",
+        "soundcloud": "https://soundcloud.com/drugchurch",
         "youtube": "https://www.youtube.com/channel/UCSNnsZxhYSbaRO73Ul6tUzQ",
         "homepage": "http://drugchurch.net/",
         "instagram": "https://www.instagram.com/drugchurch/"
@@ -7445,11 +8714,27 @@
         "instagram": "https://www.instagram.com/sunblocband/"
       }
     },
+    "Clap Your Hands Say Yeah": {
+      "about": "Clap Your Hands Say Yeah is a US indie rock band active since the early 2000s. The band was founded as a collaboration between singer-songwriter Alec Ounsworth, Sean Greenhalgh, Robbie Guertin, Lee Sargent, and Tyler Sargent.",
+      "about_source": "https://en.wikipedia.org/wiki/Clap_Your_Hands_Say_Yeah",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/1jSaZgaKHmgc7VTgML528r",
+        "bandcamp": "https://clapyourhandssayyeah.bandcamp.com/",
+        "apple_music": "https://itunes.apple.com/us/artist/id81899300",
+        "soundcloud": "https://soundcloud.com/cyhsy",
+        "homepage": "http://clapyourhandssayyeah.com/",
+        "instagram": "https://www.instagram.com/CYHSYband/"
+      },
+      "mbid": "4b2d6a23-034d-4a29-9bb9-d2462796da4e"
+    },
     "Jack & Jack": {
+      "about": "Jack & Jack are an American pop-rap duo from Omaha, Nebraska, consisting of Jack Johnson and Jack Gilinsky, based in Los Angeles, California. After success via the social media app Vine, the duo turned to careers as musicians.",
+      "about_source": "https://en.wikipedia.org/wiki/Jack_%26_Jack",
       "image": "https://s1.ticketm.net/dam/a/4a7/53b81c40-a0a5-4546-bf36-28a055c584a7_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/1INuLZXjjVbcJRyWvD1iSq",
         "apple_music": "https://music.apple.com/us/artist/jack-jack/944171951",
+        "soundcloud": "https://soundcloud.com/jack-and-jack",
         "youtube": "https://www.youtube.com/user/JackandJackVideos",
         "homepage": "http://jackandjackofficial.com",
         "instagram": "https://www.instagram.com/jackandjack/"
@@ -7457,7 +8742,19 @@
       "mbid": "51f447ee-e5ba-4cc1-b27c-42ea5a6103ec"
     },
     "brakence": {
+      "about": "Randall Todd \"Randy\" Findell, known professionally as Brakence, is an American singer-songwriter, rapper, record producer and musician from Columbus, Ohio who is currently signed to Columbia Records and Sony Music.",
+      "about_source": "https://en.wikipedia.org/wiki/Brakence",
       "image": "https://s1.ticketm.net/dam/a/dd7/31f71205-1358-4e94-965b-620204784dd7_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4kqFrZkeqDfOIEqTWqbOOV",
+        "bandcamp": "https://brakence.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/7141633",
+        "apple_music": "https://music.apple.com/gb/artist/1345560251",
+        "soundcloud": "https://soundcloud.com/brakence",
+        "youtube": "https://music.youtube.com/channel/UChw3Wly_3LDOFBi4xZ0fXVw",
+        "homepage": "https://brakence.shop/",
+        "instagram": "https://www.instagram.com/brakence/"
+      },
       "mbid": "e636b15f-00c5-45fd-9c33-845a08c8f92d"
     },
     "Mei Semones": {
@@ -7471,20 +8768,30 @@
       }
     },
     "ANGÈLE": {
+      "about": "Angèle Joséphine Aimée Van Laeken, known simply as Angèle, is a Belgian singer and songwriter.",
+      "about_source": "https://en.wikipedia.org/wiki/Ang%C3%A8le_(singer)",
       "image": "https://s1.ticketm.net/dam/a/38e/84bf2e9c-2103-4556-901d-c391415cf38e_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/3QVolfxko2UyCOtexhVTli?autoplay=true",
+        "qobuz": "https://open.qobuz.com/artist/180620",
         "apple_music": "https://music.apple.com/ca/artist/ang%C3%A8le/1373339414",
+        "soundcloud": "https://soundcloud.com/angelevl",
         "youtube": "https://www.youtube.com/user/AngeleAmbre",
+        "homepage": "https://angelevl.be/",
         "instagram": "http://www.instagram.com/angele_vl"
       },
       "mbid": "dcd4701d-64ec-443d-bfbf-73fc87c44bd6"
     },
     "FAUN": {
+      "about": "Faun is a German band that was formed in 1998 and plays pagan folk, darkwave, and medieval music. The vocals are performed in a variety of languages, including German, English, Latin, Greek, Turkish, Scandinavian and Hungarian.",
+      "about_source": "https://en.wikipedia.org/wiki/Faun_(band)",
       "image": "https://s1.ticketm.net/dam/a/dc9/19d2751c-8d1e-4b97-b949-2cf44f167dc9_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/2wPOgnQ6eW3X73uIJZ4YFE",
+        "bandcamp": "https://faun-music.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/1001067",
         "apple_music": "https://music.apple.com/us/artist/faun/61412380",
+        "soundcloud": "https://soundcloud.com/faun-official",
         "youtube": "https://www.youtube.com/channel/UCxWwz-uZkTNwEM_duLUrWkQ",
         "homepage": "http://www.faune.de/",
         "instagram": "https://www.instagram.com/faunofficial/"
@@ -7492,11 +8799,16 @@
       "mbid": "0f06b40e-8bb9-4c59-814b-540a801f22d1"
     },
     "Mass of the Fermenting Dregs": {
+      "about": "Mass of the Fermenting Dregs is a Japanese post-hardcore/shoegaze trio formed in Kobe, in 2002. In Japanese, they are also popularly known by a shortened form of their name, Masu Dore (マスドレ).",
+      "about_source": "https://en.wikipedia.org/wiki/Mass_of_the_Fermenting_Dregs",
       "image": "https://s1.ticketm.net/dam/a/25c/31170fb4-366b-4412-8d8f-0fa35f23d25c_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/14d5KCX9nprUcxnKIShrr1?autoplay=true",
+        "bandcamp": "https://massofthefermentingdregs.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/410304",
         "apple_music": "https://music.apple.com/ca/artist/mass-of-the-fermenting-dregs/270350271",
-        "youtube": "https://www.youtube.com/channel/UC8HQ1Us0QsSb1i3UW6dJ26g"
+        "youtube": "https://www.youtube.com/channel/UC8HQ1Us0QsSb1i3UW6dJ26g",
+        "homepage": "http://www.motfd.com/"
       },
       "mbid": "1a19b0cd-fa9d-4363-b130-b3eb394cf373"
     },
@@ -7513,9 +8825,12 @@
       }
     },
     "The Interrupters": {
+      "about": "The Interrupters are an American ska punk band formed in Los Angeles, California, in 2011. The band comprises lead vocalist Aimee Interrupter, drummer Jesse Bivona, bassist Justin Bivona, and guitarist Kevin Bivona.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Interrupters_(band)",
       "image": "https://s1.ticketm.net/dam/a/10b/c6c18fc8-6d82-430f-bb66-a2fab31d110b_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/25Maank76ry2Tmbi2Ql1SF",
+        "bandcamp": "https://theinterrupters.bandcamp.com/",
         "apple_music": "https://music.apple.com/us/artist/the-interrupters/886243994",
         "youtube": "https://www.youtube.com/channel/UCHLYhebp9oaoqj_u0yG0ZYA",
         "homepage": "https://wearetheinterrupters.com/",
@@ -7545,9 +8860,17 @@
       }
     },
     "Paloma Morphy": {
-      "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from Mexico.",
+      "about_source": "https://musicbrainz.org/artist/15e504ab-28eb-4784-b0e8-627fa4c0adfd",
+      "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/30Ph7pfibYhG9VcdOj7xZw"
+      },
+      "mbid": "15e504ab-28eb-4784-b0e8-627fa4c0adfd"
     },
     "Terrian": {
+      "about": "Person from Memphis.",
+      "about_source": "https://musicbrainz.org/artist/cb3909ac-ee5e-4e62-b986-0661c3d00e76",
       "image": "https://s1.ticketm.net/dam/a/961/3f5562c3-8e0c-4e3d-9204-ddcc27cd5961_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/19TPpTWkgX13Qc2stbqVoP",
@@ -7557,10 +8880,14 @@
       "mbid": "cb3909ac-ee5e-4e62-b986-0661c3d00e76"
     },
     "The Struts": {
+      "about": "The Struts are a British glam rock band from Derby, Derbyshire, formed in 2012. The band is currently composed of lead singer Luke Spiller, guitarist Adam Slack, bassist Jed Elliott, and drummer Gethin Davies.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Struts",
       "image": "https://s1.ticketm.net/dam/a/dc7/1c544bdd-bfd9-411e-b80c-29a24baa6dc7_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/3lDpdwM8KILepMHqBWUhIA",
+        "qobuz": "https://www.qobuz.com/gb-en/interpreter/the-struts/598172",
         "apple_music": "https://music.apple.com/us/artist/the-struts/419398308",
+        "soundcloud": "https://soundcloud.com/the-struts-official",
         "youtube": "https://www.youtube.com/user/strutsofficial",
         "homepage": "http://www.thestruts.com/",
         "instagram": "https://www.instagram.com/thestruts"
@@ -7568,14 +8895,46 @@
       "mbid": "f0be891f-6114-448a-ac55-a11bb2961f78"
     },
     "Tally Hall": {
-      "image": "https://s1.ticketm.net/dam/a/990/6e60fae3-c2b1-47d2-bfb5-93bd1fbfd990_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Tally Hall is an American pop rock band formed in Ann Arbor, Michigan, in December 2002. The band's line-up consists of guitarist Rob Cantor, bassist Zubin Sedghi, keyboardist Andrew Horowitz, and drummer Ross Federman.",
+      "about_source": "https://en.wikipedia.org/wiki/Tally_Hall",
+      "image": "https://s1.ticketm.net/dam/a/990/6e60fae3-c2b1-47d2-bfb5-93bd1fbfd990_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7lqaPghwYv2mE9baz5XQmL",
+        "bandcamp": "https://tallyhall.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/489350",
+        "apple_music": "https://itunes.apple.com/us/artist/id121984328",
+        "soundcloud": "https://soundcloud.com/tallyhall",
+        "youtube": "https://www.youtube.com/user/tallyhall",
+        "homepage": "http://tallyhall.com/"
+      },
+      "mbid": "407d7ae0-c297-491c-bd19-4185e2b12ef2"
     },
     "SAINT LEVANT": {
+      "about": "Person from California.",
+      "about_source": "https://musicbrainz.org/artist/015c8b7d-015b-4603-9792-18bb440178ac",
       "image": "https://s1.ticketm.net/dam/a/130/06ba4e22-a1ba-4046-b822-f55c0e34f130_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5ZZsFnpO7frU8h5xH1wtjT",
+        "apple_music": "https://music.apple.com/gb/artist/1592125003",
+        "youtube": "https://www.youtube.com/channel/UCRj2fL7B2SembAVrGvxrRBQ",
+        "homepage": "https://saintlevant.com/",
+        "instagram": "https://www.instagram.com/saintlevant/"
+      },
       "mbid": "015c8b7d-015b-4603-9792-18bb440178ac"
     },
     "LOLA YOUNG": {
+      "about": "Lola Emily Mary Young is an English singer and songwriter. Born and raised in South London, she attracted attention in 2016 when she won the under-16 category of Open Mic UK and reached the finals of Got What It Takes?.",
+      "about_source": "https://en.wikipedia.org/wiki/Lola_Young",
       "image": "https://s1.ticketm.net/dam/a/e64/b3b6ff37-b6a2-4f1e-a0d6-8ce90d7abe64_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/67FB4n52MgexGQIG8s0yUH",
+        "qobuz": "https://open.qobuz.com/artist/5580580",
+        "apple_music": "https://itunes.apple.com/us/artist/id452271760",
+        "soundcloud": "https://soundcloud.com/lolayoung",
+        "youtube": "https://www.youtube.com/channel/UCytDCxKs_rP8sBXjLmEs8jA",
+        "homepage": "https://www.lola-young.com/",
+        "instagram": "https://www.instagram.com/lolayounggg/"
+      },
       "mbid": "43b896c5-5652-4b04-bde1-2e4224bc99b3"
     },
     "Sofia and the Antoinettes": {
@@ -7585,7 +8944,17 @@
       }
     },
     "French 79": {
+      "about": "Person from France.",
+      "about_source": "https://musicbrainz.org/artist/b4bf3785-04d5-4cd3-94d9-86f3b43e2904",
       "image": "https://s1.ticketm.net/dam/a/9b9/6dd33d7c-be0c-43e8-abaa-5986b12209b9_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6MJKlN8ya42Agsw3iQZs6e",
+        "bandcamp": "https://french79music.bandcamp.com/",
+        "apple_music": "https://itunes.apple.com/us/artist/id931540150",
+        "soundcloud": "https://soundcloud.com/french79music",
+        "youtube": "https://www.youtube.com/channel/UCKTF0GFef9h5JxpkFZiNAqA",
+        "homepage": "https://french79music.com/"
+      },
       "mbid": "b4bf3785-04d5-4cd3-94d9-86f3b43e2904"
     },
     "Cleopatrick": {
@@ -7612,13 +8981,25 @@
       "image": "https://s1.ticketm.net/dam/a/3af/08bb651e-ad53-47e2-b670-c335529c33af_RETINA_LANDSCAPE_16_9.jpg"
     },
     "John Splithoff": {
-      "image": "https://s1.ticketm.net/dam/a/7ff/5b397077-2ec2-4c78-bc71-2416490377ff_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person.",
+      "about_source": "https://musicbrainz.org/artist/9067ff50-ad4b-469d-90bc-24c4762c3f83",
+      "image": "https://s1.ticketm.net/dam/a/7ff/5b397077-2ec2-4c78-bc71-2416490377ff_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7A2x4Urpc4VKF1pb7qnNqD",
+        "qobuz": "https://www.qobuz.com/us-en/interpreter/john-splithoff/2765681",
+        "apple_music": "https://music.apple.com/gb/artist/715959373",
+        "youtube": "https://music.youtube.com/channel/UCTYCoCtyoDobqupS7pnF6Yw"
+      },
+      "mbid": "9067ff50-ad4b-469d-90bc-24c4762c3f83"
     },
     "Palaye Royale": {
+      "about": "Palaye Royale is an American rock band from Las Vegas, formed in 2008 by brothers Remington Leith, Sebastian Danzig, and Emerson Barrett. Formed under the name Kropp Circle, the band released one EP and two singles before changing their name to Palaye Royale in 2011.",
+      "about_source": "https://en.wikipedia.org/wiki/Palaye_Royale",
       "image": "https://s1.ticketm.net/dam/a/9f7/4037495c-746d-4e29-8b1c-779662d3b9f7_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/0hAd6zwEgt9ILuMDY1prcI?autoplay=true",
         "apple_music": "https://music.apple.com/us/artist/palaye-royale/508487574",
+        "soundcloud": "https://soundcloud.com/palaye-royale",
         "youtube": "https://www.youtube.com/channel/UCmtnvb5ParBm8yTuNROr6XQ",
         "homepage": "https://www.palayeroyale.com/",
         "instagram": "https://www.instagram.com/palayeroyale/"
@@ -7626,10 +9007,15 @@
       "mbid": "669b08a0-2144-4800-a446-1522cfef228c"
     },
     "The Wombats": {
+      "about": "The Wombats are an English indie rock band formed in Liverpool in 2003, consisting of Matthew Murphy, Tord Øverland Knudsen, and Dan Haggis.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Wombats",
       "image": "https://s1.ticketm.net/dam/a/25a/f4b64033-18cf-49b1-98db-e0c7b5afe25a_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/0Ya43ZKWHTKkAbkoJJkwIB",
+        "bandcamp": "https://thewombats.bandcamp.com/",
+        "qobuz": "https://www.qobuz.com/us-en/interpreter/the-wombats/413063",
         "apple_music": "https://music.apple.com/us/artist/the-wombats/162731772",
+        "soundcloud": "https://soundcloud.com/thewombats",
         "youtube": "https://www.youtube.com/user/TheWOMBATS",
         "homepage": "http://www.thewombats.co.uk/",
         "instagram": "https://www.instagram.com/wombatsofficial/"
@@ -7637,21 +9023,43 @@
       "mbid": "e105c272-b5d7-4135-82ef-d60bded54345"
     },
     "Rosegarden Funeral Party": {
-      "image": "https://s1.ticketm.net/dam/a/c91/26455e14-f9dd-4627-99bb-40793c52bc91_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Group from Dallas, formed 2017.",
+      "about_source": "https://musicbrainz.org/artist/03fc75f0-eada-439a-8cf2-0185be70c13e",
+      "image": "https://s1.ticketm.net/dam/a/c91/26455e14-f9dd-4627-99bb-40793c52bc91_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/30kQn8H0xfBtBGzDwnuaTx",
+        "bandcamp": "https://rosegardenfuneralparty.bandcamp.com/",
+        "apple_music": "https://music.apple.com/us/artist/1266038140",
+        "youtube": "https://www.youtube.com/@rosegardenfuneralpartyofficial",
+        "homepage": "https://www.rosegardenfuneralparty.com/",
+        "instagram": "https://www.instagram.com/rosegardenfuneralparty/"
+      },
+      "mbid": "03fc75f0-eada-439a-8cf2-0185be70c13e"
     },
     "Haiden Henderson": {
+      "about": "Haiden Henderson, is an American singer-songwriter and musician based in Los Angeles.",
+      "about_source": "https://en.wikipedia.org/wiki/Haiden_Henderson",
       "image": "https://s1.ticketm.net/dam/a/7da/582a845b-94aa-43dd-b2ba-42eda2e047da_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/79xvSUqngetd6CbJ1bgb4p",
+        "qobuz": "https://www.qobuz.com/us-en/interpreter/haiden-henderson/10561146",
+        "apple_music": "https://music.apple.com/us/artist/1553579506",
+        "soundcloud": "https://soundcloud.com/haidenhenderson",
+        "youtube": "https://www.youtube.com/channel/UC8KsgInCbHzOycrLrSCw8bQ",
+        "homepage": "https://www.haidenhenderson.com/",
         "instagram": "https://www.instagram.com/byhaiden/"
       },
       "mbid": "96cfb835-c049-4637-a07d-95753cd43d68"
     },
     "Two Door Cinema Club": {
+      "about": "Two Door Cinema Club are a Northern Irish rock band formed in Bangor, County Down, in 2007. The band consists of Alex Trimble, Sam Halliday, and Kevin Baird.",
+      "about_source": "https://en.wikipedia.org/wiki/Two_Door_Cinema_Club",
       "image": "https://s1.ticketm.net/dam/a/29b/313d9036-7439-46ed-ad10-39e861dfe29b_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/536BYVgOnRky0xjsPT96zl",
+        "qobuz": "https://open.qobuz.com/artist/69600",
         "apple_music": "https://music.apple.com/us/artist/two-door-cinema-club/291005449",
+        "soundcloud": "https://soundcloud.com/two-door-cinema-club",
         "youtube": "https://www.youtube.com/user/twodoorcinemaclub",
         "homepage": "http://twodoorcinemaclub.com/",
         "instagram": "https://www.instagram.com/twodoorcinemaclub/"
@@ -7659,10 +9067,14 @@
       "mbid": "6f1de078-6684-4792-820d-2ffad64c15ed"
     },
     "Friendly Fires": {
+      "about": "Friendly Fires are an English indie rock band from St Albans, Hertfordshire. The band consists of vocalist Ed Macfarlane and guitarist Edd Gibson; drummer Jack Savidge was part of the band until his departure in 2026.",
+      "about_source": "https://en.wikipedia.org/wiki/Friendly_Fires",
       "image": "https://s1.ticketm.net/dam/a/1e0/55ece6da-48a5-40ba-b2ad-0206dc5671e0_1108091_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/3mZqziCJj4pq3P2VBpmK6p",
+        "qobuz": "https://open.qobuz.com/artist/204710",
         "apple_music": "https://music.apple.com/us/artist/friendly-fires/202207367",
+        "soundcloud": "https://soundcloud.com/friendly-fires",
         "youtube": "https://www.youtube.com/user/friendlyfiresvevo",
         "homepage": "https://friendlyfires.co.uk",
         "instagram": "https://www.instagram.com/friendlyfires/"
@@ -7670,10 +9082,15 @@
       "mbid": "ef656595-bbe8-4386-8953-be8df9f54472"
     },
     "A Perfect Circle": {
+      "about": "A Perfect Circle is an American rock supergroup formed in Los Angeles, California, in 1999 by guitarist Billy Howerdel and Tool vocalist Maynard James Keenan.",
+      "about_source": "https://en.wikipedia.org/wiki/A_Perfect_Circle",
       "image": "https://s1.ticketm.net/dam/a/088/369098c4-977e-4c8b-9d36-a94735fd6088_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/4DFhHyjvGYa9wxdHUjtDkc",
+        "bandcamp": "https://a-perfect-circle.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/126961",
         "apple_music": "https://music.apple.com/us/artist/a-perfect-circle/652503",
+        "soundcloud": "https://soundcloud.com/a-perfect-circle-official",
         "youtube": "https://www.youtube.com/user/APerfectCircleVEVO",
         "homepage": "http://aperfectcircle.com/",
         "instagram": "https://www.instagram.com/aperfectcircle/"
@@ -7681,9 +9098,12 @@
       "mbid": "078a9376-3c04-4280-b7d7-b20e158f345d"
     },
     "The Cult": {
+      "about": "The Cult are an English rock band formed in Bradford in 1983. Before settling on its current name in January 1984, the band had performed under the name Death Cult, which was an evolution of the name of lead vocalist Ian Astbury's previous band Southern Death Cult.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Cult",
       "image": "https://s1.ticketm.net/dam/a/41e/0d80b6c8-e711-4b9f-b636-9714ab0fd41e_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/49DW3KvkyjHO35mK1JnSyS?autoplay=true",
+        "qobuz": "https://www.qobuz.com/us-en/interpreter/the-cult/384525",
         "apple_music": "https://music.apple.com/ca/artist/death-cult/3024897",
         "youtube": "https://www.youtube.com/user/TheCULTofficial",
         "homepage": "http://www.thecult.us/",
@@ -7692,10 +9112,14 @@
       "mbid": "8846e4ff-0c19-4af2-872b-7a8dc7497f68"
     },
     "Matchbox Twenty": {
+      "about": "Matchbox Twenty is an American rock band formed in 1995 at Orlando, Florida. The group currently consists of Rob Thomas, Brian Yale, Paul Doucette, and Kyle Cook.",
+      "about_source": "https://en.wikipedia.org/wiki/Matchbox_Twenty",
       "image": "https://s1.ticketm.net/dam/a/dda/04ee0a18-67ae-41a0-bede-937ba1ebddda_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/3Ngh2zDBRPEriyxQDAMKd1",
+        "qobuz": "https://open.qobuz.com/artist/200205",
         "apple_music": "https://itunes.apple.com/us/artist/matchbox-twenty/id711111",
+        "soundcloud": "https://soundcloud.com/matchbox-twenty",
         "youtube": "https://www.youtube.com/user/matchboxtwentytv",
         "homepage": "http://www.matchboxtwenty.com/",
         "instagram": "https://www.instagram.com/matchboxtwenty"
@@ -7703,7 +9127,19 @@
       "mbid": "75af9d25-cf32-49c0-9192-60bd8e9784e6"
     },
     "The Wallflowers": {
+      "about": "The Wallflowers is an American rock solo project of American singer-songwriter and multi-instrumentalist Jakob Dylan. The Wallflowers were originally a roots rock band formed in Los Angeles by Dylan and guitarist Tobi Miller.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Wallflowers",
       "image": "https://s1.ticketm.net/dam/a/d07/191d77fe-a691-426d-a703-c38cba942d07_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0jJNGWrpjGIHUdTTJiIYeB",
+        "bandcamp": "https://thewallflowers.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/129766",
+        "apple_music": "https://itunes.apple.com/us/artist/id107946",
+        "soundcloud": "https://soundcloud.com/thewallflowers",
+        "youtube": "https://www.youtube.com/channel/UCHZtqXzkot9AbU6jUC_iCpQ",
+        "homepage": "http://www.wallflowersmusic.com/",
+        "instagram": "https://www.instagram.com/wallflowersband/"
+      },
       "mbid": "d9c90718-d54d-4ccf-a92e-37a5415ce299"
     },
     "The Lucky": {
@@ -7713,10 +9149,14 @@
       }
     },
     "She Past Away": {
+      "about": "She Past Away is a Turkish post-punk band, formed in 2006. The band was formed in Bursa by Volkan Caner and İdris Akbulut.",
+      "about_source": "https://en.wikipedia.org/wiki/She_Past_Away",
       "image": "https://s1.ticketm.net/dam/a/1cb/c92c7e23-02a1-4b73-a99b-ec488d1631cb_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6paE8ghTau4qwwNzVRSgjR",
+        "bandcamp": "https://shepastawayofficial.bandcamp.com/",
         "apple_music": "https://music.apple.com/ca/artist/she-past-away/347750887",
+        "soundcloud": "https://soundcloud.com/shepastaway",
         "youtube": "https://www.youtube.com/c/shepastaway",
         "homepage": "https://shepastaway.org/",
         "instagram": "https://www.instagram.com/shepastaway_official/"
@@ -7724,10 +9164,13 @@
       "mbid": "6bbb9ed3-bb91-452f-b801-5c9a511de165"
     },
     "The Airborne Toxic Event": {
+      "about": "The Airborne Toxic Event is an American rock band from Los Angeles, California, formed in 2006. It consists of Mikel Jollett, Steven Chen, Adrian Rodriguez, Daren Taylor (drums), and Miriam \"Mimi\" Peschet.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Airborne_Toxic_Event",
       "image": "https://s1.ticketm.net/dam/a/ba0/c5c31a97-dc59-46ff-b88f-480166112ba0_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/7xovAENFxmyEWhzbnHsB3Z",
         "apple_music": "https://music.apple.com/gb/artist/the-airborne-toxic-event/252572441",
+        "soundcloud": "https://soundcloud.com/the-airborne-toxic-event",
         "youtube": "https://www.youtube.com/user/airbornetoxicevent",
         "homepage": "http://www.theairbornetoxicevent.com/",
         "instagram": "https://instagram.com/theairbornetoxicevent"
@@ -7735,10 +9178,14 @@
       "mbid": "892fb2e4-0af4-42be-9e60-22898de51d32"
     },
     "Two Feet": {
+      "about": "Zachary William \"Bill\" Dess,, known professionally as Two Feet, is an American singer, songwriter, and producer from New York City.",
+      "about_source": "https://en.wikipedia.org/wiki/Two_Feet",
       "image": "https://s1.ticketm.net/dam/a/aef/829d0cad-24cb-45f1-a672-72dbaadf8aef_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/5sWHDYs0csV6RS48xBl0tH",
+        "qobuz": "https://open.qobuz.com/artist/2726242",
         "apple_music": "https://music.apple.com/us/artist/two-feet/429717386",
+        "soundcloud": "https://soundcloud.com/twofeetmusic",
         "youtube": "https://www.youtube.com/channel/UCdeVgjrK9a0X04F8tD7W6UQ",
         "homepage": "https://www.twofeetmusic.com",
         "instagram": "https://www.instagram.com/twofeetmusic/"
@@ -7746,12 +9193,24 @@
       "mbid": "07d0e0b3-dea4-4892-bee7-eaad19d093ec"
     },
     "Eric Andre": {
-      "image": "https://s1.ticketm.net/dam/a/220/c71cc7a8-1cc2-43f5-8f31-3e8496eba220_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Eric André is an American comedian, actor, singer, television host, writer, producer, and musician. He is best known as the creator, host, and co-writer of the Adult Swim surreal comedy series The Eric Andre Show (2012–2023).",
+      "about_source": "https://en.wikipedia.org/wiki/Eric_Andr%C3%A9",
+      "image": "https://s1.ticketm.net/dam/a/220/c71cc7a8-1cc2-43f5-8f31-3e8496eba220_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3n9JmzWm3trseCaHXUwQeN",
+        "youtube": "https://www.youtube.com/channel/UCRJA3GfEw-40McsoBnyd0Aw",
+        "homepage": "http://ericandre.com/",
+        "instagram": "https://www.instagram.com/ericfuckingandre/"
+      },
+      "mbid": "b1db927a-7fb1-4b50-b8c0-8326823d8672"
     },
     "The Red Clay Strays": {
+      "about": "The Red Clay Strays are an American country rock band formed in Mobile, Alabama, best known for their 2022 single \"Wondering Why\", which had success in late 2023 after going viral on TikTok. It was their first song to chart on the Billboard Hot 100, reaching No. 71.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Red_Clay_Strays",
       "image": "https://s1.ticketm.net/dam/a/ab5/9914ca2d-3115-427b-9cde-424a66230ab5_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/6IKlXZEFOvk9itrP1s0knJ",
+        "qobuz": "https://open.qobuz.com/artist/5694815",
         "apple_music": "https://music.apple.com/us/artist/the-red-clay-strays/1483812664",
         "youtube": "https://www.youtube.com/c/redclaystrays",
         "homepage": "https://redclaystrays.band",
@@ -7760,10 +9219,14 @@
       "mbid": "01930336-bcd2-42f8-8274-7ee6a75bcd0c"
     },
     "St. Paul and the Broken Bones": {
+      "about": "St. Paul and The Broken Bones is an American eight-piece soul band based in Birmingham, Alabama, United States, that formed in 2012.",
+      "about_source": "https://en.wikipedia.org/wiki/St._Paul_and_The_Broken_Bones",
       "image": "https://s1.ticketm.net/dam/a/66b/d0e02465-11ce-4f9e-b617-06a4f545066b_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "spotify": "https://open.spotify.com/artist/4fXkvh05wFhuH77MfD4m9o",
+        "bandcamp": "https://stpaulandthebrokenbones.bandcamp.com/",
         "apple_music": "https://music.apple.com/us/artist/st-paul-the-broken-bones/795004362",
+        "soundcloud": "https://soundcloud.com/spbb-1",
         "youtube": "https://www.youtube.com/channel/UC7Gw_WjsJJ948rcmn0QvXQw",
         "homepage": "http://stpaulandthebrokenbones.com",
         "instagram": "https://www.instagram.com/stpaulandthebrokenbones/"
@@ -7774,7 +9237,13 @@
       "image": "https://s1.ticketm.net/dam/c/518/83a05c63-479c-4f7e-a7aa-1932aab77518_105461_RETINA_LANDSCAPE_16_9.jpg"
     },
     "Levi.Sct": {
-      "image": "https://s1.ticketm.net/dam/a/412/4664b36a-179b-4036-bd3b-9d6c70709412_RETINA_LANDSCAPE_16_9.jpg"
+      "image": "https://s1.ticketm.net/dam/a/412/4664b36a-179b-4036-bd3b-9d6c70709412_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3M5OFl0jQm9m58mfbdprae",
+        "qobuz": "https://open.qobuz.com/artist/10870156",
+        "apple_music": "https://music.apple.com/gb/artist/1457990370"
+      },
+      "mbid": "bb6d170b-59f0-4b98-b296-3bde7589745d"
     },
     "Jimmy Carr": {
       "image": "https://s1.ticketm.net/dam/a/2b4/abe8d6ee-4d3e-443c-944c-24aef8dfb2b4_RETINA_LANDSCAPE_16_9.jpg"
@@ -8084,6 +9553,17 @@
       "source_id": "tribe:5192"
     },
     {
+      "venue": "El Cid",
+      "title": "Heads Will Roll",
+      "details": "Queer Indie Halloween",
+      "start": "2026-10-31T22:00",
+      "price": "$15.02",
+      "status": "sold_out",
+      "url": "https://dice.fm/event/6aa2f6fb109cf5000100fbaf",
+      "image": "https://dice-media.imgix.net/attachments/2026-09-10/fa921dfe-a7b9-466c-9459-2514843247c8.jpg?rect=0%2C37%2C1620%2C1620",
+      "source_id": "dice:6aa2f6fb109cf5000100fbaf"
+    },
+    {
       "venue": "Gold-Diggers",
       "title": "Halloween Party",
       "support": [
@@ -8129,6 +9609,15 @@
       "ticket_url": "https://www.ticketmaster.com/marilyn-manson-live-in-los-angeles-los-angeles-california-11-01-2026/event/09006466890C7815",
       "image": "https://s1.ticketm.net/dam/a/4af/cc237a20-4d53-49e4-8f1b-30f38caec4af_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv16aZkoJx8ZAuFaek"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Hot Dog Sundays",
+      "start": "2026-11-01T16:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6a8cdf9d92a40400017509c1",
+      "image": "https://dice-media.imgix.net/attachments/2024-09-05/ca339400-c4fb-4946-9f5f-69ad7033937d.jpg?rect=0%2C0%2C936%2C936",
+      "source_id": "dice:6a8cdf9d92a40400017509c1"
     },
     {
       "venue": "Zebulon",
@@ -8298,6 +9787,15 @@
       "source_id": "dice:6a9da99f7c2ded0001ae19c6"
     },
     {
+      "venue": "El Cid",
+      "title": "Friday Pilots Club",
+      "start": "2026-11-03T18:00",
+      "price": "$26.01",
+      "url": "https://dice.fm/event/6aa85d611c3ced000120ed52",
+      "image": "https://dice-media.imgix.net/attachments/2026-09-18/431a6afe-a2ca-4e78-99d1-44f994094f82.jpg?rect=1144%2C0%2C4530%2C4530",
+      "source_id": "dice:6aa85d611c3ced000120ed52"
+    },
+    {
       "venue": "Zebulon",
       "title": "Election Watch Party",
       "details": "In the Café",
@@ -8408,6 +9906,15 @@
       "source_id": "tm:vvG10Z_u5tcL6o"
     },
     {
+      "venue": "El Cid",
+      "title": "Poom Poom Tuesday",
+      "start": "2026-11-03T22:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6a62b8c45c999a0001b2d7aa",
+      "image": "https://dice-media.imgix.net/attachments/2024-08-24/42e79119-c94a-44f4-a4fa-645945355b86.jpg?rect=0%2C0%2C936%2C936",
+      "source_id": "dice:6a62b8c45c999a0001b2d7aa"
+    },
+    {
       "venue": "Echoplex",
       "title": "Spill It",
       "details": "3 Min Mic Tour",
@@ -8418,6 +9925,15 @@
       "ticket_url": "https://www.ticketmaster.com/spill-it-3-min-mic-tour-los-angeles-california-11-04-2026/event/09006547A2209D65",
       "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv1AaZk46GkexFagP"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Tommy Lefroy",
+      "start": "2026-11-04T18:00",
+      "price": "$27.56",
+      "url": "https://dice.fm/event/6a6aa2159c46360001420f78",
+      "image": "https://dice-media.imgix.net/attachments/2026-07-30/e24b2cbf-e429-45e3-bf70-d478e3c5d1c0.jpg?rect=0%2C0%2C3120%2C3120",
+      "source_id": "dice:6a6aa2159c46360001420f78"
     },
     {
       "venue": "The Moroccan Lounge",
@@ -8559,6 +10075,26 @@
       "ticket_url": "https://www.ticketmaster.com/clay-street-unit-los-angeles-california-11-04-2026/event/090064E1B31E8CA1",
       "image": "https://s1.ticketm.net/dam/e/07b/1b63a420-fed7-488d-8c25-a2e32274707b_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vvG10Z_CkS6Iw-"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Ava Lions",
+      "details": "Manic Rich x Banned Bimbos",
+      "start": "2026-11-04T22:00",
+      "price": "free",
+      "url": "https://dice.fm/event/6ae509b279236600018279f4",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-30/a90cac23-f63b-49d2-a08a-ef80ab7029c9.jpg?rect=0%2C0%2C920%2C920",
+      "source_id": "dice:6ae509b279236600018279f4"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Sobs Live in Los Angeles",
+      "details": "Minty Boi Presents",
+      "start": "2026-11-05T18:00",
+      "price": "$26.96",
+      "url": "https://dice.fm/event/6a70e1fc6c405f00014744b1",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-07/4aa3f585-5fc3-40cd-b14c-32add16ad031.jpg?rect=0%2C563%2C4500%2C4500",
+      "source_id": "dice:6a70e1fc6c405f00014744b1"
     },
     {
       "venue": "Permanent Records Roadhouse",
@@ -8739,6 +10275,16 @@
       "ticket_url": "https://www.ticketmaster.com/cel-genesis-cry-and-sivil3-los-angeles-california-11-05-2026/event/0900652FA12973D2",
       "image": "https://s1.ticketm.net/dam/e/37c/625e5274-62f7-4c8e-8180-5c0a8725b37c_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv170Z_3GkX-1923"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Sun Room",
+      "start": "2026-11-05T22:00",
+      "price": "$35.42",
+      "status": "sold_out",
+      "url": "https://dice.fm/event/6ac530700a62340001a7ce24",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-05/57727351-5fe5-45b2-94a6-8df3884d31a7.jpg?rect=288%2C0%2C1508%2C1508",
+      "source_id": "dice:6ac530700a62340001a7ce24"
     },
     {
       "venue": "Hollywood Palladium",
@@ -8951,6 +10497,15 @@
       "ticket_url": "https://www.ticketmaster.com/born-without-bones-los-angeles-california-11-06-2026/event/090064C88DF74F48",
       "image": "https://s1.ticketm.net/dam/e/fff/473fd090-9526-4bd1-895a-c0cef623bfff_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vvG10Z_GxuWVWF"
+    },
+    {
+      "venue": "El Cid",
+      "title": "I Bet You Look Good on the Dancefloor",
+      "details": "2009 Nite",
+      "start": "2026-11-06T22:00",
+      "url": "https://dice.fm/event/6a8e343b23db9b0001f6486c",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-16/9faba2ae-80d7-43a9-a6a6-0a84b043a3af.jpg?rect=0%2C0%2C2000%2C2000",
+      "source_id": "dice:6a8e343b23db9b0001f6486c"
     },
     {
       "venue": "Zebulon",
@@ -9225,6 +10780,14 @@
       "source_id": "tm:vv1AaZk3aGkeEsnQe"
     },
     {
+      "venue": "El Cid",
+      "title": "Silverlake Hinge IRL Party",
+      "start": "2026-11-07T22:00",
+      "url": "https://dice.fm/event/6acfd7f9f76aac00011b5042",
+      "image": "https://dice-media.imgix.net/attachments/2026-05-29/2ccbf127-39eb-491f-b855-d168a99e76e2.jpg?rect=1%2C0%2C1550%2C1550",
+      "source_id": "dice:6acfd7f9f76aac00011b5042"
+    },
+    {
       "venue": "The Regent",
       "title": "Club 90s Presents 2010s Night",
       "start": "2026-11-07T22:00",
@@ -9280,6 +10843,15 @@
       "ticket_url": "https://www.ticketmaster.com/and-always-forever-2026-day-2-los-angeles-california-11-08-2026/event/090064F8E2EAD0A4",
       "image": "https://s1.ticketm.net/dam/e/67f/722ddce1-15a5-4118-ac50-616362bf267f_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vvG10Z_2NxBce0"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Hot Dog Sundays",
+      "start": "2026-11-08T16:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6a8cdf9e92a4040001d45ef6",
+      "image": "https://dice-media.imgix.net/attachments/2024-09-05/ca339400-c4fb-4946-9f5f-69ad7033937d.jpg?rect=0%2C0%2C936%2C936",
+      "source_id": "dice:6a8cdf9e92a4040001d45ef6"
     },
     {
       "venue": "Permanent Records Roadhouse",
@@ -9606,6 +11178,15 @@
       "source_id": "tm:vv170Z_KGkUUeGZQ"
     },
     {
+      "venue": "El Cid",
+      "title": "Poom Poom Tuesday",
+      "start": "2026-11-10T22:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6a62b8c55c999a0001b38146",
+      "image": "https://dice-media.imgix.net/attachments/2024-08-24/42e79119-c94a-44f4-a4fa-645945355b86.jpg?rect=0%2C0%2C936%2C936",
+      "source_id": "dice:6a62b8c55c999a0001b38146"
+    },
+    {
       "venue": "The Moroccan Lounge",
       "title": "Thekidszn",
       "start": "2026-11-11T18:30",
@@ -9613,6 +11194,15 @@
       "ticket_url": "https://www.ticketmaster.com/thekidszn-los-angeles-california-11-11-2026/event/09006557D6D19740",
       "image": "https://s1.ticketm.net/dam/e/40c/731f0f8f-3eed-4386-9221-0b5da8fd140c_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv1AaZk49GkdpV_qZ"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Floyd & Friends",
+      "start": "2026-11-11T19:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6ac7e4af9aa36d000142fe5a",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-20/dbf9ee90-ef5e-4db5-9562-556d3e57b619.jpg?rect=0%2C420%2C1080%2C1080",
+      "source_id": "dice:6ac7e4af9aa36d000142fe5a"
     },
     {
       "venue": "Teragram Ballroom",
@@ -9922,6 +11512,18 @@
       "image": "http://roadhouse.permanentrecordsla.com/images/2026/11nov/nod.jpg"
     },
     {
+      "venue": "El Cid",
+      "title": "K2icyy with Jayfurr",
+      "support": [
+        "Thanos"
+      ],
+      "start": "2026-11-13T18:30",
+      "price": "from $19.83",
+      "url": "https://dice.fm/event/6abd6bc3f9422b000151eb88",
+      "image": "https://dice-media.imgix.net/attachments/2026-09-28/dbc54d0b-41ae-4a2f-b607-3d5fdb45196b.jpg?rect=0%2C0%2C2403%2C2403",
+      "source_id": "dice:6abd6bc3f9422b000151eb88"
+    },
+    {
       "venue": "Hollywood Palladium",
       "title": "Underoath",
       "support": [
@@ -10131,6 +11733,15 @@
       "source_id": "tm:vv1AaZkfxGkdBkqcq"
     },
     {
+      "venue": "El Cid",
+      "title": "Futch",
+      "start": "2026-11-13T22:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6a86472ffcb8130001f4cf0a",
+      "image": "https://dice-media.imgix.net/attachments/2025-04-22/47ca6448-9c9e-4462-a13a-7c59ec8a1383.jpg?rect=0%2C0%2C1080%2C1080",
+      "source_id": "dice:6a86472ffcb8130001f4cf0a"
+    },
+    {
       "venue": "Hollywood Palladium",
       "title": "Insomniac presents Valentino Khan",
       "start": "2026-11-14",
@@ -10334,6 +11945,16 @@
       "source_id": "tm:Z7r9jZ1A7Pdap"
     },
     {
+      "venue": "El Cid",
+      "title": "DONUTS",
+      "details": "A Disco Party",
+      "start": "2026-11-14T21:30",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6aa4713c90316700016ac182",
+      "image": "https://dice-media.imgix.net/attachments/2026-01-26/884dc8b1-ee8f-4c09-899e-a6841f765d21.jpg?rect=314%2C0%2C2587%2C2587",
+      "source_id": "dice:6aa4713c90316700016ac182"
+    },
+    {
       "venue": "The Moroccan Lounge",
       "title": "Emo Karaoke",
       "details": "Karaoke Time Machines Presents",
@@ -10365,6 +11986,15 @@
       "url": "https://www.lodgeroomhlp.com/shows/the-rock-and-roll-playhouse-plays-music-of-tom-petty-more-for-kids-2/",
       "image": "https://www.lodgeroomhlp.com/wp-content/uploads/2026/10/2026.11.15-RRPH-Tom-Petty-web.png",
       "source_id": "tessera:35649"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Hot Dog Sundays",
+      "start": "2026-11-15T16:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6a8cdf9f92a4040001842b85",
+      "image": "https://dice-media.imgix.net/attachments/2024-09-05/ca339400-c4fb-4946-9f5f-69ad7033937d.jpg?rect=0%2C0%2C936%2C936",
+      "source_id": "dice:6a8cdf9f92a4040001842b85"
     },
     {
       "venue": "Teragram Ballroom",
@@ -10666,6 +12296,16 @@
       "source_id": "tm:vv170Z_fGkSvZtad"
     },
     {
+      "venue": "El Cid",
+      "title": "Elsewhere Cinema Club",
+      "details": "Jennifer's Body",
+      "start": "2026-11-17T18:45",
+      "price": "from $38.37",
+      "url": "https://dice.fm/event/6abd63eac989d200019562b2",
+      "image": "https://dice-media.imgix.net/attachments/2026-09-30/5b7561e1-9e9d-4e0a-8da7-cd553156a729.jpg?rect=0%2C35%2C1080%2C1080",
+      "source_id": "dice:6abd63eac989d200019562b2"
+    },
+    {
       "venue": "The Regent",
       "title": "Static Dress",
       "support": [
@@ -10775,6 +12415,15 @@
       "source_id": "tm:vv16aZkfK70ZA57k16"
     },
     {
+      "venue": "El Cid",
+      "title": "Poom Poom Tuesday",
+      "start": "2026-11-17T22:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6a62b8c65c999a0001dd011b",
+      "image": "https://dice-media.imgix.net/attachments/2024-08-24/42e79119-c94a-44f4-a4fa-645945355b86.jpg?rect=0%2C0%2C936%2C936",
+      "source_id": "dice:6a62b8c65c999a0001dd011b"
+    },
+    {
       "venue": "The Moroccan Lounge",
       "title": "Cherry Bomb",
       "start": "2026-11-18T18:30",
@@ -10783,6 +12432,16 @@
       "ticket_url": "https://www.ticketmaster.com/cherry-bomb-los-angeles-california-11-18-2026/event/09006536BDA3A75E",
       "image": "https://s1.ticketm.net/dam/e/5c2/56b8e581-cd4c-4921-a893-cabf989b95c2_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv1AaZkfUGkeWIBqr"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Daisy’s Mixtape Tour",
+      "details": "Frances Whitney Presents",
+      "start": "2026-11-18T19:00",
+      "price": "$19.83",
+      "url": "https://dice.fm/event/6ab6d274d3d2060001267400",
+      "image": "https://dice-media.imgix.net/attachments/2026-09-24/ee289851-4b0a-4cb3-a446-d17ec637eefd.jpg?rect=0%2C160%2C1228%2C1228",
+      "source_id": "dice:6ab6d274d3d2060001267400"
     },
     {
       "venue": "Teragram Ballroom",
@@ -10935,6 +12594,17 @@
       "ticket_url": "https://www.ticketmaster.com/bolo-hollywood-california-11-19-2026/event/0900650CAE378D35",
       "image": "https://s1.ticketm.net/dam/a/7a6/89a91865-b339-410c-b382-44a8e793a7a6_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv170Z_8GkwmuzVg"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Celine Dessberg Live in Los Angeles",
+      "details": "Minty Boi Presents",
+      "start": "2026-11-19T18:00",
+      "price": "$35.55",
+      "status": "sold_out",
+      "url": "https://dice.fm/event/6a7cde6e72fc2a0001ea29ee",
+      "image": "https://dice-media.imgix.net/attachments/2026-09-15/58e5dd20-f786-4aaf-bd37-17504e535786.jpg?rect=0%2C578%2C3508%2C3508",
+      "source_id": "dice:6a7cde6e72fc2a0001ea29ee"
     },
     {
       "venue": "Permanent Records Roadhouse",
@@ -11120,6 +12790,16 @@
       "ticket_url": "https://www.ticketmaster.com/zauntee-god-remembers-tour-los-angeles-california-11-19-2026/event/090064EDC54BA93C",
       "image": "https://s1.ticketm.net/dam/e/54d/bad44a34-52c7-4dcd-b30b-d4906678154d_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vvG10Z_CMA3B0H"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Memphis LK in Los Angeles",
+      "details": "Minty Boi Presents",
+      "start": "2026-11-19T22:00",
+      "price": "$26.96",
+      "url": "https://dice.fm/event/6a8cc53236a3f2000139fced",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-09/7f7d8e9f-b310-49c3-aeff-549386617a6e.jpg?rect=0%2C23%2C1080%2C1080",
+      "source_id": "dice:6a8cc53236a3f2000139fced"
     },
     {
       "venue": "Permanent Records Roadhouse",
@@ -11429,7 +13109,7 @@
       "start": "2026-11-21T19:00",
       "price": "from $19.57",
       "url": "https://dice.fm/event/6ab75d9bc4bbbb00013e42d5",
-      "image": "https://dice-media.imgix.net/attachments/2026-09-26/8b8deaa1-cd13-4ce7-a98d-a17ca1076560.jpg?rect=0%2C0%2C4800%2C4800",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-31/8b5e5ff6-9294-476d-a8b3-e49dc589c718.jpg?rect=0%2C0%2C1080%2C1080",
       "source_id": "dice:6ab75d9bc4bbbb00013e42d5"
     },
     {
@@ -11561,6 +13241,15 @@
       "source_id": "tm:vv16aZk44evZA25u8k"
     },
     {
+      "venue": "El Cid",
+      "title": "Dopamine",
+      "details": "A Feel Good House & Disco Party",
+      "start": "2026-11-21T21:30",
+      "url": "https://dice.fm/event/6ab6bb881c269100013a3e74",
+      "image": "https://dice-media.imgix.net/attachments/2026-09-11/0d6210af-0f89-417b-8c99-33f4bf3f6421.jpg?rect=122%2C3%2C880%2C881",
+      "source_id": "dice:6ab6bb881c269100013a3e74"
+    },
+    {
       "venue": "The Moroccan Lounge",
       "title": "Riot! at the Disco",
       "details": "Emo + Pop Punk Nite",
@@ -11619,6 +13308,15 @@
       "ticket_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZpae",
       "image": "https://s1.ticketm.net/dam/a/61a/cf30062f-92a9-4e88-9b9c-6636c900061a_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:Z7r9jZ1AAZpae"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Hot Dog Sundays",
+      "start": "2026-11-22T16:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6a8cdfa092a40400019da8ee",
+      "image": "https://dice-media.imgix.net/attachments/2024-09-05/ca339400-c4fb-4946-9f5f-69ad7033937d.jpg?rect=0%2C0%2C936%2C936",
+      "source_id": "dice:6a8cdfa092a40400019da8ee"
     },
     {
       "venue": "The Glass House",
@@ -11959,6 +13657,15 @@
       "source_id": "tm:Z7r9jZ1AAvSCd"
     },
     {
+      "venue": "El Cid",
+      "title": "Poom Poom Tuesday",
+      "start": "2026-11-24T22:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6a62b8c75c999a0001e54cce",
+      "image": "https://dice-media.imgix.net/attachments/2024-08-24/42e79119-c94a-44f4-a4fa-645945355b86.jpg?rect=0%2C0%2C936%2C936",
+      "source_id": "dice:6a62b8c75c999a0001e54cce"
+    },
+    {
       "venue": "Echoplex",
       "title": "Kabaka Pyramid",
       "details": "Dub Club presents",
@@ -11973,13 +13680,11 @@
     {
       "venue": "El Cid",
       "title": "ezcodylee",
-      "details": "Make America Stunt 4 Life Tour",
-      "start": "2026-11-25T19:00",
-      "price": "$26.74",
-      "url": "https://www.ticketweb.com/event/ezcodylee-make-america-stunt-4-el-cid-tickets/14329744",
-      "ticket_url": "https://www.ticketweb.com/event/ezcodylee-make-america-stunt-4-el-cid-tickets/14329744",
-      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:rZ7HnEZ1AfGtq7"
+      "start": "2026-11-25T18:00",
+      "price": "from $27.04",
+      "url": "https://dice.fm/event/6aadb5f940665d0001b0a713",
+      "image": "https://dice-media.imgix.net/attachments/2026-09-18/e8010171-544b-450d-9c73-20580dbf873b.jpg?rect=0%2C300%2C2400%2C2400",
+      "source_id": "dice:6aadb5f940665d0001b0a713"
     },
     {
       "venue": "The Glass House",
@@ -12052,6 +13757,15 @@
       "ticket_url": "https://www.ticketmaster.com/strawberry-fuzz-x-plague-vendor-w-los-angeles-california-11-27-2026/event/0900652FE632E2DB",
       "image": "https://s1.ticketm.net/dam/e/ec2/8029218c-944f-45ef-9dee-0d3b68cc6ec2_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv170Z_3GkTJGm5h"
+    },
+    {
+      "venue": "El Cid",
+      "title": "4L JAVI x Thirty2 LIVE",
+      "start": "2026-11-27T18:00",
+      "price": "from $26.01",
+      "url": "https://dice.fm/event/6ab415244e97fa0001df3293",
+      "image": "https://dice-media.imgix.net/attachments/2026-09-23/19fda125-106d-40e7-b0c1-24703e1266a5.jpg?rect=0%2C0%2C1206%2C1206",
+      "source_id": "dice:6ab415244e97fa0001df3293"
     },
     {
       "venue": "Lodge Room",
@@ -12253,6 +13967,24 @@
       "image": "http://roadhouse.permanentrecordsla.com/images/2026/11nov/hippie.png"
     },
     {
+      "venue": "El Cid",
+      "title": "Radiohead Tribute Night",
+      "start": "2026-11-28T22:00",
+      "price": "$19.83",
+      "url": "https://dice.fm/event/6ae0f5420de9ee0001d97192",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-27/57d05d13-9bd5-483d-a3a5-319f8a2291e6.jpg?rect=0%2C33%2C1080%2C1080",
+      "source_id": "dice:6ae0f5420de9ee0001d97192"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Hot Dog Sundays",
+      "start": "2026-11-29T16:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6a8cdfa192a404000174761c",
+      "image": "https://dice-media.imgix.net/attachments/2024-09-05/ca339400-c4fb-4946-9f5f-69ad7033937d.jpg?rect=0%2C0%2C936%2C936",
+      "source_id": "dice:6a8cdfa192a404000174761c"
+    },
+    {
       "venue": "The Moroccan Lounge",
       "title": "HOTBOX EP Release Show with Sythe & Special Guests",
       "start": "2026-11-29T18:30",
@@ -12422,6 +14154,18 @@
       "source_id": "tm:vv1AaZkfMGkdceA0Z"
     },
     {
+      "venue": "El Cid",
+      "title": "Sap's Erasure Tour",
+      "support": [
+        "Sludge Mother and Lorraine"
+      ],
+      "start": "2026-12-02T18:00",
+      "price": "from $24.47",
+      "url": "https://dice.fm/event/6a88941582b83a00017c48eb",
+      "image": "https://dice-media.imgix.net/attachments/2026-08-21/cf6f66e4-d6c9-40e0-8ba6-0e3c48021ee5.jpg?rect=0%2C807%2C2774%2C2774",
+      "source_id": "dice:6a88941582b83a00017c48eb"
+    },
+    {
       "venue": "The Moroccan Lounge",
       "title": "Moon Panda",
       "details": "KCRW Presents",
@@ -12430,16 +14174,6 @@
       "ticket_url": "https://www.ticketmaster.com/kcrw-presents-moon-panda-los-angeles-california-12-02-2026/event/09006527DA548ECE",
       "image": "https://s1.ticketm.net/dam/e/670/e7c19bb0-a4de-4a34-bac9-5d080382f670_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv1AaZkfEGkdQ4FDC"
-    },
-    {
-      "venue": "El Cid",
-      "title": "Sap's Erasure Tour (w/ special guests Sludge Mother, Lorraine)",
-      "start": "2026-12-02T18:45",
-      "price": "$23.15",
-      "url": "https://www.ticketweb.com/event/saps-erasure-tour-w-special-el-cid-tickets/14278764",
-      "ticket_url": "https://www.ticketweb.com/event/saps-erasure-tour-w-special-el-cid-tickets/14278764",
-      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:rZ7HnEZ1Afazq0"
     },
     {
       "venue": "Gold-Diggers",
@@ -13525,15 +15259,6 @@
       "ticket_url": "https://www.ticketmaster.com/your-old-droog-los-angeles-california-12-11-2026/event/090065509518769E",
       "image": "https://s1.ticketm.net/dam/a/c72/a66cb9bf-bcc2-47e2-9aa6-9de14344ec72_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv11e8vPfafbqtv2"
-    },
-    {
-      "venue": "El Cid",
-      "title": "snyderablock LIVE at El Cid (Los Angeles, CA)",
-      "start": "2026-12-11T18:45",
-      "url": "https://www.ticketweb.com/event/snyderablock-live-at-el-cid-el-cid-tickets/15052553",
-      "ticket_url": "https://www.ticketweb.com/event/snyderablock-live-at-el-cid-el-cid-tickets/15052553",
-      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:rZ7HnEZ1A4v34K"
     },
     {
       "venue": "Teragram Ballroom",
