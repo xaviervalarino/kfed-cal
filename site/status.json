@@ -1,7 +1,7 @@
 {
   "run": {
-    "started": "2026-10-31T17:56:26+00:00",
-    "finished": "2026-10-31T18:02:43+00:00",
+    "started": "2026-10-31T19:50:05+00:00",
+    "finished": "2026-10-31T20:28:13+00:00",
     "next": "2026-11-04T10:17:00+00:00"
   },
   "totals": {
@@ -11,8 +11,8 @@
   "haiku": {
     "model": "claude-haiku-5-5",
     "input_tokens": 2646,
-    "output_tokens": 1452,
-    "dollars": 0.00099
+    "output_tokens": 1290,
+    "dollars": 0.00091
   },
   "venues": [
     {
@@ -23,7 +23,7 @@
       "events": 62,
       "through": "2027-04-29",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:56:27+00:00"
+      "last_success": "2026-10-31T19:50:06+00:00"
     },
     {
       "name": "Echoplex",
@@ -33,7 +33,7 @@
       "events": 31,
       "through": "2027-04-10",
       "with_time": 0.77,
-      "last_success": "2026-10-31T17:56:29+00:00"
+      "last_success": "2026-10-31T19:50:08+00:00"
     },
     {
       "name": "The Belasco",
@@ -43,7 +43,7 @@
       "events": 32,
       "through": "2027-04-29",
       "with_time": 0.97,
-      "last_success": "2026-10-31T17:56:31+00:00"
+      "last_success": "2026-10-31T19:50:10+00:00"
     },
     {
       "name": "The Wiltern",
@@ -53,7 +53,7 @@
       "events": 85,
       "through": "2027-11-10",
       "with_time": 0.96,
-      "last_success": "2026-10-31T17:56:34+00:00"
+      "last_success": "2026-10-31T19:50:12+00:00"
     },
     {
       "name": "Hollywood Palladium",
@@ -63,7 +63,7 @@
       "events": 44,
       "through": "2027-05-23",
       "with_time": 0.61,
-      "last_success": "2026-10-31T17:56:36+00:00"
+      "last_success": "2026-10-31T19:50:15+00:00"
     },
     {
       "name": "The Bellwether",
@@ -73,7 +73,7 @@
       "events": 39,
       "through": "2027-05-03",
       "with_time": 0.95,
-      "last_success": "2026-10-31T17:56:41+00:00"
+      "last_success": "2026-10-31T19:50:19+00:00"
     },
     {
       "name": "Teragram Ballroom",
@@ -83,7 +83,7 @@
       "events": 43,
       "through": "2027-05-15",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:56:43+00:00"
+      "last_success": "2026-10-31T19:50:21+00:00"
     },
     {
       "name": "The Regent",
@@ -93,7 +93,7 @@
       "events": 40,
       "through": "2027-05-08",
       "with_time": 0.97,
-      "last_success": "2026-10-31T17:56:45+00:00"
+      "last_success": "2026-10-31T19:50:24+00:00"
     },
     {
       "name": "Greek Theatre",
@@ -103,7 +103,7 @@
       "events": 7,
       "through": "2027-09-11",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:56:47+00:00"
+      "last_success": "2026-10-31T19:50:26+00:00"
     },
     {
       "name": "The Fonda",
@@ -113,7 +113,7 @@
       "events": 42,
       "through": "2027-05-16",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:56:50+00:00"
+      "last_success": "2026-10-31T19:50:28+00:00"
     },
     {
       "name": "The Roxy",
@@ -123,7 +123,7 @@
       "events": 46,
       "through": "2027-05-14",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:56:52+00:00"
+      "last_success": "2026-10-31T19:50:30+00:00"
     },
     {
       "name": "Troubadour",
@@ -133,7 +133,7 @@
       "events": 48,
       "through": "2027-05-20",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:56:54+00:00"
+      "last_success": "2026-10-31T19:50:32+00:00"
     },
     {
       "name": "Hollywood Bowl",
@@ -143,7 +143,7 @@
       "events": 11,
       "through": "2027-08-25",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:56:56+00:00"
+      "last_success": "2026-10-31T19:50:34+00:00"
     },
     {
       "name": "The Moroccan Lounge",
@@ -153,7 +153,7 @@
       "events": 74,
       "through": "2027-05-01",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:56:59+00:00"
+      "last_success": "2026-10-31T19:50:37+00:00"
     },
     {
       "name": "Lodge Room",
@@ -163,7 +163,7 @@
       "events": 70,
       "through": "2027-04-19",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:57:06+00:00"
+      "last_success": "2026-10-31T19:50:44+00:00"
     },
     {
       "name": "The Vermont",
@@ -173,7 +173,7 @@
       "events": 13,
       "through": "2027-02-04",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:57:27+00:00"
+      "last_success": "2026-10-31T19:50:47+00:00"
     },
     {
       "name": "Zebulon",
@@ -183,7 +183,7 @@
       "events": 30,
       "through": "2026-11-22",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:57:29+00:00",
+      "last_success": "2026-10-31T19:50:49+00:00",
       "note": "DICE shows only the next 30 shows."
     },
     {
@@ -194,7 +194,7 @@
       "events": 5,
       "through": "2026-12-09",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:57:31+00:00"
+      "last_success": "2026-10-31T19:50:51+00:00"
     },
     {
       "name": "The Glass House",
@@ -204,7 +204,7 @@
       "events": 24,
       "through": "2027-03-20",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:57:33+00:00"
+      "last_success": "2026-10-31T19:50:53+00:00"
     },
     {
       "name": "Gold-Diggers",
@@ -214,7 +214,7 @@
       "events": 30,
       "through": "2026-12-04",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:57:36+00:00",
+      "last_success": "2026-10-31T19:50:56+00:00",
       "note": "DICE shows only the next 30 shows."
     },
     {
@@ -225,7 +225,7 @@
       "events": 3,
       "through": "2026-12-11",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:57:38+00:00",
+      "last_success": "2026-10-31T19:50:58+00:00",
       "note": "Ticketmaster lists only some of El Cid's shows."
     },
     {
@@ -236,7 +236,7 @@
       "events": 54,
       "through": "2027-08-19",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:57:40+00:00"
+      "last_success": "2026-10-31T19:51:00+00:00"
     },
     {
       "name": "Monty Bar",
@@ -246,7 +246,7 @@
       "events": 2,
       "through": "2026-11-01",
       "with_time": 1.0,
-      "last_success": "2026-10-31T17:57:51+00:00"
+      "last_success": "2026-10-31T19:51:11+00:00"
     },
     {
       "name": "Silverlake Lounge",
