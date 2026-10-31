@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T21:49:53+00:00",
+  "updated": "2026-10-31T21:57:28+00:00",
   "timezone": "America/Los_Angeles",
   "artists": {
     "Marilyn Manson": {
@@ -17,6 +17,11 @@
         "instagram": "https://www.instagram.com/marilynmanson/"
       },
       "mbid": "5dfdca28-9ddc-4853-933c-8bc97d87beec"
+    },
+    "Belle & Chain": {
+      "about": "Group.",
+      "about_source": "https://musicbrainz.org/artist/00cd7f6b-e79a-4b40-bea1-53cce2065f78",
+      "mbid": "00cd7f6b-e79a-4b40-bea1-53cce2065f78"
     },
     "My Chemical Romance": {
       "about": "My Chemical Romance is an American rock band from New Jersey. The band's current lineup consists of lead vocalist Gerard Way, lead guitarist Ray Toro, rhythm guitarist Frank Iero, and bassist Mikey Way.",
@@ -7461,7 +7466,17 @@
       "image": "https://s1.ticketm.net/dam/a/94f/15553c53-9b9b-4af2-9f43-400fa6e7394f_RETINA_LANDSCAPE_16_9.jpg"
     },
     "Maggie Koerner": {
-      "image": "https://s1.ticketm.net/dam/a/b30/3909af9b-6b3e-4d18-97a2-7bcf9badbb30_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from New Orleans.",
+      "about_source": "https://musicbrainz.org/artist/298b94dc-96b3-4e99-a2fb-56f9f689f51a",
+      "image": "https://s1.ticketm.net/dam/a/b30/3909af9b-6b3e-4d18-97a2-7bcf9badbb30_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0I21YuJNE9DbkOcacgbQoe",
+        "bandcamp": "https://maggiekoerner.bandcamp.com/",
+        "youtube": "https://www.youtube.com/channel/UCsHpOq2g3Xj_Ng_A3njZ0sA",
+        "homepage": "http://www.maggiekoerner.com/",
+        "instagram": "https://www.instagram.com/maggiekoerner/"
+      },
+      "mbid": "298b94dc-96b3-4e99-a2fb-56f9f689f51a"
     },
     "David Cross": {
       "image": "https://s1.ticketm.net/dam/a/5ae/2418e6e7-712b-4099-906c-8f527e8c65ae_RETINA_LANDSCAPE_16_9.jpg"
@@ -8338,7 +8353,17 @@
       "mbid": "8385f26a-f374-4a04-9aad-4442ce24db2b"
     },
     "Bo Staloch": {
-      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from Austin.",
+      "about_source": "https://musicbrainz.org/artist/c353dd11-40c4-493c-ad23-063b19d89ba0",
+      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2EtiCherSxAKu7mnbU8Poh",
+        "qobuz": "https://www.qobuz.com/us-en/interpreter/bo-staloch/19453677",
+        "apple_music": "https://music.apple.com/us/artist/1698048247",
+        "youtube": "https://www.youtube.com/channel/UCJKX3WcunxfXcfVxj0YwYtg",
+        "homepage": "https://www.bostaloch.com/"
+      },
+      "mbid": "c353dd11-40c4-493c-ad23-063b19d89ba0"
     },
     "TMOTV": {
       "about": "Group from United States, formed 2026.",
@@ -8404,7 +8429,17 @@
       "mbid": "4e7473b1-0e6e-4530-b374-b9c80ec7832b"
     },
     "Beherit": {
-      "image": "https://s1.ticketm.net/dam/a/7e8/8ee52d31-6b50-4867-bccf-b9ae098537e8_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Beherit is a Finnish black metal band from Rovaniemi. The band was formed in 1989 by Nuclear Holocausto Vengeance, Demonic Fornication and Sodomatic Slaughter, to perform \"the most primitive, savage, hell-obsessed black metal imaginable\".",
+      "about_source": "https://en.wikipedia.org/wiki/Beherit",
+      "image": "https://s1.ticketm.net/dam/a/7e8/8ee52d31-6b50-4867-bccf-b9ae098537e8_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3EHztVB0kFpqp0N8MlmD1X",
+        "apple_music": "https://itunes.apple.com/fi/artist/id256434537",
+        "soundcloud": "https://soundcloud.com/beherit-official",
+        "youtube": "https://www.youtube.com/user/beheritengram",
+        "homepage": "https://www.beherit.fi/"
+      },
+      "mbid": "65a8ee1c-20ef-4e2d-bf55-33a35bd7e644"
     },
     "Ashdautas": {
       "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg",
@@ -8430,7 +8465,19 @@
       "mbid": "490f3182-9050-402a-af26-e67468d05ce1"
     },
     "Susannah Joffe": {
-      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from Austin.",
+      "about_source": "https://musicbrainz.org/artist/02452937-d06b-4e9f-966d-8477bae38ddc",
+      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3JGxLjd5coSPknSlbYyNLw",
+        "bandcamp": "https://susannahjoffe.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/9277216",
+        "apple_music": "https://music.apple.com/gb/artist/1497474765",
+        "soundcloud": "https://soundcloud.com/user-886548433",
+        "homepage": "http://www.susannahjoffe.com/",
+        "instagram": "https://www.instagram.com/susannah.joffe/"
+      },
+      "mbid": "02452937-d06b-4e9f-966d-8477bae38ddc"
     },
     "Hans Williams": {
       "image": "https://s1.ticketm.net/dam/a/d03/5e1b67b9-cb88-40e3-8d71-068f9ca01d03_RETINA_LANDSCAPE_16_9.jpg",
@@ -8472,7 +8519,18 @@
       }
     },
     "Worldpeace DMT": {
-      "image": "https://s1.ticketm.net/dam/a/099/27336af0-5421-45a4-a44a-722c63ba6099_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "From London.",
+      "about_source": "https://musicbrainz.org/artist/ccf34cee-ac88-482c-a651-cb5170a8c5f4",
+      "image": "https://s1.ticketm.net/dam/a/099/27336af0-5421-45a4-a44a-722c63ba6099_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/48Nf4afKn9nV8OqgnTP7dV",
+        "bandcamp": "https://worldpeacedmt.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/23904981",
+        "apple_music": "https://music.apple.com/gb/artist/1769361394",
+        "youtube": "https://www.youtube.com/channel/worldpeacedmt",
+        "instagram": "https://www.instagram.com/world.peace.dmt/"
+      },
+      "mbid": "ccf34cee-ac88-482c-a651-cb5170a8c5f4"
     },
     "Oscar Ortiz": {
       "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_LANDSCAPE_16_9.jpg",
@@ -9496,7 +9554,7 @@
     {
       "venue": "Monty Bar",
       "title": "DANSE-X",
-      "details": "GOTH // WAVE // ITALO | Resident DJs MARK LABEL + UNHOLY + Guest DJ VOID PALACE",
+      "details": "GOTH // WAVE // ITALO; Resident DJs MARK LABEL + UNHOLY + Guest DJ VOID PALACE",
       "start": "2026-10-31T21:00",
       "price": "$10 AFTER 11PM",
       "url": "https://montybar.com/",
@@ -9719,7 +9777,7 @@
     {
       "venue": "Monty Bar",
       "title": "BATASTROPHE",
-      "details": "GOTHIK ROCK // DEATHROCK // BATCAVE | Resident DJ STEVE SKELETAL",
+      "details": "GOTHIK ROCK // DEATHROCK // BATCAVE; Resident DJ STEVE SKELETAL",
       "start": "2026-11-01T21:00",
       "price": "free",
       "url": "https://montybar.com/",

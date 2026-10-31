@@ -17,6 +17,9 @@
   "2026 tripleS world tour [ANDLESS] in NA": {
     "checked": "2026-10-31"
   },
+  "2DEAD BOYZ & The Underachievers": {
+    "checked": "2026-10-31"
+  },
   "3BALLMTY \"SIN PERMISO SESSIONS\"": {
     "checked": "2026-10-31"
   },
@@ -100,6 +103,12 @@
       "youtube": "https://www.youtube.com/channel/UCybOFgMhkwl8zSvEQgutAEw"
     },
     "mbid": "8d79e950-1333-4a32-9fc1-af53d421abc4"
+  },
+  "A VERY MAJESTIC SHOW:NOA JAMES & FRIENDS Celebration & Toy Drive": {
+    "checked": "2026-10-31"
+  },
+  "A lo-fi evening with Kitty Craft and Friends": {
+    "checked": "2026-10-31"
   },
   "ACTORS": {
     "about": "Actors are a Canadian post-punk band from Vancouver, British Columbia, formed in 2012. The band consists of founder Jason Corbett, Shannon Hemmett, Kendall Wooding, and Adam Fink (drums).",
@@ -223,6 +232,9 @@
       "bandcamp": "https://alasiammyself.bandcamp.com/"
     },
     "mbid": "34e8dc40-fc75-417e-8c7d-179453ecf214"
+  },
+  "Alborosie & Shengen Clan": {
+    "checked": "2026-10-31"
   },
   "Alex Cameron": {
     "checked": "2026-10-31"
@@ -530,6 +542,9 @@
   "BAD BUNNY PARTY": {
     "checked": "2026-10-31"
   },
+  "BASSRUSH presents Virtual Riot & Blanke": {
+    "checked": "2026-10-31"
+  },
   "BATASTROPHE": {
     "about": "Group from Brazil.",
     "about_source": "https://musicbrainz.org/artist/2ea21597-f8c9-4eed-b40c-33e34a497bea",
@@ -558,6 +573,9 @@
     "mbid": "55fd865d-4a0d-4fd0-af19-7e6feb168ab8"
   },
   "BOLO": {
+    "checked": "2026-10-31"
+  },
+  "BORGORE & Friends": {
     "checked": "2026-10-31"
   },
   "BZY": {
@@ -736,6 +754,19 @@
     },
     "mbid": "309c62ba-7a22-4277-9f67-4a162526d18a"
   },
+  "Beherit": {
+    "about": "Beherit is a Finnish black metal band from Rovaniemi. The band was formed in 1989 by Nuclear Holocausto Vengeance, Demonic Fornication and Sodomatic Slaughter, to perform \"the most primitive, savage, hell-obsessed black metal imaginable\".",
+    "about_source": "https://en.wikipedia.org/wiki/Beherit",
+    "checked": "2026-10-31",
+    "links": {
+      "apple_music": "https://itunes.apple.com/fi/artist/id256434537",
+      "homepage": "https://www.beherit.fi/",
+      "soundcloud": "https://soundcloud.com/beherit-official",
+      "spotify": "https://open.spotify.com/artist/3EHztVB0kFpqp0N8MlmD1X",
+      "youtube": "https://www.youtube.com/user/beheritengram"
+    },
+    "mbid": "65a8ee1c-20ef-4e2d-bf55-33a35bd7e644"
+  },
   "Bella Poarch": {
     "about": "Denarie Bautista Taylor, known professionally as Bella Poarch, is a Filipino and American social media personality, singer, and U.S. Navy veteran.",
     "about_source": "https://en.wikipedia.org/wiki/Bella_Poarch",
@@ -749,6 +780,12 @@
       "youtube": "https://www.youtube.com/channel/UCCY_8y1FjtOegxKB4s2bWqw"
     },
     "mbid": "6e29613f-68dd-4a24-add2-9a9962de2523"
+  },
+  "Belle & Chain": {
+    "about": "Group.",
+    "about_source": "https://musicbrainz.org/artist/00cd7f6b-e79a-4b40-bea1-53cce2065f78",
+    "checked": "2026-10-31",
+    "mbid": "00cd7f6b-e79a-4b40-bea1-53cce2065f78"
   },
   "Ben Caplan": {
     "about": "Ben Caplan is a Canadian folk musician from Halifax, Nova Scotia. He often performs with his band the Casual Smokers, and his first full-length studio album, In the Time of the Great Remembering, was released on October 20, 2011.",
@@ -946,6 +983,19 @@
       "youtube": "https://www.youtube.com/channel/UCC4hFfTfQuCepDgVEsUZfiA"
     },
     "mbid": "d6a3eeec-cde0-4c10-89b2-93e0bd5f34e6"
+  },
+  "Bo Staloch": {
+    "about": "Person from Austin.",
+    "about_source": "https://musicbrainz.org/artist/c353dd11-40c4-493c-ad23-063b19d89ba0",
+    "checked": "2026-10-31",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1698048247",
+      "homepage": "https://www.bostaloch.com/",
+      "qobuz": "https://www.qobuz.com/us-en/interpreter/bo-staloch/19453677",
+      "spotify": "https://open.spotify.com/artist/2EtiCherSxAKu7mnbU8Poh",
+      "youtube": "https://www.youtube.com/channel/UCJKX3WcunxfXcfVxj0YwYtg"
+    },
+    "mbid": "c353dd11-40c4-493c-ad23-063b19d89ba0"
   },
   "Bobbing": {
     "about": "Person from Berkeley.",
@@ -1452,6 +1502,12 @@
     },
     "mbid": "da91685a-7e8d-4f5f-a0ac-86aee86b3714"
   },
+  "Conan O'Brien and The Vigodas": {
+    "checked": "2026-10-31"
+  },
+  "Confetti & Khel": {
+    "checked": "2026-10-31"
+  },
   "Costa": {
     "about": "Person from Sri Lanka, born 1992.",
     "about_source": "https://musicbrainz.org/artist/be7c966e-d73e-4aad-b36f-38096b032d34",
@@ -1667,6 +1723,9 @@
   "David J (DJ)": {
     "checked": "2026-10-31"
   },
+  "David Wain & members of Middle Aged Dad Jam Band": {
+    "checked": "2026-10-31"
+  },
   "Dead Floyd": {
     "about": "Group from Fort Collins, formed 2009.",
     "about_source": "https://musicbrainz.org/artist/198382a4-51d3-4f9b-b043-d0260b442d92",
@@ -1719,6 +1778,9 @@
       "youtube": "https://www.youtube.com/channel/UCxf-CxpxRM86xHot89BTlDw"
     },
     "mbid": "11eabe0c-2638-4808-92f9-1dbd9c453429"
+  },
+  "Def Leppard and Goo Goo Dolls": {
+    "checked": "2026-10-31"
   },
   "Deleasa": {
     "about": "Person.",
@@ -1862,6 +1924,9 @@
     },
     "mbid": "8c8b7177-4c03-4cb4-858c-b071f5de013e"
   },
+  "Dominique and the Diamonds": {
+    "checked": "2026-10-31"
+  },
   "Don Broco": {
     "about": "Don Broco are an English rock band formed in Bedford in 2008. They consist of lead vocalist Rob Damiani, guitarist Simon Delaney, drummer Matt Donnelly, and bassist Tom Doyle.",
     "about_source": "https://en.wikipedia.org/wiki/Don_Broco",
@@ -1981,6 +2046,15 @@
   "ELDON": {
     "checked": "2026-10-31"
   },
+  "ESTEMAN & DANIELA SPALLA": {
+    "checked": "2026-10-31"
+  },
+  "EVNNE FAN-CONCERT [ONE TAKE] IN NORTH AMERICA": {
+    "checked": "2026-10-31"
+  },
+  "Earl Sweatshirt & MIKE Home on the Range Tour 2026": {
+    "checked": "2026-10-31"
+  },
   "Early Moods": {
     "about": "Group from United States.",
     "about_source": "https://musicbrainz.org/artist/4bdb2950-2c2c-4033-9a6f-4aead7780bdb",
@@ -2072,6 +2146,12 @@
       "spotify": "https://open.spotify.com/artist/5jy9tglmQRLmTmcqz2qyUa"
     },
     "mbid": "1a81a97c-caf7-4f63-aceb-b10fdf055dfb"
+  },
+  "Elon Gold & Friends": {
+    "checked": "2026-10-31"
+  },
+  "Elsewhere Cinema Club": {
+    "checked": "2026-10-31"
   },
   "Eluveitie": {
     "about": "Eluveitie is a Swiss folk metal band from Winterthur, Zürich, founded in 2002 by Chrigel Glanzmann. The project's first demo, Vên, was released in 2003.",
@@ -2334,6 +2414,9 @@
     },
     "mbid": "9ef62999-43b9-408f-9bc8-434b005c388c"
   },
+  "Floyd & Friends": {
+    "checked": "2026-10-31"
+  },
   "Footballhead": {
     "about": "Group from United States, formed 2023.",
     "about_source": "https://musicbrainz.org/artist/d35f84b8-122e-491b-9490-a817a245e172",
@@ -2392,6 +2475,9 @@
     },
     "mbid": "6312b3ac-1118-4175-8ac7-ef9579c17fa9"
   },
+  "Fox Stevenson & Mystery Skulls": {
+    "checked": "2026-10-31"
+  },
   "Francisca Valenzuela": {
     "about": "Francisca Valenzuela Méndez is a Chilean-American singer-songwriter, poet, and multi-instrumentalist. Valenzuela was born and raised in San Francisco, California, where she resided until the age of 12, before moving to Santiago, Chile.",
     "about_source": "https://en.wikipedia.org/wiki/Francisca_Valenzuela",
@@ -2405,6 +2491,12 @@
       "youtube": "https://www.youtube.com/channel/UCmpek_KOrgTJRbQADnSUSBQ"
     },
     "mbid": "a374846a-b434-4a07-abbb-769dc307bcb2"
+  },
+  "Frank Turner & The Sleeping Souls": {
+    "checked": "2026-10-31"
+  },
+  "Frankie J & Bobby V": {
+    "checked": "2026-10-31"
   },
   "Free Halloween Dance Party with Shelby Jacobson": {
     "checked": "2026-10-31"
@@ -2589,6 +2681,9 @@
     },
     "mbid": "632258cb-4ab5-4f2d-be29-bcc641a275eb"
   },
+  "Genevieve Artadi ft. Louis Cole & Chiquita Magic": {
+    "checked": "2026-10-31"
+  },
   "George Clanton meets ESPRIT": {
     "checked": "2026-10-31"
   },
@@ -2666,6 +2761,9 @@
       "youtube": "https://www.youtube.com/@gloryhammer"
     },
     "mbid": "85997032-ff48-4383-b86a-a920d4230a0b"
+  },
+  "Glykeria & Kostas Ageris Live": {
+    "checked": "2026-10-31"
   },
   "Goapele": {
     "about": "Goapele Mohlabane is an American soul and R&B singer-songwriter. Her name means to move forward in Setswana, a Southern African language.",
@@ -2773,6 +2871,9 @@
     "checked": "2026-10-31"
   },
   "HOSTILE": {
+    "checked": "2026-10-31"
+  },
+  "HOTBOX EP Release Show with Sythe & Special Guests": {
     "checked": "2026-10-31"
   },
   "Haiden Henderson": {
@@ -3191,6 +3292,9 @@
   "Insomniac presents Valentino Khan": {
     "checked": "2026-10-31"
   },
+  "Insomnium & Amorphis": {
+    "checked": "2026-10-31"
+  },
   "JOAQU.N": {
     "checked": "2026-10-31",
     "links": {
@@ -3301,6 +3405,9 @@
       "spotify": "https://open.spotify.com/artist/4UodukR17NIQfNu5uaqm9B"
     },
     "mbid": "a357b4fb-b0ca-4b4e-9b6b-2030bb2ce2d6"
+  },
+  "Jay Dee Daugherty (Tom Verlaine Band)": {
+    "checked": "2026-10-31"
   },
   "Jay Worthy": {
     "about": "Person from United States.",
@@ -3531,6 +3638,9 @@
     },
     "mbid": "0e762f40-9bfb-4998-b4c3-810d68ab43f2"
   },
+  "Josh Homme & Friends": {
+    "checked": "2026-10-31"
+  },
   "Josh da Costa": {
     "about": "Person from United States.",
     "about_source": "https://musicbrainz.org/artist/4502753b-ddc5-42ad-a0cb-e711cd9ca817",
@@ -3566,6 +3676,9 @@
       "spotify": "https://open.spotify.com/artist/04a6mc5vUtj2pMzteToeH7"
     },
     "mbid": "e574d1eb-d856-4c04-91bf-7ad77a3460c8"
+  },
+  "K2icyy with Jayfurr": {
+    "checked": "2026-10-31"
   },
   "KCRW Presents Bonobo": {
     "checked": "2026-10-31"
@@ -3630,6 +3743,9 @@
     "mbid": "2ccd7794-849d-4d47-89ca-cf91b27dab59"
   },
   "Kawaii Rave": {
+    "checked": "2026-10-31"
+  },
+  "Keith and Tex & Keith Poppin": {
     "checked": "2026-10-31"
   },
   "Kelly Willis": {
@@ -4072,6 +4188,9 @@
     },
     "mbid": "22c5cef9-80e8-48d2-acd3-6d16f6c8a16d"
   },
+  "Listening & Release Party": {
+    "checked": "2026-10-31"
+  },
   "Loch": {
     "checked": "2026-10-31"
   },
@@ -4085,6 +4204,9 @@
     "checked": "2026-10-31"
   },
   "Lotus": {
+    "checked": "2026-10-31"
+  },
+  "Lou Rebecca. DJs Marci & Sedona": {
     "checked": "2026-10-31"
   },
   "Lower Definition": {
@@ -4136,6 +4258,9 @@
       "spotify": "https://open.spotify.com/artist/6UmyuelV4DRx79BFPMWNPj"
     },
     "mbid": "510a2c7d-5421-41a5-beae-4351ddbd7d7b"
+  },
+  "Luis Coronel & Kevin Ortiz": {
+    "checked": "2026-10-31"
   },
   "M-16": {
     "checked": "2026-10-31"
@@ -4210,6 +4335,19 @@
       "spotify": "https://open.spotify.com/artist/2SYmvaU9yUWwbsMdrsd4LX"
     },
     "mbid": "c4b842b0-f03a-4975-89ff-4c90f0a66084"
+  },
+  "Maggie Koerner": {
+    "about": "Person from New Orleans.",
+    "about_source": "https://musicbrainz.org/artist/298b94dc-96b3-4e99-a2fb-56f9f689f51a",
+    "checked": "2026-10-31",
+    "links": {
+      "bandcamp": "https://maggiekoerner.bandcamp.com/",
+      "homepage": "http://www.maggiekoerner.com/",
+      "instagram": "https://www.instagram.com/maggiekoerner/",
+      "spotify": "https://open.spotify.com/artist/0I21YuJNE9DbkOcacgbQoe",
+      "youtube": "https://www.youtube.com/channel/UCsHpOq2g3Xj_Ng_A3njZ0sA"
+    },
+    "mbid": "298b94dc-96b3-4e99-a2fb-56f9f689f51a"
   },
   "Magnolia Park": {
     "about": "Group from United States.",
@@ -4313,6 +4451,9 @@
     "checked": "2026-10-31"
   },
   "Marques Wyatt (Deep-LA)": {
+    "checked": "2026-10-31"
+  },
+  "Marty Schwartz workshop and show": {
     "checked": "2026-10-31"
   },
   "Mary Gauthier": {
@@ -4459,7 +4600,13 @@
   "Michael Hampton of Funkadelic": {
     "checked": "2026-10-31"
   },
+  "Michael Nau (Night 1)": {
+    "checked": "2026-10-31"
+  },
   "Michael Nau (Night 2)": {
+    "checked": "2026-10-31"
+  },
+  "Michael Shannon & Jason Narducy and Friends play R.E.Ms Document": {
     "checked": "2026-10-31"
   },
   "Michael Wilbur (of Moon Hooch)": {
@@ -4644,6 +4791,9 @@
     },
     "mbid": "26f77379-968b-4435-b486-fc9acb4590d3"
   },
+  "Ms Lauryn Hill & Wyclef Jean Celebrating 30 years of Fugees The Score": {
+    "checked": "2026-10-31"
+  },
   "Music Trivia": {
     "checked": "2026-10-31"
   },
@@ -4707,6 +4857,12 @@
     "mbid": "0412f7e3-6871-4327-88b5-523401106aa9"
   },
   "Nervosa \"Slave Machine Tour 2026\"": {
+    "checked": "2026-10-31"
+  },
+  "Neuro & Evil Live": {
+    "checked": "2026-10-31"
+  },
+  "Neuro-sama and Evil Neuro": {
     "checked": "2026-10-31"
   },
   "Neurosis": {
@@ -4835,6 +4991,9 @@
     },
     "mbid": "9eef8f6a-8f0f-49f5-a681-aa0eaa015138"
   },
+  "Noche Azul ft. Omar Rodriguez, Yuma & Albertyni": {
+    "checked": "2026-10-31"
+  },
   "Nodaway": {
     "about": "Group.",
     "about_source": "https://musicbrainz.org/artist/bd5021a9-db8c-4315-b521-b200000a440c",
@@ -4899,7 +5058,13 @@
   "Off Book": {
     "checked": "2026-10-31"
   },
+  "Old Tower, Putrid Marsh & Yellow Gas Flames": {
+    "checked": "2026-10-31"
+  },
   "Once Upon A Troubadour by Henry Diltz": {
+    "checked": "2026-10-31"
+  },
+  "Open Mike Eagle & Kenny Segal": {
     "checked": "2026-10-31"
   },
   "Oscar Nuñez": {
@@ -5045,6 +5210,12 @@
       "spotify": "https://open.spotify.com/artist/4F61H4lx1js4wtWfb2Rfnt"
     },
     "mbid": "32226ad4-6578-45e5-ba89-9e8cd2d92fec"
+  },
+  "Paul Collins Beat & Exploding Hearts": {
+    "checked": "2026-10-31"
+  },
+  "Paul Oakenfold + The Crystal Method": {
+    "checked": "2026-10-31"
   },
   "Paycheque": {
     "about": "Group from United States.",
@@ -5382,6 +5553,9 @@
       "youtube": "https://www.youtube.com/channel/UCku4fKOodsHAlgch3mgulMw"
     },
     "mbid": "aa914efa-d6cb-4816-906f-8edafb08418e"
+  },
+  "Richard Thompson & Band": {
+    "checked": "2026-10-31"
   },
   "Rikas": {
     "about": "Group from Stuttgart.",
@@ -5791,6 +5965,9 @@
     },
     "mbid": "37fa9024-b095-4da1-8f10-5e9660291c06"
   },
+  "Seb Lowe": {
+    "checked": "2026-10-31"
+  },
   "Sebastien Bordeaux": {
     "about": "Person from Nashville.",
     "about_source": "https://musicbrainz.org/artist/2386437d-b7d0-4360-ab7d-7037bdb27603",
@@ -5832,6 +6009,12 @@
       "youtube": "https://www.youtube.com/channel/UCOau6mqFYpd8xWmJcg6HxRQ"
     },
     "mbid": "ee070414-5bdf-470d-9d5e-98c766dbeede"
+  },
+  "Sha Ray & DJ Haram": {
+    "checked": "2026-10-31"
+  },
+  "Shana Sarett & Vince Rossi DJs": {
+    "checked": "2026-10-31"
   },
   "Shane Torres": {
     "about": "Person from United States.",
@@ -5889,6 +6072,9 @@
   "Silverlake Hinge IRL Party": {
     "checked": "2026-10-31"
   },
+  "Silverstein & Story Of The Year": {
+    "checked": "2026-10-31"
+  },
   "Sina Bathaie": {
     "about": "From Toronto.",
     "about_source": "https://musicbrainz.org/artist/06d988e0-c05e-4b29-a85d-dd7688f27b7c",
@@ -5931,6 +6117,9 @@
       "spotify": "https://open.spotify.com/artist/7m60UAnbgFFNuJbmS6OxTk"
     },
     "mbid": "3b141e34-8c02-4074-b68a-7d64e3212acd"
+  },
+  "Sister Nancy & The Fully Fullwood Band": {
+    "checked": "2026-10-31"
   },
   "Sister Psycho": {
     "checked": "2026-10-31"
@@ -5975,6 +6164,9 @@
     "checked": "2026-10-31",
     "mbid": "75957e5d-f852-419c-979c-b3c1ebaf0b15"
   },
+  "Slash feat. Myles Kennedy & The Conspirators": {
+    "checked": "2026-10-31"
+  },
   "Sleepaway Camp": {
     "checked": "2026-10-31",
     "mbid": "1ae4818f-9c5f-47ce-8807-5fff7e0cbe59"
@@ -6012,6 +6204,9 @@
       "youtube": "https://www.youtube.com/@slowjoyslowjoy"
     },
     "mbid": "80bf422b-aba7-46d9-b925-802019329ce4"
+  },
+  "Sludge Mother and Lorraine": {
+    "checked": "2026-10-31"
   },
   "Small Shake": {
     "about": "Person from Seattle.",
@@ -6331,6 +6526,21 @@
     },
     "mbid": "7442fbfa-00ad-4e3b-8f45-9d2c62786eed"
   },
+  "Susannah Joffe": {
+    "about": "Person from Austin.",
+    "about_source": "https://musicbrainz.org/artist/02452937-d06b-4e9f-966d-8477bae38ddc",
+    "checked": "2026-10-31",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/1497474765",
+      "bandcamp": "https://susannahjoffe.bandcamp.com/",
+      "homepage": "http://www.susannahjoffe.com/",
+      "instagram": "https://www.instagram.com/susannah.joffe/",
+      "qobuz": "https://open.qobuz.com/artist/9277216",
+      "soundcloud": "https://soundcloud.com/user-886548433",
+      "spotify": "https://open.spotify.com/artist/3JGxLjd5coSPknSlbYyNLw"
+    },
+    "mbid": "02452937-d06b-4e9f-966d-8477bae38ddc"
+  },
   "Sweetestthreat": {
     "checked": "2026-10-31"
   },
@@ -6414,6 +6624,9 @@
     },
     "mbid": "27ab1ef7-7f44-4900-b963-0efe97d74a40"
   },
+  "THE BOUNCING SOULS 'Born To Be Tour'": {
+    "checked": "2026-10-31"
+  },
   "THE DAMNED": {
     "about": "The Damned are an English rock band formed in London in 1976 by lead vocalist Dave Vanian, guitarist Brian James, bassist Captain Sensible and drummer Rat Scabies.",
     "about_source": "https://en.wikipedia.org/wiki/The_Damned_(band)",
@@ -6466,6 +6679,9 @@
       "youtube": "https://music.youtube.com/channel/UCHwCLoOo6TbUtaiGkOEBAOw"
     },
     "mbid": "da8a52b3-3432-4f82-aaf9-4e892ea7c847"
+  },
+  "Tall Black Guy \"Let's Take a Trip\" 10th Anniversary": {
+    "checked": "2026-10-31"
   },
   "Tally Hall": {
     "about": "Tally Hall is an American pop rock band formed in Ann Arbor, Michigan, in December 2002. The band's line-up consists of guitarist Rob Cantor, bassist Zubin Sedghi, keyboardist Andrew Horowitz, and drummer Ross Federman.",
@@ -6629,6 +6845,9 @@
   "That's Not Me Comedy Tour with Concrete": {
     "checked": "2026-10-31"
   },
+  "The 8-Bit Big Band": {
+    "checked": "2026-10-31"
+  },
   "The Aggrolites": {
     "about": "The Aggrolites are an American reggae band from Los Angeles, California, United States, which formed in 2002.",
     "about_source": "https://en.wikipedia.org/wiki/The_Aggrolites",
@@ -6698,6 +6917,9 @@
     },
     "mbid": "91e8f48b-7b4c-46af-b052-6573a35e7b1d"
   },
+  "The Centuries": {
+    "checked": "2026-10-31"
+  },
   "The Cult": {
     "about": "The Cult are an English rock band formed in Bradford in 1983. Before settling on its current name in January 1984, the band had performed under the name Death Cult, which was an evolution of the name of lead vocalist Ian Astbury's previous band Southern Death Cult.",
     "about_source": "https://en.wikipedia.org/wiki/The_Cult",
@@ -6724,6 +6946,9 @@
       "youtube": "https://www.youtube.com/channel/UCbMCJB682Rxc9G9OrATE4Dg"
     },
     "mbid": "f5e7676d-203f-4642-8ff7-7635d78d6d4a"
+  },
+  "The Film Company": {
+    "checked": "2026-10-31"
   },
   "The Flaming Lips": {
     "about": "The Flaming Lips are an American psychedelic rock band formed in 1983 in Oklahoma City, Oklahoma. The band currently consists of Wayne Coyne, Derek Brown, Matt Duckworth Kirksey, AJ Slaughter and Tommy McKenzie (bass).",
@@ -6754,6 +6979,9 @@
       "youtube": "https://www.youtube.com/channel/UCy28hSDuYmAnFZWC_lECnyg"
     },
     "mbid": "e5b8c0f3-0752-4a76-987a-96098ce9d490"
+  },
+  "The Former Moscow Ballet": {
+    "checked": "2026-10-31"
   },
   "The Frights": {
     "about": "The Frights are an American surf punk band formed in Poway, California, in 2012. Since 2017, the band has consisted of Mikey Carnevale, Richard Dotson, Marc Finn (drums), and Jordan Clark.",
@@ -6788,6 +7016,9 @@
     },
     "mbid": "448913ad-9a62-4278-abbe-07b35cae6c73"
   },
+  "The Grouch & Eligh ft. Amp Live": {
+    "checked": "2026-10-31"
+  },
   "The Growlers": {
     "about": "The Growlers is an American band from southern California. They began their career in the Orange County city of Dana Point, California in 2006.",
     "about_source": "https://en.wikipedia.org/wiki/The_Growlers",
@@ -6815,6 +7046,9 @@
       "youtube": "https://www.youtube.com/channel/UCWZs-2auBsGjYNRJsaGQMxA"
     },
     "mbid": "f0cc2b82-e502-4eef-b113-f8deb4a2a3ea"
+  },
+  "The Happy Return": {
+    "checked": "2026-10-31"
   },
   "The Heeters": {
     "about": "Group from Los Angeles, formed 2026.",
@@ -6848,6 +7082,9 @@
       "spotify": "https://open.spotify.com/artist/6wXjctGBzxkT0ghwfQ8FC0"
     },
     "mbid": "96d83e40-01e7-46c6-baaf-a84363b30af1"
+  },
+  "The Hustle ~ First and Third Saturday Disco Party!": {
+    "checked": "2026-10-31"
   },
   "The Interrupters": {
     "about": "The Interrupters are an American ska punk band formed in Los Angeles, California, in 2011. The band comprises lead vocalist Aimee Interrupter, drummer Jesse Bivona, bassist Justin Bivona, and guitarist Kevin Bivona.",
@@ -6915,6 +7152,12 @@
     },
     "mbid": "2ea57ea5-83af-4921-a0ee-e0f4662995ad"
   },
+  "The Last Waltz 50th Anniversary Tour ft. Chest Fever": {
+    "checked": "2026-10-31"
+  },
+  "The Legend of Korra In Concert Tour": {
+    "checked": "2026-10-31"
+  },
   "The Lemonheads": {
     "about": "Group from United States, formed 1991.",
     "about_source": "https://musicbrainz.org/artist/4478bd92-582a-457d-be78-367e1418dc0f",
@@ -6948,6 +7191,18 @@
     },
     "mbid": "94c89f67-8c6e-4317-8186-8aad506bf2ae"
   },
+  "The Music of Hey Arnold Live! Feat. Jim Lang and The PS 118 AllStars": {
+    "checked": "2026-10-31"
+  },
+  "The Naji Album Release Experience": {
+    "checked": "2026-10-31"
+  },
+  "The Necessary Effect ft. Paul Roessler playing the music of the SCREAMERS": {
+    "checked": "2026-10-31"
+  },
+  "The Nutcracker": {
+    "checked": "2026-10-31"
+  },
   "The OBGMs": {
     "about": "The OBGMs (The oOohh Baby Gimme Mores) are a Canadian punk rock band from Toronto, Ontario. They are most noted for their 2020 album The Ends, which was a shortlisted finalist for the 2021 Polaris Music Prize.",
     "about_source": "https://en.wikipedia.org/wiki/The_OBGMs",
@@ -6962,6 +7217,12 @@
       "youtube": "https://www.youtube.com/channel/UCw7Y51mdYaWulOXLvGXa1bQ"
     },
     "mbid": "ddf7262f-f3f3-4078-91f1-cc6eaefb9b43"
+  },
+  "The Only Ocean": {
+    "checked": "2026-10-31"
+  },
+  "The Originals": {
+    "checked": "2026-10-31"
   },
   "The Pineapple Thief": {
     "about": "The Pineapple Thief are an English progressive rock band founded in 1999 by Bruce Soord in Yeovil, Somerset. As of June 2024, the group consists of Soord on vocals, guitars, and keyboards, Jon Sykes on bass, Steve Kitch on keyboards, and Gavin Harrison on drums.",
@@ -7015,6 +7276,18 @@
       "homepage": "http://www.therescues.com/"
     },
     "mbid": "7f31c424-fbdf-42f9-b3e6-5576c804026d"
+  },
+  "The Rock 'N' Roll Flea Market": {
+    "checked": "2026-10-31"
+  },
+  "The Rock and Roll Playhouse Plays Music of The Beatles + More for Kids": {
+    "checked": "2026-10-31"
+  },
+  "The Rock and Roll Playhouse Plays Music of Tom Petty + More for Kids": {
+    "checked": "2026-10-31"
+  },
+  "The Sheepdogs": {
+    "checked": "2026-10-31"
   },
   "The Spyrals": {
     "about": "Group from United States.",
@@ -7074,6 +7347,9 @@
     "about_source": "https://en.wikipedia.org/wiki/The_Third_Sex_(band)",
     "checked": "2026-10-31",
     "mbid": "e897691e-09b0-4150-aec0-a9caf50ac115"
+  },
+  "The Umbrellas": {
+    "checked": "2026-10-31"
   },
   "The Wallflowers": {
     "about": "The Wallflowers is an American rock solo project of American singer-songwriter and multi-instrumentalist Jakob Dylan. The Wallflowers were originally a roots rock band formed in Los Angeles by Dylan and guitarist Tobi Miller.",
@@ -7238,6 +7514,9 @@
     },
     "mbid": "12b95b7d-b422-4de6-b95a-32388f6073cf"
   },
+  "Tommy Oeffling and the B-Team": {
+    "checked": "2026-10-31"
+  },
   "Tommy Stinson": {
     "about": "Thomas Eugene Stinson is an American rock musician. He came to prominence in the 1980s as the bass guitarist for The Replacements, one of the definitive American alternative rock groups.",
     "about_source": "https://en.wikipedia.org/wiki/Tommy_Stinson",
@@ -7274,6 +7553,9 @@
       "bandcamp": "https://beautiful2fold.bandcamp.com/"
     },
     "mbid": "85aab529-c225-4ad9-9d31-b67b9e72a723"
+  },
+  "Trap Girl, Buzzed Lightbeer & Biblioteka": {
+    "checked": "2026-10-31"
   },
   "Trauma Ray": {
     "about": "Group from United States, formed 2018.",
@@ -7550,6 +7832,9 @@
   "Welcome Home, Yellowjackets": {
     "checked": "2026-10-31"
   },
+  "Western Standard Time & La Misa Negra": {
+    "checked": "2026-10-31"
+  },
   "Western Standard Time Ska Orchestra+The Skeletones": {
     "checked": "2026-10-31"
   },
@@ -7622,6 +7907,20 @@
   },
   "Wonderfox": {
     "checked": "2026-10-31"
+  },
+  "Worldpeace DMT": {
+    "about": "From London.",
+    "about_source": "https://musicbrainz.org/artist/ccf34cee-ac88-482c-a651-cb5170a8c5f4",
+    "checked": "2026-10-31",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/1769361394",
+      "bandcamp": "https://worldpeacedmt.bandcamp.com/",
+      "instagram": "https://www.instagram.com/world.peace.dmt/",
+      "qobuz": "https://open.qobuz.com/artist/23904981",
+      "spotify": "https://open.spotify.com/artist/48Nf4afKn9nV8OqgnTP7dV",
+      "youtube": "https://www.youtube.com/channel/worldpeacedmt"
+    },
+    "mbid": "ccf34cee-ac88-482c-a651-cb5170a8c5f4"
   },
   "Worry Club": {
     "about": "Group from Chicago.",
@@ -7793,6 +8092,9 @@
       "youtube": "https://music.youtube.com/channel/UChw3Wly_3LDOFBi4xZ0fXVw"
     },
     "mbid": "e636b15f-00c5-45fd-9c33-845a08c8f92d"
+  },
+  "campthehills & Babe Dylan": {
+    "checked": "2026-10-31"
   },
   "departmefrombearisland": {
     "about": "Group from California.",
