@@ -204,6 +204,15 @@
     },
     {
       "venue": "Monty Bar",
+      "title": "CLUB NEVERMORE",
+      "details": "3RD ANNUAL HALLOWEEN | BANDS + DJs + PERFORMANCES | $5 ADV $10 DOORS",
+      "start": "2026-10-30T20:00",
+      "price": "$5 ADV $10 DOORS",
+      "url": "https://montybar.com/",
+      "image": "https://montybar.com/wp-content/uploads/2026/10/MONTY-weekly-2026-43.png"
+    },
+    {
+      "venue": "Monty Bar",
       "title": "Test: doors time only",
       "start": "2026-10-31",
       "doors": "21:00",

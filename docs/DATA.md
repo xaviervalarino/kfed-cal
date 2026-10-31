@@ -73,7 +73,7 @@ Event fields:
 | `status` | no | `sold_out`, `rescheduled` or `postponed`. Cancelled events are left out of the file |
 | `room` | no | a second room at the venue, e.g. `Camille's at The Bellwether` |
 | `ticket_url` | no | where to buy, when the source gives one |
-| `image` | no | an image URL, usually 16:9 (DICE images are square) |
+| `image` | no | an image URL, usually 16:9 (DICE images are square; Monty Bar's is the weekly flyer, a tall image) |
 | `source_id` | no | the source's id, e.g. `tm:…`, `dice:…`. Unique within the file |
 
 Artist fields (`artists["Francis of Delirium"]`):

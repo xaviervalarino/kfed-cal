@@ -90,7 +90,8 @@ python -m scraper.check https://bluenote.example.com/calendar --find "A show nam
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python -m scraper.run
-python -m http.server -d site 8000   # then open http://localhost:8000
+npm --prefix web install
+npm --prefix web run dev:site   # the site with that data, at http://localhost:5173
 ```
 
 `python -m unittest` runs the tests (no network). The Ticketmaster and Monty Bar methods read `TICKETMASTER_API_KEY`
