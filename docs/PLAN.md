@@ -95,11 +95,15 @@ work at 390px wide.
 - [x] Week and month views.
 - [x] Filters: date picks, venues multi-select saved in localStorage, search, hide sold out; the phone filter
   sheet. Phones switch views from a second bar row (LIST / WEEK / MONTH and FILTER), which the mockups left out.
-- [ ] Open a show: tap on phones, click on desktop.
+- [x] Open a show: tap on phones, click on desktop. A `#show=` dialog with tickets, venue, and per-act info and
+  links (`DESIGN.md`, "Show open").
+- [x] Artist info in `events.json` (`DATA.md`, "Artist fields"): Ticketmaster attraction links and photos,
+  MusicBrainz links, Wikipedia summaries, cached in `scraper/cache/artists.json`. A Qobuz search link stands in
+  when there is no Qobuz profile link (Qobuz has no public API).
+- [x] More venues: The Moroccan Lounge (Ticketmaster), Gold-Diggers (DICE).
 - [ ] Shows with no event page (Monty Bar's flyer, most Permanent Records nights: their `url` is the venue's
-  homepage): show the band name as plain text, not a link, with a tooltip saying where the listing comes from
-  (Monty Bar: "From the bar's weekly flyer"). Cleanest with a contract change in `DATA.md`: the scraper leaves
-  `url` out when it would only be the homepage, and the page links only when `url` is there.
+  homepage): the details view already hides EVENT PAGE there. Still to do: say where the listing comes from
+  (Monty Bar: "From the bar's weekly flyer").
 
 ## 7. Ship
 
