@@ -18,7 +18,9 @@
   <span class="venue">{show.room ?? show.venue}</span>
   <span class="price">
     {#if show.status}
-      <span class="chip">{STATUS_LABELS[show.status]}</span>
+      <span class="status-chip" class:sold-out={show.status === "sold_out"}
+        >{STATUS_LABELS[show.status]}</span
+      >
     {/if}
     {#if show.price && show.status !== "sold_out"}
       <span>{show.price}</span>
@@ -97,21 +99,6 @@
     gap: 4px;
     font-size: 14px;
     color: var(--color-dusty);
-  }
-
-  .chip {
-    padding: 2px 6px;
-    border: 1px solid var(--color-dusty);
-    font-weight: 700;
-    font-size: 11px;
-    letter-spacing: 0.12em;
-    color: var(--color-bone);
-  }
-
-  .sold-out .chip {
-    border-color: var(--color-red);
-    background: var(--color-red);
-    color: var(--color-ground);
   }
 
   /* Phone: time · venue · price on one line, then the band, then support. */

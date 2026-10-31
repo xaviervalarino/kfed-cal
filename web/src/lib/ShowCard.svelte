@@ -28,7 +28,9 @@
     <span class="support">{subline}</span>
   {/if}
   {#if show.status}
-    <span class="chip">{STATUS_LABELS[show.status]}</span>
+    <span class="status-chip" class:sold-out={show.status === "sold_out"}
+      >{STATUS_LABELS[show.status]}</span
+    >
   {/if}
 </li>
 
@@ -93,21 +95,8 @@
     overflow-wrap: anywhere;
   }
 
-  /* The same chips as the list rows. */
-  .chip {
+  .status-chip {
     align-self: flex-start;
-    padding: 2px 6px;
-    border: 1px solid var(--color-dusty);
-    font-weight: 700;
-    font-size: 11px;
-    letter-spacing: 0.12em;
-    color: var(--color-bone);
-  }
-
-  .sold-out .chip {
-    border-color: var(--color-red);
-    background: var(--color-red);
-    color: var(--color-ground);
   }
 
   /* On phones the month panel runs full width, so it takes the list's larger type. */

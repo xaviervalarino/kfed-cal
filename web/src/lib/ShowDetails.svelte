@@ -43,20 +43,26 @@
     else if (!show && dialog.open) dialog.close();
   });
 
-  // Closing drops the hash without adding a history entry: it goes back to the entry below, or,
-  // for a link opened from outside, replaces the hash so Back still leaves the site.
+  // Drops the hash without adding a history entry, so Back still leaves the site.
+  function dropHash() {
+    history.replaceState(
+      history.state,
+      "",
+      location.pathname + location.search,
+    );
+    hash = "";
+  }
+
+  // A link to a show that is no longer listed would leave its hash in the URL over the list.
+  $effect(() => {
+    if (hash.startsWith("#show=") && !show) dropHash();
+  });
+
+  // Closing goes back to the entry below the show's or, for a link opened from outside, drops the hash.
   function onclose() {
     if (!show) return;
-    if (navigated) {
-      history.back();
-    } else {
-      history.replaceState(
-        history.state,
-        "",
-        location.pathname + location.search,
-      );
-      hash = "";
-    }
+    if (navigated) history.back();
+    else dropHash();
   }
 
   const credit = (source: string) =>
@@ -137,7 +143,9 @@
             <dt>TICKETS</dt>
             <dd class="tickets">
               {#if show.status}
-                <span class="chip" class:sold-out={show.status === "sold_out"}
+                <span
+                  class="status-chip"
+                  class:sold-out={show.status === "sold_out"}
                   >{STATUS_LABELS[show.status]}</span
                 >
               {/if}
@@ -162,13 +170,19 @@
           >
         {/if}
         {#if website}
-          <a class="outline" href={website} target="_blank" rel="noopener"
-            >VENUE</a
+          <a
+            class="button outline"
+            href={website}
+            target="_blank"
+            rel="noopener">VENUE</a
           >
         {/if}
         {#if show.url !== tickets && show.url !== website}
-          <a class="outline" href={show.url} target="_blank" rel="noopener"
-            >EVENT PAGE <span aria-hidden="true">↗</span></a
+          <a
+            class="button outline"
+            href={show.url}
+            target="_blank"
+            rel="noopener">EVENT PAGE <span aria-hidden="true">↗</span></a
           >
         {/if}
       </div>
@@ -372,21 +386,6 @@
     gap: 8px;
   }
 
-  /* The same chips as the list rows. */
-  .chip {
-    padding: 2px 6px;
-    border: 1px solid var(--color-dusty);
-    font-weight: 700;
-    font-size: 11px;
-    letter-spacing: 0.12em;
-  }
-
-  .chip.sold-out {
-    border-color: var(--color-red);
-    background: var(--color-red);
-    color: var(--color-ground);
-  }
-
   .actions {
     display: flex;
     flex-wrap: wrap;
@@ -403,21 +402,17 @@
     gap: 0.6em;
     height: 48px;
     padding: 0 16px;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.1em;
     text-decoration: none;
   }
 
   /* The color also beats the global a:hover white, which would vanish on bone. */
   .primary {
     flex-grow: 2;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
     background: var(--color-bone);
     color: var(--color-ground);
-  }
-
-  .outline {
-    border: 1px solid var(--color-dusty);
   }
 
   .act {
