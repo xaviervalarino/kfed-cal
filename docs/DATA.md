@@ -51,6 +51,8 @@ Rules for both files:
 ```
 
 - `updated`: when the last scrape finished. The masthead's "UPDATED WED OCT 28" line comes from this.
+- `artists`: what is known about the acts in `events`, keyed by the name exactly as it appears in a `title` or
+  `support`. A name with nothing known is left out. See "Artist fields" below.
 - `venues`: every venue in `venues.json`, in that order, including ones with no source. Use it for the venues
   filter.
 - `events`: upcoming events only, sorted by `start`, then `venue`, then `title`.
@@ -73,6 +75,35 @@ Event fields:
 | `ticket_url` | no | where to buy, when the source gives one |
 | `image` | no | an image URL, usually 16:9 (DICE images are square) |
 | `source_id` | no | the source's id, e.g. `tm:…`, `dice:…`. Unique within the file |
+
+Artist fields (`artists["Francis of Delirium"]`):
+
+```json
+{
+  "about": "Indie rock band from Luxembourg, formed in 2019.",
+  "about_source": "https://en.wikipedia.org/wiki/Francis_of_Delirium",
+  "image": "https://s1.ticketm.net/dam/a/1d2/..._ARTIST_PAGE_3_2.jpg",
+  "links": {
+    "spotify": "https://open.spotify.com/artist/...",
+    "bandcamp": "https://francisofdelirium.bandcamp.com/",
+    "homepage": "https://francisofdelirium.com/"
+  },
+  "mbid": "6a0ed4b8-..."
+}
+```
+
+| Field | Always there | Value |
+|---|---|---|
+| `about` | no | one or two plain sentences: the Wikipedia summary's first sentences, else MusicBrainz's type, area and start year ("Group from Los Angeles, formed 2019") |
+| `about_source` | no | the page `about` came from (Wikipedia or MusicBrainz), for a "From Wikipedia" credit |
+| `image` | no | a photo of the act (Ticketmaster attraction image) |
+| `links` | no | profile URLs by kind. Kinds, in the order pages show them: `spotify`, `bandcamp`, `qobuz`, `apple_music`, `soundcloud`, `youtube`, `homepage`, `instagram`. Others are left out |
+| `mbid` | no | the act's MusicBrainz id |
+
+Sources, in order: the event's Ticketmaster attractions (`externalLinks`, `images`), then MusicBrainz for names that
+Ticketmaster gave no links for (url relations, and type/area/start year), then the English Wikipedia summary for acts
+MusicBrainz links to Wikidata. Lookups are cached between runs in `scraper/cache/artists.json`, which the workflow
+commits with the site files.
 
 ## `site/status.json`
 
