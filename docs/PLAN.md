@@ -101,9 +101,9 @@ work at 390px wide.
   MusicBrainz links, Wikipedia summaries, cached in `scraper/cache/artists.json`. Spotify, Bandcamp and Qobuz search links stand in
   when an act has no profile link there.
 - [x] More venues: The Moroccan Lounge (Ticketmaster), Gold-Diggers (DICE).
-- [ ] Shows with no event page (Monty Bar's flyer, most Permanent Records nights: their `url` is the venue's
-  homepage): the details view already hides EVENT PAGE there. Still to do: say where the listing comes from
-  (Monty Bar: "From the bar's weekly flyer").
+- [x] Shows with no event page (Monty Bar's flyer, most Permanent Records nights: their `url` is the venue's
+  homepage): the details view hides EVENT PAGE there. No source line: Monty's flyer is the show's image, and
+  VENUE links to the listing.
 
 ## 7. Ship
 
