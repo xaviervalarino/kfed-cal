@@ -100,6 +100,9 @@ def show(title, start, source_id=None):
 
 
 def good(venue, fetcher, report):
+    # Ticketmaster's spelling of a name can differ from the event's; "Gone Act" plays no event in the file.
+    report["artists"] = {"BAND": {"links": {"spotify": "https://open.spotify.com/artist/1"}},
+                         "Gone Act": {"image": "https://img.example/gone.jpg"}}
     return [show("Band", "2099-11-14T20:00", "tm:1"), show("Late Band", "2099-12-01")]
 
 
@@ -142,8 +145,10 @@ class MainTest(unittest.TestCase):
             status.write_text(json.dumps({"venues": [{"name": "Broken", "last_success": "2026-10-01T10:00:00+00:00"}]}))
             methods = {"good": good, "twin": twin, "capped": capped, "broken": broken, "flyer": flyer,
                        "empty": lambda venue, fetcher, report: []}
+            band = {"links": {"spotify": "https://open.spotify.com/artist/1"}, "mbid": "6a0ed4b8-0000-0000-0000-000000000000"}
+            find = mock.Mock(return_value=({"Band": band}, {"MusicBrainz": [ValueError("Bad JSON.")], "Wikipedia": []}))
             with mock.patch.multiple(run, OUTPUT=output, STATUS=status, METHODS=methods, Fetcher=mock.Mock(),
-                                     load_venues=lambda: ("America/Los_Angeles", VENUES)), \
+                                     find_artists=find, load_venues=lambda: ("America/Los_Angeles", VENUES)), \
                     contextlib.redirect_stdout(io.StringIO()) as printed:
                 run.main()
             events, report = json.loads(output.read_text()), json.loads(status.read_text())
@@ -151,6 +156,14 @@ class MainTest(unittest.TestCase):
         self.assertIn("::warning::Broken: scrape failed (ValueError: The page changed.). The scraper keeps the "
                       "last run's events.", printed.getvalue())
         self.assertEqual(events["timezone"], "America/Los_Angeles")
+        names, ticketmaster = find.call_args.args[:2]
+        self.assertEqual(sorted(set(names)), ["Band", "Capped Band", "DJ Night", "Late Band", "Old Band", "Other Band"])
+        self.assertEqual(ticketmaster, {"Band": {"links": {"spotify": "https://open.spotify.com/artist/1"}}})
+        self.assertEqual(events["artists"], {"Band": band})
+        self.assertTrue(all(set(e) <= set(run.FIELDS) for e in events["events"]))  # artist info stays out of events
+        self.assertIn("::warning::MusicBrainz: 1 artist lookup(s) failed (ValueError: Bad JSON.). The scraper tries "
+                      "them again next run.", printed.getvalue())
+        self.assertNotIn("::warning::Wikipedia", printed.getvalue())
         self.assertEqual(events["venues"][0], {"name": "Good Hall", "website": "https://good.example/"})
         self.assertEqual(len(events["venues"]), 8)
         self.assertEqual([(e["venue"], e["title"]) for e in events["events"]], [

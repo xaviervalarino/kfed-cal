@@ -2,7 +2,8 @@
 events: dicts with the fields in docs/DATA.md (title, start and url at least). `run.clean` tidies them.
 
 `report` is a dict a method can add to for the status page: "partial" (why the list is incomplete),
-"note" (anything else worth showing), "haiku" (tokens used). One method per source platform, not per venue."""
+"note" (anything else worth showing), "haiku" (tokens used). "artists" maps an act's name to what the source
+says about it (`artists.tm_artist`). One method per source platform, not per venue."""
 
 import base64
 import html
@@ -14,6 +15,8 @@ from urllib.parse import urljoin
 
 import anthropic
 from bs4 import BeautifulSoup
+
+from .artists import tm_artist
 
 MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october",
           "november", "december"]
@@ -92,14 +95,15 @@ def ticketmaster(venue, fetcher, report):
     if not key:
         raise RuntimeError("TICKETMASTER_API_KEY is not set.")
     ids = venue["params"]["venue_ids"]
-    events = []
+    events, artists = [], report.setdefault("artists", {})
     for venue_id in ids:
         page, pages = 0, 1
         while page < pages:
             params = {"venueId": venue_id, "size": 200, "sort": "date,asc", "page": page, "apikey": key}
             data = fetcher.get(TICKETMASTER, params=params).json()
-            events += [tm_event(e, room=len(ids) > 1) for e in data.get("_embedded", {}).get("events", [])
-                       if not e.get("test") and not _add_on(e)]
+            found = [e for e in data.get("_embedded", {}).get("events", []) if not e.get("test") and not _add_on(e)]
+            events += [tm_event(e, room=len(ids) > 1) for e in found]
+            artists.update((a["name"], tm_artist(a)) for e in found for a in e.get("_embedded", {}).get("attractions", []))
             pages = data.get("page", {}).get("totalPages", 0)
             page += 1
     return events

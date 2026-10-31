@@ -1,0 +1,48 @@
+{
+  "created": "2026-10-31T17:33:12.868Z",
+  "count": 110,
+  "artists": [
+    {
+      "id": "f0ed9f50-70b9-4406-9374-7d76ae21a04a",
+      "type": "Group",
+      "score": 100,
+      "name": "Failure",
+      "sort-name": "Failure",
+      "country": "US",
+      "disambiguation": "US alternative rock band"
+    },
+    {
+      "id": "8a9ff5d1-9690-4013-a6b2-bbfd693087e0",
+      "type": "Group",
+      "score": 86,
+      "name": "Brain Failure",
+      "sort-name": "Brain Failure",
+      "country": "CN",
+      "disambiguation": "Beijing punk"
+    },
+    {
+      "id": "a2467026-b93c-4fe9-8199-39626c49e1eb",
+      "type": "Group",
+      "score": 83,
+      "name": "Failure",
+      "sort-name": "Failure",
+      "country": "IT",
+      "disambiguation": "Powerviolence from Italy"
+    },
+    {
+      "id": "74c75472-6d0d-4c3a-b0b4-2ac42dedd967",
+      "type": "Group",
+      "score": 81,
+      "name": "Local Resident Failure",
+      "sort-name": "Local Resident Failure"
+    },
+    {
+      "id": "be8fefda-319d-4dcd-82da-7d1c93461c44",
+      "score": 80,
+      "name": "Failure",
+      "sort-name": "Failure",
+      "country": "RU",
+      "disambiguation": "Russian noise project"
+    }
+  ]
+}

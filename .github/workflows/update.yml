@@ -42,13 +42,14 @@ jobs:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
-      - name: Commit events.json and status.json
+      - name: Commit events.json, status.json and the artist cache
         if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add site/events.json
           if [ -f site/status.json ]; then git add site/status.json; fi
+          if [ -f scraper/cache/artists.json ]; then git add scraper/cache/artists.json; fi
           git diff --cached --quiet || (git commit -m "Update events" && git push)
 
       - uses: actions/setup-node@v7

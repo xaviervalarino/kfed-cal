@@ -1,0 +1,384 @@
+{
+  "page": {
+    "totalPages": 1
+  },
+  "_embedded": {
+    "events": [
+      {
+        "name": "SOS Booking Presents: BOLTCUTTER",
+        "type": "event",
+        "id": "vv1Fe8vPFOGwZ72F16",
+        "url": "https://www.ticketmaster.com/sos-booking-presents-boltcutter-los-angeles-california-11-10-2026/event/090065220332E796",
+        "dates": {
+          "start": {
+            "localDate": "2026-11-10",
+            "localTime": "18:30:00",
+            "dateTime": "2026-11-11T02:30:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "The Echo",
+              "id": "KovZ917A967"
+            }
+          ],
+          "attractions": [
+            {
+              "name": "BOLTCUTTER",
+              "id": "K8vZ917rQIV",
+              "externalLinks": {
+                "instagram": [
+                  {
+                    "url": "https://www.instagram.com/boltcutter.slam/"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/0b4/a6027bfe-21fa-409f-ad43-c1ec440f80b4_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/0b4/a6027bfe-21fa-409f-ad43-c1ec440f80b4_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/0b4/a6027bfe-21fa-409f-ad43-c1ec440f80b4_SOURCE",
+                  "width": 2426,
+                  "height": 1365
+                }
+              ]
+            },
+            {
+              "name": "Misery Whip",
+              "id": "K8vZ917-OU0",
+              "externalLinks": {
+                "instagram": [
+                  {
+                    "url": "https://open.spotify.com/artist/5wVnqLy20pqllcxY8QB4iM"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "CANCELED - Sex Mex",
+        "type": "event",
+        "id": "vvG10Z_2ijyR0H",
+        "url": "https://www.ticketmaster.com/canceled-sex-mex-los-angeles-california-11-11-2026/event/090064FB1CE6F93C",
+        "dates": {
+          "start": {
+            "localDate": "2026-11-11",
+            "localTime": "19:00:00",
+            "dateTime": "2026-11-12T03:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "status": {
+            "code": "cancelled"
+          }
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "The Echo",
+              "id": "KovZ917A967"
+            }
+          ],
+          "attractions": [
+            {
+              "name": "Sex Mex",
+              "id": "K8vZ917-aL7",
+              "externalLinks": {
+                "homepage": [
+                  {
+                    "url": "https://music.apple.com/za/artist/sex-mex/1569936178"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/82a/7b35a223-7df5-42af-999a-b8936d16582a_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/82a/7b35a223-7df5-42af-999a-b8936d16582a_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/82a/7b35a223-7df5-42af-999a-b8936d16582a_SOURCE",
+                  "width": 2426,
+                  "height": 1365
+                }
+              ]
+            },
+            {
+              "name": "Trap Girl",
+              "id": "K8vZ917j0B0",
+              "externalLinks": {
+                "spotify": [
+                  {
+                    "url": "https://open.spotify.com/artist/2UuSKo0C1B38wFjH51r38N"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/3e3/306d0125-20d0-422e-9c49-cd92828b53e3_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/3e3/306d0125-20d0-422e-9c49-cd92828b53e3_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/3e3/306d0125-20d0-422e-9c49-cd92828b53e3_SOURCE",
+                  "width": 2426,
+                  "height": 1365
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Adanna Duru with Ant Clemons & Kennedi Tezano",
+        "type": "event",
+        "id": "vv170Z_3GkcG_-GH",
+        "url": "https://www.ticketmaster.com/adanna-duru-with-ant-clemons-kennedi-los-angeles-california-12-09-2026/event/0900652B4C66133C",
+        "dates": {
+          "start": {
+            "localDate": "2026-12-09",
+            "localTime": "19:00:00",
+            "dateTime": "2026-12-10T03:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "The Echo",
+              "id": "KovZ917A967"
+            }
+          ],
+          "attractions": [
+            {
+              "name": "Adanna Duru",
+              "id": "K8vZ917hsK7",
+              "externalLinks": {
+                "youtube": [
+                  {
+                    "url": "https://www.youtube.com/channel/UCgVKH9kd1Pn43Fqa_MEzsEw"
+                  }
+                ],
+                "twitter": [
+                  {
+                    "url": "https://twitter.com/adannaduru"
+                  }
+                ],
+                "spotify": [
+                  {
+                    "url": "https://open.spotify.com/artist/3Ov1o1t4WuiZfVcU7rXG90?si=TWvwNKxnTta7h63GJFfz0A"
+                  }
+                ],
+                "instagram": [
+                  {
+                    "url": "https://www.instagram.com/adannaduru/"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/cc1/75690673-4312-404d-9ad0-30a12099ecc1_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/cc1/75690673-4312-404d-9ad0-30a12099ecc1_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/cc1/75690673-4312-404d-9ad0-30a12099ecc1_SOURCE",
+                  "width": 2426,
+                  "height": 1365
+                }
+              ]
+            },
+            {
+              "name": "Ant Clemons",
+              "id": "K8vZfZ7Edak",
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/c66/a615826e-8b17-4f42-a88b-88188412cc66_1467081_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/c66/a615826e-8b17-4f42-a88b-88188412cc66_1467081_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152
+                },
+                {
+                  "ratio": null,
+                  "url": "https://s1.ticketm.net/dam/a/c66/a615826e-8b17-4f42-a88b-88188412cc66_SOURCE",
+                  "width": 2425,
+                  "height": 1732
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Chris Farren",
+        "type": "event",
+        "id": "vv1AaZkfMGkdYGUkJ",
+        "url": "https://www.ticketmaster.com/chris-farren-los-angeles-california-12-13-2026/event/09006537F03361A6",
+        "dates": {
+          "start": {
+            "localDate": "2026-12-13",
+            "localTime": "19:00:00",
+            "dateTime": "2026-12-14T03:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "status": {
+            "code": "onsale"
+          }
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "The Echo",
+              "id": "KovZ917A967"
+            }
+          ],
+          "attractions": [
+            {
+              "name": "Chris Farren",
+              "id": "K8vZ91720Jf",
+              "externalLinks": {
+                "youtube": [
+                  {
+                    "url": "https://www.youtube.com/channel/UC1JMVKkY-bEVOMn7HFecM8Q"
+                  }
+                ],
+                "twitter": [
+                  {
+                    "url": "https://twitter.com/chrisfarren"
+                  }
+                ],
+                "itunes": [
+                  {
+                    "url": "https://music.apple.com/us/artist/chris-farren/257342"
+                  }
+                ],
+                "facebook": [
+                  {
+                    "url": "https://www.facebook.com/chrisfarren"
+                  }
+                ],
+                "spotify": [
+                  {
+                    "url": "https://open.spotify.com/artist/6wnLSjE93qaj9uf3rVaM3N"
+                  }
+                ],
+                "instagram": [
+                  {
+                    "url": "https://www.instagram.com/chrisfarren/"
+                  }
+                ],
+                "musicbrainz": [
+                  {
+                    "id": "fa0a983e-8e69-41b2-83da-ebeb27aed0dd",
+                    "url": "https://musicbrainz.org/artist/fa0a983e-8e69-41b2-83da-ebeb27aed0dd"
+                  }
+                ],
+                "homepage": [
+                  {
+                    "url": "https://www.chrisfarren.com/"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/d82/f448b311-a3aa-4d3e-bc63-2ff213560d82_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/d82/f448b311-a3aa-4d3e-bc63-2ff213560d82_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/d82/f448b311-a3aa-4d3e-bc63-2ff213560d82_SOURCE",
+                  "width": 2425,
+                  "height": 1365
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

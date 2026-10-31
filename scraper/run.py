@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit
 from zoneinfo import ZoneInfo
 
+from .artists import find_artists
 from .fetch import Fetcher
 from .methods import HAIKU, METHODS, describe, dollars, find_age
 from .venues import load_venues
@@ -210,6 +211,23 @@ def scrape(venue, fetcher, tz, today, previous):
     return [], {**row, "status": "ok", "note": report.get("note")}, report
 
 
+def artist_info(names, ticketmaster, fetcher):
+    """The `artists` part of events.json. `ticketmaster` maps key(name) to what an attraction gave. A failed lookup
+    never stops the run or drops events: it shows one warning per source instead."""
+    try:
+        found = {name: ticketmaster[key(name)] for name in names if key(name) in ticketmaster}
+        # MusicBrainz allows 1 request a second; Wikidata and Wikipedia share the venues' fetcher.
+        artists, errors = find_artists(names, found, Fetcher(delay=1.1), fetcher)
+    except Exception as e:
+        warn(f"Artist info could not be loaded ({describe(e)}). The calendar has no artist info this run.")
+        return {}
+    for source, failed in errors.items():
+        if failed:
+            warn(f"{source}: {len(failed)} artist lookup(s) failed ({describe(failed[0])}). "
+                 "The scraper tries them again next run.")
+    return artists
+
+
 def next_run(after):
     """The next scheduled run: Wednesdays 10:17 UTC (the cron in .github/workflows/update.yml)."""
     run = after.replace(hour=10, minute=17, second=0, microsecond=0) + timedelta(days=(2 - after.weekday()) % 7)
@@ -238,11 +256,14 @@ def main():
 
     fetcher = Fetcher()
     all_events, rows, ids, haiku = [], [], set(), {"input_tokens": 0, "output_tokens": 0}
+    tm_artists = {}  # key(name) -> what a Ticketmaster attraction gave
     for venue in venues:
         name = venue["name"]
         events, row, report = scrape(venue, fetcher, tz, today, previous.get(name, []))
         for k in haiku:
             haiku[k] += report.get("haiku", {}).get(k, 0)
+        for artist, info in report.get("artists", {}).items():
+            tm_artists.setdefault(key(artist), info)
         # The same Ticketmaster event can be listed at two venues: keep the first.
         events = [e for e in events if e.get("source_id") not in ids]
         ids.update(e["source_id"] for e in events if e.get("source_id"))
@@ -257,10 +278,12 @@ def main():
         all_events.extend(events)
 
     all_events.sort(key=lambda e: (e["start"], e["venue"], e["title"]))
+    artists = artist_info([n for e in all_events for n in [e["title"], *e.get("support", [])]], tm_artists, fetcher)
     finished = datetime.now(timezone.utc)
     OUTPUT.write_text(json.dumps({
         "updated": iso(finished),
         "timezone": tz_name,
+        "artists": artists,
         "venues": [{"name": v["name"], "website": v["website"]} for v in venues],
         "events": all_events,
     }, indent=2, ensure_ascii=False) + "\n")

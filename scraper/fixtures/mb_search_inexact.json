@@ -1,0 +1,44 @@
+{
+  "created": "2026-10-31T17:33:33.164Z",
+  "count": 58,
+  "artists": [
+    {
+      "id": "d5d2b92e-d31a-4a13-bf60-02b0cfa5b1dc",
+      "type": "Person",
+      "score": 100,
+      "name": "Beatrix Potter",
+      "sort-name": "Potter, Beatrix",
+      "country": "GB"
+    },
+    {
+      "id": "36618abc-792b-4847-9471-5ec0c5958d2e",
+      "type": "Person",
+      "score": 95,
+      "name": "Beatrix Quinn",
+      "sort-name": "Quinn, Beatrix"
+    },
+    {
+      "id": "33b970dc-3ac1-4f68-926d-9ddb913cc71f",
+      "type": "Group",
+      "score": 92,
+      "name": "Beatrix",
+      "sort-name": "Beatrix",
+      "disambiguation": "Rock band from Michigan"
+    },
+    {
+      "id": "c4f6dc4e-0706-4672-8a6c-262ace9ca33f",
+      "type": "Group",
+      "score": 91,
+      "name": "Beatrix",
+      "sort-name": "Beatrix",
+      "disambiguation": "Black/Thrash from Finland"
+    },
+    {
+      "id": "a8389371-d3fd-4ce8-9b68-428c69f60718",
+      "score": 91,
+      "name": "Beatrix",
+      "sort-name": "Beatrix",
+      "disambiguation": "ballroom music band"
+    }
+  ]
+}

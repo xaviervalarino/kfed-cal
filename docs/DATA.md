@@ -101,9 +101,9 @@ Artist fields (`artists["Francis of Delirium"]`):
 | `mbid` | no | the act's MusicBrainz id |
 
 Sources, in order: the event's Ticketmaster attractions (`externalLinks`, `images`), then MusicBrainz for names that
-Ticketmaster gave no links for (url relations, and type/area/start year), then the English Wikipedia summary for acts
-MusicBrainz links to Wikidata. Lookups are cached between runs in `scraper/cache/artists.json`, which the workflow
-commits with the site files.
+Ticketmaster gave no links or a MusicBrainz id for (url relations, and type/area/start year; Ticketmaster's links win
+over MusicBrainz's of the same kind), then the English Wikipedia summary for acts MusicBrainz links to Wikidata.
+Lookups are cached between runs in `scraper/cache/artists.json`, which the workflow commits with the site files.
 
 ## `site/status.json`
 

@@ -9,6 +9,10 @@ A calendar of upcoming shows and events at local venues. A scraper collects each
 2. Early every Wednesday (Pacific time), GitHub Actions runs `python -m scraper.run`. It scrapes every venue, removes
    duplicates and past events, and commits the new `site/events.json` and `site/status.json` (how each venue's
    scrape went). `docs/DATA.md` describes both files.
+
+   It also collects artist info (links, a photo, a sentence or two) from Ticketmaster, MusicBrainz and Wikipedia.
+   MusicBrainz and Wikipedia answers are cached in `scraper/cache/artists.json` for 90 days, which the workflow
+   commits too. A run looks up at most 600 new names, so the cache fills over the first few weekly runs.
 3. The workflow then publishes `site/` to GitHub Pages.
 
 If a venue fails or suddenly returns 0 events, the scraper keeps that venue's previous events. It also shows
@@ -96,3 +100,7 @@ and `ANTHROPIC_API_KEY` from the environment. Without them, those venues fail an
 
 The scraper identifies itself in its User-Agent, follows each site's `robots.txt`, waits 2 seconds between
 requests, and links every event back to its source.
+
+One exception: the MusicBrainz and Wikipedia APIs. Their `robots.txt` files disallow them for crawlers, but they
+publish rules for apps, and the scraper follows those instead: one MusicBrainz request a second at most, and a
+User-Agent with a contact address and the word "bot". `ROBOTS_EXCEPTIONS` in `scraper/fetch.py` lists them.

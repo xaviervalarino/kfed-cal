@@ -1,0 +1,142 @@
+{
+  "id": "f0ed9f50-70b9-4406-9374-7d76ae21a04a",
+  "name": "Failure",
+  "type": "Group",
+  "country": "US",
+  "area": {
+    "name": "United States"
+  },
+  "life-span": {
+    "end": null,
+    "begin": "1990",
+    "ended": false
+  },
+  "relations": [
+    {
+      "type": "bandcamp",
+      "ended": false,
+      "url": {
+        "resource": "https://failureband.bandcamp.com/"
+      }
+    },
+    {
+      "type": "BBC Music page",
+      "ended": true,
+      "url": {
+        "resource": "https://www.bbc.co.uk/music/artists/f0ed9f50-70b9-4406-9374-7d76ae21a04a"
+      }
+    },
+    {
+      "type": "discogs",
+      "ended": false,
+      "url": {
+        "resource": "https://www.discogs.com/artist/28971"
+      }
+    },
+    {
+      "type": "free streaming",
+      "ended": false,
+      "url": {
+        "resource": "https://open.spotify.com/artist/3grvcGPaLhfrD5CYsecr4j"
+      }
+    },
+    {
+      "type": "free streaming",
+      "ended": false,
+      "url": {
+        "resource": "https://www.deezer.com/artist/3099"
+      }
+    },
+    {
+      "type": "official homepage",
+      "ended": false,
+      "url": {
+        "resource": "http://failureband.com/"
+      }
+    },
+    {
+      "type": "purchase for download",
+      "ended": false,
+      "url": {
+        "resource": "https://itunes.apple.com/us/artist/id1646309"
+      }
+    },
+    {
+      "type": "purchase for download",
+      "ended": false,
+      "url": {
+        "resource": "https://www.junodownload.com/artists/Failure/"
+      }
+    },
+    {
+      "type": "social network",
+      "ended": false,
+      "url": {
+        "resource": "https://twitter.com/Failure"
+      }
+    },
+    {
+      "type": "social network",
+      "ended": false,
+      "url": {
+        "resource": "https://www.facebook.com/Failureband"
+      }
+    },
+    {
+      "type": "social network",
+      "ended": false,
+      "url": {
+        "resource": "https://www.instagram.com/failurebandig/"
+      }
+    },
+    {
+      "type": "soundcloud",
+      "ended": false,
+      "url": {
+        "resource": "https://soundcloud.com/failuremusic"
+      }
+    },
+    {
+      "type": "streaming",
+      "ended": false,
+      "url": {
+        "resource": "https://music.amazon.com/artists/B000QJZXWK"
+      }
+    },
+    {
+      "type": "streaming",
+      "ended": false,
+      "url": {
+        "resource": "https://music.apple.com/us/artist/1646309"
+      }
+    },
+    {
+      "type": "streaming",
+      "ended": false,
+      "url": {
+        "resource": "https://tidal.com/artist/13492"
+      }
+    },
+    {
+      "type": "wikidata",
+      "ended": false,
+      "url": {
+        "resource": "https://www.wikidata.org/wiki/Q2701586"
+      }
+    },
+    {
+      "type": "youtube",
+      "ended": false,
+      "url": {
+        "resource": "https://www.youtube.com/@FailureBand"
+      }
+    },
+    {
+      "type": "youtube music",
+      "ended": false,
+      "url": {
+        "resource": "https://music.youtube.com/channel/UCYMu2TKjqagU93V1azZ09ew"
+      }
+    }
+  ]
+}

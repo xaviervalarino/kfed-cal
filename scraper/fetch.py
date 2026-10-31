@@ -6,7 +6,12 @@ from urllib.robotparser import RobotFileParser
 
 import httpx
 
-USER_AGENT = "kfed-cal/0.1 (+https://github.com/xaviervalarino/kfed-cal)"
+# MusicBrainz asks for "App/version ( contact-url )", Wikimedia for a contact and the word "bot".
+USER_AGENT = "kfed-cal-bot/0.1 (+https://github.com/xaviervalarino/kfed-cal)"
+# Documented APIs used under their published rules for apps. Their robots.txt files disallow these paths for
+# crawlers, so they skip the robots check (the one exception in CLAUDE.md, "Rules"). List API prefixes only,
+# never a site's pages.
+ROBOTS_EXCEPTIONS = ("https://musicbrainz.org/ws/2/", "https://en.wikipedia.org/api/rest_v1/")
 
 
 class Fetcher:
@@ -43,6 +48,8 @@ class Fetcher:
         return response
 
     def allowed(self, url):
+        if url.startswith(ROBOTS_EXCEPTIONS):
+            return True
         parts = urlsplit(url)
         base = f"{parts.scheme}://{parts.netloc}"
         if base not in self.robots:
