@@ -40,6 +40,7 @@ TM lists separate events for multi-day passes (e.g. "And Always Forever 2026 - 2
 | Zebulon | `dice_venue` | `https://dice.fm/venue/zebulon-y8bv` → `__NEXT_DATA__` | capped at 30 events (~3 weeks); prices included. Plain request only: dice.fm shows headless browsers a Cloudflare challenge |
 | The Paramount | `dice_venue` | `https://dice.fm/venue/the-paramount-7lwp` | |
 | Glass House (Pomona) | `dice_venue` | `https://dice.fm/venue/the-glass-house-d5gq` | TM has the venue but 0 events |
+| Gold-Diggers | `dice_venue` | `https://dice.fm/venue/gold-diggers-n2mq` | 30 shows (the cap, ~5 weeks), prices included. TM has the venue but 0 events; gold-diggers.com answered 429 |
 | Lodge Room | `tessera` | `eventObjects.push({...})` on the homepage + prices from `tickets.lodgeroomhlp.com/api/v1/products?ids=...` | 71 events with prices. The products call needs a visitor session, as the venue's own page does it: `POST /api/v1/authorization/session` (no body) returns `sessionId`, sent back in a `SessionId` header. TM has only 2 |
 | The Vermont | `tribe_events` | `https://www.vermonthollywood.com/wp-json/tribe/events/v1/events?per_page=50` | 11 events, prices. Site + iCal are behind Cloudflare; this REST path is not |
 | Hollywood Bowl (alt) | `hollywood_bowl` | `https://www.hollywoodbowl.com/events/feed` (JSON) | feed mixes LA Phil venues: keep `venue.class == "hb"`; dates only |

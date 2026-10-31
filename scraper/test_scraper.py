@@ -61,7 +61,7 @@ class ScraperTest(unittest.TestCase):
         self.assertFalse(is_challenge(httpx.Response(403, text="Forbidden")))
 
     def test_venues_file(self):
-        self.assertEqual(len(load_venues()[1]), 23)  # the real venues.json
+        self.assertEqual(len(load_venues()[1]), 24)  # the real venues.json
         venues = [{"name": "A", "website": "https://a.example/", "method": "ticketmaster", "params": {"venue_ids": "KovZ1"}},
                   {"name": "B", "website": "https://b.example/", "method": "dice_venue"},
                   {"name": "C", "website": "https://c.example/"}]

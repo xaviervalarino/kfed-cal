@@ -123,6 +123,13 @@
       "notes": "In Pomona. Ticketmaster has the venue but no events."
     },
     {
+      "name": "Gold-Diggers",
+      "website": "https://gold-diggers.com/",
+      "events_page": "https://dice.fm/venue/gold-diggers-n2mq",
+      "method": "dice_venue",
+      "notes": "The venue's own site answered 429. Ticketmaster has the venue but no events."
+    },
+    {
       "name": "El Cid",
       "website": "https://www.elcidsunset.com/",
       "method": "ticketmaster",
