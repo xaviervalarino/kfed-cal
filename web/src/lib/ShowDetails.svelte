@@ -29,9 +29,14 @@
     ["instagram", "INSTAGRAM"],
   ];
 
-  /** Acts without a Spotify or Qobuz link get a search there instead. */
+  /** Acts without a Spotify, Bandcamp or Qobuz link get a search there instead. */
   const SEARCHES: [ArtistLinkKind, string, string][] = [
     ["spotify", "SEARCH SPOTIFY", "https://open.spotify.com/search/"],
+    [
+      "bandcamp",
+      "SEARCH BANDCAMP",
+      "https://bandcamp.com/search?item_type=b&q=",
+    ],
     ["qobuz", "SEARCH QOBUZ", "https://www.qobuz.com/us-en/search?q="],
   ];
 

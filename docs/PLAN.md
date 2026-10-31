@@ -98,7 +98,7 @@ work at 390px wide.
 - [x] Open a show: tap on phones, click on desktop. A `#show=` dialog with tickets, venue, and per-act info and
   links (`DESIGN.md`, "Show open").
 - [x] Artist info in `events.json` (`DATA.md`, "Artist fields"): Ticketmaster attraction links and photos,
-  MusicBrainz links, Wikipedia summaries, cached in `scraper/cache/artists.json`. Spotify and Qobuz search links stand in
+  MusicBrainz links, Wikipedia summaries, cached in `scraper/cache/artists.json`. Spotify, Bandcamp and Qobuz search links stand in
   when an act has no profile link there.
 - [x] More venues: The Moroccan Lounge (Ticketmaster), Gold-Diggers (DICE).
 - [ ] Shows with no event page (Monty Bar's flyer, most Permanent Records nights: their `url` is the venue's
@@ -114,7 +114,6 @@ work at 390px wide.
 
 ## Open items (not blocking)
 
-- El Cid: TM has 3 events; the DICE widget on their site may give the full list.
 - Silverlake Lounge: no source; owner will forward the venue's mailing-list email.
 - Belasco's Universe-ticketed nights are not on TM (minor).
 - Footer "SCRAPE STATUS →" link: owner hasn't decided whether to keep it alongside the update-time link.

@@ -74,7 +74,7 @@ Phone: TONIGHT / WEEKEND / 7 DAYS / FILTER; FILTER opens a bottom sheet (search,
   desktop, with the show on the left and the acts on the right, each column scrolling on its own. Image (if any), tickets line, doors and ages when the source has them, GET TICKETS ↗ (bone fill: the
   ticket link, else the event page) and VENUE (outline) buttons, plus EVENT PAGE ↗ when that is a third page.
   Then one section per act: name, `about` with a "From Wikipedia" / "From MusicBrainz" credit, its photo when it
-  differs from the top image, and outline link buttons (SPOTIFY … INSTAGRAM, then SEARCH SPOTIFY and SEARCH QOBUZ
+  differs from the top image, and outline link buttons (SPOTIFY … INSTAGRAM, then SEARCH SPOTIFY, SEARCH BANDCAMP and SEARCH QOBUZ
   when the act has no link there). The URL hash `#show=<source_id>` (or venue|start|title when there's no id) holds the open show, so
   Back closes it and the link can be shared.
 - **Sold out**: red chip, band name dims to dusty.
