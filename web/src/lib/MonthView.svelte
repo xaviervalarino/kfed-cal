@@ -178,7 +178,7 @@
     cursor: default;
   }
 
-  .cell:not(:disabled):hover {
+  .cell:not(:disabled, [aria-pressed="true"]):hover {
     background: var(--color-panel);
   }
 
@@ -189,8 +189,8 @@
 
   /* The border stays, in the fill color, so the day's text doesn't move when it's picked. */
   .cell[aria-pressed="true"] {
-    border-top-color: var(--color-dusty);
-    background: var(--color-dusty);
+    border-top-color: var(--color-bone);
+    background: var(--color-bone);
     color: var(--color-ground);
   }
 

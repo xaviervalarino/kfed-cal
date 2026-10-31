@@ -19,7 +19,7 @@ behind the logo, cyan or slime green as UI colors, decorative rules or taglines 
 | bone | `#ece6d6` | masthead letters, band names, primary buttons (Get tickets), day-header rule, search underline |
 | red | `#ff3b3b` | show times, masthead misprint, SOLD OUT chip |
 | pink | `#f4cdd5` | venue names, small caps labels (day of week, "UPDATED …"), counts |
-| dusty | `#b98e98` | support lines, prices, button outlines, **selected state** (fill, with black text) |
+| dusty | `#b98e98` | support lines, prices, button outlines, **selected state** (fill, with black text; the picked day in month view and the phone week strip uses bone instead) |
 | rule | `#34302c` | hairlines between rows and around the control rail |
 | dark red | `#8f1d1d` | in reserve, unused for now |
 
@@ -56,10 +56,11 @@ Phone: TONIGHT / WEEKEND / 7 DAYS / FILTER; FILTER opens a bottom sheet (search,
   (red, bold) · band (Barlow 700) with support line (dusty) · venue (pink caps) · price (dusty) or SOLD OUT chip.
   Phone row: line 1 = time · venue · price, line 2 = band, line 3 = support.
 - **Week**: 7 ruled columns; header = pink day-of-week + Pirata numeral; rows stacked (time · venue, band, support).
-  Phone: strip of 7 day buttons (dow, numeral, count) + that day's list.
+  Phone: strip of 7 day buttons (dow, numeral, count; the picked day bone-filled with ground text) + that day's
+  list.
 - **Month**: grid, Sunday first; cell = Pirata numeral, pink show count, top two bands; days with 5+ shows get a
-  bone top rule, empty days dimmed; selected day dusty-filled. Side panel (desktop) or list below (phone) shows the
-  picked day.
+  bone top rule, empty days dimmed; picked day bone-filled with ground text. Side panel (desktop) or list below
+  (phone) shows the picked day.
 - **Show open** (phone tap / desktop click): image (if any), tickets line, doors and ages when the source has
   them, GET TICKETS ↗ (bone fill) and VENUE (outline) buttons.
 - **Sold out**: red chip, band name dims to dusty.

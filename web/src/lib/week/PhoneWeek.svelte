@@ -71,8 +71,8 @@
   }
 
   .day[aria-pressed="true"] {
-    border-color: var(--color-dusty);
-    background: var(--color-dusty);
+    border-color: var(--color-bone);
+    background: var(--color-bone);
     color: var(--color-ground);
   }
 
