@@ -1,0 +1,236 @@
+{
+  "run": {
+    "started": "2026-10-31T00:04:49+00:00",
+    "finished": "2026-10-31T00:05:49+00:00",
+    "next": "2026-11-04T10:17:00+00:00"
+  },
+  "totals": {
+    "events": 733,
+    "venues": 22
+  },
+  "haiku": {
+    "model": "claude-haiku-5-5",
+    "input_tokens": 2646,
+    "output_tokens": 1376,
+    "dollars": 0.00095
+  },
+  "venues": [
+    {
+      "name": "The Echo",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 63,
+      "through": "2027-04-29",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:04:50+00:00"
+    },
+    {
+      "name": "Echoplex",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 31,
+      "through": "2027-04-10",
+      "with_time": 0.77,
+      "last_success": "2026-10-31T00:04:52+00:00"
+    },
+    {
+      "name": "The Belasco",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 33,
+      "through": "2027-04-29",
+      "with_time": 0.97,
+      "last_success": "2026-10-31T00:04:54+00:00"
+    },
+    {
+      "name": "The Wiltern",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 86,
+      "through": "2027-11-10",
+      "with_time": 0.97,
+      "last_success": "2026-10-31T00:04:57+00:00"
+    },
+    {
+      "name": "Hollywood Palladium",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 44,
+      "through": "2027-05-23",
+      "with_time": 0.61,
+      "last_success": "2026-10-31T00:04:59+00:00"
+    },
+    {
+      "name": "The Bellwether",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 39,
+      "through": "2027-05-03",
+      "with_time": 0.95,
+      "last_success": "2026-10-31T00:05:04+00:00"
+    },
+    {
+      "name": "Teragram Ballroom",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 44,
+      "through": "2027-05-15",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:06+00:00"
+    },
+    {
+      "name": "The Regent",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 42,
+      "through": "2027-05-08",
+      "with_time": 0.98,
+      "last_success": "2026-10-31T00:05:08+00:00"
+    },
+    {
+      "name": "Greek Theatre",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 8,
+      "through": "2027-09-11",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:10+00:00"
+    },
+    {
+      "name": "The Fonda",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 43,
+      "through": "2027-05-16",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:13+00:00"
+    },
+    {
+      "name": "The Roxy",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 47,
+      "through": "2027-05-14",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:15+00:00"
+    },
+    {
+      "name": "Troubadour",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 48,
+      "through": "2027-05-20",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:17+00:00"
+    },
+    {
+      "name": "Hollywood Bowl",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "ok",
+      "events": 12,
+      "through": "2027-08-25",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:19+00:00"
+    },
+    {
+      "name": "Lodge Room",
+      "method": "tessera",
+      "source": "Tessera feed",
+      "status": "ok",
+      "events": 71,
+      "through": "2027-04-19",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:26+00:00"
+    },
+    {
+      "name": "The Vermont",
+      "method": "tribe_events",
+      "source": "Events Calendar API",
+      "status": "failed",
+      "events": 0,
+      "note": "HTTPStatusError: https://www.vermonthollywood.com/wp-json/tribe/events/v1/events?per_page=50 answered 504 Gateway Timeout."
+    },
+    {
+      "name": "Zebulon",
+      "method": "dice_venue",
+      "source": "DICE",
+      "status": "partial",
+      "events": 30,
+      "through": "2026-11-20",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:31+00:00",
+      "note": "DICE shows only the next 30 shows."
+    },
+    {
+      "name": "The Paramount",
+      "method": "dice_venue",
+      "source": "DICE",
+      "status": "ok",
+      "events": 5,
+      "through": "2026-12-09",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:33+00:00"
+    },
+    {
+      "name": "The Glass House",
+      "method": "dice_venue",
+      "source": "DICE",
+      "status": "ok",
+      "events": 25,
+      "through": "2027-03-20",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:35+00:00"
+    },
+    {
+      "name": "El Cid",
+      "method": "ticketmaster",
+      "source": "Ticketmaster",
+      "status": "partial",
+      "events": 3,
+      "through": "2026-12-11",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:37+00:00",
+      "note": "Ticketmaster lists only some of El Cid's shows."
+    },
+    {
+      "name": "Permanent Records Roadhouse",
+      "method": "permanent_records",
+      "source": "venue site",
+      "status": "ok",
+      "events": 56,
+      "through": "2027-08-19",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:40+00:00"
+    },
+    {
+      "name": "Monty Bar",
+      "method": "monty_flyer",
+      "source": "flyer + Haiku",
+      "status": "ok",
+      "events": 3,
+      "through": "2026-11-01",
+      "with_time": 1.0,
+      "last_success": "2026-10-31T00:05:49+00:00"
+    },
+    {
+      "name": "Silverlake Lounge",
+      "source": "none",
+      "status": "no_source",
+      "events": 0,
+      "note": "No listings online yet. Waiting on the venue's mailing-list email."
+    }
+  ]
+}
