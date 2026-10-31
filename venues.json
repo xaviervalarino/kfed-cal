@@ -132,10 +132,9 @@
     {
       "name": "El Cid",
       "website": "https://www.elcidsunset.com/",
-      "method": "ticketmaster",
-      "params": {"venue_ids": ["KovZ917ASUM"]},
-      "partial": "Ticketmaster lists only some of El Cid's shows.",
-      "notes": "The DICE widget on elcidsunset.com/events may have the full list."
+      "events_page": "https://dice.fm/venue/el-cid-ven7",
+      "method": "dice_venue",
+      "notes": "The DICE widget on elcidsunset.com/events uses this venue. Ticketmaster has only 3 shows."
     },
     {
       "name": "Permanent Records Roadhouse",
