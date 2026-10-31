@@ -1,5 +1,6 @@
 <script lang="ts">
   import { getJson } from "./lib/data";
+  import Footer from "./lib/Footer.svelte";
   import Masthead from "./lib/Masthead.svelte";
   import RunBar from "./lib/status/RunBar.svelte";
   import Tiles from "./lib/status/Tiles.svelte";
@@ -28,6 +29,7 @@
     <p class="error">The status report didn’t load. Try again later.</p>
   {/if}
 </main>
+<Footer />
 
 <style>
   main {

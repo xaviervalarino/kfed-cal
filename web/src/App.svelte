@@ -1,6 +1,7 @@
 <script lang="ts">
   import { Calendar } from "./lib/calendar.svelte";
   import Controls from "./lib/Controls.svelte";
+  import Footer from "./lib/Footer.svelte";
   import ListView from "./lib/ListView.svelte";
   import Masthead from "./lib/Masthead.svelte";
   import MonthView from "./lib/MonthView.svelte";
@@ -76,6 +77,7 @@
     {/if}
   {/if}
 </main>
+<Footer />
 {#if file}
   <ShowDetails shows={calendar.shows} venues={calendar.venues} {artists} />
 {/if}
