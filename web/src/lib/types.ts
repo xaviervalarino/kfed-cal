@@ -28,10 +28,33 @@ export interface Show {
   source_id?: string;
 }
 
+export type ArtistLinkKind =
+  | "spotify"
+  | "bandcamp"
+  | "qobuz"
+  | "apple_music"
+  | "soundcloud"
+  | "youtube"
+  | "homepage"
+  | "instagram";
+
+/** What is known about one act, from Ticketmaster, MusicBrainz and Wikipedia. */
+export interface Artist {
+  /** One or two plain sentences. */
+  about?: string;
+  /** The Wikipedia or MusicBrainz page `about` came from. */
+  about_source?: string;
+  image?: string;
+  links?: Partial<Record<ArtistLinkKind, string>>;
+  mbid?: string;
+}
+
 export interface EventsFile {
   /** UTC ISO 8601: when the last scrape finished. */
   updated: string;
   timezone: string;
+  /** Keyed by the name exactly as it appears in a show's `title` or `support`. Older files have none. */
+  artists?: Record<string, Artist>;
   venues: Venue[];
   events: Show[];
 }

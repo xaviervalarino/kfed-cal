@@ -4,13 +4,15 @@
   import ListView from "./lib/ListView.svelte";
   import Masthead from "./lib/Masthead.svelte";
   import MonthView from "./lib/MonthView.svelte";
+  import ShowDetails from "./lib/ShowDetails.svelte";
   import WeekView from "./lib/WeekView.svelte";
   import { getJson } from "./lib/data";
-  import { typesetShow } from "./lib/shows";
-  import type { EventsFile } from "./lib/types";
+  import { typeset, typesetShow } from "./lib/shows";
+  import type { Artist, EventsFile } from "./lib/types";
 
   const calendar = new Calendar();
   let file = $state.raw<EventsFile>();
+  let artists = $state.raw<Record<string, Artist>>({});
   let failed = $state(false);
 
   getJson<EventsFile>("events.json").then(
@@ -18,6 +20,13 @@
       file = loaded;
       calendar.shows = loaded.events.map(typesetShow);
       calendar.venues = loaded.venues;
+      // Keyed like the typeset titles and support they describe.
+      artists = Object.fromEntries(
+        Object.entries(loaded.artists ?? {}).map(([name, artist]) => [
+          typeset(name),
+          artist,
+        ]),
+      );
     },
     (error) => {
       console.error(error);
@@ -67,6 +76,9 @@
     {/if}
   {/if}
 </main>
+{#if file}
+  <ShowDetails shows={calendar.shows} venues={calendar.venues} {artists} />
+{/if}
 
 <style>
   /* The list reads best narrow; week and month use the full width (mockups). */

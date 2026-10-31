@@ -1,6 +1,12 @@
 <script lang="ts">
   // A show stacked in a narrow space: a week column, or the month view's day panel.
-  import { dotJoin, STATUS_LABELS, supportLine, timeLabel } from "./shows";
+  import {
+    dotJoin,
+    showHref,
+    STATUS_LABELS,
+    supportLine,
+    timeLabel,
+  } from "./shows";
   import type { Show } from "./types";
 
   let { show }: { show: Show } = $props();
@@ -17,7 +23,7 @@
     <span class="time">{timeLabel(show)}</span>
     <span class="venue" title={venue}>{venue}</span>
   </span>
-  <a class="band" href={show.url}>{show.title}</a>
+  <a class="band" href={showHref(show)}>{show.title}</a>
   {#if subline}
     <span class="support">{subline}</span>
   {/if}

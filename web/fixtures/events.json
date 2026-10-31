@@ -1,6 +1,63 @@
 {
   "updated": "2026-10-28T10:21:07+00:00",
   "timezone": "America/Los_Angeles",
+  "artists": {
+    "Failure": {
+      "about": "Failure is an American alternative rock band from Los Angeles, formed in 1990. Its 1996 album Fantastic Planet became a cult favorite after the band split the next year.",
+      "about_source": "https://en.wikipedia.org/wiki/Failure_(band)",
+      "image": "https://s1.ticketm.net/dam/a/dd9/b084ba10-e6ef-4d9d-aad4-978623bbfdd9_ARTIST_PAGE_3_2.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2zYQ0BRw1Ew2LxPnrBbMNR",
+        "qobuz": "https://www.qobuz.com/us-en/interpreter/failure/41720",
+        "apple_music": "https://music.apple.com/us/artist/failure/1621794",
+        "youtube": "https://www.youtube.com/@failureband",
+        "homepage": "https://failureband.com/"
+      },
+      "mbid": "a4a2c1b5-2b8f-4a54-9a4e-1d5c0c7d3f10"
+    },
+    "Francis of Delirium": {
+      "about": "Francis of Delirium is an indie rock band from Luxembourg, formed in 2019.",
+      "about_source": "https://en.wikipedia.org/wiki/Francis_of_Delirium",
+      "image": "https://s1.ticketm.net/dam/a/88a/5888d1c2-93fe-4d66-a5c5-4d8fd92ca88a_ARTIST_PAGE_3_2.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6pXJ2nDmQkgf1ZCgPZ8aVK",
+        "bandcamp": "https://francisofdelirium.bandcamp.com/",
+        "homepage": "https://francisofdelirium.com/",
+        "instagram": "https://www.instagram.com/francisofdelirium/"
+      },
+      "mbid": "6a0ed4b8-5f0c-4b8e-9a7d-2c3e1f4b5a69"
+    },
+    "Beatrix": {
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4hKcQ8vE2r9mWnLx3TbYpD",
+        "instagram": "https://www.instagram.com/beatrixmusic/"
+      }
+    },
+    "The Tubs": {
+      "about": "The Tubs are a post-punk band from London, formed in 2018 by former members of Joanna Gruesome.",
+      "about_source": "https://en.wikipedia.org/wiki/The_Tubs",
+      "image": "https://s1.ticketm.net/dam/a/3d1/2a358b07-52ae-411b-b6dc-1362dd8953d1_ARTIST_PAGE_3_2.jpg",
+      "links": {
+        "bandcamp": "https://thetubs.bandcamp.com/",
+        "spotify": "https://open.spotify.com/artist/1q9pRk3fXwZ0bTn6YcVdLs",
+        "apple_music": "https://music.apple.com/us/artist/the-tubs/1534567890",
+        "soundcloud": "https://soundcloud.com/thetubs",
+        "instagram": "https://www.instagram.com/thetubsband/"
+      },
+      "mbid": "c7e3d2a1-8b4f-4e6a-b0c9-5d1f2e3a4b87"
+    },
+    "Touch Girl Apple Blossom": {
+      "about": "Group from Los Angeles, formed 2021.",
+      "about_source": "https://musicbrainz.org/artist/e1b2c3d4-5a6b-4c7d-8e9f-0a1b2c3d4e5f",
+      "mbid": "e1b2c3d4-5a6b-4c7d-8e9f-0a1b2c3d4e5f"
+    },
+    "Test: postponed show in a second room": {
+      "image": "https://s1.ticketm.net/dam/a/88a/5888d1c2-93fe-4d66-a5c5-4d8fd92ca88a_RETINA_PORTRAIT_3_2.jpg",
+      "links": {
+        "homepage": "https://example.com/"
+      }
+    }
+  },
   "venues": [
     {
       "name": "The Echo",

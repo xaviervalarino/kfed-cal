@@ -70,8 +70,13 @@ Phone: TONIGHT / WEEKEND / 7 DAYS / FILTER; FILTER opens a bottom sheet (search,
 - **Month**: grid, Sunday first; cell = Pirata numeral, pink show count, top two bands; days with 5+ shows get a
   bone top rule, empty days dimmed; picked day bone-filled with ground text. Side panel (desktop) or list below
   (phone) shows the picked day.
-- **Show open** (phone tap / desktop click): image (if any), tickets line, doors and ages when the source has
-  them, GET TICKETS ↗ (bone fill) and VENUE (outline) buttons.
+- **Show open** (phone tap / desktop click on the band name): a dialog, full screen on phones and a 560px panel on
+  desktop. Image (if any), tickets line, doors and ages when the source has them, GET TICKETS ↗ (bone fill: the
+  ticket link, else the event page) and VENUE (outline) buttons, plus EVENT PAGE ↗ when that is a third page.
+  Then one section per act: name, `about` with a "From Wikipedia" / "From MusicBrainz" credit, its photo when it
+  differs from the top image, and outline link buttons (SPOTIFY … INSTAGRAM, then SEARCH QOBUZ when there's no
+  Qobuz link). The URL hash `#show=<source_id>` (or venue|start|title when there's no id) holds the open show, so
+  Back closes it and the link can be shared.
 - **Sold out**: red chip, band name dims to dusty.
 
 ## Status page (`/status.html`)

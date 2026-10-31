@@ -52,6 +52,26 @@ export const typesetShow = (show: Show): Show => ({
   support: show.support?.map(typeset),
 });
 
+// Monty Bar and Permanent Records give no source_id; venue, start and title together are unique.
+const showKey = (show: Show) =>
+  show.source_id ?? [show.venue, show.start, show.title].join("|");
+
+/** The link that opens a show's details: "#show=tm%3AvvG1…". */
+export const showHref = (show: Show) =>
+  `#show=${encodeURIComponent(showKey(show))}`;
+
+/** The show a "#show=…" hash names, if it is still listed. */
+export function showFromHash(shows: Show[], hash: string): Show | undefined {
+  if (!hash.startsWith("#show=")) return undefined;
+  let key: string;
+  try {
+    key = decodeURIComponent(hash.slice("#show=".length));
+  } catch {
+    return undefined; // A hand-edited hash with a broken % escape.
+  }
+  return shows.find((show) => showKey(show) === key);
+}
+
 /** "no shows", "1 show", "7 shows" */
 export const showCount = (count: number) =>
   count === 0 ? "no shows" : `${count} ${count === 1 ? "show" : "shows"}`;

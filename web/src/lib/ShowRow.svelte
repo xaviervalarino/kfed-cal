@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { STATUS_LABELS, supportLine, timeLabel } from "./shows";
+  import { STATUS_LABELS, showHref, supportLine, timeLabel } from "./shows";
   import type { Show } from "./types";
 
   let { show }: { show: Show } = $props();
@@ -10,7 +10,7 @@
 <li class:sold-out={show.status === "sold_out"}>
   <span class="time">{timeLabel(show)}</span>
   <span class="what">
-    <a class="band" href={show.url}>{show.title}</a>
+    <a class="band" href={showHref(show)}>{show.title}</a>
     {#if support}
       <span class="support">{support}</span>
     {/if}
