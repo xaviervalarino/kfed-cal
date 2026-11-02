@@ -151,6 +151,9 @@
     },
     "mbid": "5e1dbdb2-87ac-41ff-9960-4a42a872327a"
   },
+  "ALFIE JUKES /// FUNNY LITTLE FEELING TOUR": {
+    "checked": "2026-11-02"
+  },
   "ALLEYCVT": {
     "about": "Person.",
     "about_source": "https://musicbrainz.org/artist/2590b6d4-648a-4092-9850-f614d6df51ca",
@@ -356,6 +359,9 @@
       "spotify": "https://open.spotify.com/artist/6zy7hLwLmlwV9oTOQVlhS9"
     },
     "mbid": "1ec731c7-7ced-4061-bc5a-8350852f9afe"
+  },
+  "Anna Luna Live in Los Angeles": {
+    "checked": "2026-11-02"
   },
   "Anna Tivel": {
     "about": "Person from Portland.",
@@ -653,6 +659,9 @@
     },
     "mbid": "95015b4c-1aef-4e28-9d36-c9546c194f0c"
   },
+  "Balkanoche": {
+    "checked": "2026-11-02"
+  },
   "Band Aparte": {
     "about": "Group.",
     "about_source": "https://musicbrainz.org/artist/7867efdb-72d4-47a3-bf5d-74a9505b5930",
@@ -921,6 +930,16 @@
   "Black House Radio": {
     "checked": "2026-10-31"
   },
+  "Blond In Car": {
+    "about": "From United States.",
+    "about_source": "https://musicbrainz.org/artist/5b9ec368-db42-4495-a167-179a2226c74d",
+    "checked": "2026-11-02",
+    "links": {
+      "bandcamp": "https://blondincar.bandcamp.com/",
+      "spotify": "https://open.spotify.com/artist/2MpTGEyRxAUkD16X9XpLyl"
+    },
+    "mbid": "5b9ec368-db42-4495-a167-179a2226c74d"
+  },
   "Blondshell": {
     "about": "Sabrina Mae Teitelbaum, better known as Blondshell, is an American indie rock singer, songwriter and musician based in Los Angeles, California. Following an early pop-leaning career under the name BAUM, she debuted as Blondshell in June 2022 with the single \"Olympus\".",
     "about_source": "https://en.wikipedia.org/wiki/Blondshell",
@@ -1069,6 +1088,12 @@
     },
     "mbid": "cd584ea0-0fc5-412b-8598-0244c4025af6"
   },
+  "Boy Throb's Real Tour": {
+    "checked": "2026-11-02"
+  },
+  "Boy2000 in Los Angeles": {
+    "checked": "2026-11-02"
+  },
   "Brad Williams": {
     "checked": "2026-10-31"
   },
@@ -1202,6 +1227,9 @@
   "CAM GNARLY": {
     "checked": "2026-10-31"
   },
+  "CATEGORY Vol. 004": {
+    "checked": "2026-11-02"
+  },
   "CHVRCHES": {
     "about": "Chvrches are a Scottish synth-pop band from Glasgow, formed in September 2011. The band consists of Lauren Mayberry, Iain Cook, Martin Doherty and, unofficially since 2018, Jonny Scott.",
     "about_source": "https://en.wikipedia.org/wiki/Chvrches",
@@ -1270,6 +1298,9 @@
   },
   "Catie Turner + Special Guests Kiss Bang": {
     "checked": "2026-10-31"
+  },
+  "Cel Genesis, Cry, and Sivil^3": {
+    "checked": "2026-11-02"
   },
   "Celine Dessberg Live in Los Angeles": {
     "checked": "2026-10-31"
@@ -1508,6 +1539,9 @@
   "Confetti & Khel": {
     "checked": "2026-10-31"
   },
+  "Cool Heat, BOYO, Trit 95, Sunder": {
+    "checked": "2026-11-02"
+  },
   "Costa": {
     "about": "Person from Sri Lanka, born 1992.",
     "about_source": "https://musicbrainz.org/artist/be7c966e-d73e-4aad-b36f-38096b032d34",
@@ -1618,6 +1652,9 @@
   },
   "Daft Disko Halloween": {
     "checked": "2026-10-31"
+  },
+  "Daft Disko New Year's Eve": {
+    "checked": "2026-11-02"
   },
   "Daisy’s Mixtape Tour": {
     "checked": "2026-10-31"
@@ -2046,6 +2083,9 @@
   "ELDON": {
     "checked": "2026-10-31"
   },
+  "ESL II": {
+    "checked": "2026-11-02"
+  },
   "ESTEMAN & DANIELA SPALLA": {
     "checked": "2026-10-31"
   },
@@ -2122,6 +2162,12 @@
   },
   "Election Watch Party": {
     "checked": "2026-10-31"
+  },
+  "Electric Feels": {
+    "about": "Group.",
+    "about_source": "https://musicbrainz.org/artist/bb1ff3fc-7df0-43b0-b3a9-77cc5248f5a1",
+    "checked": "2026-11-02",
+    "mbid": "bb1ff3fc-7df0-43b0-b3a9-77cc5248f5a1"
   },
   "Elijah Fox": {
     "about": "Person from Los Angeles.",
@@ -2497,6 +2543,16 @@
   },
   "Frankie J & Bobby V": {
     "checked": "2026-10-31"
+  },
+  "Fred Eaglesmith": {
+    "about": "Frederick John Elgersma, known by the stage name Fred Eaglesmith, is a Canadian alternative country singer-songwriter. He is known for writing songs about vehicles, rural life, down-and-out characters, lost love and quirky rural folk.",
+    "about_source": "https://en.wikipedia.org/wiki/Fred_Eaglesmith",
+    "checked": "2026-11-02",
+    "links": {
+      "homepage": "http://fredeaglesmith.com/",
+      "spotify": "https://open.spotify.com/artist/0yv1W9HeASlBRyWrzRMhWh"
+    },
+    "mbid": "2a04a833-2376-474d-846e-142e49167786"
   },
   "Free Halloween Dance Party with Shelby Jacobson": {
     "checked": "2026-10-31"
@@ -3302,6 +3358,9 @@
     },
     "mbid": "5a0bd131-4644-4860-aee7-d281d9f2941e"
   },
+  "JUDASTONGUE": {
+    "checked": "2026-11-02"
+  },
   "Jack & Jack": {
     "about": "Jack & Jack are an American pop-rap duo from Omaha, Nebraska, consisting of Jack Johnson and Jack Gilinsky, based in Los Angeles, California. After success via the social media app Vine, the duo turned to careers as musicians.",
     "about_source": "https://en.wikipedia.org/wiki/Jack_%26_Jack",
@@ -3563,6 +3622,19 @@
       "youtube": "https://music.youtube.com/channel/UCTYCoCtyoDobqupS7pnF6Yw"
     },
     "mbid": "9067ff50-ad4b-469d-90bc-24c4762c3f83"
+  },
+  "Johnnie Guilbert": {
+    "about": "Person, born 1997.",
+    "about_source": "https://musicbrainz.org/artist/498737d8-a498-4533-832b-6feef3d37abb",
+    "checked": "2026-11-02",
+    "links": {
+      "homepage": "https://johnnieguilbert.com/",
+      "instagram": "https://www.instagram.com/johnnieguilbert/",
+      "soundcloud": "https://soundcloud.com/johnnie-guilbert-963109",
+      "spotify": "https://open.spotify.com/artist/076Gy8u6GxUrHUxbaesJFC",
+      "youtube": "https://www.youtube.com/channel/UCoRQI9DCEzCpfvI21puHEtA"
+    },
+    "mbid": "498737d8-a498-4533-832b-6feef3d37abb"
   },
   "Johnny Jewel": {
     "about": "Johnny Jewel is an American musician, record producer, composer, and visual artist. He is a multi-instrumentalist who is known for using all-analog equipment.",
@@ -3917,6 +3989,9 @@
       "instagram": "https://www.instagram.com/k.schaal/"
     },
     "mbid": "d4fa6ce1-8472-422f-bd1a-4b382378cac0"
+  },
+  "Kulture Klub": {
+    "checked": "2026-11-02"
   },
   "Kurt Travis": {
     "about": "Kurt Travis is an American singer, musician, and songwriter from Sacramento, California. He is currently part of the post-hardcore bands Royal Coda, A Lot Like Birds, and Push Over and the math rock duo Gold Necklace, and was formerly a vocalist in the post-hardcore band Dance Gavin Dance.",
@@ -5419,6 +5494,12 @@
   "Punchis Punchis": {
     "checked": "2026-10-31"
   },
+  "Punk Racks": {
+    "about": "Person, born 2008.",
+    "about_source": "https://musicbrainz.org/artist/23d3d159-14dc-44d8-aadf-7385b6fb258b",
+    "checked": "2026-11-02",
+    "mbid": "23d3d159-14dc-44d8-aadf-7385b6fb258b"
+  },
   "Q Marsden": {
     "checked": "2026-10-31"
   },
@@ -5505,6 +5586,18 @@
       "youtube": "https://www.youtube.com/channel/UC_oQX-YvIWZlEcdo18MCMJg"
     },
     "mbid": "12d8f7a3-5152-4822-9393-1366ce1b90a9"
+  },
+  "Renée Christine": {
+    "about": "Person.",
+    "about_source": "https://musicbrainz.org/artist/4f713d03-67b3-4868-9e1a-12d58dbb6197",
+    "checked": "2026-11-02",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1765597045",
+      "instagram": "https://www.instagram.com/reneechristinemusic/",
+      "qobuz": "https://www.qobuz.com/de-de/interpreter/-/23684451",
+      "spotify": "https://open.spotify.com/artist/1VGSv0y30R6THoFPMiccx2"
+    },
+    "mbid": "4f713d03-67b3-4868-9e1a-12d58dbb6197"
   },
   "Reverberation Radio DJ Night": {
     "checked": "2026-10-31"
@@ -6025,6 +6118,19 @@
       "instagram": "https://www.instagram.com/syrupmountain/"
     },
     "mbid": "98af0448-298d-4e23-97cd-da1a2631b4c1"
+  },
+  "Sharada Shashidhar": {
+    "about": "Person from United States.",
+    "about_source": "https://musicbrainz.org/artist/682396cb-11dc-4c93-a359-163e1410dbd4",
+    "checked": "2026-11-02",
+    "links": {
+      "apple_music": "https://music.apple.com/be/artist/1484289284",
+      "bandcamp": "https://sharadashashidhar.bandcamp.com/",
+      "homepage": "https://www.sharadashashidhar.com/",
+      "instagram": "https://www.instagram.com/sharadalatika/",
+      "spotify": "https://open.spotify.com/artist/1S5hEP3i3XrnBeW602MbUq"
+    },
+    "mbid": "682396cb-11dc-4c93-a359-163e1410dbd4"
   },
   "Shaun Cassidy": {
     "about": "Shaun Paul Cassidy is an American singer, actor, television producer and screenwriter. He has created or produced a number of television series, including American Gothic, Roar, and Invasion.",
@@ -7330,6 +7436,18 @@
     },
     "mbid": "f0be891f-6114-448a-ac55-a11bb2961f78"
   },
+  "The Suitcase Junket": {
+    "about": "Person from United States, born 1982.",
+    "about_source": "https://musicbrainz.org/artist/4d9d1016-371a-4da6-a3c1-58559090a14b",
+    "checked": "2026-11-02",
+    "links": {
+      "homepage": "http://www.thesuitcasejunket.com/",
+      "instagram": "https://www.instagram.com/suitcasejunket/",
+      "spotify": "https://open.spotify.com/artist/7Iew8GtdYcaznLxIJpJxeS",
+      "youtube": "https://www.youtube.com/channel/UC1oQfK1XSswFOnISagweo9A"
+    },
+    "mbid": "4d9d1016-371a-4da6-a3c1-58559090a14b"
+  },
   "The Tallest Man on Earth": {
     "about": "Kristian Matsson is a Swedish singer-songwriter who performs under the stage name The Tallest Man on Earth. Matsson grew up in Leksand, and began his solo career in 2006, having previously been the lead singer of the indie band Montezumas.",
     "about_source": "https://en.wikipedia.org/wiki/The_Tallest_Man_on_Earth",
@@ -7689,6 +7807,22 @@
     },
     "mbid": "07d0e0b3-dea4-4892-bee7-eaad19d093ec"
   },
+  "Two Lanes": {
+    "about": "Group from Berlin, formed 2018.",
+    "about_source": "https://musicbrainz.org/artist/3f808f31-4631-43f4-81b7-c98594744421",
+    "checked": "2026-11-02",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1336614616",
+      "bandcamp": "https://twolanes.bandcamp.com/",
+      "homepage": "https://www.twolanesmusic.com/",
+      "instagram": "https://www.instagram.com/wearetwolanes/",
+      "qobuz": "https://open.qobuz.com/artist/3499772",
+      "soundcloud": "https://soundcloud.com/wearetwolanes",
+      "spotify": "https://open.spotify.com/artist/7mnuMLgvXdCWzyB4sQCG7k",
+      "youtube": "https://www.youtube.com/channel/UCE_iimH9Uwye7IqsGBFUC_Q"
+    },
+    "mbid": "3f808f31-4631-43f4-81b7-c98594744421"
+  },
   "UNKLE SOUNDS": {
     "about": "Unkle is a British musical act founded in 1992 by James Lavelle. Originally categorised as trip hop, the group once included producer DJ Shadow and have employed a variety of guest artists and producers.",
     "about_source": "https://en.wikipedia.org/wiki/Unkle",
@@ -7867,6 +8001,18 @@
       "spotify": "https://open.spotify.com/artist/6PjV05LlULv9XmFu7HeAia"
     },
     "mbid": "1886d75c-13be-42c4-a6e6-59a18d1ac877"
+  },
+  "William Tyler": {
+    "about": "William Armistead Tyler is an American guitarist and composer who plays \"cosmic country,\" folk, indie folk, and pop rock.",
+    "about_source": "https://en.wikipedia.org/wiki/William_Tyler_(musician)",
+    "checked": "2026-11-02",
+    "links": {
+      "apple_music": "https://itunes.apple.com/us/artist/id3813279",
+      "bandcamp": "https://williamtyler.bandcamp.com/",
+      "homepage": "http://www.williamtyler.net/",
+      "spotify": "https://open.spotify.com/artist/3iexGtoBAyCUbxOKeru5py"
+    },
+    "mbid": "37e374de-ed4a-4bab-97ac-b6520971b0ed"
   },
   "Willowake": {
     "about": "Group from United States.",

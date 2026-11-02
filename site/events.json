@@ -1,146 +1,7 @@
 {
-  "updated": "2026-10-31T21:57:28+00:00",
+  "updated": "2026-11-02T20:20:33+00:00",
   "timezone": "America/Los_Angeles",
   "artists": {
-    "Marilyn Manson": {
-      "about": "Marilyn Manson is an American rock band formed by namesake lead singer Marilyn Manson and lead guitarist Daisy Berkowitz in Fort Lauderdale, Florida, in 1989.",
-      "about_source": "https://en.wikipedia.org/wiki/Marilyn_Manson_(band)",
-      "image": "https://s1.ticketm.net/dam/a/4af/cc237a20-4d53-49e4-8f1b-30f38caec4af_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/2VYQTNDsvvKN9wmU5W7xpj",
-        "bandcamp": "https://marilynmanson.bandcamp.com/",
-        "qobuz": "https://open.qobuz.com/artist/46384",
-        "apple_music": "https://music.apple.com/us/artist/marilyn-manson/251375",
-        "soundcloud": "https://soundcloud.com/marilynmanson",
-        "youtube": "https://www.youtube.com/channel/UCbirjI1K3MGu0-Y1gTBNR5w",
-        "homepage": "http://www.marilynmanson.com/",
-        "instagram": "https://www.instagram.com/marilynmanson/"
-      },
-      "mbid": "5dfdca28-9ddc-4853-933c-8bc97d87beec"
-    },
-    "Belle & Chain": {
-      "about": "Group.",
-      "about_source": "https://musicbrainz.org/artist/00cd7f6b-e79a-4b40-bea1-53cce2065f78",
-      "mbid": "00cd7f6b-e79a-4b40-bea1-53cce2065f78"
-    },
-    "My Chemical Romance": {
-      "about": "My Chemical Romance is an American rock band from New Jersey. The band's current lineup consists of lead vocalist Gerard Way, lead guitarist Ray Toro, rhythm guitarist Frank Iero, and bassist Mikey Way.",
-      "about_source": "https://en.wikipedia.org/wiki/My_Chemical_Romance",
-      "image": "https://s1.ticketm.net/dam/a/b67/0aae6aa9-4e17-482b-81d9-5282ff937b67_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/7FBcuc1gsnv6Y1nwFtNRCb",
-        "qobuz": "https://open.qobuz.com/artist/344230",
-        "apple_music": "https://itunes.apple.com/artist/id14748659",
-        "soundcloud": "https://soundcloud.com/my-chemical-romance",
-        "youtube": "https://www.youtube.com/user/mychemicalromance",
-        "homepage": "http://www.mychemicalromance.com/",
-        "instagram": "https://www.instagram.com/mychemicalromance/"
-      },
-      "mbid": "c07f0676-9143-4217-8a9f-4c26bd636f13"
-    },
-    "Thrice": {
-      "about": "Thrice is an American rock band from Irvine, California, formed in 1998. The group was founded by guitarist/vocalist Dustin Kensrue and lead guitarist Teppei Teranishi while they were in high school.",
-      "about_source": "https://en.wikipedia.org/wiki/Thrice",
-      "image": "https://s1.ticketm.net/dam/a/519/c01bccc2-94d7-4cd4-b8ca-149ab6c64519_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/3NChzMpu9exTlNPiqUQ2DE?autoplay=true",
-        "bandcamp": "https://officialthrice.bandcamp.com/",
-        "qobuz": "https://www.qobuz.com/gb-en/interpreter/thrice/download-streaming-albums",
-        "apple_music": "https://music.apple.com/us/artist/thrice/1663706",
-        "soundcloud": "https://soundcloud.com/thriceofficial",
-        "youtube": "https://www.youtube.com/channel/UC_gH-AQqoOUZ4ykZBCLdvww",
-        "homepage": "https://thrice.net/",
-        "instagram": "https://www.instagram.com/thrice/"
-      },
-      "mbid": "244afcb7-fa9a-49b1-9aa6-0149512d1c52"
-    },
-    "\"Weird Al\" Yankovic": {
-      "image": "https://s1.ticketm.net/dam/a/e23/ce609b68-dd49-4ebc-a034-6b52a6a67e23_RETINA_LANDSCAPE_16_9.jpg"
-    },
-    "Parra for Cuva": {
-      "about": "Nicolas Demuth, known by stage name Parra for Cuva, is a German musician and DJ. He is best known for his house production.",
-      "about_source": "https://en.wikipedia.org/wiki/Parra_for_Cuva",
-      "image": "https://s1.ticketm.net/dam/a/ec0/3427fd7a-2f09-40dc-88d3-447b342ecec0_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/238y1dKPtMeFEpX3Y6H1Vr",
-        "bandcamp": "https://parraforcuva.bandcamp.com/",
-        "qobuz": "https://open.qobuz.com/artist/1318530",
-        "apple_music": "https://music.apple.com/de/artist/643936015",
-        "soundcloud": "https://soundcloud.com/parraforcuva",
-        "youtube": "https://www.youtube.com/user/ParraforCuva",
-        "homepage": "https://parraforcuva.de",
-        "instagram": "http://instagram.com/parraforcuva.official"
-      },
-      "mbid": "0d10d859-50a4-4cb1-9412-31fb02795f9c"
-    },
-    "Ben Po": {
-      "image": "https://s1.ticketm.net/dam/a/5c8/883bb1ec-91a2-4b58-bdac-f25c105435c8_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "instagram": "https://www.instagram.com/itsbenpo/"
-      }
-    },
-    "bleood": {
-      "about": "Person from New York, born 2005.",
-      "about_source": "https://musicbrainz.org/artist/ce6a32ee-197d-4a59-9dad-37eb21b45c30",
-      "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/41GfvEtCZu3KXaThpF01c1",
-        "apple_music": "https://music.apple.com/us/artist/1744999836",
-        "soundcloud": "https://soundcloud.com/bleoodbath",
-        "instagram": "https://www.instagram.com/disinfecting/"
-      },
-      "mbid": "ce6a32ee-197d-4a59-9dad-37eb21b45c30"
-    },
-    "Mothermary": {
-      "about": "Mothermary is an American electropop duo composed of identical twin sisters Larena Winn and Elyse Winn. Originally from Missoula, Montana, the pair later relocated to New York City before being based in Los Angeles.",
-      "about_source": "https://en.wikipedia.org/wiki/Mothermary",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/3NXcwLXXhOFaRP7zy9RPLA",
-        "qobuz": "https://open.qobuz.com/artist/9308834",
-        "apple_music": "https://music.apple.com/us/artist/1393853717",
-        "soundcloud": "https://soundcloud.com/mothermary-music",
-        "youtube": "https://www.youtube.com/channel/UC6NMtsP1G4LjRBVL6N30M3A",
-        "homepage": "https://www.mothermary.band/",
-        "instagram": "https://www.instagram.com/mothermarymusic/"
-      },
-      "mbid": "ad9e9044-e382-4018-acbe-5b48c46e22f4"
-    },
-    "Johnny Jewel": {
-      "about": "Johnny Jewel is an American musician, record producer, composer, and visual artist. He is a multi-instrumentalist who is known for using all-analog equipment.",
-      "about_source": "https://en.wikipedia.org/wiki/Johnny_Jewel",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/2KofAEA8S0jDDXjSg6a3HR",
-        "bandcamp": "https://johnnyjewel.bandcamp.com/",
-        "qobuz": "https://open.qobuz.com/artist/663767",
-        "apple_music": "https://music.apple.com/us/artist/259894267",
-        "soundcloud": "https://soundcloud.com/johnnyjewel",
-        "youtube": "https://www.youtube.com/channel/UCRkGkq80Md_bNwOH6YgKpcQ"
-      },
-      "mbid": "5347379f-c2e6-4793-9b6b-1a4a0315cf2e"
-    },
-    "TAYLAH ELAINE": {
-      "about": "Person from United Kingdom.",
-      "about_source": "https://musicbrainz.org/artist/a095f5f8-d13f-496e-9aa9-2893bba774b0",
-      "links": {
-        "soundcloud": "https://soundcloud.com/taylahelaine",
-        "instagram": "https://www.instagram.com/taylahelaine/"
-      },
-      "mbid": "a095f5f8-d13f-496e-9aa9-2893bba774b0"
-    },
-    "JOAQU.N": {
-      "links": {
-        "instagram": "https://www.instagram.com/joaqu.n/"
-      },
-      "mbid": "5a0bd131-4644-4860-aee7-d281d9f2941e"
-    },
-    "Heads Will Roll": {
-      "about": "Group.",
-      "about_source": "https://musicbrainz.org/artist/860ee995-2c73-414c-847c-931e9ab59269",
-      "mbid": "860ee995-2c73-414c-847c-931e9ab59269"
-    },
-    "Yoi Toki": {
-      "image": "https://s1.ticketm.net/dam/a/d85/eeac747d-012e-48c0-a0bc-38d021337d85_RETINA_LANDSCAPE_16_9.jpg"
-    },
     "Gully Boys": {
       "image": "https://s1.ticketm.net/dam/a/e53/6611fc79-150f-4a4f-9757-80428aa81e53_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
@@ -154,32 +15,23 @@
     "Pollyanna": {
       "image": "https://s1.ticketm.net/dam/a/c7d/481a382a-c361-41c0-b140-4826ed0f1c7d_RETINA_LANDSCAPE_16_9.jpg"
     },
-    "Julez and the Rollerz": {
-      "image": "https://s1.ticketm.net/dam/a/d03/8410d1b9-7a2e-46b1-b52e-ab5780b80d03_RETINA_LANDSCAPE_16_9.jpg",
+    "Jesse Detor": {
+      "about": "Person from Minneapolis.",
+      "about_source": "https://musicbrainz.org/artist/90751b46-1bfa-40d5-ae86-9c7fa9836d43",
       "links": {
-        "spotify": "https://open.spotify.com/artist/4m5JKZ8aG68MAApXuhpTiU"
+        "spotify": "https://open.spotify.com/artist/3HljFuKgpaXNKfIlFZWCEk",
+        "apple_music": "https://music.apple.com/us/artist/1648064499",
+        "youtube": "https://www.youtube.com/channel/UC3p4qdvtCcftLm93Y2MqBzw",
+        "homepage": "https://jessedetor.com/",
+        "instagram": "https://www.instagram.com/jessedetor/"
+      },
+      "mbid": "90751b46-1bfa-40d5-ae86-9c7fa9836d43"
+    },
+    "Jorjiana": {
+      "image": "https://s1.ticketm.net/dam/a/171/491a5025-c8c9-4e78-b357-367b4738c171_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3tIDgNCk7FQmTHl7hEj1rF"
       }
-    },
-    "Matt Kivel": {
-      "about": "Person from United States.",
-      "about_source": "https://musicbrainz.org/artist/01318c5b-9c53-4c8c-a751-5a5dc19dd738",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/2WkXhpsmgr8xeRpfF9Bl1w",
-        "bandcamp": "https://mattkivel.bandcamp.com/",
-        "apple_music": "https://itunes.apple.com/us/artist/id718623538",
-        "instagram": "https://www.instagram.com/mattkivel/"
-      },
-      "mbid": "01318c5b-9c53-4c8c-a751-5a5dc19dd738"
-    },
-    "Max Knouse": {
-      "about": "Person from Los Angeles.",
-      "about_source": "https://musicbrainz.org/artist/11fbba53-67ee-4fdd-bb83-05790c13a28f",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/4ivWT0GmHE2N4jNGRwXX8X",
-        "bandcamp": "https://maxknouse.bandcamp.com/",
-        "apple_music": "https://music.apple.com/us/artist/1495733786"
-      },
-      "mbid": "11fbba53-67ee-4fdd-bb83-05790c13a28f"
     },
     "Stella Lefty": {
       "image": "https://s1.ticketm.net/dam/a/b14/51f86754-b9f1-4929-9a62-b4a6c922ab14_RETINA_LANDSCAPE_16_9.jpg",
@@ -189,58 +41,6 @@
         "youtube": "https://www.youtube.com/channel/UCJ6xgoGldjpinfNH5febxZA",
         "homepage": "https://www.stella-lefty.com/",
         "instagram": "https://www.instagram.com/stellalefty/"
-      }
-    },
-    "MISSIO": {
-      "about": "Missio is an American electronic alternative duo formed in 2014 in Austin, Texas. It currently consists of founding member Matthew Brue and David Butler.",
-      "about_source": "https://en.wikipedia.org/wiki/Missio_(duo)",
-      "image": "https://s1.ticketm.net/dam/a/270/df3fcb4f-5271-4408-90fc-868a6521b270_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/2HOMW1liAxI3URnEq95SMS",
-        "bandcamp": "https://missio.bandcamp.com/",
-        "apple_music": "https://music.apple.com/us/artist/missio/1228281701",
-        "soundcloud": "https://soundcloud.com/missiomusic",
-        "youtube": "https://www.youtube.com/missiomusic",
-        "homepage": "http://www.missiomusic.com/",
-        "instagram": "https://www.instagram.com/missiomusic/"
-      },
-      "mbid": "ae5af627-ccd6-4db5-974d-83da8e32e705"
-    },
-    "Fifteen0eight": {
-      "image": "https://s1.ticketm.net/dam/a/06d/c630cb11-e623-4de8-b85c-351f7e25706d_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "soundcloud": "https://soundcloud.com/fifteenoeight"
-      }
-    },
-    "Kent Osborne": {
-      "image": "https://s1.ticketm.net/dam/a/1f0/4b726ecc-440c-40d5-b505-e54b889741f0_RETINA_LANDSCAPE_16_9.jpg"
-    },
-    "Pradabagshawty": {
-      "image": "https://s1.ticketm.net/dam/a/b58/ce1d7f9b-f5ee-4cb6-9846-dc02471feb58_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "instagram": "https://www.instagram.com/sheloveprada5/"
-      }
-    },
-    "BATASTROPHE": {
-      "about": "Group from Brazil.",
-      "about_source": "https://musicbrainz.org/artist/2ea21597-f8c9-4eed-b40c-33e34a497bea",
-      "links": {
-        "bandcamp": "https://batastrophe.bandcamp.com/"
-      },
-      "mbid": "2ea21597-f8c9-4eed-b40c-33e34a497bea"
-    },
-    "The Toxhards": {
-      "image": "https://s1.ticketm.net/dam/a/a28/566a112a-52b2-42be-a562-f4d5a7956a28_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/6LOm4xDQLq8kmcRaZIzB2s",
-        "homepage": "https://www.toxhards.com/",
-        "instagram": "https://www.instagram.com/thetoxhards/"
-      }
-    },
-    "Jorjiana": {
-      "image": "https://s1.ticketm.net/dam/a/171/491a5025-c8c9-4e78-b357-367b4738c171_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/3tIDgNCk7FQmTHl7hEj1rF"
       }
     },
     "Todd Rundgren": {
@@ -2175,13 +1975,6 @@
       },
       "mbid": "d570eb4d-557b-41c2-9753-bd4cd08defe7"
     },
-    "bed": {
-      "image": "https://s1.ticketm.net/dam/a/c8f/20943a83-2ae2-4088-801e-66fa818b4c8f_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/5nJqGF6KUDFS2jVMW9Oix9",
-        "instagram": "https://www.instagram.com/bedsleepwell/"
-      }
-    },
     "SWMRS": {
       "about": "SWMRS is an American punk rock band from the San Francisco Bay Area, consisting of brothers Max, Cole, and Cade Becker. Formed out of their earlier band Emily's Army, SWMRS blends punk, pop, and indie influences.",
       "about_source": "https://en.wikipedia.org/wiki/SWMRS",
@@ -4055,6 +3848,15 @@
       },
       "mbid": "810b210f-b461-4f02-aff2-dff91196147e"
     },
+    "Fred Eaglesmith": {
+      "about": "Frederick John Elgersma, known by the stage name Fred Eaglesmith, is a Canadian alternative country singer-songwriter. He is known for writing songs about vehicles, rural life, down-and-out characters, lost love and quirky rural folk.",
+      "about_source": "https://en.wikipedia.org/wiki/Fred_Eaglesmith",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0yv1W9HeASlBRyWrzRMhWh",
+        "homepage": "http://fredeaglesmith.com/"
+      },
+      "mbid": "2a04a833-2376-474d-846e-142e49167786"
+    },
     "Beauty School Dropout": {
       "about": "Group.",
       "about_source": "https://musicbrainz.org/artist/20c5daf8-6cb4-4db9-84df-ecd8337bf9d7",
@@ -4194,6 +3996,29 @@
     "Mermaid Island": {
       "mbid": "cda00a80-7647-401b-bfe5-b406a01e6aab"
     },
+    "William Tyler": {
+      "about": "William Armistead Tyler is an American guitarist and composer who plays \"cosmic country,\" folk, indie folk, and pop rock.",
+      "about_source": "https://en.wikipedia.org/wiki/William_Tyler_(musician)",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/3iexGtoBAyCUbxOKeru5py",
+        "bandcamp": "https://williamtyler.bandcamp.com/",
+        "apple_music": "https://itunes.apple.com/us/artist/id3813279",
+        "homepage": "http://www.williamtyler.net/"
+      },
+      "mbid": "37e374de-ed4a-4bab-97ac-b6520971b0ed"
+    },
+    "Sharada Shashidhar": {
+      "about": "Person from United States.",
+      "about_source": "https://musicbrainz.org/artist/682396cb-11dc-4c93-a359-163e1410dbd4",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/1S5hEP3i3XrnBeW602MbUq",
+        "bandcamp": "https://sharadashashidhar.bandcamp.com/",
+        "apple_music": "https://music.apple.com/be/artist/1484289284",
+        "homepage": "https://www.sharadashashidhar.com/",
+        "instagram": "https://www.instagram.com/sharadalatika/"
+      },
+      "mbid": "682396cb-11dc-4c93-a359-163e1410dbd4"
+    },
     "Train Breaks Down": {
       "about": "Group from Los Angeles.",
       "about_source": "https://musicbrainz.org/artist/85aab529-c225-4ad9-9d31-b67b9e72a723",
@@ -4259,6 +4084,16 @@
       },
       "mbid": "c456ab5e-cdfe-4072-a1c8-ae2e09a66958"
     },
+    "Electric Feels": {
+      "about": "Group.",
+      "about_source": "https://musicbrainz.org/artist/bb1ff3fc-7df0-43b0-b3a9-77cc5248f5a1",
+      "image": "https://s1.ticketm.net/dam/a/d99/7d0d36d0-4cf5-4649-b647-d0e85bd55d99_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "homepage": "https://electricfeelsparty.com/",
+        "instagram": "https://www.instagram.com/electricfeelsparty/"
+      },
+      "mbid": "bb1ff3fc-7df0-43b0-b3a9-77cc5248f5a1"
+    },
     "Caitlin Byk": {
       "image": "https://s1.ticketm.net/dam/a/246/da560e36-d539-45b7-b634-061e3567e246_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
@@ -4314,6 +4149,15 @@
         "apple_music": "https://itunes.apple.com/us/artist/id21479714"
       },
       "mbid": "cb61f98f-80d4-4565-9ab0-9de18bbdb630"
+    },
+    "Blond In Car": {
+      "about": "From United States.",
+      "about_source": "https://musicbrainz.org/artist/5b9ec368-db42-4495-a167-179a2226c74d",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/2MpTGEyRxAUkD16X9XpLyl",
+        "bandcamp": "https://blondincar.bandcamp.com/"
+      },
+      "mbid": "5b9ec368-db42-4495-a167-179a2226c74d"
     },
     "Cinder Well": {
       "about": "Person from Los Angeles.",
@@ -4669,18 +4513,6 @@
     },
     "The Originals": {
       "image": "https://s1.ticketm.net/dam/c/27e/458d1b62-6e4f-4ffd-8941-9ed303d8e27e_106041_RETINA_LANDSCAPE_16_9.jpg"
-    },
-    "Jesse Detor": {
-      "about": "Person from Minneapolis.",
-      "about_source": "https://musicbrainz.org/artist/90751b46-1bfa-40d5-ae86-9c7fa9836d43",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/3HljFuKgpaXNKfIlFZWCEk",
-        "apple_music": "https://music.apple.com/us/artist/1648064499",
-        "youtube": "https://www.youtube.com/channel/UC3p4qdvtCcftLm93Y2MqBzw",
-        "homepage": "https://jessedetor.com/",
-        "instagram": "https://www.instagram.com/jessedetor/"
-      },
-      "mbid": "90751b46-1bfa-40d5-ae86-9c7fa9836d43"
     },
     "Bloodsugar": {
       "about": "Group from Chico, formed 2024.",
@@ -5123,6 +4955,17 @@
         "spotify": "https://open.spotify.com/artist/3oTEPP6FmTedvoB5MhzVrD"
       }
     },
+    "Renée Christine": {
+      "about": "Person.",
+      "about_source": "https://musicbrainz.org/artist/4f713d03-67b3-4868-9e1a-12d58dbb6197",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/1VGSv0y30R6THoFPMiccx2",
+        "qobuz": "https://www.qobuz.com/de-de/interpreter/-/23684451",
+        "apple_music": "https://music.apple.com/us/artist/1765597045",
+        "instagram": "https://www.instagram.com/reneechristinemusic/"
+      },
+      "mbid": "4f713d03-67b3-4868-9e1a-12d58dbb6197"
+    },
     "Demola": {
       "about": "Person from Houston.",
       "about_source": "https://musicbrainz.org/artist/a7936749-c63d-48ae-b280-f8b63838fdcb",
@@ -5320,6 +5163,17 @@
         "homepage": "https://loulousafran.com/",
         "instagram": "https://www.instagram.com/loulousafran/"
       }
+    },
+    "The Suitcase Junket": {
+      "about": "Person from United States, born 1982.",
+      "about_source": "https://musicbrainz.org/artist/4d9d1016-371a-4da6-a3c1-58559090a14b",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7Iew8GtdYcaznLxIJpJxeS",
+        "youtube": "https://www.youtube.com/channel/UC1oQfK1XSswFOnISagweo9A",
+        "homepage": "http://www.thesuitcasejunket.com/",
+        "instagram": "https://www.instagram.com/suitcasejunket/"
+      },
+      "mbid": "4d9d1016-371a-4da6-a3c1-58559090a14b"
     },
     "Labiahead": {
       "image": "https://s1.ticketm.net/dam/a/267/19a203fa-55dd-4041-b7b4-d6d775db8267_RETINA_LANDSCAPE_16_9.jpg",
@@ -5624,6 +5478,19 @@
       "links": {
         "instagram": "https://www.instagram.com/louridleyx/"
       }
+    },
+    "Johnnie Guilbert": {
+      "about": "Person, born 1997.",
+      "about_source": "https://musicbrainz.org/artist/498737d8-a498-4533-832b-6feef3d37abb",
+      "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/076Gy8u6GxUrHUxbaesJFC",
+        "soundcloud": "https://soundcloud.com/johnnie-guilbert-963109",
+        "youtube": "https://www.youtube.com/channel/UCoRQI9DCEzCpfvI21puHEtA",
+        "homepage": "https://johnnieguilbert.com/",
+        "instagram": "https://www.instagram.com/johnnieguilbert/"
+      },
+      "mbid": "498737d8-a498-4533-832b-6feef3d37abb"
     },
     "Swervedriver": {
       "about": "Swervedriver are an English alternative rock band formed in Oxford in 1989 around core members Adam Franklin and Jimmy Hartridge. Between 1989 and 1998, the band released four studio albums and numerous EPs and singles despite a considerable flux of members, managers, and record labels.",
@@ -6414,6 +6281,15 @@
     "Venna": {
       "image": "https://s1.ticketm.net/dam/a/9fb/441098e2-e20c-4ea7-b650-30e4256e49fb_RETINA_LANDSCAPE_16_9.jpg"
     },
+    "Liim": {
+      "image": "https://s1.ticketm.net/dam/a/d59/79828ecd-727b-444e-a6c6-c04e33708d59_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4WBs3HlXxMAqo8Yi6m1PCM",
+        "apple_music": "https://music.apple.com/us/artist/liim/1606532881",
+        "youtube": "https://www.youtube.com/channel/UC0DfoEyZOWDkyeOYa5Ejhtg",
+        "instagram": "https://www.instagram.com/liimnotliim/"
+      }
+    },
     "Milk & Bone": {
       "image": "https://s1.ticketm.net/dam/a/2fe/2d7dd358-d6ea-48fe-adde-9e777099e2fe_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
@@ -6717,6 +6593,11 @@
         "instagram": "https://www.instagram.com/taperschoice/"
       },
       "mbid": "2f21ae90-e892-48a1-9ab8-f1e476d8cfd8"
+    },
+    "Punk Racks": {
+      "about": "Person, born 2008.",
+      "about_source": "https://musicbrainz.org/artist/23d3d159-14dc-44d8-aadf-7385b6fb258b",
+      "mbid": "23d3d159-14dc-44d8-aadf-7385b6fb258b"
     },
     "Twinsick": {
       "about": "Group from Minneapolis.",
@@ -7134,6 +7015,24 @@
       },
       "mbid": "b87e7d38-aadb-47ba-822c-6fe3e71a34a7"
     },
+    "Jim E. Brown": {
+      "image": "https://s1.ticketm.net/dam/a/5e8/64068aa4-f24c-45e4-9946-ea455eb125e8_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "bandcamp": "https://jimebrown.bandcamp.com/",
+        "youtube": "https://www.youtube.com/channel/UCgaGvIQNkKX5d0aw0CX9W-w",
+        "instagram": "https://www.instagram.com/jimebrown666/"
+      }
+    },
+    "Gary Wilson": {
+      "image": "https://s1.ticketm.net/dam/a/426/eab26729-8eaf-466c-840a-d1714ad13426_RETINA_LANDSCAPE_16_9.jpg"
+    },
+    "Faux Real": {
+      "image": "https://s1.ticketm.net/dam/a/998/1c3da94b-7616-4680-90da-d1941d8ae998_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "bandcamp": "https://fauxreal.bandcamp.com/",
+        "instagram": "https://www.instagram.com/isthisfauxreal"
+      }
+    },
     "Winona Fighter": {
       "about": "Group from Nashville, formed 2022.",
       "about_source": "https://musicbrainz.org/artist/18696c37-c6b4-47c0-898b-5db77305b6a7",
@@ -7513,6 +7412,22 @@
         "homepage": "http://www.thehighkings.com/"
       },
       "mbid": "96d83e40-01e7-46c6-baaf-a84363b30af1"
+    },
+    "Two Lanes": {
+      "about": "Group from Berlin, formed 2018.",
+      "about_source": "https://musicbrainz.org/artist/3f808f31-4631-43f4-81b7-c98594744421",
+      "image": "https://s1.ticketm.net/dam/a/ad6/5adf1023-19a4-4136-956f-ad729f9f4ad6_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7mnuMLgvXdCWzyB4sQCG7k",
+        "bandcamp": "https://twolanes.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/3499772",
+        "apple_music": "https://music.apple.com/us/artist/two-lanes/1336614616",
+        "soundcloud": "https://soundcloud.com/wearetwolanes",
+        "youtube": "https://www.youtube.com/c/TWOLANES",
+        "homepage": "https://www.twolanesmusic.com/",
+        "instagram": "https://www.instagram.com/wearetwolanes/"
+      },
+      "mbid": "3f808f31-4631-43f4-81b7-c98594744421"
     },
     "La Roux": {
       "about": "La Roux is an English synth-pop act formed in 2008 by singer Elly Jackson and record producer Ben Langmaid. The act's debut album La Roux (2009) was a critical and commercial success, winning a Grammy Award and producing hit singles such as \"In for the Kill\" and \"Bulletproof\".",
@@ -8321,6 +8236,13 @@
     "Jersey": {
       "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
     },
+    "bed": {
+      "image": "https://s1.ticketm.net/dam/a/c8f/20943a83-2ae2-4088-801e-66fa818b4c8f_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5nJqGF6KUDFS2jVMW9Oix9",
+        "instagram": "https://www.instagram.com/bedsleepwell/"
+      }
+    },
     "The Plot In You": {
       "about": "The Plot in You is an American metalcore band formed in Hancock County, Ohio in 2010. Originally a side project of former Before Their Eyes member Landon Tewers, the group is composed of Tewers, guitarist Josh Childress, bassist Ethan Yoder and drummer Michael Cooper.",
       "about_source": "https://en.wikipedia.org/wiki/The_Plot_in_You",
@@ -8412,6 +8334,12 @@
         "instagram": "https://www.instagram.com/The_Discussion_/"
       },
       "mbid": "f5e7676d-203f-4642-8ff7-7635d78d6d4a"
+    },
+    "Knats": {
+      "image": "https://s1.ticketm.net/dam/a/80b/7685fe17-dceb-4309-a71c-44a50a1b980b_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "instagram": "https://www.instagram.com/knatsncl/"
+      }
     },
     "Kid Francescoli": {
       "about": "Kid Francescoli is an electropop project by French musician Mathieu Hocine. The project was founded by Hocine in 2002 in Marseille.",
@@ -8996,7 +8924,7 @@
       "mbid": "43b896c5-5652-4b04-bde1-2e4224bc99b3"
     },
     "Sofia and the Antoinettes": {
-      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/5e6/b6eb186a-6210-487b-b6f1-b557a11905e6_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
         "instagram": "https://www.instagram.com/sofiaandtheantoinettes/"
       }
@@ -9294,6 +9222,16 @@
     "Legend of Zelda Symphony": {
       "image": "https://s1.ticketm.net/dam/c/518/83a05c63-479c-4f7e-a7aa-1932aab77518_105461_RETINA_LANDSCAPE_16_9.jpg"
     },
+    "Sampa the Great": {
+      "image": "https://s1.ticketm.net/dam/a/69d/08ebc481-1dd5-40a4-bb33-8e651f8c169d_1558841_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7fw0E8WHdG3r9SuPBcGmWk",
+        "apple_music": "https://music.apple.com/gb/artist/sampa-the-great/1026842498",
+        "youtube": "https://www.youtube.com/channel/UCHPHV1vMBvc-hce4Z5xP88A",
+        "homepage": "https://sampathegreat.com/",
+        "instagram": "https://www.instagram.com/sampa_the_great/"
+      }
+    },
     "Levi.Sct": {
       "image": "https://s1.ticketm.net/dam/a/412/4664b36a-179b-4036-bd3b-9d6c70709412_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
@@ -9407,390 +9345,19 @@
   ],
   "events": [
     {
-      "venue": "Echoplex",
-      "title": "Spooky Feels",
-      "details": "A Halloween Indie + Electronic Dance Party",
-      "start": "2026-10-31",
-      "doors": "21:00",
-      "age": "21+",
-      "url": "https://www.ticketmaster.com/spooky-feels-a-halloween-indie-electronic-los-angeles-california-10-31-2026/event/09006546F3825BC9",
-      "ticket_url": "https://www.ticketmaster.com/spooky-feels-a-halloween-indie-electronic-los-angeles-california-10-31-2026/event/09006546F3825BC9",
-      "image": "https://s1.ticketm.net/dam/a/d99/7d0d36d0-4cf5-4649-b647-d0e85bd55d99_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv1AaZk4kGkdSOPRa"
-    },
-    {
-      "venue": "The Wiltern",
-      "title": "Marilyn Manson",
-      "details": "Live in Los Angeles",
-      "start": "2026-10-31",
-      "doors": "19:00",
-      "age": "All ages",
-      "url": "https://www.ticketmaster.com/marilyn-manson-live-in-los-angeles-los-angeles-california-10-31-2026/event/0900646689067805",
-      "ticket_url": "https://www.ticketmaster.com/marilyn-manson-live-in-los-angeles-los-angeles-california-10-31-2026/event/0900646689067805",
-      "image": "https://s1.ticketm.net/dam/a/4af/cc237a20-4d53-49e4-8f1b-30f38caec4af_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv110Z_kQavEOA"
-    },
-    {
-      "venue": "Permanent Records Roadhouse",
-      "title": "Cali Maiden",
-      "support": [
-        "A Rock Legend",
-        "Star Lady"
-      ],
-      "start": "2026-10-31T18:00",
-      "price": "$10",
-      "url": "https://app.opendate.io/e/cali-maiden-iron-maiden-tribute-october-31-2026-758091",
-      "ticket_url": "https://app.opendate.io/e/cali-maiden-iron-maiden-tribute-october-31-2026-758091",
-      "image": "http://roadhouse.permanentrecordsla.com/images/2026/10oct/hall2.JPG"
-    },
-    {
-      "venue": "Zebulon",
-      "title": "Annual WØM Halloween Cover Show to Benefit Selah",
-      "support": [
-        "Seth Bogart (host)",
-        "DJ Gia Bahm"
-      ],
-      "start": "2026-10-31T18:30",
-      "price": "$24.11",
-      "url": "https://dice.fm/event/6abbccb4f1bf630001bb5f3c",
-      "image": "https://dice-media.imgix.net/attachments/2026-09-29/b034f344-2240-4ef1-a1ed-517bcacb88e3.jpg?rect=0%2C375%2C3000%2C3000",
-      "source_id": "dice:6abbccb4f1bf630001bb5f3c"
-    },
-    {
-      "venue": "Gold-Diggers",
-      "title": "Belle & Chain",
-      "support": [
-        "Desperate Measures",
-        "SHIFTERS!!",
-        "Sulphur Butterfly"
-      ],
-      "start": "2026-10-31T19:00",
-      "price": "free",
-      "url": "https://dice.fm/event/6ade67aa73038d0001d496dd",
-      "image": "https://dice-media.imgix.net/attachments/2026-10-29/c5efbf2f-c164-4c93-b981-c196101511cd.jpg?rect=0%2C0%2C1080%2C1080",
-      "source_id": "dice:6ade67aa73038d0001d496dd"
-    },
-    {
-      "venue": "Hollywood Bowl",
-      "title": "My Chemical Romance",
-      "support": [
-        "Thrice"
-      ],
-      "start": "2026-10-31T19:00",
-      "url": "https://www.ticketmaster.com/my-chemical-romance-with-special-guest-hollywood-california-10-31-2026/event/0B006332CBE839B4",
-      "ticket_url": "https://www.ticketmaster.com/my-chemical-romance-with-special-guest-hollywood-california-10-31-2026/event/0B006332CBE839B4",
-      "image": "https://s1.ticketm.net/dam/a/b67/0aae6aa9-4e17-482b-81d9-5282ff937b67_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vvG1iZbS55BdJV"
-    },
-    {
-      "venue": "Permanent Records Roadhouse",
-      "title": "A Perfecth HalloQueen",
-      "support": [
-        "Listening & Release Party"
-      ],
-      "start": "2026-10-31T19:00",
-      "price": "free",
-      "url": "http://roadhouse.permanentrecordsla.com/",
-      "image": "http://roadhouse.permanentrecordsla.com/images/2026/10oct/queen.jpg"
-    },
-    {
-      "venue": "Greek Theatre",
-      "title": "\"Weird Al\" Yankovic",
-      "details": "UHF Live-to-Screen with Orchestra and Live Q&A",
-      "start": "2026-10-31T20:00",
-      "doors": "18:30",
-      "url": "https://www.ticketmaster.com/weird-al-yankovic-uhf-livetoscreen-with-los-angeles-california-10-31-2026/event/090064CBDC58F3C8",
-      "ticket_url": "https://www.ticketmaster.com/weird-al-yankovic-uhf-livetoscreen-with-los-angeles-california-10-31-2026/event/090064CBDC58F3C8",
-      "image": "https://s1.ticketm.net/dam/a/5ba/5688818e-2821-4ace-8b21-853cc24335ba_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vvG10Z_GRjp22F"
-    },
-    {
-      "venue": "The Bellwether",
-      "title": "Parra for Cuva",
-      "support": [
-        "Ben Po"
-      ],
-      "start": "2026-10-31T20:00",
-      "doors": "19:00",
-      "url": "https://www.ticketmaster.com/parra-for-cuva-los-angeles-california-10-31-2026/event/09006481E62CF2E7",
-      "ticket_url": "https://www.ticketmaster.com/parra-for-cuva-los-angeles-california-10-31-2026/event/09006481E62CF2E7",
-      "image": "https://s1.ticketm.net/dam/a/ec0/3427fd7a-2f09-40dc-88d3-447b342ecec0_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv1AaZk3vGkdJ525E"
-    },
-    {
-      "venue": "The Fonda",
-      "title": "bleood",
-      "start": "2026-10-31T20:00",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZz44",
-      "ticket_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZz44",
-      "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:Z7r9jZ1AAZz44"
-    },
-    {
-      "venue": "The Glass House",
-      "title": "INNER WAVE \"WEST COAST TOUR 2026\" HALLOWEEN!",
-      "start": "2026-10-31T20:00",
-      "price": "$39.87",
-      "url": "https://dice.fm/event/6a596559493a000001c0162e",
-      "image": "https://dice-media.imgix.net/attachments/2026-10-08/443e83dd-fa50-48aa-b545-33b69b782867.jpg?rect=0%2C0%2C1080%2C1080",
-      "source_id": "dice:6a596559493a000001c0162e"
-    },
-    {
-      "venue": "Lodge Room",
-      "title": "Desire",
-      "support": [
-        "Mothermary",
-        "Johnny Jewel",
-        "DROZIA (DJ)"
-      ],
-      "start": "2026-10-31T20:30",
-      "doors": "19:30",
-      "price": "$30",
-      "status": "sold_out",
-      "url": "https://www.lodgeroomhlp.com/shows/desire/",
-      "image": "https://www.lodgeroomhlp.com/wp-content/uploads/2026/05/2026.10.31-Desire-web.png",
-      "source_id": "tessera:34214"
-    },
-    {
-      "venue": "Monty Bar",
-      "title": "DANSE-X",
-      "details": "GOTH // WAVE // ITALO; Resident DJs MARK LABEL + UNHOLY + Guest DJ VOID PALACE",
-      "start": "2026-10-31T21:00",
-      "price": "$10 AFTER 11PM",
-      "url": "https://montybar.com/",
-      "image": "https://montybar.com/wp-content/uploads/2026/10/MONTY-weekly-2026-43.png"
-    },
-    {
-      "venue": "Permanent Records Roadhouse",
-      "title": "Gary Wilson",
-      "support": [
-        "Lackey",
-        "Bigfun"
-      ],
-      "start": "2026-10-31T21:00",
-      "price": "$10 ADVANCE / $13 DOS COSTUME / $15 DOS NO COSTUME",
-      "url": "https://app.opendate.io/e/gary-wilson-lackey-bigfun-october-31-2026-758109",
-      "ticket_url": "https://app.opendate.io/e/gary-wilson-lackey-bigfun-october-31-2026-758109",
-      "image": "http://roadhouse.permanentrecordsla.com/images/2026/10oct/halloween.jpg"
-    },
-    {
-      "venue": "The Moroccan Lounge",
-      "title": "Daft Disko Halloween",
-      "details": "A French House & Disco Party",
-      "start": "2026-10-31T21:00",
-      "age": "21+",
-      "url": "https://www.ticketmaster.com/daft-disko-halloween-a-french-house-los-angeles-california-10-31-2026/event/090064EDF085E609",
-      "ticket_url": "https://www.ticketmaster.com/daft-disko-halloween-a-french-house-los-angeles-california-10-31-2026/event/090064EDF085E609",
-      "image": "https://s1.ticketm.net/dam/e/7ee/f07e9d68-b545-47be-a3df-5875ec9e27ee_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vvG10Z_CMY-rba"
-    },
-    {
-      "venue": "The Regent",
-      "title": "Losgothsco. Presents Gothicumbia",
-      "start": "2026-10-31T21:00",
-      "age": "21+",
-      "url": "https://www.ticketmaster.com/losgothsco-presents-gothicumbia-21-los-angeles-california-10-31-2026/event/0900653E1F151BB4",
-      "ticket_url": "https://www.ticketmaster.com/losgothsco-presents-gothicumbia-21-los-angeles-california-10-31-2026/event/0900653E1F151BB4",
-      "image": "https://s1.ticketm.net/dam/a/11a/d726ecab-350b-4a79-b89e-8db8d433311a_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv170Z_KGkzLAomV"
-    },
-    {
-      "venue": "The Vermont",
-      "title": "Pangea Espooky Halloween",
-      "support": [
-        "TAYLAH ELAINE",
-        "FALCONS",
-        "JOAQU.N",
-        "SUPERNOVA"
-      ],
-      "start": "2026-10-31T21:00",
-      "price": "$16.50",
-      "url": "https://www.vermonthollywood.com/events/pangea-espooky-halloween/",
-      "ticket_url": "https://kyd.to/lmkjN0eR",
-      "image": "https://www.vermonthollywood.com/wp-content/uploads/2026/09/pangea-sound-espooky-function-halloween-the-vermont-hollywood.webp",
-      "source_id": "tribe:5192"
-    },
-    {
-      "venue": "El Cid",
-      "title": "Heads Will Roll",
-      "details": "Queer Indie Halloween",
-      "start": "2026-10-31T22:00",
-      "price": "$15.02",
-      "status": "sold_out",
-      "url": "https://dice.fm/event/6aa2f6fb109cf5000100fbaf",
-      "image": "https://dice-media.imgix.net/attachments/2026-09-10/fa921dfe-a7b9-466c-9459-2514843247c8.jpg?rect=0%2C37%2C1620%2C1620",
-      "source_id": "dice:6aa2f6fb109cf5000100fbaf"
-    },
-    {
-      "venue": "Gold-Diggers",
-      "title": "Halloween Party",
-      "support": [
-        "BABY G",
-        "Zamythi",
-        "Sweetestthreat",
-        "BZY"
-      ],
-      "start": "2026-10-31T22:00",
-      "price": "free",
-      "url": "https://dice.fm/event/6ade687dfcdfa90001e52e77",
-      "image": "https://dice-media.imgix.net/attachments/2026-10-25/b8609d3e-92fa-4085-9476-5c68dd4036d3.jpg?rect=0%2C135%2C1080%2C1080",
-      "source_id": "dice:6ade687dfcdfa90001e52e77"
-    },
-    {
-      "venue": "Teragram Ballroom",
-      "title": "Yoi Toki",
-      "details": "A Future Funk Halloween ft. Saint Pepsi b2b Vantage",
-      "start": "2026-10-31T22:00",
-      "age": "21+",
-      "url": "https://www.ticketmaster.com/yoi-toki-a-future-funk-halloween-los-angeles-california-10-31-2026/event/09006514C6FDB0BE",
-      "ticket_url": "https://www.ticketmaster.com/yoi-toki-a-future-funk-halloween-los-angeles-california-10-31-2026/event/09006514C6FDB0BE",
-      "image": "https://s1.ticketm.net/dam/e/42e/0bb4c0d9-698a-4e60-85d1-75da947b842e_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv1AaZkffGkdkTheX"
-    },
-    {
-      "venue": "Zebulon",
-      "title": "Free Halloween Dance Party with Shelby Jacobson",
-      "start": "2026-10-31T22:00",
-      "price": "free",
-      "url": "https://dice.fm/event/6ad658c14e2c340001e2976d",
-      "image": "https://dice-media.imgix.net/attachments/2026-10-19/5f6778f9-3da6-46c2-bfc1-74c423057f1a.jpg?rect=0%2C19%2C1200%2C1200",
-      "source_id": "dice:6ad658c14e2c340001e2976d"
-    },
-    {
-      "venue": "The Wiltern",
-      "title": "Marilyn Manson",
-      "details": "Live in Los Angeles",
-      "start": "2026-11-01",
-      "doors": "19:00",
-      "age": "All ages",
-      "url": "https://www.ticketmaster.com/marilyn-manson-live-in-los-angeles-los-angeles-california-11-01-2026/event/09006466890C7815",
-      "ticket_url": "https://www.ticketmaster.com/marilyn-manson-live-in-los-angeles-los-angeles-california-11-01-2026/event/09006466890C7815",
-      "image": "https://s1.ticketm.net/dam/a/4af/cc237a20-4d53-49e4-8f1b-30f38caec4af_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv16aZkoJx8ZAuFaek"
-    },
-    {
-      "venue": "El Cid",
-      "title": "Hot Dog Sundays",
-      "start": "2026-11-01T16:00",
-      "price": "$13.65",
-      "url": "https://dice.fm/event/6a8cdf9d92a40400017509c1",
-      "image": "https://dice-media.imgix.net/attachments/2024-09-05/ca339400-c4fb-4946-9f5f-69ad7033937d.jpg?rect=0%2C0%2C936%2C936",
-      "source_id": "dice:6a8cdf9d92a40400017509c1"
-    },
-    {
-      "venue": "Zebulon",
-      "title": "Hellavision Television presents Dance Everywhere",
-      "start": "2026-11-01T17:00",
-      "price": "$16.07",
-      "url": "https://dice.fm/event/6adfd1093e362400017e6cad",
-      "image": "https://dice-media.imgix.net/attachments/2026-10-26/7a1f4b2c-e524-4bcd-8566-d5d42c8054a6.jpg?rect=0%2C135%2C1080%2C1080",
-      "source_id": "dice:6adfd1093e362400017e6cad"
-    },
-    {
-      "venue": "Permanent Records Roadhouse",
-      "title": "Nate Varrone",
-      "start": "2026-11-01T18:00",
-      "price": "$15 ADVANCE / $20 DOS",
-      "url": "https://app.opendate.io/e/nate-varrone-november-01-2026-744519",
-      "ticket_url": "https://app.opendate.io/e/nate-varrone-november-01-2026-744519",
-      "image": "http://roadhouse.permanentrecordsla.com/images/2026/11nov/nate.png"
-    },
-    {
-      "venue": "Hollywood Bowl",
-      "title": "California Dream On",
-      "details": "Aerosmith & Friends",
-      "start": "2026-11-01T18:15",
-      "url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
-      "ticket_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
-      "image": "https://s1.ticketm.net/dam/e/84d/06a532b5-f6f7-446d-acb9-74052fd1184d_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vvG1iZ_Kzl5iKm"
-    },
-    {
       "venue": "The Moroccan Lounge",
       "title": "Gully Boys",
       "support": [
         "Pollyanna",
-        "Julez and the Rollerz"
+        "Jesse Detor"
       ],
-      "start": "2026-11-01T18:30",
+      "start": "2026-11-02T19:00",
       "age": "18+",
-      "url": "https://www.ticketmaster.com/gully-boys-w-pollyanna-julez-and-los-angeles-california-11-01-2026/event/090064DDA5408548",
-      "ticket_url": "https://www.ticketmaster.com/gully-boys-w-pollyanna-julez-and-los-angeles-california-11-01-2026/event/090064DDA5408548",
+      "status": "rescheduled",
+      "url": "https://www.ticketmaster.com/gully-boys-w-pollyanna-jesse-detor-los-angeles-california-11-02-2026/event/090064DDA5408548",
+      "ticket_url": "https://www.ticketmaster.com/gully-boys-w-pollyanna-jesse-detor-los-angeles-california-11-02-2026/event/090064DDA5408548",
       "image": "https://s1.ticketm.net/dam/e/5b8/fdf00c5d-e57b-4bd6-a9d0-882b2053f5b8_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vvG10Z_uUP8F4F"
-    },
-    {
-      "venue": "Gold-Diggers",
-      "title": "Matt Kivel",
-      "support": [
-        "Max Knouse"
-      ],
-      "start": "2026-11-01T19:00",
-      "price": "from $19.57",
-      "url": "https://dice.fm/event/6ab440e7af1ad90001049331",
-      "image": "https://dice-media.imgix.net/attachments/2026-09-23/58e38717-4e6d-40df-93db-162bd970afef.jpg?rect=0%2C634%2C4950%2C4950",
-      "source_id": "dice:6ab440e7af1ad90001049331"
-    },
-    {
-      "venue": "Troubadour",
-      "title": "Stella Lefty",
-      "start": "2026-11-01T19:00",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E4E",
-      "ticket_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E4E",
-      "image": "https://s1.ticketm.net/dam/a/b14/51f86754-b9f1-4929-9a62-b4a6c922ab14_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:Z7r9jZ1A70E4E"
-    },
-    {
-      "venue": "Teragram Ballroom",
-      "title": "MISSIO",
-      "support": [
-        "Fifteen0eight",
-        "Kent Osborne"
-      ],
-      "details": "Sean Healy Presents · Love & Heartbreak Tour",
-      "start": "2026-11-01T19:30",
-      "url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
-      "ticket_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
-      "image": "https://s1.ticketm.net/dam/e/3b7/2265a4a5-6b93-460c-94c2-b703d11503b7_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv170Z_8Gkie-eOv"
-    },
-    {
-      "venue": "Zebulon",
-      "title": "Weirdo Night with Dynasty Handbag",
-      "start": "2026-11-01T19:30",
-      "price": "$26.78",
-      "url": "https://dice.fm/event/6acd2c7de6cc53000171cdb5",
-      "image": "https://dice-media.imgix.net/attachments/2026-10-21/04b31d44-337b-4d90-80bf-6468c280f096.jpg?rect=86%2C0%2C1028%2C1028",
-      "source_id": "dice:6acd2c7de6cc53000171cdb5"
-    },
-    {
-      "venue": "The Regent",
-      "title": "Pradabagshawty",
-      "details": "Echoe Events Presents",
-      "start": "2026-11-01T20:00",
-      "doors": "19:00",
-      "url": "https://www.ticketmaster.com/echoe-events-presents-pradabagshawty-los-angeles-california-11-01-2026/event/0900652FE971E8CC",
-      "ticket_url": "https://www.ticketmaster.com/echoe-events-presents-pradabagshawty-los-angeles-california-11-01-2026/event/0900652FE971E8CC",
-      "image": "https://s1.ticketm.net/dam/a/b58/ce1d7f9b-f5ee-4cb6-9846-dc02471feb58_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv170Z_3GkTtjrNG"
-    },
-    {
-      "venue": "Monty Bar",
-      "title": "BATASTROPHE",
-      "details": "GOTHIK ROCK // DEATHROCK // BATCAVE; Resident DJ STEVE SKELETAL",
-      "start": "2026-11-01T21:00",
-      "price": "free",
-      "url": "https://montybar.com/",
-      "image": "https://montybar.com/wp-content/uploads/2026/10/MONTY-weekly-2026-43.png"
-    },
-    {
-      "venue": "The Moroccan Lounge",
-      "title": "The Toxhards",
-      "start": "2026-11-01T21:30",
-      "url": "https://www.ticketmaster.com/the-toxhards-los-angeles-california-11-01-2026/event/090064B3BB16E4B8",
-      "ticket_url": "https://www.ticketmaster.com/the-toxhards-los-angeles-california-11-01-2026/event/090064B3BB16E4B8",
-      "image": "https://s1.ticketm.net/dam/a/a28/566a112a-52b2-42be-a562-f4d5a7956a28_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vvG10Z_5CDAm3z"
     },
     {
       "venue": "The Echo",
@@ -10006,16 +9573,6 @@
       "source_id": "tm:vv1AaZk3fGkdkO5P4"
     },
     {
-      "venue": "Gold-Diggers",
-      "title": "The Naji Album Release Experience",
-      "details": "Kareen Lomax Presents",
-      "start": "2026-11-04T19:00",
-      "price": "from $19.57",
-      "url": "https://dice.fm/event/6ac40810e9026700017da5c9",
-      "image": "https://dice-media.imgix.net/attachments/2026-10-07/59ad27e5-30c6-4fb3-a286-213415f7fd49.jpg?rect=0%2C0%2C2160%2C2160",
-      "source_id": "dice:6ac40810e9026700017da5c9"
-    },
-    {
       "venue": "The Roxy",
       "title": "Kurt Travis",
       "start": "2026-11-04T19:00",
@@ -10084,17 +9641,6 @@
       "ticket_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x9kd",
       "image": "https://s1.ticketm.net/dam/a/199/81d0984d-f0b4-48c2-9495-f3b038b4c199_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:Z7r9jZ1A7x9kd"
-    },
-    {
-      "venue": "The Regent",
-      "title": "Tall Black Guy \"Let's Take a Trip\" 10th Anniversary",
-      "start": "2026-11-04T20:00",
-      "doors": "19:00",
-      "age": "18+",
-      "url": "https://www.ticketmaster.com/tall-black-guy-lets-take-a-los-angeles-california-11-04-2026/event/09006534322D557D",
-      "ticket_url": "https://www.ticketmaster.com/tall-black-guy-lets-take-a-los-angeles-california-11-04-2026/event/09006534322D557D",
-      "image": "https://s1.ticketm.net/dam/e/c3f/8f8cd1f2-818f-41e6-b0e8-2f495906fc3f_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv16aZkfVGxZACkkFC"
     },
     {
       "venue": "Zebulon",
@@ -10343,6 +9889,19 @@
       "url": "https://dice.fm/event/6ac530700a62340001a7ce24",
       "image": "https://dice-media.imgix.net/attachments/2026-10-05/57727351-5fe5-45b2-94a6-8df3884d31a7.jpg?rect=288%2C0%2C1508%2C1508",
       "source_id": "dice:6ac530700a62340001a7ce24"
+    },
+    {
+      "venue": "The Belasco",
+      "title": "ESL II",
+      "support": [
+        "JUDASTONGUE"
+      ],
+      "start": "2026-11-05T22:00",
+      "room": "The Confessional",
+      "url": "https://www.universe.com/events/esl-ii-tickets-5V7Z10?ref=share-widget-buffer",
+      "ticket_url": "https://www.universe.com/events/esl-ii-tickets-5V7Z10?ref=share-widget-buffer",
+      "image": "https://assets.livenationcdn.com/uploads/56ab7364-1d57-4318-9bec-62014ee45fb3.png",
+      "source_id": "ln:3618"
     },
     {
       "venue": "Hollywood Palladium",
@@ -11599,15 +11158,6 @@
       "source_id": "tm:vvG10Z_2fZOLmn"
     },
     {
-      "venue": "The Moroccan Lounge",
-      "title": "bed",
-      "start": "2026-11-13T18:30",
-      "url": "https://www.ticketmaster.com/bed-los-angeles-california-11-13-2026/event/09006528C30AA65C",
-      "ticket_url": "https://www.ticketmaster.com/bed-los-angeles-california-11-13-2026/event/09006528C30AA65C",
-      "image": "https://s1.ticketm.net/dam/e/359/99f62330-9b5d-4d25-ab26-545050fc1359_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv1AaZkfIGkdden_j"
-    },
-    {
       "venue": "Gold-Diggers",
       "title": "Junior Mesa Live in Los Angeles NIGHT 1 (SOLD OUT)",
       "details": "Minty Boi Presents",
@@ -11649,15 +11199,6 @@
       "ticket_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76xZ",
       "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:Z7r9jZ1AA76xZ"
-    },
-    {
-      "venue": "Zebulon",
-      "title": "WAAX",
-      "start": "2026-11-13T19:00",
-      "price": "$24.11",
-      "url": "https://dice.fm/event/6a7fa8f7d7ee9c0001612cfa",
-      "image": "https://dice-media.imgix.net/attachments/2026-08-14/af2e8cff-8fb5-43fe-8997-6c2aed75d8a1.jpg?rect=0%2C321%2C2654%2C2654",
-      "source_id": "dice:6a7fa8f7d7ee9c0001612cfa"
     },
     {
       "venue": "Echoplex",
@@ -13185,10 +12726,13 @@
     {
       "venue": "The Paramount",
       "title": "Rizzers",
+      "support": [
+        "Nightjacket"
+      ],
       "start": "2026-11-21T19:00",
       "price": "$25",
       "url": "https://dice.fm/event/6aa460c66b039600012de5a3",
-      "image": "https://dice-media.imgix.net/attachments/2026-09-11/e73d9a5e-942d-46bc-96dd-4bade6d93267.jpg?rect=0%2C0%2C3051%2C3051",
+      "image": "https://dice-media.imgix.net/attachments/2026-11-02/997e39ca-c55e-448b-b546-776009b72620.jpg?rect=0%2C0%2C1600%2C1600",
       "source_id": "dice:6aa460c66b039600012de5a3"
     },
     {
@@ -13609,6 +13153,15 @@
       "source_id": "tm:Z7r9jZ1AAvU00"
     },
     {
+      "venue": "Zebulon",
+      "title": "Fred Eaglesmith",
+      "start": "2026-11-23T20:00",
+      "price": "$62.32",
+      "url": "https://dice.fm/event/6a209864524c94000152d548",
+      "image": "https://dice-media.imgix.net/attachments/2026-06-03/0fcb711c-1d7c-4b25-be73-1e420ab146b7.jpg?rect=0%2C260%2C3072%2C3072",
+      "source_id": "dice:6a209864524c94000152d548"
+    },
+    {
       "venue": "Gold-Diggers",
       "title": "very good mondays",
       "start": "2026-11-23T21:00",
@@ -13713,6 +13266,16 @@
       "ticket_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSCd",
       "image": "https://s1.ticketm.net/dam/a/85d/e9a32bca-8836-4c21-b568-767dbf6b085d_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:Z7r9jZ1AAvSCd"
+    },
+    {
+      "venue": "Zebulon",
+      "title": "Balkanoche",
+      "details": "an Eastern bloc folk dance night - Romani, Balkan, Slavic & Klezmer-adjacent World Music",
+      "start": "2026-11-24T20:00",
+      "price": "free",
+      "url": "https://dice.fm/event/6adbaf673d073200018a2254",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-23/56d542bf-b3db-4703-8b9c-894bc708fc2f.jpg?rect=0%2C0%2C1200%2C1200",
+      "source_id": "dice:6adbaf673d073200018a2254"
     },
     {
       "venue": "El Cid",
@@ -13826,6 +13389,18 @@
       "source_id": "dice:6ab415244e97fa0001df3293"
     },
     {
+      "venue": "Zebulon",
+      "title": "William Tyler",
+      "support": [
+        "Sharada Shashidhar"
+      ],
+      "start": "2026-11-27T19:00",
+      "price": "$26.78",
+      "url": "https://dice.fm/event/6aba8947bd5fc400014350d8",
+      "image": "https://dice-media.imgix.net/attachments/2026-09-28/50d6e92b-2d8d-4731-b8ea-f7635adb2d6d.jpg?rect=0%2C150%2C1200%2C1200",
+      "source_id": "dice:6aba8947bd5fc400014350d8"
+    },
+    {
       "venue": "Lodge Room",
       "title": "Train Breaks Down",
       "start": "2026-11-27T20:00",
@@ -13919,6 +13494,28 @@
       "source_id": "tm:vv1F0Z_30zPyZdu6u"
     },
     {
+      "venue": "Zebulon",
+      "title": "Kulture Klub",
+      "details": "The '80s Dance Party",
+      "start": "2026-11-27T22:00",
+      "price": "free",
+      "url": "https://dice.fm/event/6a56929a46f9560001388fa0",
+      "image": "https://dice-media.imgix.net/attachments/2024-08-15/6b4aa5aa-0755-4575-938b-a4fc51e09dac.jpg?rect=0%2C0%2C1620%2C1620",
+      "source_id": "dice:6a56929a46f9560001388fa0"
+    },
+    {
+      "venue": "Echoplex",
+      "title": "Electric Feels",
+      "details": "Indie Rock + Electronic Dance Party",
+      "start": "2026-11-28",
+      "doors": "21:00",
+      "age": "21+",
+      "url": "https://www.ticketmaster.com/electric-feels-indie-rock-electronic-dance-los-angeles-california-11-28-2026/event/0900655AD9E8CC5F",
+      "ticket_url": "https://www.ticketmaster.com/electric-feels-indie-rock-electronic-dance-los-angeles-california-11-28-2026/event/0900655AD9E8CC5F",
+      "image": "https://s1.ticketm.net/dam/a/d99/7d0d36d0-4cf5-4649-b647-d0e85bd55d99_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv170Z_4Gkl_BGsL"
+    },
+    {
       "venue": "The Moroccan Lounge",
       "title": "Caitlin Byk",
       "start": "2026-11-28T18:30",
@@ -13951,6 +13548,15 @@
       "ticket_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76xo",
       "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:Z7r9jZ1AA76xo"
+    },
+    {
+      "venue": "Zebulon",
+      "title": "Blond In Car",
+      "start": "2026-11-28T19:00",
+      "price": "$22.77",
+      "url": "https://dice.fm/event/6a84f685952de60001e7f3a7",
+      "image": "https://dice-media.imgix.net/attachments/2026-08-19/88a27c30-ede7-4f03-b509-c15e11d675a4.jpg?rect=0%2C159%2C2400%2C2400",
+      "source_id": "dice:6a84f685952de60001e7f3a7"
     },
     {
       "venue": "Lodge Room",
@@ -14313,6 +13919,16 @@
       "source_id": "tm:vv1AaZk4aGkdmeVyz"
     },
     {
+      "venue": "El Cid",
+      "title": "Boy2000 in Los Angeles",
+      "details": "Minty Boi Presents",
+      "start": "2026-12-03T18:00",
+      "price": "$29.45",
+      "url": "https://dice.fm/event/6a909dc2dd78440001d83942",
+      "image": "https://dice-media.imgix.net/attachments/2026-08-31/7710b5d4-f833-42a9-a519-021073918751.jpg?rect=0%2C270%2C1080%2C1080",
+      "source_id": "dice:6a909dc2dd78440001d83942"
+    },
+    {
       "venue": "Permanent Records Roadhouse",
       "title": "Cupid Comedy",
       "start": "2026-12-03T18:00",
@@ -14458,6 +14074,16 @@
       "ticket_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P3AN",
       "image": "https://s1.ticketm.net/dam/a/1a5/9a618879-f8dd-4f2b-ac69-6ef6982111a5_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:Z7r9jZ1A7P3AN"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Anna Luna Live in Los Angeles",
+      "details": "Minty Boi Presents",
+      "start": "2026-12-03T22:00",
+      "price": "$26.96",
+      "url": "https://dice.fm/event/6acda9bd014bdf0001644458",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-16/b0711950-e72c-4c9b-9a10-e9e164e4541e.jpg?rect=0%2C788%2C3149%2C3149",
+      "source_id": "dice:6acda9bd014bdf0001644458"
     },
     {
       "venue": "The Bellwether",
@@ -14661,6 +14287,16 @@
       "source_id": "tm:vv1AaZkfbGkdTeo_b"
     },
     {
+      "venue": "Gold-Diggers",
+      "title": "Cool Heat, BOYO, Trit 95, Sunder",
+      "details": "VLSF & KCRW Presents",
+      "start": "2026-12-05T19:00",
+      "price": "from $25.75",
+      "url": "https://dice.fm/event/6abab6ae1465b7000100aa47",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-02/0de71fb0-e271-44b6-80d6-834296513fe6.jpg?rect=0%2C0%2C1122%2C1122",
+      "source_id": "dice:6abab6ae1465b7000100aa47"
+    },
+    {
       "venue": "Teragram Ballroom",
       "title": "Book of Love",
       "start": "2026-12-05T19:00",
@@ -14809,6 +14445,15 @@
       "ticket_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7G0",
       "image": "https://s1.ticketm.net/dam/a/e15/72145ee6-db57-4d73-8fbf-35f8594dee15_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:Z7r9jZ1AAe7G0"
+    },
+    {
+      "venue": "Gold-Diggers",
+      "title": "The Hustle ~ First and Third Saturday Disco Party!",
+      "start": "2026-12-05T22:30",
+      "price": "free",
+      "url": "https://dice.fm/event/6ae39e15aecd2c0001de64ba",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-29/c1e79a22-7373-42f5-ba94-0984ed25a857.jpg?rect=0%2C135%2C1080%2C1080",
+      "source_id": "dice:6ae39e15aecd2c0001de64ba"
     },
     {
       "venue": "Permanent Records Roadhouse",
@@ -14977,6 +14622,15 @@
       "ticket_url": "https://www.ticketmaster.com/gabriela-bee-with-luna-day-los-angeles-california-12-07-2026/event/09006533159380EA",
       "image": "https://s1.ticketm.net/dam/a/ccd/6bc8f630-8b29-4a8e-bf42-ea989d2bdccd_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv1aaZkfSA_CZZe25"
+    },
+    {
+      "venue": "Gold-Diggers",
+      "title": "Renée Christine",
+      "start": "2026-12-08T19:00",
+      "price": "from $19.57",
+      "url": "https://dice.fm/event/6aa9a91022f3b9000155d025",
+      "image": "https://dice-media.imgix.net/attachments/2026-09-15/0a4d30b0-7abf-4b66-bd01-9991b32cdf40.jpg?rect=0%2C0%2C2160%2C2160",
+      "source_id": "dice:6aa9a91022f3b9000155d025"
     },
     {
       "venue": "Teragram Ballroom",
@@ -15163,6 +14817,15 @@
       "ticket_url": "https://www.ticketmaster.com/sacha-carlson-with-lou-lou-safran-los-angeles-california-12-10-2026/event/0900655C91966002",
       "image": "https://s1.ticketm.net/dam/e/901/1dc40eef-a1d4-4844-abf0-6c629945f901_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv170Z_4GkwoPJZe"
+    },
+    {
+      "venue": "Gold-Diggers",
+      "title": "The Suitcase Junket",
+      "start": "2026-12-10T19:00",
+      "price": "from $19.57",
+      "url": "https://dice.fm/event/6abf5b591b12d600012162fd",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-02/5da052e8-fbc4-499c-b6ff-14f8245e5a69.jpg?rect=46%2C0%2C1005%2C1005",
+      "source_id": "dice:6abf5b591b12d600012162fd"
     },
     {
       "venue": "Teragram Ballroom",
@@ -15500,6 +15163,17 @@
       "ticket_url": "https://www.ticketmaster.com/bryan-andrews-los-angeles-california-12-12-2026/event/090064E9E6DFD922",
       "image": "https://s1.ticketm.net/dam/e/d15/8f563035-691f-4d5c-b580-540025945d15_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vvG10Z_CEJMW0x"
+    },
+    {
+      "venue": "Echoplex",
+      "title": "Johnnie Guilbert",
+      "start": "2026-12-12T19:00",
+      "doors": "18:00",
+      "age": "All ages",
+      "url": "https://www.ticketmaster.com/johnnie-guilbert-los-angeles-california-12-12-2026/event/0900655D311FB23C",
+      "ticket_url": "https://www.ticketmaster.com/johnnie-guilbert-los-angeles-california-12-12-2026/event/0900655D311FB23C",
+      "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv170Z_4GkVs6DFH"
     },
     {
       "venue": "Teragram Ballroom",
@@ -16240,6 +15914,9 @@
     {
       "venue": "The Bellwether",
       "title": "Venna",
+      "support": [
+        "Liim"
+      ],
       "start": "2026-12-19T20:00",
       "doors": "19:00",
       "url": "https://www.ticketmaster.com/venna-los-angeles-california-12-19-2026/event/09006504CE81A8EE",
@@ -16391,6 +16068,27 @@
       "source_id": "tm:vv170Z_3GkICEoYi"
     },
     {
+      "venue": "The Belasco",
+      "title": "CATEGORY Vol. 004",
+      "details": "Decadence NYE",
+      "start": "2026-12-31T20:00",
+      "url": "https://www.universe.com/events/category-vol-004-decadence-nye-tickets-ZD3094",
+      "ticket_url": "https://www.universe.com/events/category-vol-004-decadence-nye-tickets-ZD3094",
+      "image": "https://assets.livenationcdn.com/uploads/69d327c2-50e9-42cb-b833-32f54305bf85.png",
+      "source_id": "ln:3692"
+    },
+    {
+      "venue": "The Moroccan Lounge",
+      "title": "Daft Disko New Year's Eve",
+      "details": "A French Touch & Disco House Party",
+      "start": "2026-12-31T21:00",
+      "age": "21+",
+      "url": "https://www.ticketmaster.com/daft-disko-new-years-eve-a-los-angeles-california-12-31-2026/event/09006554BC3A51B8",
+      "ticket_url": "https://www.ticketmaster.com/daft-disko-new-years-eve-a-los-angeles-california-12-31-2026/event/09006554BC3A51B8",
+      "image": "https://s1.ticketm.net/dam/e/bc4/4ca53782-dd30-492f-9adf-abcb4bc0dbc4_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv1AaZk4fGkeHCPkz"
+    },
+    {
       "venue": "Teragram Ballroom",
       "title": "Dance Yourself Clean",
       "start": "2026-12-31T22:00",
@@ -16468,6 +16166,18 @@
       "ticket_url": "https://www.ticketmaster.com/anna-von-hausswolff-iconoclasts-tour-los-angeles-california-01-07-2027/event/0900632FD01B2B89",
       "image": "https://s1.ticketm.net/dam/e/e93/a0f43ff7-3e44-421d-8470-8f0dcf3e8e93_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv170ZbwGkT8kwma"
+    },
+    {
+      "venue": "The Regent",
+      "title": "Tall Black Guy \"Let's Take a Trip\" 10th Anniversary",
+      "start": "2027-01-07T20:00",
+      "doors": "19:00",
+      "age": "18+",
+      "status": "rescheduled",
+      "url": "https://www.ticketmaster.com/tall-black-guy-lets-take-a-los-angeles-california-01-07-2027/event/09006534322D557D",
+      "ticket_url": "https://www.ticketmaster.com/tall-black-guy-lets-take-a-los-angeles-california-01-07-2027/event/09006534322D557D",
+      "image": "https://s1.ticketm.net/dam/e/c3f/8f8cd1f2-818f-41e6-b0e8-2f495906fc3f_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv16aZkfVGxZACkkFC"
     },
     {
       "venue": "Hollywood Palladium",
@@ -16610,6 +16320,18 @@
       "url": "https://www.lodgeroomhlp.com/shows/tapers-choicetapers-choice/",
       "image": "https://www.lodgeroomhlp.com/wp-content/uploads/2026/10/2027.01.15-Tapers-Choice-web-1.png",
       "source_id": "tessera:35725"
+    },
+    {
+      "venue": "The Echo",
+      "title": "Punk Racks",
+      "details": "Echoe Events Presents",
+      "start": "2027-01-15T20:00",
+      "doors": "19:00",
+      "age": "All ages",
+      "url": "https://www.ticketmaster.com/echoe-events-presents-punk-racks-los-angeles-california-01-15-2027/event/0900655ED375DF22",
+      "ticket_url": "https://www.ticketmaster.com/echoe-events-presents-punk-racks-los-angeles-california-01-15-2027/event/0900655ED375DF22",
+      "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv170Z_4GkDKqqHx"
     },
     {
       "venue": "The Fonda",
@@ -17069,6 +16791,21 @@
       "source_id": "tm:Z7r9jZ1AAvp4x"
     },
     {
+      "venue": "The Bellwether",
+      "title": "Jim E. Brown",
+      "support": [
+        "Gary Wilson",
+        "Faux Real"
+      ],
+      "start": "2027-01-30T20:00",
+      "doors": "19:00",
+      "age": "18+",
+      "url": "https://www.ticketmaster.com/jim-e-brown-los-angeles-california-01-30-2027/event/0900655DD630DDC5",
+      "ticket_url": "https://www.ticketmaster.com/jim-e-brown-los-angeles-california-01-30-2027/event/0900655DD630DDC5",
+      "image": "https://s1.ticketm.net/dam/a/5e8/64068aa4-f24c-45e4-9946-ea455eb125e8_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv170Z_4GkMpGuMA"
+    },
+    {
       "venue": "The Glass House",
       "title": "Vansire",
       "start": "2027-01-30T20:00",
@@ -17522,6 +17259,15 @@
       "ticket_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7e-7",
       "image": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:Z7r9jZ1AA7e-7"
+    },
+    {
+      "venue": "Teragram Ballroom",
+      "title": "Two Lanes",
+      "start": "2027-02-19T19:00",
+      "url": "https://www.ticketmaster.com/two-lanes-los-angeles-california-02-19-2027/event/09006555B72BD862",
+      "ticket_url": "https://www.ticketmaster.com/two-lanes-los-angeles-california-02-19-2027/event/09006555B72BD862",
+      "image": "https://s1.ticketm.net/dam/e/7ed/2f9af608-337c-41e3-86bb-e18561a0f7ed_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv1AaZk44GkeM1W-x"
     },
     {
       "venue": "The Belasco",
@@ -18311,6 +18057,16 @@
       "source_id": "tm:Z7r9jZ1AA7EOS"
     },
     {
+      "venue": "The Moroccan Lounge",
+      "title": "bed",
+      "start": "2027-03-20T18:30",
+      "status": "rescheduled",
+      "url": "https://www.ticketmaster.com/bed-los-angeles-california-03-20-2027/event/09006528C30AA65C",
+      "ticket_url": "https://www.ticketmaster.com/bed-los-angeles-california-03-20-2027/event/09006528C30AA65C",
+      "image": "https://s1.ticketm.net/dam/e/359/99f62330-9b5d-4d25-ab26-545050fc1359_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv1AaZkfIGkdden_j"
+    },
+    {
       "venue": "Hollywood Palladium",
       "title": "The Plot In You",
       "details": "WORLD TOUR: PART 1",
@@ -18413,6 +18169,17 @@
       "url": "https://www.lodgeroomhlp.com/shows/actors-2/",
       "image": "https://www.lodgeroomhlp.com/wp-content/uploads/2026/10/2027.03.21-Actors-web.png",
       "source_id": "tessera:35964"
+    },
+    {
+      "venue": "The Echo",
+      "title": "Knats",
+      "start": "2027-03-23T20:00",
+      "doors": "19:00",
+      "age": "All ages",
+      "url": "https://www.ticketmaster.com/knats-los-angeles-california-03-23-2027/event/0900655D342CB5D8",
+      "ticket_url": "https://www.ticketmaster.com/knats-los-angeles-california-03-23-2027/event/0900655D342CB5D8",
+      "image": "https://s1.ticketm.net/dam/a/80b/7685fe17-dceb-4309-a71c-44a50a1b980b_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv170Z_4GkVV559b"
     },
     {
       "venue": "Teragram Ballroom",
@@ -18596,6 +18363,17 @@
       "url": "https://www.lodgeroomhlp.com/shows/valencia-grace/",
       "image": "https://www.lodgeroomhlp.com/wp-content/uploads/2026/07/2027.04.02-Valencia-Grace-web.jpg",
       "source_id": "tessera:34854"
+    },
+    {
+      "venue": "The Wiltern",
+      "title": "Boy Throb's Real Tour",
+      "start": "2027-04-02T20:00",
+      "doors": "19:00",
+      "age": "All ages",
+      "url": "https://www.ticketmaster.com/boy-throbs-real-tour-los-angeles-california-04-02-2027/event/0900655EB332A773",
+      "ticket_url": "https://www.ticketmaster.com/boy-throbs-real-tour-los-angeles-california-04-02-2027/event/0900655EB332A773",
+      "image": "https://s1.ticketm.net/dam/a/984/49d8a9b0-e99c-43be-b670-4195577b1984_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv170Z_4GkBSGnqS"
     },
     {
       "venue": "Lodge Room",
@@ -19121,6 +18899,17 @@
       "source_id": "tm:vv1AaZk4aGkennQhT"
     },
     {
+      "venue": "The Echo",
+      "title": "ALFIE JUKES /// FUNNY LITTLE FEELING TOUR",
+      "start": "2027-06-03T20:00",
+      "doors": "19:00",
+      "age": "All ages",
+      "url": "https://www.ticketmaster.com/alfie-jukes-funny-little-feeling-tour-los-angeles-california-06-03-2027/event/0900655AA3D56CC2",
+      "ticket_url": "https://www.ticketmaster.com/alfie-jukes-funny-little-feeling-tour-los-angeles-california-06-03-2027/event/0900655AA3D56CC2",
+      "image": "https://s1.ticketm.net/dam/a/692/a3ad5bf7-22d8-4f6d-994d-b67ea0f8b692_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv170Z_4GknNgpSe"
+    },
+    {
       "venue": "The Wiltern",
       "title": "Ocean Alley North America '27",
       "start": "2027-06-04T20:00",
@@ -19248,6 +19037,16 @@
       "ticket_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeojt",
       "image": "https://s1.ticketm.net/dam/c/518/83a05c63-479c-4f7e-a7aa-1932aab77518_105461_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:Z7r9jZ1AAeojt"
+    },
+    {
+      "venue": "The Regent",
+      "title": "Sampa the Great",
+      "start": "2027-09-09T20:00",
+      "doors": "19:00",
+      "url": "https://www.ticketmaster.com/sampa-the-great-los-angeles-california-09-09-2027/event/0900655E2DB082D4",
+      "ticket_url": "https://www.ticketmaster.com/sampa-the-great-los-angeles-california-09-09-2027/event/0900655E2DB082D4",
+      "image": "https://s1.ticketm.net/dam/a/69d/08ebc481-1dd5-40a4-bb33-8e651f8c169d_1558841_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv170Z_4GkzciF5f"
     },
     {
       "venue": "Greek Theatre",
