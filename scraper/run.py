@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 
 from .artists import find_artists
 from .fetch import Fetcher
-from .methods import HAIKU, METHODS, describe, dollars, find_age
+from .methods import HAIKU, METHODS, describe, dollars, find_age, key
 from .venues import load_venues
 
 SITE = Path(__file__).resolve().parent.parent / "site"
@@ -171,11 +171,6 @@ def tidy_url(url):
     query = parse_qsl(parts.query, keep_blank_values=True)
     kept = [(k, v) for k, v in query if not k.lower().startswith(TRACKING)]
     return url if len(kept) == len(query) else parts._replace(query=urlencode(kept)).geturl()
-
-
-def key(text):
-    """Text reduced to lowercase letters and digits, for comparing names."""
-    return re.sub(r"[\W_]", "", (text or "").casefold())
 
 
 def words(text):

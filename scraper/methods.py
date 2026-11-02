@@ -90,7 +90,8 @@ TICKETMASTER = "https://app.ticketmaster.com/discovery/v2/events.json"
 
 
 def ticketmaster(venue, fetcher, report):
-    """Every event Ticketmaster lists at the venue's Ticketmaster venue id(s)."""
+    """Every event Ticketmaster lists at the venue's Ticketmaster venue id(s). With `params.shows_page`, also
+    the nights that page lists and Ticketmaster lacks (the Belasco sells a few through Universe)."""
     key = os.environ.get("TICKETMASTER_API_KEY")
     if not key:
         raise RuntimeError("TICKETMASTER_API_KEY is not set.")
@@ -110,7 +111,47 @@ def ticketmaster(venue, fetcher, report):
                     pass
             pages = data.get("page", {}).get("totalPages", 0)
             page += 1
+    # No Ticketmaster events usually means Ticketmaster is failing: adding a few nights would hide that.
+    if venue["params"].get("shows_page") and events:
+        try:
+            events += outside_tm(fetcher.get(venue["params"]["shows_page"]).text, events)
+        except Exception:  # the page is extra: it never costs the venue its Ticketmaster events
+            report["partial"] = "The venue's /shows page could not be read, so nights sold outside Ticketmaster are missing."
     return events
+
+
+def outside_tm(page_html, tm_events):
+    """The "livenation" records of a Live Nation venue page (nights sold through Universe) that Ticketmaster
+    does not list: the same date with the same title, compared on letters and digits, counts as listed."""
+    listed = {(e["start"][:10], key(e["title"])) for e in tm_events if e.get("start")}
+    nights = [livenation_event(r) for r in event_records(page_html) if r["event_data_type"] == "livenation"]
+    return [n for n in nights if (n["start"][:10], key(n["title"])) not in listed]
+
+
+def event_records(page_html):
+    """Every event record on the page. The site is a Next.js page: its data is JSON inside script strings,
+    `self.__next_f.push([1,"..."])`, and each record is an object whose first key is "event_data_type"."""
+    decoder, records = json.JSONDecoder(), []
+    for literal in re.findall(r'push\(\[1,("(?:[^"\\]|\\.)*")\]\)', page_html):
+        data = json.loads(literal)
+        records += [decoder.raw_decode(data, m.start())[0] for m in re.finditer(r'\{"event_data_type"', data)]
+    if not records:
+        raise ValueError("The page has no event records. The site may have changed.")
+    return records
+
+
+def livenation_event(e):
+    date, time = e["start_date_local"], clock(e.get("start_time_local"))
+    return {
+        "title": e["name"],
+        "start": f"{date}T{time}" if time and time != "00:00" else date,  # 00:00 is a placeholder
+        "age": find_age(_plain(e.get("important_info"))),
+        "room": e.get("venue_room_name"),
+        "url": e.get("url"),
+        "ticket_url": e.get("url"),
+        "image": (e.get("image") or {}).get("url"),
+        "source_id": f"ln:{e['id']}",
+    }
 
 
 def tm_event(e, room=False):
@@ -418,6 +459,11 @@ def describe(error):
     """"KeyError: 'sessionId'": an exception's type and the first line of its message, for status notes."""
     message = str(error).splitlines()[0] if str(error).strip() else "no details"
     return f"{type(error).__name__}: {message}"
+
+
+def key(text):
+    """Text reduced to lowercase letters and digits, for comparing names."""
+    return re.sub(r"[\W_]", "", (text or "").casefold())
 
 
 def clock(text):

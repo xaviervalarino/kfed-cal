@@ -15,7 +15,7 @@ Reference client: `reference/probe_ticketmaster.py`.
 |---|---|---|---|
 | The Echo | KovZ917A967 | 65 | through Apr 2027 |
 | Echoplex | KovZpa6OCe | 32 | |
-| The Belasco | KovZpZAJvttA | 34 | 3 Universe-ticketed nights are not on TM (their `/shows` page has them) |
+| The Belasco | KovZpZAJvttA | 34 | A few Universe-ticketed nights are not on TM; `params.shows_page` adds them from the venue's `/shows` page |
 | The Wiltern | KovZpZAEAl6A | 89 | |
 | Hollywood Palladium | KovZpZAEAlaA | 45 | city is "Hollywood" |
 | The Bellwether | KovZ917AiI3 + KovZ917AReX | 36 + 4 | second id is Camille's (bar room); include both |

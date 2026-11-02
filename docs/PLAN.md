@@ -115,5 +115,4 @@ work at 390px wide.
 ## Open items (not blocking)
 
 - Silverlake Lounge: no source; owner will forward the venue's mailing-list email.
-- Belasco's Universe-ticketed nights are not on TM (minor).
 - Footer "SCRAPE STATUS →" link: owner hasn't decided whether to keep it alongside the update-time link.

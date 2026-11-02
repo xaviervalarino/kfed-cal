@@ -61,6 +61,9 @@ def load_venues(path=VENUES_FILE):
                 where = v.get("params", {}) if need.startswith("params.") else v
                 if not where.get(need.removeprefix("params.")):
                     problems.append(f'{label}: method "{v["method"]}" needs "{need}".')
+        page = v["params"].get("shows_page") if isinstance(v.get("params"), dict) else None
+        if page and not str(page).startswith(("http://", "https://")):
+            problems.append(f'{label}: "shows_page" must start with http:// or https://.')
         if v.get("name") in seen:
             problems.append(f'{label}: another venue already has this name.')
         seen.add(v.get("name"))

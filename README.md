@@ -59,7 +59,7 @@ The methods are in `scraper/methods.py`, one per source platform. `docs/VENUES.m
 
 | Method | Reads | The venue needs |
 | --- | --- | --- |
-| `ticketmaster` | the Ticketmaster Discovery API (needs `TICKETMASTER_API_KEY`) | `params.venue_ids`: one or more Ticketmaster venue ids |
+| `ticketmaster` | the Ticketmaster Discovery API (needs `TICKETMASTER_API_KEY`) | `params.venue_ids`: one or more Ticketmaster venue ids; optional `params.shows_page`: a Live Nation venue page whose Universe-ticketed nights are added |
 | `dice_venue` | a DICE venue page | `events_page`: `https://dice.fm/venue/<slug>` |
 | `tessera` | a venue site ticketed by Tessera (Lodge Room) | `events_page`, and `params.api`: its ticket API, for prices |
 | `tribe_events` | the API of a WordPress site running The Events Calendar | `events_page`: its `/wp-json/tribe/events/v1/events?per_page=50` address |

@@ -113,6 +113,60 @@ class TicketmasterTest(unittest.TestCase):
                 methods.ticketmaster({"params": {"venue_ids": ["x"]}}, self.fetcher, {})
 
 
+@mock.patch.dict(os.environ, {"TICKETMASTER_API_KEY": "test-key"})
+class ShowsPageTest(unittest.TestCase):
+    """The Belasco's /shows page lists Ticketmaster shows ("discovery") and Universe nights ("livenation")."""
+    VENUE = {"params": {"venue_ids": ["KovZ917A967"], "shows_page": "https://www.thebelasco.com/shows"}}
+
+    def setUp(self):
+        pages = json.loads(fixture("ticketmaster.json"))
+        self.tm = lambda p: json.dumps(pages[p["venueId"]][p["page"]])
+
+    def fetcher(self, shows):
+        return FakeFetcher({methods.TICKETMASTER: self.tm, "https://www.thebelasco.com/": shows})
+
+    def test_adds_universe_night(self):
+        report = {}
+        fetcher = self.fetcher("livenation_shows.html")
+        raw = methods.ticketmaster(self.VENUE, fetcher, report)
+        self.assertEqual([e["source_id"] for e in raw if e["source_id"].startswith("ln:")], ["ln:3618"])  # not the TM record
+        self.assertNotIn("partial", report)
+        night = clean([e for e in raw if e["source_id"] == "ln:3618"], "The Belasco", LA, "2026-11-02")[0]
+        self.assertEqual(night, {
+            "venue": "The Belasco",
+            "title": "ESL II",
+            "support": ["JUDASTONGUE"],
+            "start": "2026-11-05T22:00",
+            "room": "The Confessional",
+            "url": "https://www.universe.com/events/esl-ii-tickets-5V7Z10?ref=share-widget-buffer",
+            "ticket_url": "https://www.universe.com/events/esl-ii-tickets-5V7Z10?ref=share-widget-buffer",
+            "image": "https://assets.livenationcdn.com/uploads/56ab7364-1d57-4318-9bec-62014ee45fb3.png",
+            "source_id": "ln:3618",
+        })
+
+    def test_page_error_keeps_ticketmaster_events(self):
+        for shows in (httpx.Response(500, text="oops"), lambda p: "<html>No data here</html>"):
+            report = {}
+            raw = methods.ticketmaster(self.VENUE, self.fetcher(shows), report)
+            self.assertTrue(raw)
+            self.assertTrue(all(e["source_id"].startswith("tm:") for e in raw))
+            self.assertIn("could not be read", report["partial"])
+
+    def test_no_ticketmaster_events_skips_page(self):
+        fetcher = FakeFetcher({methods.TICKETMASTER: lambda p: json.dumps({"page": {"totalPages": 0}}),
+                               "https://www.thebelasco.com/": "livenation_shows.html"})
+        self.assertEqual(methods.ticketmaster(self.VENUE, fetcher, {}), [])
+        self.assertEqual([url for url, _, _ in fetcher.calls], [methods.TICKETMASTER])
+
+    def test_listed_night_is_skipped(self):
+        # Same date and title as the saved Universe night, spelled differently; only the date would not match.
+        listed = {"title": "ESL II  w/ Judastongue", "start": "2026-11-05T21:00"}
+        other_day = {"title": "ESL II w/ JUDASTONGUE", "start": "2026-11-06"}
+        page = fixture("livenation_shows.html")
+        self.assertEqual(methods.outside_tm(page, [listed]), [])
+        self.assertEqual([n["source_id"] for n in methods.outside_tm(page, [other_day])], ["ln:3618"])
+
+
 class DiceTest(unittest.TestCase):
     def test_events(self):
         report = {}

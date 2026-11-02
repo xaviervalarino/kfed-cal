@@ -17,8 +17,8 @@
       "name": "The Belasco",
       "website": "https://www.thebelasco.com/",
       "method": "ticketmaster",
-      "params": {"venue_ids": ["KovZpZAJvttA"]},
-      "notes": "A few nights ticketed through Universe are not on Ticketmaster. The venue's /shows page has them."
+      "params": {"venue_ids": ["KovZpZAJvttA"], "shows_page": "https://www.thebelasco.com/shows"},
+      "notes": "A few nights ticketed through Universe are not on Ticketmaster; they are added from the venue's /shows page."
     },
     {
       "name": "The Wiltern",
