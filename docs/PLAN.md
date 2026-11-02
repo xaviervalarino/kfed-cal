@@ -107,7 +107,7 @@ work at 390px wide.
 
 ## 7. Ship
 
-- [ ] Run the scraper locally against the real sites (`python -m scraper.run`), check `site/status.json`, and view
+- [x] Run the scraper locally against the real sites (`python -m scraper.run`), check `site/status.json`, and view
   the site with that data (`npm --prefix web run dev:site`).
 - [x] Push, run the workflow by hand once (Actions → Update calendar → Run workflow), check the live site.
 - [x] Then delete the `probe` branch (owner confirms first). It holds copies of venue pages; `main` never had them.
