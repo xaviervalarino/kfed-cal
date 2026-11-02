@@ -46,7 +46,7 @@ unticked box. If you leave something half done, leave the box unticked and add a
 
 Port from `docs/reference/prototypes/` and register each in `METHODS` (and in `venues.py`):
 
-- [x] `ticketmaster`: from `reference/probe_ticketmaster.py` (client). 13 venues, El Cid partial.
+- [x] `ticketmaster`: from `reference/probe_ticketmaster.py` (client). 14 venues.
 - [x] `dice_venue`: from `html_dice_venue_snippet.py`, `html_dice_method.py`. Zebulon, Paramount, Glass House.
 - [x] `tessera`: from `feeds_methods_proposed.py` (`tessera`), `feeds_venue_extractors.py` (`lodge_room`).
   Lodge Room.

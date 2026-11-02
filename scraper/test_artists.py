@@ -119,8 +119,7 @@ class MusicBrainzTest(unittest.TestCase):
         self.assertEqual(artists.fold(" Beyoncé  KNOWLES"), artists.fold("beyonce knowles"))
         self.assertEqual(artists.fold("D’LEAU"), artists.fold("D'Leau"))  # MusicBrainz uses curly apostrophes
         self.assertEqual(artists.fold("Belle & Chain"), artists.fold("Belle and Chain"))  # "&" is "and"
-        self.assertEqual(artists.fold("The Smiths"), artists.fold("Smiths"))  # a leading "the" is dropped
-        self.assertEqual(artists.fold("The"), "the")  # a name that is only "the" keeps it
+        self.assertNotEqual(artists.fold("The Band"), artists.fold("Band"))  # "The" is part of a name
         mb = Services()
         self.assertEqual(artists.mb_search("Francis of Delirium", mb), FRANCIS)  # one exact match
         self.assertIsNone(artists.mb_search("Failure", mb))  # several bands with that name

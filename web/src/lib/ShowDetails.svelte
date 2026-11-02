@@ -129,7 +129,7 @@
         <div class="when">
           <span class="time">{timeLabel(show)}</span>
           <span class="venue">{show.room ?? show.venue}</span>
-          <!-- autofocus: an overflowing panel is focusable too, and would take focus first. -->
+          <!-- autofocus: an overflowing column is focusable too, and would take focus first. -->
           <!-- svelte-ignore a11y_autofocus -->
           <button class="close" autofocus onclick={() => dialog.close()}
             >CLOSE <span aria-hidden="true">×</span></button
