@@ -1,0 +1,3 @@
+# The scraper writes these each week; GitHub collapses their diffs and leaves them out of language stats.
+site/*.json linguist-generated=true
+scraper/cache/artists.json linguist-generated=true
