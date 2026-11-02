@@ -15,7 +15,7 @@ serves the build. Live: https://xaviervalarino.github.io/kfed-cal/
 ## Start here
 
 - `README.md`: how the scraper and workflow work, adding a venue, the method table, scraping politely.
-- `docs/PLAN.md`: what to build next, in order. Pick up from the first unticked box.
+- `docs/BACKLOG.md`: open items and ideas held back, with why.
 - `docs/DATA.md`: the contract between the scraper and the pages (`events.json`, `status.json`, artist fields).
 - `docs/VENUES.md`: where each venue's events come from (Ticketmaster ids, DICE slugs, feeds, quirks).
 - `docs/DESIGN.md`: the site design (tokens, type, screens). Mockups in `docs/reference/design/`.
