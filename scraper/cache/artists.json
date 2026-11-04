@@ -39,6 +39,9 @@
     },
     "mbid": "fbc87e6f-e9ee-47b6-ae59-abea98a40680"
   },
+  "454 with Pig the Gemini, El Cousteau, & Rockitneedspace": {
+    "checked": "2026-11-04"
+  },
   "49 Winchester": {
     "about": "Group from United States, formed 2013.",
     "about_source": "https://musicbrainz.org/artist/3ddb5fd0-3831-4ca6-931e-336ac03173a7",
@@ -203,8 +206,37 @@
   "AWAY": {
     "checked": "2026-10-31"
   },
+  "AZ Chike": {
+    "about": "Person from Los Angeles.",
+    "about_source": "https://musicbrainz.org/artist/edfe284c-3d75-45aa-9eca-25e6cef83637",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/1252865921",
+      "instagram": "https://www.instagram.com/azchike/",
+      "qobuz": "https://open.qobuz.com/artist/9181045",
+      "soundcloud": "https://soundcloud.com/chikebes",
+      "spotify": "https://open.spotify.com/artist/4DwafSBq5fKFZHAg71MoaZ",
+      "youtube": "https://music.youtube.com/channel/UCZHigze93EJH5NjsPeoQH2A"
+    },
+    "mbid": "edfe284c-3d75-45aa-9eca-25e6cef83637"
+  },
+  "Aaron Goldberg": {
+    "about": "Aaron Goldberg, is an American jazz pianist.",
+    "about_source": "https://en.wikipedia.org/wiki/Aaron_Goldberg",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/5421052",
+      "homepage": "http://aarongoldberg.com/welcome/index.html",
+      "qobuz": "https://open.qobuz.com/artist/214619",
+      "spotify": "https://open.spotify.com/artist/0BTfBwYC5Mw5ezDg91JBma"
+    },
+    "mbid": "af4dbc51-3262-49b6-afe3-87bca818c2d1"
+  },
   "Aborted": {
     "checked": "2026-10-31"
+  },
+  "Acts of Service Sounds": {
+    "checked": "2026-11-04"
   },
   "After Louise": {
     "about": "Formed 2026.",
@@ -217,6 +249,15 @@
       "youtube": "https://www.youtube.com/@AfterLouise"
     },
     "mbid": "2f05ed05-4053-4cbf-9c47-01c53476e500"
+  },
+  "Ahh-Ceh": {
+    "about": "Person.",
+    "about_source": "https://musicbrainz.org/artist/2aeb8afb-b50d-4266-9890-89a551a4fbf2",
+    "checked": "2026-11-04",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/4olexgy8UT7pHhzFjLplyP"
+    },
+    "mbid": "2aeb8afb-b50d-4266-9890-89a551a4fbf2"
   },
   "Al Olender": {
     "about": "Person from Kingston.",
@@ -311,6 +352,9 @@
       "spotify": "https://open.spotify.com/artist/4eZer1QvRM8Pna0rLToV1K"
     },
     "mbid": "80bd07ef-4e48-4e2c-b5ad-e590e3879cf7"
+  },
+  "Amarionette": {
+    "checked": "2026-11-04"
   },
   "An Evening with Lord Huron": {
     "checked": "2026-10-31"
@@ -955,6 +999,17 @@
     },
     "mbid": "f6621a8d-5644-460a-b0a8-9171cb2c595d"
   },
+  "Bloodsports": {
+    "about": "Group from Brooklyn, formed 2022.",
+    "about_source": "https://musicbrainz.org/artist/b25ea799-309f-4b25-9fb5-581d9681e118",
+    "checked": "2026-11-04",
+    "links": {
+      "bandcamp": "https://bloodsportsbk.bandcamp.com/",
+      "instagram": "https://www.instagram.com/bloodsportsonline/",
+      "spotify": "https://open.spotify.com/artist/6HqDHzNgjf9fIXCVlQzEGS"
+    },
+    "mbid": "b25ea799-309f-4b25-9fb5-581d9681e118"
+  },
   "Bloodsugar": {
     "about": "Group from Chico, formed 2024.",
     "about_source": "https://musicbrainz.org/artist/381dbb2b-7fdd-45db-bcc8-583008001475",
@@ -1227,6 +1282,9 @@
   "CAM GNARLY": {
     "checked": "2026-10-31"
   },
+  "CASKETS": {
+    "checked": "2026-11-04"
+  },
   "CATEGORY Vol. 004": {
     "checked": "2026-11-02"
   },
@@ -1259,6 +1317,21 @@
       "spotify": "https://open.spotify.com/artist/6j9elOE3U0Fklu0ATR9nQ0"
     },
     "mbid": "d935bec6-cab7-46cc-bf8b-ca089563b985"
+  },
+  "CURRENTS": {
+    "about": "Currents is an American metalcore band formed in Newtown, Connecticut in 2011 by former drummer Jeff Brown.",
+    "about_source": "https://en.wikipedia.org/wiki/Currents_(band)",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/165052213",
+      "bandcamp": "https://currentsct.bandcamp.com/",
+      "homepage": "https://currentsofficial.com/",
+      "instagram": "https://www.instagram.com/currents/",
+      "qobuz": "https://open.qobuz.com/artist/2988450",
+      "spotify": "https://open.spotify.com/artist/5pqvAI85RMxL9K0xHvSwGu",
+      "youtube": "https://www.youtube.com/channel/UCQUMjdiwuIYbH-oveKmOdZg"
+    },
+    "mbid": "b7e442b4-30cd-4bd2-9238-032e74f7807d"
   },
   "Calema Origin Tour": {
     "checked": "2026-10-31"
@@ -1313,6 +1386,9 @@
   },
   "Chameleons": {
     "checked": "2026-10-31"
+  },
+  "Charlotte Adigéry & Bolis Pupul": {
+    "checked": "2026-11-04"
   },
   "Chatterton": {
     "checked": "2026-10-31"
@@ -1469,6 +1545,20 @@
   "Clinamen": {
     "checked": "2026-10-31"
   },
+  "Cloud Nothings": {
+    "about": "Cloud Nothings is an American indie rock band from Cleveland, Ohio, United States, founded by singer-songwriter Dylan Baldi. It currently consists of lead singer and guitarist Dylan Baldi, drummer Jayson Gerycz, and bassist Chris Brown.",
+    "about_source": "https://en.wikipedia.org/wiki/Cloud_Nothings",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://itunes.apple.com/us/artist/id377952839",
+      "bandcamp": "https://cloudnothings.bandcamp.com/",
+      "homepage": "http://cloudnothings.com/",
+      "instagram": "https://www.instagram.com/cloudnothings/",
+      "soundcloud": "https://soundcloud.com/cloudnothings",
+      "spotify": "https://open.spotify.com/artist/6rnbB5fuUuCSsspvFsxIpT"
+    },
+    "mbid": "29c91854-8c45-469b-b36d-a11fb650638b"
+  },
   "Club 90s Presents 2010s Night": {
     "checked": "2026-10-31"
   },
@@ -1617,6 +1707,9 @@
   },
   "DIY Valentine": {
     "checked": "2026-10-31"
+  },
+  "DJ Ben Reddell + Hamilton Boyce": {
+    "checked": "2026-11-04"
   },
   "DJ Boogie Boudreaux": {
     "about": "Person from Los Angeles.",
@@ -2037,6 +2130,20 @@
     "checked": "2026-10-31",
     "mbid": "1fa508e8-55a9-4633-af01-beeadbea9006"
   },
+  "Dreamwake": {
+    "about": "Group from New Haven, formed 2018.",
+    "about_source": "https://musicbrainz.org/artist/9b8a161e-b82a-4183-ba0e-53996c894ea3",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1466722391",
+      "bandcamp": "https://dreamwake.bandcamp.com/",
+      "homepage": "https://dreamwakeofficial.com/",
+      "instagram": "https://www.instagram.com/dreamwake.ct/",
+      "spotify": "https://open.spotify.com/artist/7w7sMRp0FSQRRZM5SZG0Dm",
+      "youtube": "https://www.youtube.com/channel/UCL92odDStUfSj4pavK6gMpg"
+    },
+    "mbid": "9b8a161e-b82a-4183-ba0e-53996c894ea3"
+  },
   "Drug Church": {
     "about": "Drug Church is an American hardcore band from Albany, New York, United States. The band has released five albums, as well as several EPs.",
     "about_source": "https://en.wikipedia.org/wiki/Drug_Church",
@@ -2168,6 +2275,9 @@
     "about_source": "https://musicbrainz.org/artist/bb1ff3fc-7df0-43b0-b3a9-77cc5248f5a1",
     "checked": "2026-11-02",
     "mbid": "bb1ff3fc-7df0-43b0-b3a9-77cc5248f5a1"
+  },
+  "Electric Helix": {
+    "checked": "2026-11-04"
   },
   "Elijah Fox": {
     "about": "Person from Los Angeles.",
@@ -2923,6 +3033,12 @@
     },
     "mbid": "dd158dc3-33a8-45aa-af0c-d9bf13905d0a"
   },
+  "HAMES": {
+    "about": "Person from France.",
+    "about_source": "https://musicbrainz.org/artist/b0c09773-8649-419d-aaa9-4fd23603eaa1",
+    "checked": "2026-11-04",
+    "mbid": "b0c09773-8649-419d-aaa9-4fd23603eaa1"
+  },
   "HIERO DAY L.A. 2027": {
     "checked": "2026-10-31"
   },
@@ -3169,6 +3285,9 @@
       "spotify": "https://open.spotify.com/artist/7EGwUS3c5dXduO4sMyLWC5"
     },
     "mbid": "4a18f60f-7aa9-4476-8d0f-84981d8ccb60"
+  },
+  "How Coyote Stole Christmas": {
+    "checked": "2026-11-04"
   },
   "Human Error Club": {
     "about": "Group from United States.",
@@ -3478,11 +3597,27 @@
     },
     "mbid": "5114e1fc-7dbd-47e3-aa6e-83cc2f9d3474"
   },
+  "Jazz Emu": {
+    "about": "Person from London.",
+    "about_source": "https://musicbrainz.org/artist/049bdb05-f369-456f-aeb0-a876a9630c85",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/1445586448",
+      "bandcamp": "https://jazzemu.bandcamp.com/",
+      "homepage": "https://www.jazzemu.com/",
+      "spotify": "https://open.spotify.com/artist/69W52X4tUONDDDb6FmGtl6",
+      "youtube": "https://www.youtube.com/channel/UCM-Imt636hk4nHrXKwxR7XA"
+    },
+    "mbid": "049bdb05-f369-456f-aeb0-a876a9630c85"
+  },
   "Jazz Is Dead ft. Kassa Overall": {
     "checked": "2026-10-31"
   },
   "Jeffrey Martin": {
     "checked": "2026-10-31"
+  },
+  "Jeremiah Chiu 'Edge Conditions' Album Release": {
+    "checked": "2026-11-04"
   },
   "Jeris Johnson": {
     "about": "Person from United States, born 1996.",
@@ -4472,6 +4607,9 @@
     },
     "mbid": "32efea44-6cb5-4b4f-bdaa-c8b8f6cef981"
   },
+  "Maral": {
+    "checked": "2026-11-04"
+  },
   "Marci": {
     "about": "Person from Montréal.",
     "about_source": "https://musicbrainz.org/artist/ae79b63d-b8f5-4fd6-a403-0b660ac04d82",
@@ -4672,6 +4810,19 @@
     "checked": "2026-10-31",
     "mbid": "cda00a80-7647-401b-bfe5-b406a01e6aab"
   },
+  "Mia Wilson": {
+    "about": "Person from California.",
+    "about_source": "https://musicbrainz.org/artist/a38d2de7-c523-4e96-bc0a-1d4ba8ce1da2",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1831046288",
+      "bandcamp": "https://miawilson.bandcamp.com/",
+      "instagram": "https://www.instagram.com/miawilsonmusic/",
+      "spotify": "https://open.spotify.com/artist/7EYTqSk5ahue9dKHnlBumd",
+      "youtube": "https://www.youtube.com/@miawilson_music"
+    },
+    "mbid": "a38d2de7-c523-4e96-bc0a-1d4ba8ce1da2"
+  },
   "Michael Hampton of Funkadelic": {
     "checked": "2026-10-31"
   },
@@ -4815,6 +4966,18 @@
     },
     "mbid": "516ac132-ad0e-4185-b21e-ed03a5a2955f"
   },
+  "Moondough": {
+    "about": "Person from United States, born 1989.",
+    "about_source": "https://musicbrainz.org/artist/708c0f42-ef56-4630-8c00-10fcf2ef5cf9",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1479465923",
+      "bandcamp": "https://moondough.bandcamp.com/",
+      "instagram": "https://www.instagram.com/moondoughmusic/",
+      "spotify": "https://open.spotify.com/artist/0kRKKlFroEhNFwLkonqTBv"
+    },
+    "mbid": "708c0f42-ef56-4630-8c00-10fcf2ef5cf9"
+  },
   "MorMor": {
     "about": "Seth Nyquist, better known as MorMor, is a Canadian indie pop musician.",
     "about_source": "https://en.wikipedia.org/wiki/MorMor",
@@ -4913,6 +5076,16 @@
   },
   "Nate Varrone": {
     "checked": "2026-10-31"
+  },
+  "Nathan Evans Fox": {
+    "about": "Person from Nashville.",
+    "about_source": "https://musicbrainz.org/artist/f6dcd2e7-7914-4525-8701-daa2a279963a",
+    "checked": "2026-11-04",
+    "links": {
+      "bandcamp": "https://nathanevansfox.bandcamp.com/",
+      "homepage": "https://www.nathanevansfox.com/"
+    },
+    "mbid": "f6dcd2e7-7914-4525-8701-daa2a279963a"
   },
   "Native Sun": {
     "checked": "2026-10-31"
@@ -5051,6 +5224,19 @@
     },
     "mbid": "3658b42b-e888-4b31-85ed-39df53f32135"
   },
+  "Noah Gundersen": {
+    "about": "Noah Gundersen is an American indie folk singer-songwriter from Seattle.",
+    "about_source": "https://en.wikipedia.org/wiki/Noah_Gundersen",
+    "checked": "2026-11-04",
+    "links": {
+      "bandcamp": "https://noahgundersen.bandcamp.com/",
+      "homepage": "https://noahgundersenmusic.com/",
+      "instagram": "https://www.instagram.com/noahgundersen/",
+      "spotify": "https://open.spotify.com/artist/34482S5nfxR441wcnVfrHi",
+      "youtube": "https://www.youtube.com/channel/UCJMrvlVhrZYgP0MVoAUG1rw"
+    },
+    "mbid": "c7162e23-1c2b-488b-b77a-f65824bfb24f"
+  },
   "Nobro": {
     "about": "Nobro is a Canadian garage punk band based in Montreal, Quebec. The band was formed by vocalist and bass guitarist Kathryn McCaughey, vocalist and guitarist Marianna Florczyk, and vocalist and drummer Martha Rodriguez in mid-2014.",
     "about_source": "https://en.wikipedia.org/wiki/Nobro",
@@ -5182,6 +5368,9 @@
   },
   "P.H.F.": {
     "checked": "2026-10-31"
+  },
+  "POISON THE WELL & ALEXISONFIRE": {
+    "checked": "2026-11-04"
   },
   "Paige Fish": {
     "about": "Person.",
@@ -5964,6 +6153,16 @@
     },
     "mbid": "768633eb-8810-4fbe-aabb-f891c07d29d3"
   },
+  "Sam Burton": {
+    "about": "Person from Los Angeles.",
+    "about_source": "https://musicbrainz.org/artist/c20fd948-fb2b-482d-9582-1fe53f15d546",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/320859369",
+      "spotify": "https://open.spotify.com/artist/38uF92nRI3YmOAeocf4D6J"
+    },
+    "mbid": "c20fd948-fb2b-482d-9582-1fe53f15d546"
+  },
   "Sam Quealy": {
     "about": "Person from Australia.",
     "about_source": "https://musicbrainz.org/artist/f6c94a77-1c13-4ef0-880a-ff9264e5070c",
@@ -6057,6 +6256,9 @@
       "youtube": "https://www.youtube.com/user/scotthelmanmusic"
     },
     "mbid": "37fa9024-b095-4da1-8f10-5e9660291c06"
+  },
+  "Screening of You Can Color Outside the Lines": {
+    "checked": "2026-11-04"
   },
   "Seb Lowe": {
     "checked": "2026-10-31"
@@ -6320,6 +6522,9 @@
     "checked": "2026-10-31",
     "mbid": "68ae0a9d-e2bd-4561-8c56-497a17b63b37"
   },
+  "Snow on the Dance Floor": {
+    "checked": "2026-11-04"
+  },
   "Snuffed On Sight + Foghorn": {
     "checked": "2026-10-31"
   },
@@ -6492,6 +6697,9 @@
   "Star Wars Night": {
     "checked": "2026-10-31"
   },
+  "Starcrawler x Plague Vendor": {
+    "checked": "2026-11-04"
+  },
   "Static Dress": {
     "about": "Static Dress are an English rock band from Leeds, West Yorkshire. Formed in 2018, Static Dress are a concept band with their material following a continuous story.",
     "about_source": "https://en.wikipedia.org/wiki/Static_Dress",
@@ -6505,6 +6713,19 @@
     },
     "mbid": "9f61afe8-7142-44ee-b518-4dbb1caefb82"
   },
+  "Steam Powered Giraffe": {
+    "about": "Steam Powered Giraffe is an American musical project formed in San Diego, California in 2008, self-described as \"a musical act that combines robot pantomime, puppetry, ballet, comedy, projections, and music\".",
+    "about_source": "https://en.wikipedia.org/wiki/Steam_Powered_Giraffe",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://itunes.apple.com/us/artist/id316683061",
+      "bandcamp": "https://steampoweredgiraffe.bandcamp.com/",
+      "homepage": "http://www.steampoweredgiraffe.com/",
+      "spotify": "https://open.spotify.com/artist/1yqs45BSh7457Flyhmdv7f",
+      "youtube": "https://www.youtube.com/channel/UCS6RRU53yk8AEXmpmh0DpIw"
+    },
+    "mbid": "101c4754-1dc7-4c0f-92b9-49d8063d63da"
+  },
   "Steve Lacy": {
     "about": "Steve Lacy was an American jazz saxophonist and composer recognized as one of the important players of soprano saxophone. Coming to prominence in the 1950s as a progressive dixieland musician, Lacy went on to a long and prolific career.",
     "about_source": "https://en.wikipedia.org/wiki/Steve_Lacy_(saxophonist)",
@@ -6513,6 +6734,21 @@
       "spotify": "https://open.spotify.com/artist/1BEsuwAkTQMG50TeHB5qny"
     },
     "mbid": "ca9766a0-1c30-43e6-a213-bac1334efc4a"
+  },
+  "Stick To Your Guns": {
+    "about": "Stick to Your Guns is an American metalcore band from Orange County, California. Members of the band include lead vocalist Jesse Barnett, bassist Andrew Rose, guitarists Chris Rawson and Josh James, and drummer Adam Galindo.",
+    "about_source": "https://en.wikipedia.org/wiki/Stick_to_Your_Guns_(band)",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://itunes.apple.com/us/artist/id218293843",
+      "bandcamp": "https://stygoc.bandcamp.com/",
+      "homepage": "https://www.sticktoyourguns.net/",
+      "instagram": "https://www.instagram.com/stygoc/",
+      "soundcloud": "https://soundcloud.com/stick-to-your-guns",
+      "spotify": "https://open.spotify.com/artist/2sqrupqcoipb7UzVKApEnJ",
+      "youtube": "https://music.youtube.com/channel/UCdnnDkZKqh6MuRjIBmFHj0A"
+    },
+    "mbid": "07ef6bdd-20c8-4f2b-ac87-463f65b90768"
   },
   "Strawberry Fuzz x Plague Vendor": {
     "checked": "2026-10-31"
@@ -6561,6 +6797,9 @@
       "youtube": "https://www.youtube.com/channel/UCCUI6K_Q7p-k6kvQI5H0e3A"
     },
     "mbid": "82cbe859-5255-4bbd-bda3-7610a3f857dc"
+  },
+  "Sully": {
+    "checked": "2026-11-04"
   },
   "Sulphur Butterfly": {
     "checked": "2026-10-31"
@@ -6773,6 +7012,22 @@
       "instagram": "https://www.instagram.com/tmotv2026/"
     },
     "mbid": "1a89c2da-e598-472f-83fa-ce03c5773e10"
+  },
+  "TWRP": {
+    "about": "TWRP, formerly known as Tupper Ware Remix Party, is a Canadian rock band originally from Halifax, Nova Scotia. Founded in 2007, the band moved to Toronto in 2011 with a change in members and musical direction.",
+    "about_source": "https://en.wikipedia.org/wiki/TWRP_(band)",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://itunes.apple.com/ca/artist/id410071172",
+      "bandcamp": "https://twrp.bandcamp.com/",
+      "homepage": "http://www.twrpband.com/",
+      "instagram": "https://www.instagram.com/twrpband/",
+      "qobuz": "https://open.qobuz.com/artist/2419956",
+      "soundcloud": "https://soundcloud.com/twrp",
+      "spotify": "https://open.spotify.com/artist/6N3egqZ7OtcYYXyU6PBdNr",
+      "youtube": "https://www.youtube.com/user/TWRPtube"
+    },
+    "mbid": "32441bf8-f9dc-4593-b436-16df00db8b88"
   },
   "Takuya Nakamura": {
     "about": "Person from United States.",
@@ -7421,6 +7676,9 @@
     },
     "mbid": "cff95140-6d57-498a-8834-10eb72865b29"
   },
+  "The Strokers": {
+    "checked": "2026-11-04"
+  },
   "The Struts": {
     "about": "The Struts are a British glam rock band from Derby, Derbyshire, formed in 2012. The band is currently composed of lead singer Luke Spiller, guitarist Adam Slack, bassist Jed Elliott, and drummer Gethin Davies.",
     "about_source": "https://en.wikipedia.org/wiki/The_Struts",
@@ -7883,6 +8141,20 @@
   "Valley Do You Need to Be Entertained Tour": {
     "checked": "2026-10-31"
   },
+  "Vana": {
+    "about": "Yvonne Winckel, known professionally as Vana or Vana NZ, is an American-born New Zealand singer, songwriter, and heavy metal musician. She is known for her single \"Beg!\", released in 2024.",
+    "about_source": "https://en.wikipedia.org/wiki/Vana_(singer)",
+    "checked": "2026-11-04",
+    "links": {
+      "apple_music": "https://music.apple.com/de/artist/1571331866",
+      "homepage": "https://vanamusicofficial.com/",
+      "instagram": "https://www.instagram.com/vana_nz/",
+      "qobuz": "https://www.qobuz.com/us-en/interpreter/vana/187249",
+      "spotify": "https://open.spotify.com/artist/6o2D1YBpFJDDaMwZYGyW3T",
+      "youtube": "https://www.youtube.com/channel/UCKxC9ral9fIJnX07mErNHYw"
+    },
+    "mbid": "4666ad3e-455d-4443-af03-b53d9466a4da"
+  },
   "Vansire": {
     "about": "Vansire is an American dream pop band from Rochester, Minnesota, consisting of Josh Augustin and Sam Winemiller. They are currently signed to Spirit Goth Records.",
     "about_source": "https://en.wikipedia.org/wiki/Vansire",
@@ -8173,6 +8445,9 @@
     },
     "mbid": "20b034b2-35a1-40be-908f-22d1b5681572"
   },
+  "ZAQ with Dolly Ave": {
+    "checked": "2026-11-04"
+  },
   "ZAUNTEE": {
     "about": "Person.",
     "about_source": "https://musicbrainz.org/artist/ad1eceb6-64f9-41d1-83c9-a980bedcebc2",
@@ -8288,6 +8563,9 @@
     },
     "mbid": "56252a59-5731-4a3b-96d2-fea7fe88a5d6"
   },
+  "galdive & rum.gold": {
+    "checked": "2026-11-04"
+  },
   "gavn!": {
     "about": "Person from Seattle.",
     "about_source": "https://musicbrainz.org/artist/c2da0d7c-56b9-42c1-b142-a3fa3060c2a8",
@@ -8392,6 +8670,10 @@
   },
   "strongboi headline tour 2027": {
     "checked": "2026-10-31"
+  },
+  "sugarush": {
+    "checked": "2026-11-04",
+    "mbid": "d12f2487-ecba-4e2a-bfa4-81b2f3b5d338"
   },
   "the olllam": {
     "about": "Group from Michigan, formed 2012.",
