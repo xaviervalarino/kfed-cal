@@ -1,18 +1,18 @@
 {
   "run": {
-    "started": "2026-11-04T18:03:07+00:00",
-    "finished": "2026-11-04T18:06:52+00:00",
-    "next": "2026-11-11T10:17:00+00:00"
+    "started": "2026-11-11T17:55:59+00:00",
+    "finished": "2026-11-11T18:06:07+00:00",
+    "next": "2026-11-18T10:17:00+00:00"
   },
   "totals": {
-    "events": 853,
+    "events": 843,
     "venues": 24
   },
   "haiku": {
     "model": "claude-haiku-5-5",
     "input_tokens": 2646,
-    "output_tokens": 1729,
-    "dollars": 0.00113
+    "output_tokens": 1395,
+    "dollars": 0.00096
   },
   "venues": [
     {
@@ -23,157 +23,157 @@
       "events": 65,
       "through": "2027-06-03",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:03:08+00:00"
+      "last_success": "2026-11-11T17:56:00+00:00"
     },
     {
       "name": "Echoplex",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 32,
+      "events": 26,
       "through": "2027-04-10",
-      "with_time": 0.78,
-      "last_success": "2026-11-04T18:03:10+00:00"
+      "with_time": 0.88,
+      "last_success": "2026-11-11T17:56:02+00:00"
     },
     {
       "name": "The Belasco",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 35,
-      "through": "2027-04-29",
+      "events": 39,
+      "through": "2027-05-21",
       "with_time": 0.97,
-      "last_success": "2026-11-04T18:03:15+00:00"
+      "last_success": "2026-11-11T17:56:07+00:00"
     },
     {
       "name": "The Wiltern",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 83,
+      "events": 88,
       "through": "2027-11-10",
       "with_time": 0.99,
-      "last_success": "2026-11-04T18:03:18+00:00"
+      "last_success": "2026-11-11T17:56:09+00:00"
     },
     {
       "name": "Hollywood Palladium",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 45,
+      "events": 46,
       "through": "2027-05-23",
-      "with_time": 0.6,
-      "last_success": "2026-11-04T18:03:20+00:00"
+      "with_time": 0.59,
+      "last_success": "2026-11-11T17:56:12+00:00"
     },
     {
       "name": "The Bellwether",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 39,
-      "through": "2027-05-03",
-      "with_time": 0.95,
-      "last_success": "2026-11-04T18:03:24+00:00"
+      "events": 42,
+      "through": "2027-05-13",
+      "with_time": 0.93,
+      "last_success": "2026-11-11T17:56:16+00:00"
     },
     {
       "name": "Teragram Ballroom",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 45,
+      "events": 46,
       "through": "2027-05-15",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:03:27+00:00"
+      "last_success": "2026-11-11T17:56:18+00:00"
     },
     {
       "name": "The Regent",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 41,
+      "events": 38,
       "through": "2027-09-09",
-      "with_time": 0.98,
-      "last_success": "2026-11-04T18:03:29+00:00"
+      "with_time": 0.97,
+      "last_success": "2026-11-11T17:56:21+00:00"
     },
     {
       "name": "Greek Theatre",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 6,
+      "events": 5,
       "through": "2027-09-11",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:03:31+00:00"
+      "last_success": "2026-11-11T17:56:23+00:00"
     },
     {
       "name": "The Fonda",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 39,
+      "events": 34,
       "through": "2027-05-16",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:03:33+00:00"
+      "last_success": "2026-11-11T17:56:25+00:00"
     },
     {
       "name": "The Roxy",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 46,
+      "events": 43,
       "through": "2027-05-14",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:03:36+00:00"
+      "last_success": "2026-11-11T17:56:27+00:00"
     },
     {
       "name": "Troubadour",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 46,
+      "events": 43,
       "through": "2027-05-20",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:03:38+00:00"
+      "last_success": "2026-11-11T17:56:30+00:00"
     },
     {
       "name": "Hollywood Bowl",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 9,
+      "events": 7,
       "through": "2027-08-25",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:03:40+00:00"
+      "last_success": "2026-11-11T17:56:32+00:00"
     },
     {
       "name": "The Moroccan Lounge",
       "method": "ticketmaster",
       "source": "Ticketmaster",
       "status": "ok",
-      "events": 71,
+      "events": 63,
       "through": "2027-05-01",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:03:42+00:00"
+      "last_success": "2026-11-11T17:56:34+00:00"
     },
     {
       "name": "Lodge Room",
       "method": "tessera",
       "source": "Tessera feed",
       "status": "ok",
-      "events": 70,
-      "through": "2027-04-19",
+      "events": 79,
+      "through": "2027-06-17",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:03:50+00:00"
+      "last_success": "2026-11-11T17:56:41+00:00"
     },
     {
       "name": "The Vermont",
       "method": "tribe_events",
       "source": "Events Calendar API",
       "status": "ok",
-      "events": 12,
+      "events": 11,
       "through": "2027-02-04",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:03:54+00:00"
+      "last_success": "2026-11-11T17:56:44+00:00"
     },
     {
       "name": "Zebulon",
@@ -181,9 +181,9 @@
       "source": "DICE",
       "status": "partial",
       "events": 30,
-      "through": "2026-12-03",
+      "through": "2026-12-06",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:03:56+00:00",
+      "last_success": "2026-11-11T17:56:47+00:00",
       "note": "DICE shows only the next 30 shows."
     },
     {
@@ -192,9 +192,9 @@
       "source": "DICE",
       "status": "ok",
       "events": 5,
-      "through": "2026-12-09",
+      "through": "2026-12-12",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:03:59+00:00"
+      "last_success": "2026-11-11T17:56:49+00:00"
     },
     {
       "name": "The Glass House",
@@ -202,9 +202,9 @@
       "source": "DICE",
       "status": "ok",
       "events": 24,
-      "through": "2027-03-20",
+      "through": "2027-04-24",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:04:01+00:00"
+      "last_success": "2026-11-11T17:56:51+00:00"
     },
     {
       "name": "Gold-Diggers",
@@ -212,9 +212,9 @@
       "source": "DICE",
       "status": "partial",
       "events": 30,
-      "through": "2026-12-06",
+      "through": "2026-12-11",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:04:03+00:00",
+      "last_success": "2026-11-11T17:56:53+00:00",
       "note": "DICE shows only the next 30 shows."
     },
     {
@@ -223,9 +223,9 @@
       "source": "DICE",
       "status": "partial",
       "events": 30,
-      "through": "2026-12-04",
+      "through": "2026-12-09",
       "with_time": 1.0,
-      "last_success": "2026-11-04T18:04:06+00:00",
+      "last_success": "2026-11-11T17:56:55+00:00",
       "note": "DICE shows only the next 30 shows."
     },
     {
@@ -233,10 +233,10 @@
       "method": "permanent_records",
       "source": "venue site",
       "status": "ok",
-      "events": 50,
+      "events": 49,
       "through": "2027-08-19",
-      "with_time": 1.0,
-      "last_success": "2026-11-04T18:04:08+00:00"
+      "with_time": 0.98,
+      "last_success": "2026-11-11T17:56:57+00:00"
     },
     {
       "name": "Monty Bar",
