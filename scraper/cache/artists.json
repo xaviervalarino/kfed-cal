@@ -75,6 +75,9 @@
   "A John Waters Christmas": {
     "checked": "2026-10-31"
   },
+  "A New Year’s Eve Celebration with LA Dead Night Allstars": {
+    "checked": "2026-11-25"
+  },
   "A Perfect Circle": {
     "about": "A Perfect Circle is an American rock supergroup formed in Los Angeles, California, in 1999 by guitarist Billy Howerdel and Tool vocalist Maynard James Keenan.",
     "about_source": "https://en.wikipedia.org/wiki/A_Perfect_Circle",
@@ -115,6 +118,9 @@
   },
   "A lo-fi evening with Kitty Craft and Friends": {
     "checked": "2026-10-31"
+  },
+  "ABBA Night": {
+    "checked": "2026-11-25"
   },
   "ACTORS": {
     "about": "Actors are a Canadian post-punk band from Vancouver, British Columbia, formed in 2012. The band consists of founder Jason Corbett, Shannon Hemmett, Kendall Wooding, and Adam Fink (drums).",
@@ -261,8 +267,34 @@
   "Acts of Service Sounds": {
     "checked": "2026-11-04"
   },
+  "Adam Melchor": {
+    "about": "Person from Los Angeles, born 1996.",
+    "about_source": "https://musicbrainz.org/artist/5b7187c7-08bf-49d6-af08-ad1e7d58c825",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/fr/artist/849341905",
+      "bandcamp": "https://adammelchor.bandcamp.com/",
+      "homepage": "http://www.adammelchor.com/",
+      "instagram": "https://www.instagram.com/adammelchor/",
+      "soundcloud": "https://soundcloud.com/adammelchor",
+      "spotify": "https://open.spotify.com/artist/54tv11ndFfiqXiR03PwdlB",
+      "youtube": "https://www.youtube.com/channel/UC8FHm2eislZk3NJs81BJrEA"
+    },
+    "mbid": "5b7187c7-08bf-49d6-af08-ad1e7d58c825"
+  },
   "AfroBowie": {
     "checked": "2026-11-18"
+  },
+  "Afsheen": {
+    "about": "Person from United States.",
+    "about_source": "https://musicbrainz.org/artist/9bea214c-1699-4cfa-8899-cd7a7d302566",
+    "checked": "2026-11-25",
+    "links": {
+      "homepage": "http://www.afsheenmusic.com/",
+      "spotify": "https://open.spotify.com/artist/5iwLVxdLzgm1cLrZunXzWR",
+      "youtube": "https://www.youtube.com/channel/UCxxW0-yyfCwwtrKVPq4Otkw"
+    },
+    "mbid": "9bea214c-1699-4cfa-8899-cd7a7d302566"
   },
   "After Louise": {
     "about": "Formed 2026.",
@@ -424,11 +456,27 @@
   "An Evening with River Shook": {
     "checked": "2026-10-31"
   },
+  "An Evening with Wilco": {
+    "checked": "2026-11-25"
+  },
   "An Evening with... We Are Scientists": {
     "checked": "2026-10-31"
   },
   "And Always Forever 2026": {
     "checked": "2026-10-31"
+  },
+  "Anderex": {
+    "about": "Person from Australia.",
+    "about_source": "https://musicbrainz.org/artist/cc39b1a2-349b-4c99-8822-579df96f9fab",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/1028901808",
+      "instagram": "https://www.instagram.com/anderex.wav/",
+      "qobuz": "https://open.qobuz.com/artist/8234607",
+      "soundcloud": "https://soundcloud.com/anderex",
+      "spotify": "https://open.spotify.com/artist/7wXBtpPB5GFddtz9OeBlPW"
+    },
+    "mbid": "cc39b1a2-349b-4c99-8822-579df96f9fab"
   },
   "Andrea von Kampen": {
     "about": "Person from Lincoln, born 1994.",
@@ -756,6 +804,9 @@
     },
     "mbid": "0232892e-48a1-422f-ac3c-ee323e6ba9df"
   },
+  "Babe Ruthless": {
+    "checked": "2026-11-25"
+  },
   "Babehoven": {
     "about": "Babehoven is an American indie rock duo currently based in Hudson, New York. The duo is led by vocalist Maya Bon, who previously resided in Portland, Oregon, and Los Angeles, California.",
     "about_source": "https://en.wikipedia.org/wiki/Babehoven",
@@ -770,11 +821,25 @@
     },
     "mbid": "e76d0015-390d-4295-9681-f3a35c0109ae"
   },
+  "Baby Fischgrund": {
+    "checked": "2026-11-25"
+  },
   "Baby Smoove Live! The Purple Heart Tour": {
     "checked": "2026-10-31"
   },
   "BabyBartier / Sir Untre / Unitus": {
     "checked": "2026-10-31"
+  },
+  "BabyTron": {
+    "about": "James Edward Johnson IV, better known by his stage name BabyTron, is an American rapper and songwriter. He is a member of the hip hop group ShittyBoyz.",
+    "about_source": "https://en.wikipedia.org/wiki/BabyTron",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1473692829",
+      "instagram": "https://www.instagram.com/babytron__/",
+      "spotify": "https://open.spotify.com/artist/0sKsReKseslDlhxmbN6wLk"
+    },
+    "mbid": "dc1e73d5-4ff6-4c40-bbd6-493f4dd0d047"
   },
   "Babyfxce E": {
     "about": "Efrem Jamaar Blackwell Jr., known professionally as Babyfxce E, is an American rapper from Flint, Michigan. He gained online traction with his 2022 single \"Six Flags,\" and in 2024, secured a label contract with Atlantic Records.",
@@ -825,6 +890,9 @@
     "about_source": "https://musicbrainz.org/artist/7867efdb-72d4-47a3-bf5d-74a9505b5930",
     "checked": "2026-10-31",
     "mbid": "7867efdb-72d4-47a3-bf5d-74a9505b5930"
+  },
+  "Bart Bacharach & Other Delights": {
+    "checked": "2026-11-25"
   },
   "Bart Davenport": {
     "about": "Person from United States.",
@@ -1033,6 +1101,9 @@
       "youtube": "https://www.youtube.com/channel/UCV-vTNBvc98cYqUG2vhR6bw"
     },
     "mbid": "abe2669a-a612-4bf6-9193-bb4f4b8a9088"
+  },
+  "Ben Folds Five On Tour": {
+    "checked": "2026-11-25"
   },
   "Ben Quad": {
     "about": "Ben Quad is an American emo band from Oklahoma City. Formed in 2018, they released their debut album I'm Scared That's All There Is in 2022.",
@@ -1350,6 +1421,20 @@
   "Brad Williams": {
     "checked": "2026-10-31"
   },
+  "Brainstory": {
+    "about": "Group from Rialto.",
+    "about_source": "https://musicbrainz.org/artist/b4b34d3d-acc0-44e9-a55f-1e47d3a0947a",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1043991920",
+      "bandcamp": "https://brainstory1.bandcamp.com/",
+      "homepage": "http://brainstorymusic.com/",
+      "instagram": "https://www.instagram.com/00brainstory00/",
+      "qobuz": "https://open.qobuz.com/artist/4307936",
+      "spotify": "https://open.spotify.com/artist/0EqBE2VOwsHgSOrjsQCs5j"
+    },
+    "mbid": "b4b34d3d-acc0-44e9-a55f-1e47d3a0947a"
+  },
   "Brandy Clark Take Flight World Tour": {
     "checked": "2026-10-31"
   },
@@ -1382,6 +1467,9 @@
   },
   "Bree Runway Presents Club Je Suis.": {
     "checked": "2026-10-31"
+  },
+  "Brendan Kelly": {
+    "checked": "2026-11-25"
   },
   "Brian Noyes": {
     "checked": "2026-10-31"
@@ -1512,6 +1600,9 @@
   "CATEGORY Vol. 004": {
     "checked": "2026-11-02"
   },
+  "CELEBRATING DAVID BOWIE All Star 80th Birthday Concert": {
+    "checked": "2026-11-25"
+  },
   "CHIODOS": {
     "about": "Chiodos is an American post-hardcore band from Davison, Michigan. Formed in 2001, the group was originally known as \"The Chiodos Bros,\" the band's name was a tribute to filmmakers Stephen, Charles, and Edward Chiodo, responsible for the film Killer Klowns from Outer Space.",
     "about_source": "https://en.wikipedia.org/wiki/Chiodos",
@@ -1561,6 +1652,9 @@
       "spotify": "https://open.spotify.com/artist/6j9elOE3U0Fklu0ATR9nQ0"
     },
     "mbid": "d935bec6-cab7-46cc-bf8b-ca089563b985"
+  },
+  "CTRL J": {
+    "checked": "2026-11-25"
   },
   "CURRENTS": {
     "about": "Currents is an American metalcore band formed in Newtown, Connecticut in 2011 by former drummer Jeff Brown.",
@@ -1842,6 +1936,9 @@
     },
     "mbid": "cc94a0fe-e3f0-4217-a5f8-a70d4ccf39e7"
   },
+  "Claire Rousay DJ Set": {
+    "checked": "2026-11-25"
+  },
   "Clap Your Hands Say Yeah": {
     "about": "Clap Your Hands Say Yeah is a US indie rock band active since the early 2000s. The band was founded as a collaboration between singer-songwriter Alec Ounsworth, Sean Greenhalgh, Robbie Guertin, Lee Sargent, and Tyler Sargent.",
     "about_source": "https://en.wikipedia.org/wiki/Clap_Your_Hands_Say_Yeah",
@@ -1889,8 +1986,14 @@
   "Club 90s Presents 2010s Night": {
     "checked": "2026-10-31"
   },
+  "Club 90s presents The Weeknd Night": {
+    "checked": "2026-11-25"
+  },
   "Club Cielo": {
     "checked": "2026-11-11"
+  },
+  "Coastal Ghosts": {
+    "checked": "2026-11-25"
   },
   "CocoRosie": {
     "about": "CocoRosie is an American musical group formed in 2003 by sisters Sierra Rose \"Rosie\" and Bianca Leilani \"Coco\" Casady. The group's music has been described as folktronica, freak folk and \"New Weird America\", and incorporates elements of pop, blues, opera, electronica, and hip hop.",
@@ -2111,6 +2214,9 @@
   "DJ Sets by TR/ST": {
     "checked": "2026-11-11"
   },
+  "DJ sets by Avalon": {
+    "checked": "2026-11-25"
+  },
   "DONUTS": {
     "checked": "2026-10-31",
     "links": {
@@ -2251,6 +2357,20 @@
     },
     "mbid": "b7a65497-9fba-46b5-8c4e-0311cf6943b0"
   },
+  "Darryl Rahn": {
+    "about": "Person from New York.",
+    "about_source": "https://musicbrainz.org/artist/ebd19f10-f643-46cc-8e71-7c938b31bc52",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/988136001",
+      "bandcamp": "https://darrylrahn.bandcamp.com/",
+      "instagram": "https://www.instagram.com/darrylrahnmusic/",
+      "qobuz": "https://open.qobuz.com/artist/4844007",
+      "spotify": "https://open.spotify.com/artist/2eogPRB3PTDU7KOd99s4UA",
+      "youtube": "https://www.youtube.com/channel/UCIpKr7n8MWDPY3WIs9191Eg"
+    },
+    "mbid": "ebd19f10-f643-46cc-8e71-7c938b31bc52"
+  },
   "Dashboard Confessional": {
     "about": "Dashboard Confessional is an American rock band from Boca Raton, Florida, formed in 1999 and led by singer Chris Carrabba. The name of the band is derived from the song \"The Sharp Hint of New Tears\" off their debut album, The Swiss Army Romance.",
     "about_source": "https://en.wikipedia.org/wiki/Dashboard_Confessional",
@@ -2265,6 +2385,18 @@
       "youtube": "https://www.youtube.com/channel/UC1hVJ5z8WQFROU9KCPWkapw"
     },
     "mbid": "50549203-9602-451c-b49f-ff031ba8635c"
+  },
+  "Dave Heatwave": {
+    "about": "Person from United States.",
+    "about_source": "https://musicbrainz.org/artist/f81bfc41-685e-4ea8-ad20-c2b301a040f5",
+    "checked": "2026-11-25",
+    "links": {
+      "bandcamp": "https://daveheatwave.bandcamp.com/",
+      "homepage": "http://daveheatwave.com/",
+      "instagram": "https://www.instagram.com/daveheatwave/",
+      "youtube": "https://www.youtube.com/@dave_heatwave"
+    },
+    "mbid": "f81bfc41-685e-4ea8-ad20-c2b301a040f5"
   },
   "Dave Ralph": {
     "about": "Dave Ralph is an English electronic musician, best known as a house and trance DJ.",
@@ -2297,6 +2429,9 @@
   },
   "David Wain & members of Middle Aged Dad Jam Band": {
     "checked": "2026-10-31"
+  },
+  "Day Ones ft. Miles Medina, Olea, & B4byLexiG1rl": {
+    "checked": "2026-11-25"
   },
   "Dead Floyd": {
     "about": "Group from Fort Collins, formed 2009.",
@@ -2332,6 +2467,21 @@
   },
   "Death From Above 1979 Private Lives Tour": {
     "checked": "2026-10-31"
+  },
+  "Deb Never": {
+    "about": "Deborah Jung, best known professionally as Deb Never, is an American singer-songwriter and musician based in Los Angeles, California.",
+    "about_source": "https://en.wikipedia.org/wiki/Deb_Never",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1421902332",
+      "bandcamp": "https://debnever.bandcamp.com/",
+      "homepage": "https://debnever.com/",
+      "instagram": "https://www.instagram.com/debnever/",
+      "soundcloud": "https://soundcloud.com/debnever",
+      "spotify": "https://open.spotify.com/artist/55EarwWraRQY9diMo9Oeul",
+      "youtube": "https://www.youtube.com/@DebNever123"
+    },
+    "mbid": "8dd37f6f-bf89-40f2-8b46-46bb850cb29e"
   },
   "Deejay Mikey Longhair": {
     "checked": "2026-10-31"
@@ -2377,6 +2527,21 @@
   },
   "Derby": {
     "checked": "2026-10-31"
+  },
+  "Dermot Kennedy": {
+    "about": "Dermot Joseph Kennedy is an Irish singer and songwriter. His music blends folk and hip-hop.",
+    "about_source": "https://en.wikipedia.org/wiki/Dermot_Kennedy",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://itunes.apple.com/gb/artist/id376564133",
+      "homepage": "http://www.dermotkennedy.com/",
+      "instagram": "https://www.instagram.com/dermotkennedy/",
+      "qobuz": "https://www.qobuz.com/gb-en/interpreter/dermotkennedy-10003276425/3276425",
+      "soundcloud": "https://soundcloud.com/dermot-kennedy-777714337",
+      "spotify": "https://open.spotify.com/artist/5KNNVgR6LBIABRIomyCwKJ",
+      "youtube": "https://www.youtube.com/channel/UCTujaKfo0jMXXhjvRtB6yYQ"
+    },
+    "mbid": "aa9ea04c-6d55-4244-9139-22c75bd19f97"
   },
   "Desire": {
     "checked": "2026-10-31"
@@ -2425,6 +2590,12 @@
       "spotify": "https://open.spotify.com/artist/1rfIKfqoygAsxTWBdzVO2i"
     },
     "mbid": "32d87c52-1f4e-4295-b25a-e0e21d8fd105"
+  },
+  "Devon Ross": {
+    "about": "Person from London.",
+    "about_source": "https://musicbrainz.org/artist/0395e3ae-1c55-45c2-bd5e-091053156ddb",
+    "checked": "2026-11-25",
+    "mbid": "0395e3ae-1c55-45c2-bd5e-091053156ddb"
   },
   "Devon Ross & Friends": {
     "checked": "2026-11-18"
@@ -2527,6 +2698,9 @@
     },
     "mbid": "569f11cd-2d27-40da-9b01-237f7837db77"
   },
+  "Dogma95": {
+    "checked": "2026-11-25"
+  },
   "Dogpark": {
     "about": "Group from New York.",
     "about_source": "https://musicbrainz.org/artist/8c8b7177-4c03-4cb4-858c-b071f5de013e",
@@ -2537,6 +2711,9 @@
       "spotify": "https://open.spotify.com/artist/2VlmDb05CPERyCZfmZI3x7"
     },
     "mbid": "8c8b7177-4c03-4cb4-858c-b071f5de013e"
+  },
+  "Dolphin Hyperspace ft L. Cole, J. Brown, R. Kaspi": {
+    "checked": "2026-11-25"
   },
   "Dominique and the Diamonds": {
     "checked": "2026-10-31"
@@ -2588,6 +2765,9 @@
   "Dopamine": {
     "checked": "2026-10-31"
   },
+  "Doug O’Donnell (ex-Dr Dog)": {
+    "checked": "2026-11-25"
+  },
   "Download The Dancefloor": {
     "checked": "2026-11-18"
   },
@@ -2620,6 +2800,15 @@
     "checked": "2026-10-31",
     "mbid": "1fa508e8-55a9-4633-af01-beeadbea9006"
   },
+  "Dream Sitch": {
+    "checked": "2026-11-25",
+    "links": {
+      "bandcamp": "https://dreamsitch.bandcamp.com/",
+      "qobuz": "https://open.qobuz.com/artist/18157261",
+      "spotify": "https://open.spotify.com/artist/3AZpyYJGXnWdPPwrGniSdF"
+    },
+    "mbid": "3c1945da-ae45-47d1-94d2-29060554ec03"
+  },
   "Dreamwake": {
     "about": "Group from New Haven, formed 2018.",
     "about_source": "https://musicbrainz.org/artist/9b8a161e-b82a-4183-ba0e-53996c894ea3",
@@ -2647,6 +2836,18 @@
       "youtube": "https://www.youtube.com/channel/UCSNnsZxhYSbaRO73Ul6tUzQ"
     },
     "mbid": "32d2897c-4c91-46db-8161-f51d3f4f0d93"
+  },
+  "Drugdealer": {
+    "about": "Group from Los Angeles.",
+    "about_source": "https://musicbrainz.org/artist/d3b69dfc-4b20-440c-bd23-6f939d076082",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/1131207634",
+      "bandcamp": "https://drugdealerband.bandcamp.com/",
+      "qobuz": "https://open.qobuz.com/artist/2727669",
+      "spotify": "https://open.spotify.com/artist/0tMnuEXTeJeHbslcV8OybJ"
+    },
+    "mbid": "d3b69dfc-4b20-440c-bd23-6f939d076082"
   },
   "Dumb Nathan Fielder Rave": {
     "checked": "2026-11-11"
@@ -2884,6 +3085,15 @@
     },
     "mbid": "6b22de04-fb48-44aa-bd02-c1427f635477"
   },
+  "Emily Rose & the Rounders": {
+    "about": "Group.",
+    "about_source": "https://musicbrainz.org/artist/f034694d-75d2-4b29-a277-880f4b988aa4",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/1607832625"
+    },
+    "mbid": "f034694d-75d2-4b29-a277-880f4b988aa4"
+  },
   "Emma Andersen": {
     "about": "Person.",
     "about_source": "https://musicbrainz.org/artist/b923b780-e3e6-4725-adea-d778fcc3a4f9",
@@ -3018,6 +3228,16 @@
   "Fat": {
     "checked": "2026-11-18"
   },
+  "Fat Lady Sang": {
+    "about": "Group from Los Angeles.",
+    "about_source": "https://musicbrainz.org/artist/dc93ec01-8223-4fe8-b058-32faed6baf87",
+    "checked": "2026-11-25",
+    "links": {
+      "bandcamp": "https://fatladysang.bandcamp.com/",
+      "instagram": "https://www.instagram.com/fatlady.sang/"
+    },
+    "mbid": "dc93ec01-8223-4fe8-b058-32faed6baf87"
+  },
   "Father of Peace": {
     "about": "Group from Israel.",
     "about_source": "https://musicbrainz.org/artist/945725d3-e3ef-41bf-ab1b-58d8d53d032b",
@@ -3122,6 +3342,12 @@
   },
   "Fleetmac Wood presents Rumours Rave": {
     "checked": "2026-11-18"
+  },
+  "Floating Actions": {
+    "checked": "2026-11-25"
+  },
+  "Flopmas": {
+    "checked": "2026-11-25"
   },
   "Florence sinclair": {
     "about": "Person from United Kingdom.",
@@ -3495,6 +3721,9 @@
     },
     "mbid": "780640e6-cfcb-431f-b5a6-865200dd35a7"
   },
+  "Gift Machine": {
+    "checked": "2026-11-25"
+  },
   "Gilla Band": {
     "about": "Gilla Band are an Irish post-punk and noise rock band from Dublin. It was founded in 2011 and comprises vocalist Dara Kiely, guitarist Alan Duggan, bassist Daniel Fox, and drummer Adam Faulkner.",
     "about_source": "https://en.wikipedia.org/wiki/Gilla_Band",
@@ -3575,6 +3804,17 @@
     },
     "mbid": "fc272874-7f58-40ab-979c-1a1250f365f1"
   },
+  "Golden Boots": {
+    "about": "Group, formed 2002.",
+    "about_source": "https://musicbrainz.org/artist/54240962-8343-4233-a59a-0b30b781a8f5",
+    "checked": "2026-11-25",
+    "links": {
+      "bandcamp": "https://goldenboots.bandcamp.com/",
+      "homepage": "https://www.thegoldenboots.com/",
+      "instagram": "https://www.instagram.com/goldenboots666/"
+    },
+    "mbid": "54240962-8343-4233-a59a-0b30b781a8f5"
+  },
   "Goldfinger": {
     "checked": "2026-11-18"
   },
@@ -3609,6 +3849,9 @@
   "Good Dog Nigel": {
     "checked": "2026-11-11",
     "mbid": "b7bf98d3-9516-41b8-83da-2d68816ce875"
+  },
+  "Goodnoise presents A Holiday Party": {
+    "checked": "2026-11-25"
   },
   "Goshfather": {
     "about": "Person.",
@@ -3653,6 +3896,9 @@
     },
     "mbid": "199596a3-a1af-49f8-8795-259eff8461fb"
   },
+  "Greg Uhlmann & Jeremiah Chiu": {
+    "checked": "2026-11-25"
+  },
   "Grizfolk": {
     "about": "Grizfolk is an American alternative rock band consisting of Adam Roth, Bill Delia (drums), and Ryan Williams (bass). Based in Nashville, Grizfolk released their debut EP, From the Spark, in February 2014.",
     "about_source": "https://en.wikipedia.org/wiki/Grizfolk",
@@ -3666,6 +3912,9 @@
       "youtube": "https://www.youtube.com/channel/UCmQuPC8tEkjU29nk8Q5KOlQ"
     },
     "mbid": "b87e7d38-aadb-47ba-822c-6fe3e71a34a7"
+  },
+  "Grljockey": {
+    "checked": "2026-11-25"
   },
   "Groove Room": {
     "checked": "2026-10-31"
@@ -3780,6 +4029,10 @@
     },
     "mbid": "b7bd30f3-7a65-411f-a32e-972412699f12"
   },
+  "Hauntu": {
+    "checked": "2026-11-25",
+    "mbid": "32a97a4e-aaa3-4e3a-b2b1-e941076c0a53"
+  },
   "Have Heart": {
     "about": "Have Heart are an American straight edge hardcore punk band formed in New Bedford, Massachusetts in 2002. The band recorded a demo that was released in 2003.",
     "about_source": "https://en.wikipedia.org/wiki/Have_Heart",
@@ -3844,6 +4097,9 @@
     },
     "mbid": "dfbfe956-7719-4cd6-b4db-b9c22657c925"
   },
+  "Heidi Lawden and Love Fingers": {
+    "checked": "2026-11-25"
+  },
   "Helena Deland": {
     "about": "Helena Deland McCullagh is a Canadian singer-songwriter. To date she has released five EPs: Drawing Room (2016) and From the Series of Songs \"Altogether Unaccompanied\" Vol.",
     "about_source": "https://en.wikipedia.org/wiki/Helena_Deland",
@@ -3867,6 +4123,9 @@
   },
   "Henry Hall": {
     "checked": "2026-10-31"
+  },
+  "Hercules": {
+    "checked": "2026-11-25"
   },
   "Hieroglyphics": {
     "about": "Hieroglyphics, also known as the Hieroglyphics Crew and Hiero, is an American underground hip hop collective based in Oakland, California.",
@@ -4157,6 +4416,9 @@
     },
     "mbid": "b0061f91-ca53-45b9-ad13-d217f4f6caa2"
   },
+  "Imaad Wasif (solo)": {
+    "checked": "2026-11-25"
+  },
   "Imminence": {
     "about": "Imminence is a Swedish metalcore band formed in Trelleborg. The group consists of vocalist Eddie Berg, rhythm guitarist Harald Barrett, lead guitarist Alex Arnoldsson, and bassist Christian Höijer.",
     "about_source": "https://en.wikipedia.org/wiki/Imminence_(band)",
@@ -4195,6 +4457,9 @@
     },
     "mbid": "b0ec9e24-87eb-43e5-a5b9-36f8ec557c05"
   },
+  "Inside Water Holiday Show": {
+    "checked": "2026-11-25"
+  },
   "Insomniac presents DEVAULT": {
     "checked": "2026-10-31"
   },
@@ -4217,8 +4482,15 @@
     },
     "mbid": "dcf23beb-b5b1-45c6-a959-e8904efc6dd3"
   },
+  "It Came From San Diego": {
+    "checked": "2026-11-25"
+  },
   "It's A Lot Comedy Show": {
     "checked": "2026-11-11"
+  },
+  "J. Rodriguez": {
+    "checked": "2026-11-25",
+    "mbid": "2087c3f7-ea0d-4320-9d52-319acf1fda89"
   },
   "JOAQU.N": {
     "checked": "2026-10-31",
@@ -4226,6 +4498,12 @@
       "instagram": "https://www.instagram.com/joaqu.n/"
     },
     "mbid": "5a0bd131-4644-4860-aee7-d281d9f2941e"
+  },
+  "JOSEPH (Night 1)": {
+    "checked": "2026-11-25"
+  },
+  "JOSEPH (Night 2)": {
+    "checked": "2026-11-25"
   },
   "JUDASTONGUE": {
     "checked": "2026-11-02"
@@ -4369,6 +4647,19 @@
   "Jeffrey Martin": {
     "checked": "2026-10-31"
   },
+  "Jeffrey Silverstein": {
+    "about": "Person.",
+    "about_source": "https://musicbrainz.org/artist/8f47b610-daa0-47ac-a02e-bb9fbf021945",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/574799613",
+      "bandcamp": "https://jeffreysilverstein.bandcamp.com/",
+      "homepage": "https://www.jeffreylewissilverstein.com/",
+      "instagram": "https://www.instagram.com/jeffreee/",
+      "spotify": "https://open.spotify.com/artist/0X7vWupejzA2A8bwITrWot"
+    },
+    "mbid": "8f47b610-daa0-47ac-a02e-bb9fbf021945"
+  },
   "Jeremiah Chiu 'Edge Conditions' Album Release": {
     "checked": "2026-11-04"
   },
@@ -4430,6 +4721,9 @@
   },
   "Jesse Hughes": {
     "checked": "2026-11-18"
+  },
+  "Jim White": {
+    "checked": "2026-11-25"
   },
   "Jimi Somewhere": {
     "about": "Person.",
@@ -4655,6 +4949,20 @@
       "youtube": "https://www.youtube.com/channel/UClhBSJn25Vuny59VgWddlLw"
     },
     "mbid": "04fa0b75-c2fa-4fdd-9f0e-8c62f221ba8f"
+  },
+  "Julius Rodriguez": {
+    "about": "Julius Rodriguez, also known as \"Orange Julius\", is an American pianist, drummer and composer. In 2021, Rodriguez signed with Verve Records.",
+    "about_source": "https://en.wikipedia.org/wiki/Julius_Rodriguez",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1046617798",
+      "homepage": "https://www.juliusrodriguez.com/",
+      "instagram": "https://www.instagram.com/orangejuliusmusic/",
+      "soundcloud": "https://soundcloud.com/orangejuliusmusic",
+      "spotify": "https://open.spotify.com/artist/50qPbhYR2iMZzD3iz0eBMF",
+      "youtube": "https://www.youtube.com/channel/UCrzGMynhRFAQJgfv9_AhkFg"
+    },
+    "mbid": "020ccb10-f02f-4e2f-bfb9-52c3190e12cb"
   },
   "Junior Mesa Live in Los Angeles NIGHT 1 (SOLD OUT)": {
     "checked": "2026-10-31"
@@ -5054,6 +5362,9 @@
     },
     "mbid": "70f9f853-8643-4864-ba71-dde8e9b8dd64"
   },
+  "LAST NITE (Trent. + Virgin Miri)": {
+    "checked": "2026-11-25"
+  },
   "LEVEL UP AT HOLLYWOOD PALLADIUM": {
     "checked": "2026-10-31"
   },
@@ -5265,6 +5576,9 @@
     "checked": "2026-10-31",
     "mbid": "7066181c-357e-4c8e-b2a9-c4e7c3c54dce"
   },
+  "Liam Tully": {
+    "checked": "2026-11-25"
+  },
   "Libidinous Acts": {
     "about": "Group from California.",
     "about_source": "https://musicbrainz.org/artist/490f3182-9050-402a-af26-e67468d05ce1",
@@ -5336,6 +5650,21 @@
   },
   "Louie Vega & The Elements of Life": {
     "checked": "2026-11-18"
+  },
+  "Louis Cole": {
+    "about": "Louis Maxwell Cole is an American musician, singer-songwriter, and video producer who is the drummer, keyboardist, and bassist of the independent electronic jazz-funk duo Knower. He is speculated to be a member of the avant-garde musical duo Clown Core.",
+    "about_source": "https://en.wikipedia.org/wiki/Louis_Cole",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://itunes.apple.com/us/artist/id217665909",
+      "bandcamp": "https://louiscole.bandcamp.com/",
+      "instagram": "https://www.instagram.com/louiscolemusic/",
+      "qobuz": "https://open.qobuz.com/artist/188718",
+      "soundcloud": "https://soundcloud.com/louiscole",
+      "spotify": "https://open.spotify.com/artist/6uIst176jhzooPMetg2rtH",
+      "youtube": "https://www.youtube.com/channel/UCrgACV046xX2A9ljab3u43g"
+    },
+    "mbid": "525ef747-abf6-423c-98b4-cd49c0c07927"
   },
   "Love, Gibby; The Singer & Songs of The Butthole Surfers": {
     "checked": "2026-11-18"
@@ -5484,6 +5813,19 @@
       "spotify": "https://open.spotify.com/artist/2SYmvaU9yUWwbsMdrsd4LX"
     },
     "mbid": "c4b842b0-f03a-4975-89ff-4c90f0a66084"
+  },
+  "Madeline Edwards": {
+    "about": "Person from Houston.",
+    "about_source": "https://musicbrainz.org/artist/0fcfe34a-a7d9-4b83-a763-5c9da4daab05",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://itunes.apple.com/us/artist/id1127961228",
+      "homepage": "https://www.madelineedwardsmusic.com/",
+      "instagram": "https://www.instagram.com/makingmadeline/",
+      "spotify": "https://open.spotify.com/artist/3eJCIS7ytlYvT3pgReuWWa",
+      "youtube": "https://www.youtube.com/channel/UCtTs1gNMq_XRdxCZhnnRl5g"
+    },
+    "mbid": "0fcfe34a-a7d9-4b83-a763-5c9da4daab05"
   },
   "Madness": {
     "about": "Person from United States.",
@@ -5732,8 +6074,36 @@
     },
     "mbid": "11fbba53-67ee-4fdd-bb83-05790c13a28f"
   },
+  "Maylee Todd": {
+    "about": "Maylee Vera Todd is a Canadian independent musician, performance artist and producer based in Toronto, Ontario, Canada.",
+    "about_source": "https://en.wikipedia.org/wiki/Maylee_Todd",
+    "checked": "2026-11-25",
+    "links": {
+      "bandcamp": "https://mayleetodd.bandcamp.com/",
+      "homepage": "http://www.mayleetodd.com/",
+      "instagram": "https://www.instagram.com/mayleetodd/",
+      "soundcloud": "https://soundcloud.com/maylee-todd",
+      "youtube": "https://www.youtube.com/channel/UC8_DJTmukLm4xnjPyqeNdbQ"
+    },
+    "mbid": "394cf2f9-9031-42e4-9e2e-c14c98886d68"
+  },
   "Maz": {
     "checked": "2026-10-31"
+  },
+  "Medium Build": {
+    "about": "Nicholas Carpenter, known by his stage name Medium Build, is an American singer-songwriter. He has released five studio albums and is signed to Slowplay / Island Records.",
+    "about_source": "https://en.wikipedia.org/wiki/Medium_Build",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/1034696339",
+      "bandcamp": "https://mediumbuild.bandcamp.com/",
+      "homepage": "https://www.mediumbuildmusic.com/",
+      "instagram": "https://www.instagram.com/mediumbuild/",
+      "qobuz": "https://open.qobuz.com/artist/10679708",
+      "spotify": "https://open.spotify.com/artist/3C6wmSgnZuqxVQyBWujBsn",
+      "youtube": "https://www.youtube.com/@itsmediumbuild"
+    },
+    "mbid": "fbce62fb-53e1-4fb7-8d5d-f77a1b72a4e7"
   },
   "Medium Build Presents The King of Having Fun on Tour": {
     "checked": "2026-10-31"
@@ -5795,6 +6165,19 @@
   },
   "Michael Hampton of Funkadelic": {
     "checked": "2026-10-31"
+  },
+  "Michael Nau": {
+    "about": "Person from United States, born 1984.",
+    "about_source": "https://musicbrainz.org/artist/567f3771-1b6b-4f43-b0c0-69e128e5789a",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1060818236",
+      "bandcamp": "https://michaelnau.bandcamp.com/",
+      "homepage": "https://www.michaelnau.com/",
+      "qobuz": "https://open.qobuz.com/artist/2478852",
+      "spotify": "https://open.spotify.com/artist/1VfgWum48nwYJcCfdPwWgs"
+    },
+    "mbid": "567f3771-1b6b-4f43-b0c0-69e128e5789a"
   },
   "Michael Nau (Night 1)": {
     "checked": "2026-10-31"
@@ -6050,6 +6433,9 @@
     },
     "mbid": "c07f0676-9143-4217-8a9f-4c26bd636f13"
   },
+  "NAMITO X MILI": {
+    "checked": "2026-11-25"
+  },
   "NEMZZZ": {
     "about": "Nemiah Emmanuel Simms, known professionally as Nemzzz, is a British rapper who gained recognition in 2021 with the tracks \"Elevate\" and \"2MS\". He released his first mixtape Do Not Disturb in 2024, which debuted at number 17 on the UK Albums Chart.",
     "about_source": "https://en.wikipedia.org/wiki/Nemzzz",
@@ -6160,6 +6546,9 @@
     },
     "mbid": "a61d862c-2714-47a7-b68b-2870a753f4a8"
   },
+  "Night of a Thousand Robert Pattinsons": {
+    "checked": "2026-11-25"
+  },
   "Nightjacket": {
     "about": "Group from Los Angeles, formed 2014.",
     "about_source": "https://musicbrainz.org/artist/9a33796d-ef5c-43e0-9659-3230f2cdff12",
@@ -6183,6 +6572,17 @@
       "spotify": "https://open.spotify.com/artist/6k0ji2eoZH49ysnY3IgLWc"
     },
     "mbid": "32efc6ae-edf6-4fd1-b268-226073db9a36"
+  },
+  "Nighttime": {
+    "about": "Person from United States.",
+    "about_source": "https://musicbrainz.org/artist/88d549d9-7855-4735-a994-fd80dc1884da",
+    "checked": "2026-11-25",
+    "links": {
+      "bandcamp": "https://nighttimes.bandcamp.com/",
+      "homepage": "http://nighttime.band/",
+      "instagram": "https://www.instagram.com/nighttime666/"
+    },
+    "mbid": "88d549d9-7855-4735-a994-fd80dc1884da"
   },
   "Niko Rubio": {
     "about": "Person from United States, born 2001.",
@@ -6442,6 +6842,9 @@
     },
     "mbid": "69ce32a2-dbb1-42c2-98fc-2fbf896ef861"
   },
+  "Outdoors": {
+    "checked": "2026-11-25"
+  },
   "P.H.F.": {
     "checked": "2026-10-31"
   },
@@ -6619,6 +7022,9 @@
     },
     "mbid": "3533dea4-218c-4fc9-ab6e-2e3dc0ffde6e"
   },
+  "Phi-Psonics": {
+    "checked": "2026-11-25"
+  },
   "Pileup": {
     "about": "Group from Portland.",
     "about_source": "https://musicbrainz.org/artist/75f1e894-ae83-4819-ad20-b3bacc39c065",
@@ -6629,6 +7035,9 @@
       "spotify": "https://open.spotify.com/artist/13T0pvqI92VaGpC2zYKhJU"
     },
     "mbid": "75f1e894-ae83-4819-ad20-b3bacc39c065"
+  },
+  "Piss": {
+    "checked": "2026-11-25"
   },
   "Plastic Nancy": {
     "checked": "2026-10-31"
@@ -6743,6 +7152,9 @@
     "about_source": "https://musicbrainz.org/artist/38d9dcd9-9f4a-40f9-ba8a-39a8493468b9",
     "checked": "2026-10-31",
     "mbid": "38d9dcd9-9f4a-40f9-ba8a-39a8493468b9"
+  },
+  "Prescott Niles The Knack": {
+    "checked": "2026-11-25"
   },
   "Primitive Man": {
     "checked": "2026-10-31"
@@ -6934,6 +7346,9 @@
     },
     "mbid": "0163b00b-e971-4970-b5fa-d60aeb56f20c"
   },
+  "Rebekah": {
+    "checked": "2026-11-25"
+  },
   "Recall": {
     "checked": "2026-10-31"
   },
@@ -6971,6 +7386,9 @@
       "youtube": "https://www.youtube.com/channel/UCjO8iiof-PPyNHRSRJeKclw"
     },
     "mbid": "5e5480be-eded-44ad-9c45-f6136ec2f5db"
+  },
+  "Reggae Fest LA with Malie Donn": {
+    "checked": "2026-11-25"
   },
   "Renée Christine": {
     "about": "Person.",
@@ -7515,6 +7933,20 @@
   "Sarah Z": {
     "checked": "2026-10-31"
   },
+  "Sasha Keable": {
+    "about": "Sasha Keable is a British singer and songwriter. In 2013, she collaborated with Disclosure on the single \"Voices\" and toured with the duo around the UK.",
+    "about_source": "https://en.wikipedia.org/wiki/Sasha_Keable",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/325850892",
+      "homepage": "http://www.sashakeable.com/",
+      "instagram": "https://www.instagram.com/sashakeable/",
+      "soundcloud": "https://soundcloud.com/sasha-keable",
+      "spotify": "https://open.spotify.com/artist/7MxGWmiAbqjNOGmj23wbWf",
+      "youtube": "https://www.youtube.com/channel/UC1_Ej3EWAay6ACKFS8eYfNg"
+    },
+    "mbid": "c2b7f5ad-0db8-4e6d-b228-5598d6b17717"
+  },
   "Sasha Sloan": {
     "checked": "2026-10-31"
   },
@@ -7592,6 +8024,12 @@
   "Sepe": {
     "checked": "2026-10-31"
   },
+  "Sesame Street Live": {
+    "about": "Group.",
+    "about_source": "https://musicbrainz.org/artist/0d754e9a-fd8c-418c-ae0f-1d61b1fd7c88",
+    "checked": "2026-11-25",
+    "mbid": "0d754e9a-fd8c-418c-ae0f-1d61b1fd7c88"
+  },
   "Set Your Goals": {
     "about": "Set Your Goals is an American punk rock band from San Francisco, California, formed in 2004. Their band name is derived from the CIV album of the same name.",
     "about_source": "https://en.wikipedia.org/wiki/Set_Your_Goals_(band)",
@@ -7625,8 +8063,14 @@
   "Sha Ray & DJ Haram": {
     "checked": "2026-10-31"
   },
+  "Shana Sarett & Lucy Blee present Their Annual Holiday Cabaret Benefit Show": {
+    "checked": "2026-11-25"
+  },
   "Shana Sarett & Vince Rossi DJs": {
     "checked": "2026-10-31"
+  },
+  "Shane Butler 'Heavy Debt' Record Release": {
+    "checked": "2026-11-25"
   },
   "Shane Torres": {
     "about": "Person from United States.",
@@ -7679,6 +8123,15 @@
   },
   "Shintaro Sakamoto": {
     "checked": "2026-10-31"
+  },
+  "Sick Jacken": {
+    "about": "Person from United States.",
+    "about_source": "https://musicbrainz.org/artist/7bf7c525-b06b-4dd3-b731-4ed3d6f60778",
+    "checked": "2026-11-25",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/2Rf13iETx8NVJLIc5N6Ub4"
+    },
+    "mbid": "7bf7c525-b06b-4dd3-b731-4ed3d6f60778"
   },
   "Signs of the Swarm": {
     "about": "Signs of the Swarm is an American deathcore band from Pittsburgh, Pennsylvania, formed in 2014. The band has released six studio albums, and consists of drummer Bobby Crow, vocalist David Simonich, guitarist Carl Schulz and bassist Michael Cassese.",
@@ -7967,6 +8420,9 @@
     },
     "mbid": "90c88f94-8b70-49fd-9726-cadf4306ef42"
   },
+  "SpaceFace": {
+    "checked": "2026-11-25"
+  },
   "Spacemoth": {
     "about": "Person from United States.",
     "about_source": "https://musicbrainz.org/artist/0845d9a3-2083-4fc1-bd5f-e49de92ae945",
@@ -7994,6 +8450,22 @@
   },
   "Special Guest Opener": {
     "checked": "2026-10-31"
+  },
+  "Special Guests": {
+    "checked": "2026-11-25"
+  },
+  "Spike Hellis": {
+    "about": "Group from Los Angeles.",
+    "about_source": "https://musicbrainz.org/artist/8f38ffb7-6741-4412-9e8c-8ca99ff9873f",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/1538235269",
+      "bandcamp": "https://spikehellis.bandcamp.com/",
+      "homepage": "https://www.spikehellis.com/",
+      "qobuz": "https://open.qobuz.com/artist/7423705",
+      "spotify": "https://open.spotify.com/artist/4V1L5GIDmdRihhI9R7wMsG"
+    },
+    "mbid": "8f38ffb7-6741-4412-9e8c-8ca99ff9873f"
   },
   "Spill It": {
     "checked": "2026-10-31"
@@ -8113,6 +8585,9 @@
     },
     "mbid": "101c4754-1dc7-4c0f-92b9-49d8063d63da"
   },
+  "Stella + punxsutawney": {
+    "checked": "2026-11-25"
+  },
   "Steller": {
     "checked": "2026-11-11",
     "links": {
@@ -8214,6 +8689,18 @@
     },
     "mbid": "82cbe859-5255-4bbd-bda3-7610a3f857dc"
   },
+  "Sugar Candy Mountain": {
+    "about": "Group from United States, formed 2012.",
+    "about_source": "https://musicbrainz.org/artist/06181fca-00bf-4f50-9d8a-39fd0efb879e",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/423385812",
+      "bandcamp": "https://sugarcandymountain.bandcamp.com/",
+      "homepage": "http://www.sugarcandymountainband.com/",
+      "spotify": "https://open.spotify.com/artist/3y6SKYXXP4lrliD6CzVXH3"
+    },
+    "mbid": "06181fca-00bf-4f50-9d8a-39fd0efb879e"
+  },
   "Sully": {
     "checked": "2026-11-04"
   },
@@ -8304,6 +8791,9 @@
       "spotify": "https://open.spotify.com/artist/3JGxLjd5coSPknSlbYyNLw"
     },
     "mbid": "02452937-d06b-4e9f-966d-8477bae38ddc"
+  },
+  "Sweet Bread": {
+    "checked": "2026-11-25"
   },
   "Sweetestthreat": {
     "checked": "2026-10-31"
@@ -8414,6 +8904,9 @@
       "youtube": "https://www.youtube.com/thegarciaproject"
     },
     "mbid": "7500af7e-51fd-4e0a-adee-a80966a0de80"
+  },
+  "THE NOIR DALIS / VALLEY RATS / AXXIDENT": {
+    "checked": "2026-11-25"
   },
   "THE STUNTDRIVER HOLIDAY FREAK SHOW": {
     "checked": "2026-11-18"
@@ -8700,6 +9193,9 @@
   "That's Not Me Comedy Tour with Concrete": {
     "checked": "2026-10-31"
   },
+  "The 22nd Annual BOWIEMAS!": {
+    "checked": "2026-11-25"
+  },
   "The 8-Bit Big Band": {
     "checked": "2026-10-31"
   },
@@ -8816,6 +9312,9 @@
   },
   "The Centuries": {
     "checked": "2026-10-31"
+  },
+  "The Chapel": {
+    "checked": "2026-11-25"
   },
   "The Cult": {
     "about": "The Cult are an English rock band formed in Bradford in 1983. Before settling on its current name in January 1984, the band had performed under the name Death Cult, which was an evolution of the name of lead vocalist Ian Astbury's previous band Southern Death Cult.",
@@ -9105,6 +9604,12 @@
     },
     "mbid": "ecd00b8b-f697-4d90-8641-6633af356747"
   },
+  "The Little Richards": {
+    "about": "Group.",
+    "about_source": "https://musicbrainz.org/artist/31bdb18a-6b2c-4aef-b634-a7de7f95f2ef",
+    "checked": "2026-11-25",
+    "mbid": "31bdb18a-6b2c-4aef-b634-a7de7f95f2ef"
+  },
   "The Mastersons & Friends": {
     "checked": "2026-11-18"
   },
@@ -9244,6 +9749,9 @@
   "The Rock and Roll Playhouse Plays Music of Tom Petty + More for Kids": {
     "checked": "2026-10-31"
   },
+  "The Searchlights": {
+    "checked": "2026-11-25"
+  },
   "The Sheepdogs": {
     "checked": "2026-10-31"
   },
@@ -9369,6 +9877,9 @@
       "youtube": "https://www.youtube.com/channel/UCHZtqXzkot9AbU6jUC_iCpQ"
     },
     "mbid": "d9c90718-d54d-4ccf-a92e-37a5415ce299"
+  },
+  "The Websites": {
+    "checked": "2026-11-25"
   },
   "The Wombats": {
     "about": "The Wombats are an English indie rock band formed in Liverpool in 2003, consisting of Matthew Murphy, Tord Øverland Knudsen, and Dan Haggis.",
@@ -9573,6 +10084,9 @@
   "Torture Garden Los Angeles 2026": {
     "checked": "2026-10-31"
   },
+  "Tracey Nelson": {
+    "checked": "2026-11-25"
+  },
   "Train Breaks Down": {
     "about": "Group from Los Angeles.",
     "about_source": "https://musicbrainz.org/artist/85aab529-c225-4ad9-9d31-b67b9e72a723",
@@ -9595,6 +10109,16 @@
       "spotify": "https://open.spotify.com/artist/7mhFqGccO5U4pn90mix9S1"
     },
     "mbid": "7406b0d5-657d-445b-8cb0-781bb4e3d276"
+  },
+  "Travis Garland": {
+    "about": "Person from Lubbock, born 1989.",
+    "about_source": "https://musicbrainz.org/artist/f5b8ce54-dc35-4916-ad1a-dce037842918",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://itunes.apple.com/us/artist/id262156860",
+      "spotify": "https://open.spotify.com/artist/5tpWDRL3doEgCZdVn4FsNN"
+    },
+    "mbid": "f5b8ce54-dc35-4916-ad1a-dce037842918"
   },
   "Trippie Redd": {
     "about": "Michael Lamar White II, known professionally as Trippie Redd, is an American rapper, singer, and songwriter. Born and raised in Canton, Ohio, he has contributed to the progression of emo rap and rage, a subgenre of trap music.",
@@ -9626,6 +10150,20 @@
     "about_source": "https://en.wikipedia.org/wiki/Troy_Van_Leeuwen",
     "checked": "2026-10-31",
     "mbid": "c86e7166-b894-4f90-b713-974ab2e1c2ce"
+  },
+  "Truman Sinclair": {
+    "about": "Person from United States.",
+    "about_source": "https://musicbrainz.org/artist/dad54108-729f-450e-848b-42b4c5126484",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1483104826",
+      "bandcamp": "https://trumansinclair.bandcamp.com/",
+      "instagram": "https://www.instagram.com/trumansinclairr/",
+      "qobuz": "https://open.qobuz.com/artist/15130646",
+      "spotify": "https://open.spotify.com/artist/6blV8nsJMWan2a2sYFyxVG",
+      "youtube": "https://www.youtube.com/@trumansinclair7653"
+    },
+    "mbid": "dad54108-729f-450e-848b-42b4c5126484"
   },
   "Tuba Skinny": {
     "about": "Tuba Skinny is an American street band based in New Orleans, Louisiana, known for their performances of early jazz, ragtime, and blues music of the 1920s and 1930s.",
@@ -9745,6 +10283,25 @@
     "checked": "2026-10-31",
     "mbid": "89dbb93e-d777-47aa-abe1-f49c17aa6cae"
   },
+  "UPSAHL": {
+    "about": "Taylor Cameron Upsahl, known mononymously as Upsahl, is an American singer-songwriter from Phoenix, Arizona.",
+    "about_source": "https://en.wikipedia.org/wiki/Upsahl",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1193439527",
+      "bandcamp": "https://upsahl.bandcamp.com/",
+      "homepage": "https://www.upsahl.com/",
+      "instagram": "https://www.instagram.com/upsahlmusic/",
+      "qobuz": "https://open.qobuz.com/artist/4020257",
+      "soundcloud": "https://soundcloud.com/upsahlmusic",
+      "spotify": "https://open.spotify.com/artist/1294QqYm1VuxxjRiL9M0h9",
+      "youtube": "https://www.youtube.com/channel/UCRcL5nuXfXB_8k2ikExgCuw"
+    },
+    "mbid": "6c271707-9c98-4024-b6a0-818569ce9028"
+  },
+  "Ultrabed": {
+    "checked": "2026-11-25"
+  },
   "Uncharted Territories Film Premiere": {
     "checked": "2026-11-11"
   },
@@ -9856,6 +10413,9 @@
   "Voyeur": {
     "checked": "2026-10-31"
   },
+  "WA$TED x TRINITY": {
+    "checked": "2026-11-25"
+  },
   "WAAX": {
     "checked": "2026-10-31"
   },
@@ -9926,6 +10486,12 @@
     },
     "mbid": "cb3c8a74-5f1f-4750-b6d6-9d769d182d11"
   },
+  "Whale Songz": {
+    "about": "Group, formed 2025.",
+    "about_source": "https://musicbrainz.org/artist/80bd8deb-d685-49d8-8275-cd57e7fb62b3",
+    "checked": "2026-11-25",
+    "mbid": "80bd8deb-d685-49d8-8275-cd57e7fb62b3"
+  },
   "Wheeler Walker Jr.": {
     "about": "Benjamin Isaac Hoffman is an American comedian, actor, writer, and musician. Hoffman is better known by his country musician alter ego Wheeler Walker Jr., as whom he has released six studio albums.",
     "about_source": "https://en.wikipedia.org/wiki/Ben_Hoffman",
@@ -9941,6 +10507,9 @@
   "Whitney": {
     "checked": "2026-11-11",
     "mbid": "c8adeb75-8ec5-4b0f-a5d3-13e87da1d19a"
+  },
+  "Whitney Johnson/Lia Kohl/Macie Stewart": {
+    "checked": "2026-11-25"
   },
   "Whoremones": {
     "about": "Group from Los Angeles.",
@@ -10005,6 +10574,18 @@
   },
   "Wonderfox": {
     "checked": "2026-10-31"
+  },
+  "Wooden Wand": {
+    "about": "Wooden Wand is the stage name of singer-songwriter James Jackson Toth, who has recorded under his given name as well as the name WAND.",
+    "about_source": "https://en.wikipedia.org/wiki/Wooden_Wand",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/79122253",
+      "bandcamp": "https://woodenwandmusic.bandcamp.com/",
+      "homepage": "http://www.woodenwand.org/",
+      "spotify": "https://open.spotify.com/artist/7nXvgrXigi7PtsfyxtKMrr"
+    },
+    "mbid": "53aa3df7-2631-48a5-87fb-1d4096566aca"
   },
   "Worldpeace DMT": {
     "about": "From London.",
@@ -10158,6 +10739,18 @@
     },
     "mbid": "ad1eceb6-64f9-41d1-83c9-a980bedcebc2"
   },
+  "Zach John King": {
+    "about": "Person from Fayetteville.",
+    "about_source": "https://musicbrainz.org/artist/5a2ab31d-e000-4fb6-bea6-e494835dc20d",
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1671037314",
+      "homepage": "https://www.zachjohnking.com/",
+      "qobuz": "https://open.qobuz.com/artist/17704767",
+      "spotify": "https://open.spotify.com/artist/7d00Y5kG1ZIPvWNl8LgHqB"
+    },
+    "mbid": "5a2ab31d-e000-4fb6-bea6-e494835dc20d"
+  },
   "Zamythi": {
     "checked": "2026-10-31"
   },
@@ -10170,6 +10763,12 @@
   },
   "Zuli Jr. Album Release Show": {
     "checked": "2026-10-31"
+  },
+  "a DJ set by Mat Ferraro": {
+    "checked": "2026-11-25"
+  },
+  "a very cater 2 u holiday": {
+    "checked": "2026-11-25"
   },
   "adan diaz": {
     "about": "Person from Chicago, born 2004.",
@@ -10219,6 +10818,21 @@
   },
   "campthehills & Babe Dylan": {
     "checked": "2026-10-31"
+  },
+  "comehelpglo": {
+    "checked": "2026-11-25",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1743324158",
+      "instagram": "https://www.instagram.com/comehelpglo/",
+      "qobuz": "https://open.qobuz.com/artist/22254407",
+      "soundcloud": "https://soundcloud.com/glo-778605517",
+      "spotify": "https://open.spotify.com/artist/5Z9nWuFMEQ97O7ixur2c8l",
+      "youtube": "https://www.youtube.com/@comehelpglooo"
+    },
+    "mbid": "ede7c451-6309-4751-8ce0-cde337483b89"
+  },
+  "dBmp (Eric Avery and Josh Klinghoffer)": {
+    "checked": "2026-11-25"
   },
   "departmefrombearisland": {
     "about": "Group from California.",
@@ -10359,6 +10973,18 @@
       "youtube": "https://www.youtube.com/channel/UCtMnDgjWZJFTkI25evyna2Q"
     },
     "mbid": "36c557c3-d149-491e-90ed-46d69d978f9a"
+  },
+  "piri": {
+    "about": "Sophie McBurnie, known professionally as Piri, is an English musician.",
+    "about_source": "https://en.wikipedia.org/wiki/Piri",
+    "checked": "2026-11-25",
+    "links": {
+      "bandcamp": "https://pirimusic.bandcamp.com/",
+      "instagram": "https://www.instagram.com/piri.io_/",
+      "soundcloud": "https://soundcloud.com/piriio",
+      "spotify": "https://open.spotify.com/artist/4DpmPt7gfAAq7WEx0E1X8s"
+    },
+    "mbid": "0e77a40b-5cf7-4080-bb47-c72e35defc23"
   },
   "pupsies with Tech Grl": {
     "checked": "2026-11-11"
