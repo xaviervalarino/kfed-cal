@@ -375,7 +375,7 @@ def permanent_records_events(page_html, page, today):
 
 # --- Monty Bar: a weekly flyer image read by Claude Haiku. Needs ANTHROPIC_API_KEY.
 HAIKU = "claude-haiku-5-5"
-MONTY_FLYER = re.compile(r"https://montybar\.com/wp-content/uploads/[\w/]+/MONTY-weekly-[\d-]+?(?:-\d+x\d+)?\.(?:png|jpe?g)")
+MONTY_FLYER = re.compile(r"https://montybar\.com/wp-content/uploads/[\w/]+/MONTY-weekly-[\w-]+?(?:-\d+x\d+)?\.(?:png|jpe?g)")
 MONTY_PROMPT = """This is the weekly events flyer for Monty Bar, a bar in Los Angeles. Today is {today}.
 List every event on the flyer, one entry per event. Use the year of the week shown on the flyer.
 Copy text exactly as written. Do not guess: if a day has no event, leave it out.

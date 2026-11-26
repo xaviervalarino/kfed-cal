@@ -327,6 +327,13 @@ class MontyFlyerTest(unittest.TestCase):
         self.assertEqual([e["title"] for e in events], ["CLUB NEVERMORE", "DANSE-X", "BATASTROPHE"])
         self.assertEqual(events[2]["price"], "free")
 
+    def test_flyer_name_with_suffix(self):
+        thumbnail = "https://montybar.com/wp-content/uploads/2026/11/MONTY-weekly-2026-47-IG-819x1024.png"
+        self.fetcher.routes["https://montybar.com/"] = httpx.Response(200, text=f'<img src="{thumbnail}">')
+        methods.monty_flyer(self.VENUE, self.fetcher, {})
+        self.assertEqual(self.fetcher.calls[1][0],
+                         "https://montybar.com/wp-content/uploads/2026/11/MONTY-weekly-2026-47-IG.png")
+
     def test_last_weeks_flyer(self):
         FixedDate.today_is = date(2026, 11, 4)
         report = {}
