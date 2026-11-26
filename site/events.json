@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T18:20:32+00:00",
+  "updated": "2026-11-26T19:13:02+00:00",
   "timezone": "America/Los_Angeles",
   "artists": {
     "Mermaid Island": {
@@ -194,6 +194,17 @@
       },
       "mbid": "e0b267df-9e16-4fd3-abb2-b47e61e7a2aa"
     },
+    "SAVE THE ROBOTS": {
+      "about": "Group.",
+      "about_source": "https://musicbrainz.org/artist/030f7d27-beb0-4799-9b04-7e8cc3e3ac54",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6kRgyQeCXzHakaXKaftYpi",
+        "qobuz": "https://open.qobuz.com/artist/11688120",
+        "apple_music": "https://music.apple.com/gb/artist/1592341818",
+        "youtube": "https://music.youtube.com/channel/UCOHsO0SGxiOh1EEkomqmKYw"
+      },
+      "mbid": "030f7d27-beb0-4799-9b04-7e8cc3e3ac54"
+    },
     "Hippie Death Cult": {
       "about": "Group from United States, formed 2017.",
       "about_source": "https://musicbrainz.org/artist/3a020ae9-62e2-4d4f-bc28-fc0965a02f7f",
@@ -237,6 +248,14 @@
     },
     "Hummus Vacuum": {
       "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg"
+    },
+    "BATASTROPHE": {
+      "about": "Group from Brazil.",
+      "about_source": "https://musicbrainz.org/artist/2ea21597-f8c9-4eed-b40c-33e34a497bea",
+      "links": {
+        "bandcamp": "https://batastrophe.bandcamp.com/"
+      },
+      "mbid": "2ea21597-f8c9-4eed-b40c-33e34a497bea"
     },
     "Alyssa Grace": {
       "about": "Person.",
@@ -3233,6 +3252,9 @@
         "spotify": "https://open.spotify.com/artist/0YfeVLbLdLI28s03XYXfnJ"
       },
       "mbid": "a96e7a4d-54c2-48f9-bbdf-3f4a6971b0de"
+    },
+    "Talk Time": {
+      "mbid": "65a51b0c-9b82-4dfb-a93a-a8a2d7d5d680"
     },
     "Twinsick": {
       "about": "Group from Minneapolis.",
@@ -7839,6 +7861,13 @@
   ],
   "events": [
     {
+      "venue": "Monty Bar",
+      "title": "BAR CLOSED. HAPPY THANKSGIVING!",
+      "start": "2026-11-26",
+      "url": "https://montybar.com/",
+      "image": "https://montybar.com/wp-content/uploads/2026/11/MONTY-weekly-2026-47-IG.png"
+    },
+    {
       "venue": "Hollywood Palladium",
       "title": "Insomniac presents DEVAULT",
       "start": "2026-11-27",
@@ -7905,6 +7934,15 @@
       "url": "https://dice.fm/event/69af3df1a979360001173099",
       "image": "https://dice-media.imgix.net/attachments/2026-03-11/5bd05624-68ec-42a8-8445-0ed7f1ce797e.jpg?rect=0%2C0%2C1080%2C1080",
       "source_id": "dice:69af3df1a979360001173099"
+    },
+    {
+      "venue": "Monty Bar",
+      "title": "MASOCHIST II",
+      "details": "2 ROOMS OF NOSTALGIC INDUSTRIAL & GOTH ANTHEMS / DJs DARK CHRYSTAL + TONY X + PROTOLKALL + BEAST + MORE",
+      "start": "2026-11-27T21:00",
+      "price": "free",
+      "url": "https://montybar.com/",
+      "image": "https://montybar.com/wp-content/uploads/2026/11/MONTY-weekly-2026-47-IG.png"
     },
     {
       "venue": "Permanent Records Roadhouse",
@@ -8113,6 +8151,24 @@
       "source_id": "dice:6a95e51a85435f0001595688"
     },
     {
+      "venue": "Monty Bar",
+      "title": "SAVE THE ROBOTS",
+      "details": "IN THE BACK ROOM / EBM // NEW BEAT // ACID",
+      "start": "2026-11-28T21:00",
+      "price": "free",
+      "url": "https://montybar.com/",
+      "image": "https://montybar.com/wp-content/uploads/2026/11/MONTY-weekly-2026-47-IG.png"
+    },
+    {
+      "venue": "Monty Bar",
+      "title": "SOCIETY",
+      "details": "DARK SYNTH DANCE NIGHT / ESLI + JONAS + LOVESTREAMS + BLAIR MINOR",
+      "start": "2026-11-28T21:00",
+      "price": "free",
+      "url": "https://montybar.com/",
+      "image": "https://montybar.com/wp-content/uploads/2026/11/MONTY-weekly-2026-47-IG.png"
+    },
+    {
       "venue": "Permanent Records Roadhouse",
       "title": "Hippie Death Cult",
       "support": [
@@ -8248,6 +8304,15 @@
       "url": "https://dice.fm/event/6a8a48e8c3983700014e6473",
       "image": "https://dice-media.imgix.net/attachments/2026-08-23/8583fe27-c759-4e0c-aa40-1bc07673412a.jpg?rect=334%2C0%2C1333%2C1333",
       "source_id": "dice:6a8a48e8c3983700014e6473"
+    },
+    {
+      "venue": "Monty Bar",
+      "title": "BATASTROPHE",
+      "details": "GOTHIK ROCK // DEATHROCK // BATCAVE / DJs STEVE SKELETAL + TONY X",
+      "start": "2026-11-29T21:00",
+      "price": "free",
+      "url": "https://montybar.com/",
+      "image": "https://montybar.com/wp-content/uploads/2026/11/MONTY-weekly-2026-47-IG.png"
     },
     {
       "venue": "Troubadour",

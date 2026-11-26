@@ -14,6 +14,9 @@
   "20 Years of Nekrogoblikon": {
     "checked": "2026-10-31"
   },
+  "20 Years of PIAPTK Records with": {
+    "checked": "2026-11-26"
+  },
   "2026 tripleS world tour [ANDLESS] in NA": {
     "checked": "2026-10-31"
   },
@@ -5573,6 +5576,9 @@
     },
     "mbid": "95b0d5b3-2815-4ffc-9bfe-2ace8300b463"
   },
+  "Leafblower": {
+    "checked": "2026-11-26"
+  },
   "Lee DeWyze": {
     "about": "Leon James \"Lee\" DeWyze Jr. is an American singer-songwriter and the winner of the ninth season of American Idol.",
     "about_source": "https://en.wikipedia.org/wiki/Lee_DeWyze",
@@ -5786,6 +5792,9 @@
   },
   "M-16": {
     "checked": "2026-10-31"
+  },
+  "MASOCHIST II": {
+    "checked": "2026-11-26"
   },
   "MAZ": {
     "checked": "2026-11-11"
@@ -6913,6 +6922,9 @@
   "P.H.F.": {
     "checked": "2026-10-31"
   },
+  "PIAPTK Records": {
+    "checked": "2026-11-26"
+  },
   "POISON THE WELL & ALEXISONFIRE": {
     "checked": "2026-11-04"
   },
@@ -7798,6 +7810,18 @@
     },
     "mbid": "c1184bef-262b-4d23-8946-57f2ce92311c"
   },
+  "SAVE THE ROBOTS": {
+    "about": "Group.",
+    "about_source": "https://musicbrainz.org/artist/030f7d27-beb0-4799-9b04-7e8cc3e3ac54",
+    "checked": "2026-11-26",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/1592341818",
+      "qobuz": "https://open.qobuz.com/artist/11688120",
+      "spotify": "https://open.spotify.com/artist/6kRgyQeCXzHakaXKaftYpi",
+      "youtube": "https://music.youtube.com/channel/UCOHsO0SGxiOh1EEkomqmKYw"
+    },
+    "mbid": "030f7d27-beb0-4799-9b04-7e8cc3e3ac54"
+  },
   "SHADESOFBLUE": {
     "checked": "2026-10-31"
   },
@@ -7829,6 +7853,9 @@
       "youtube": "https://www.youtube.com/Six60NZ"
     },
     "mbid": "0fc1bbd2-c8a0-43cc-a0a1-db1c3fe805d9"
+  },
+  "SOCIETY": {
+    "checked": "2026-11-26"
   },
   "SPIRIT POSSESSION": {
     "about": "Group from United States, formed 2019.",
@@ -9068,6 +9095,10 @@
       "youtube": "https://music.youtube.com/channel/UCHwCLoOo6TbUtaiGkOEBAOw"
     },
     "mbid": "da8a52b3-3432-4f82-aaf9-4e892ea7c847"
+  },
+  "Talk Time": {
+    "checked": "2026-11-26",
+    "mbid": "65a51b0c-9b82-4dfb-a93a-a8a2d7d5d680"
   },
   "Tall Black Guy \"Let's Take a Trip\" 10th Anniversary": {
     "checked": "2026-10-31"
