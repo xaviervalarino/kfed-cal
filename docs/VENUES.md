@@ -47,9 +47,7 @@ TM lists separate events for multi-day passes (e.g. "And Always Forever 2026 - 2
 | Fonda / Roxy (alt) | `aeg` | `https://aegwebprod.blob.core.windows.net/json/events/18/events.json` (Fonda), `/81/` (Roxy) | prices always "$0" = unknown; drop `statusId == 2` (cancelled) and "TBD" dates |
 | El Cid | `dice_venue` | `https://dice.fm/venue/el-cid-ven7` | 30 shows (the cap, ~5 weeks). The DICE widget on `elcidsunset.com/events` lists the same venue, plus a few "linkout" nights (flamenco dinners, comedy) that the venue page leaves out. TM KovZ917ASUM has only 3 |
 | Permanent Records Roadhouse | new HTML method | `http://roadhouse.permanentrecordsla.com/` (http: the https cert is self-signed) | lists shows as text like "November 1st - 6PM"; needs a small parser |
-| Monty Bar | `monty_flyer` | weekly flyer image on `https://montybar.com/` (`wp-content/uploads/.../MONTY-weekly-YYYY-NN.png`, strip `-WxH` for full size) read by Claude Haiku 5.5 with a JSON schema | reference: `reference/probe_monty_flyer.py`. 5/5 nights correct, ~$0.001 per run. Keep ambiguous text (e.g. "Performing live: …") in the event's details, never drop it. Flyer covers Wed–Sun, hence the Wednesday schedule. Each event's `image` is the full-size flyer, shown in the show details |
-| Silverlake Lounge | none yet | — | DICE page empty, no site listings, Instagram image posts only. Waiting on the venue's mailing-list email (owner is subscribing). Show it on the status page as "no source" |
-
+| Monty Bar | `monty_flyer` | weekly flyer image on `https://montybar.com/` (`wp-content/uploads/.../MONTY-weekly-YYYY-NN.png`, sometimes with a suffix like `-IG`; strip `-WxH` for full size) read by Claude Haiku 5.5 with a JSON schema | reference: `reference/probe_monty_flyer.py`. 5/5 nights correct, ~$0.001 per run. Keep ambiguous text (e.g. "Performing live: …") in the event's details, never drop it. Flyer covers Wed–Sun, hence the Wednesday schedule. Each event's `image` is the full-size flyer, shown in the show details |
 ## Rules that came out of probing
 
 1. Plain HTTP first (`httpx`), honest User-Agent, respect robots.txt, 2 s between requests to the same host.

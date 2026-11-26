@@ -5,7 +5,8 @@ Nov 2 2026).
 
 ## Venues
 
-- Silverlake Lounge: no source. The owner will forward the venue's mailing-list email; a method can read that.
+- Silverlake Lounge: dropped Nov 26 2026. It posts its shows only as Instagram images, which the scraper can't
+  read. Add it back if it lists shows on its site, DICE or a mailing list.
 - Fallback methods, built only if Ticketmaster falls short for a venue: `aeg` (Fonda, Roxy) and `hollywood_bowl`.
   Sources and quirks are in `VENUES.md`; prototypes in `reference/prototypes/` (`axs_methods_snippet.py`,
   `round2b_methods_round2b.py`).

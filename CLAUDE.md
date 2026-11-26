@@ -1,6 +1,6 @@
 # kfed-cal
 
-A free, static calendar of upcoming shows at 24 Los Angeles music venues ("KFED CAL"). A Python scraper runs
+A free, static calendar of upcoming shows at 23 Los Angeles music venues ("KFED CAL"). A Python scraper runs
 weekly on GitHub Actions and commits `site/events.json`, `site/status.json` and `scraper/cache/artists.json`.
 The pages are a Svelte app in `web/`; the workflow builds it with the `site/` files copied in, and GitHub Pages
 serves the build. Live: https://xaviervalarino.github.io/kfed-cal/

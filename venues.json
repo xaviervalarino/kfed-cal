@@ -149,11 +149,6 @@
       "events_page": "https://montybar.com/",
       "method": "monty_flyer",
       "notes": "Weekly flyer image (Wednesday to Sunday), read by Claude Haiku."
-    },
-    {
-      "name": "Silverlake Lounge",
-      "website": "http://thesilverlakelounge.com/",
-      "notes": "No listings online yet. Waiting on the venue's mailing-list email."
     }
   ]
 }
