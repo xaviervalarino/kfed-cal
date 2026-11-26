@@ -10,10 +10,12 @@ import html
 import json
 import os
 import re
+import time
 from datetime import date, datetime, timedelta
 from urllib.parse import urljoin
 
 import anthropic
+import httpx
 from bs4 import BeautifulSoup
 
 from .artists import tm_artist
@@ -406,12 +408,25 @@ MONTY_SCHEMA = {
 }
 
 
+def monty_page(fetcher, page):
+    """The page, fetched once more after a pause if the first try fails or shows no flyer: from GitHub's
+    runners the site sometimes drops the connection or answers without the flyer."""
+    try:
+        response = fetcher.get(page)
+        if MONTY_FLYER.search(response.text):
+            return response
+    except httpx.HTTPError:
+        pass
+    time.sleep(30)
+    return fetcher.get(page)
+
+
 def monty_flyer(venue, fetcher, report):
     """The flyer covers Wednesday to Sunday of the current week, so the scrape runs on Wednesdays."""
     if not os.environ.get("ANTHROPIC_API_KEY"):
         raise RuntimeError("ANTHROPIC_API_KEY is not set.")
     page = venue["events_page"]
-    response = fetcher.get(page)
+    response = monty_page(fetcher, page)
     found = MONTY_FLYER.findall(response.text)
     if not found:
         title = BeautifulSoup(response.text, "html.parser").title

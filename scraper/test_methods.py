@@ -302,6 +302,9 @@ class MontyFlyerTest(unittest.TestCase):
         self.client = patcher.start().return_value
         self.client.messages.create.return_value = reply
         self.addCleanup(patcher.stop)
+        sleep = mock.patch.object(methods.time, "sleep")
+        self.sleep = sleep.start()
+        self.addCleanup(sleep.stop)
         FixedDate.today_is = date(2026, 10, 28)
 
     def test_events(self):
@@ -338,6 +341,21 @@ class MontyFlyerTest(unittest.TestCase):
         self.fetcher.routes["https://montybar.com/"] = httpx.Response(200, text="<title>Monty Bar</title>")
         with self.assertRaisesRegex(ValueError, r"no weekly flyer image on the page \(200, 24 bytes, title 'Monty Bar'\)"):
             methods.monty_flyer(self.VENUE, self.fetcher, {})
+
+    def test_retry(self):
+        """A dropped connection, then a page without the flyer: each time the second try gets the flyer."""
+        pages = iter([httpx.RemoteProtocolError("Server disconnected"), None, "<title>Monty Bar</title>", None])
+
+        def page(params):
+            answer = next(pages)
+            if isinstance(answer, Exception):
+                raise answer
+            return answer or fixture("monty_flyer.html")
+
+        self.fetcher.routes["https://montybar.com/"] = page
+        for _ in range(2):
+            self.assertEqual(len(methods.monty_flyer(self.VENUE, self.fetcher, {})), 5)
+        self.assertEqual(self.sleep.call_args_list, [mock.call(30)] * 2)
 
     def test_last_weeks_flyer(self):
         FixedDate.today_is = date(2026, 11, 4)
