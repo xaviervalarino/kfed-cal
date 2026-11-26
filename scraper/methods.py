@@ -411,9 +411,12 @@ def monty_flyer(venue, fetcher, report):
     if not os.environ.get("ANTHROPIC_API_KEY"):
         raise RuntimeError("ANTHROPIC_API_KEY is not set.")
     page = venue["events_page"]
-    found = MONTY_FLYER.findall(fetcher.get(page).text)
+    response = fetcher.get(page)
+    found = MONTY_FLYER.findall(response.text)
     if not found:
-        raise ValueError("Found no weekly flyer image on the page.")
+        title = BeautifulSoup(response.text, "html.parser").title
+        raise ValueError(f"Found no weekly flyer image on the page ({response.status_code}, "
+                         f"{len(response.content)} bytes, title {title.get_text(strip=True) if title else None!r}).")
     flyer = re.sub(r"-\d+x\d+(?=\.\w+$)", "", found[0])  # the full-size image, not a thumbnail
     image = fetcher.get(flyer)
     response = anthropic.Anthropic().messages.create(

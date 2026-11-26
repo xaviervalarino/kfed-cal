@@ -334,6 +334,11 @@ class MontyFlyerTest(unittest.TestCase):
         self.assertEqual(self.fetcher.calls[1][0],
                          "https://montybar.com/wp-content/uploads/2026/11/MONTY-weekly-2026-47-IG.png")
 
+    def test_no_flyer(self):
+        self.fetcher.routes["https://montybar.com/"] = httpx.Response(200, text="<title>Monty Bar</title>")
+        with self.assertRaisesRegex(ValueError, r"no weekly flyer image on the page \(200, 24 bytes, title 'Monty Bar'\)"):
+            methods.monty_flyer(self.VENUE, self.fetcher, {})
+
     def test_last_weeks_flyer(self):
         FixedDate.today_is = date(2026, 11, 4)
         report = {}
