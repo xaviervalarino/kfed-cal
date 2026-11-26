@@ -341,6 +341,7 @@ class MontyFlyerTest(unittest.TestCase):
         self.fetcher.routes["https://montybar.com/"] = httpx.Response(200, text="<title>Monty Bar</title>")
         with self.assertRaisesRegex(ValueError, r"no weekly flyer image on the page \(200, 24 bytes, title 'Monty Bar'\)"):
             methods.monty_flyer(self.VENUE, self.fetcher, {})
+        self.sleep.assert_called_once_with(30)  # gave up only after the second try
 
     def test_retry(self):
         """A dropped connection, then a page without the flyer: each time the second try gets the flyer."""

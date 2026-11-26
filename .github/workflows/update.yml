@@ -61,7 +61,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          failed=$(jq -r '.venues[] | select(.status == "failed" or .status == "kept") | "- \(.name): \(.note)"' site/status.json)
+          failed=$(jq -r '.venues[] | select(.status == "failed" or .status == "kept") | "- \(.name): `\(.note)`"' site/status.json)  # backticks: scraped text can't @mention anyone
           [ -z "$failed" ] && exit 0
           body=$(printf 'These venues failed in the scrape on %s:\n\n%s\n\nRun: %s/%s/actions/runs/%s' \
             "$(date -u +%F)" "$failed" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")
