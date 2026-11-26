@@ -1,43 +1,7 @@
 {
-  "updated": "2026-11-25T20:10:39+00:00",
+  "updated": "2026-11-26T18:20:32+00:00",
   "timezone": "America/Los_Angeles",
   "artists": {
-    "Kabaka Pyramid": {
-      "about": "Keron Salmon, known professionally as Kabaka Pyramid, is a reggae artist from Kingston, Jamaica. His music blends elements of roots reggae, dancehall and rap.",
-      "about_source": "https://en.wikipedia.org/wiki/Kabaka_Pyramid",
-      "image": "https://s1.ticketm.net/dam/a/248/e7ad2ed5-0f54-4eb7-a7ec-92353000f248_1681231_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/10p1CDVyRIkR2ybAu7SbVH?autoplay=true",
-        "bandcamp": "https://kabakapyramid.bandcamp.com/",
-        "qobuz": "https://open.qobuz.com/artist/949582",
-        "apple_music": "https://music.apple.com/ca/artist/kabaka-pyramid/514021623",
-        "soundcloud": "https://soundcloud.com/bebblerock",
-        "youtube": "https://www.youtube.com/user/kabakapyramid",
-        "instagram": "http://instagram.com/kabakapyramid"
-      },
-      "mbid": "364162c7-09be-4462-b3c9-2f410b23605d"
-    },
-    "Big Ass Truck I.E.": {
-      "about": "Group from California.",
-      "about_source": "https://musicbrainz.org/artist/b0caf649-6cbb-4279-a511-d5b5a0a31a93",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/1IegtgbvrijV4Rzw07RYM2",
-        "apple_music": "https://music.apple.com/gb/artist/1715912011",
-        "instagram": "https://www.instagram.com/bigassmftruck/"
-      },
-      "mbid": "b0caf649-6cbb-4279-a511-d5b5a0a31a93"
-    },
-    "ezcodylee": {
-      "about": "Ethan Codylee Graham, known professionally as ezcodylee, is an American rapper from Los Angeles, California. He first rose to popularity in 2025 with the release of his project Stunt and Die 3, a project that has been described as digicore and rage rap, backed by electric guitar riffs.",
-      "about_source": "https://en.wikipedia.org/wiki/Ezcodylee",
-      "links": {
-        "spotify": "https://open.spotify.com/artist/4ZmwdJnMTqHie4HvzBd0rC",
-        "apple_music": "https://music.apple.com/gb/artist/1462158297",
-        "soundcloud": "https://soundcloud.com/ezcodylee",
-        "homepage": "https://ezcodylee.com/"
-      },
-      "mbid": "c63ab8a1-7eeb-4482-a609-e16fceac21c8"
-    },
     "Mermaid Island": {
       "mbid": "cda00a80-7647-401b-bfe5-b406a01e6aab"
     },
@@ -2234,12 +2198,6 @@
       },
       "mbid": "00447c0c-bc7e-4578-a206-31e95ac97571"
     },
-    "REXV2": {
-      "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
-      "links": {
-        "instagram": "https://www.instagram.com/rexv2s"
-      }
-    },
     "Yaelokre": {
       "image": "https://s1.ticketm.net/dam/a/0fa/a34b4655-7481-4ba8-a5ce-d9542f5d50fa_RETINA_LANDSCAPE_16_9.jpg",
       "links": {
@@ -2479,6 +2437,16 @@
       },
       "mbid": "8dd37f6f-bf89-40f2-8b46-46bb850cb29e"
     },
+    "Holdan Sutton": {
+      "about": "Person.",
+      "about_source": "https://musicbrainz.org/artist/445f4080-aa6a-49eb-85f2-e4d222239da2",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/4VRRVLm2L1yeCKSFGR57zl",
+        "apple_music": "https://music.apple.com/us/artist/1460037547",
+        "instagram": "https://www.instagram.com/holdansutton/"
+      },
+      "mbid": "445f4080-aa6a-49eb-85f2-e4d222239da2"
+    },
     "Medium Build": {
       "about": "Nicholas Carpenter, known by his stage name Medium Build, is an American singer-songwriter. He has released five studio albums and is signed to Slowplay / Island Records.",
       "about_source": "https://en.wikipedia.org/wiki/Medium_Build",
@@ -2492,6 +2460,11 @@
         "instagram": "https://www.instagram.com/mediumbuild/"
       },
       "mbid": "fbce62fb-53e1-4fb7-8d5d-f77a1b72a4e7"
+    },
+    "Michael Simon Armstrong": {
+      "about": "Person.",
+      "about_source": "https://musicbrainz.org/artist/91173f91-187a-46cd-a56c-a191808551bd",
+      "mbid": "91173f91-187a-46cd-a56c-a191808551bd"
     },
     "Truman Sinclair": {
       "about": "Person from United States.",
@@ -2870,7 +2843,16 @@
       "mbid": "7bf7c525-b06b-4dd3-b731-4ed3d6f60778"
     },
     "YeloHill": {
-      "image": "https://s1.ticketm.net/dam/a/453/2a962514-ac68-4bb3-ac70-8605e7df7453_1779101_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from Los Angeles.",
+      "about_source": "https://musicbrainz.org/artist/6adb71ac-d650-4305-9f52-1c8b11fa57fb",
+      "image": "https://s1.ticketm.net/dam/a/453/2a962514-ac68-4bb3-ac70-8605e7df7453_1779101_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/0IgLirgKCxQb13uM8FuQpR",
+        "apple_music": "https://music.apple.com/us/artist/1365144146",
+        "soundcloud": "https://soundcloud.com/yelohill",
+        "instagram": "https://www.instagram.com/yelohill/"
+      },
+      "mbid": "6adb71ac-d650-4305-9f52-1c8b11fa57fb"
     },
     "Blu": {
       "about": "Johnson Barnes III, better known by his stage name Blu, is an American rapper and record producer from Los Angeles, California. He performs as one half of the duo Blu & Exile, which was formed in 2007 and who released their debut studio album, Below the Heavens in July of that year.",
@@ -3047,6 +3029,16 @@
     },
     "LXGIT": {
       "image": "https://s1.ticketm.net/dam/a/19f/4007d35e-aa02-448f-bd76-833cb100919f_RETINA_LANDSCAPE_16_9.jpg"
+    },
+    "Perennial": {
+      "about": "Group from New England, formed 2015.",
+      "about_source": "https://musicbrainz.org/artist/ab88030c-19bf-4059-9349-16f21ae63f80",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/7oLhWWqX188fvNQ6aqxLz3",
+        "bandcamp": "https://perennialtheband.bandcamp.com/",
+        "apple_music": "https://music.apple.com/gb/artist/1258341060"
+      },
+      "mbid": "ab88030c-19bf-4059-9349-16f21ae63f80"
     },
     "Anna Von Hausswolff": {
       "image": "https://s1.ticketm.net/dam/a/eb8/c01b43dc-4b64-4662-a1cf-272cd5cc9eb8_RETINA_LANDSCAPE_16_9.jpg",
@@ -3419,6 +3411,17 @@
         "apple_music": "https://music.apple.com/gb/artist/1404188409"
       },
       "mbid": "107b22ff-980a-42b0-b69d-c0c0d9bbca6d"
+    },
+    "After Louise": {
+      "about": "Formed 2026.",
+      "about_source": "https://musicbrainz.org/artist/2f05ed05-4053-4cbf-9c47-01c53476e500",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/6tjPtIeNLFkHlDQG2mRy3W",
+        "bandcamp": "https://afterlouise.bandcamp.com/",
+        "youtube": "https://www.youtube.com/@AfterLouise",
+        "instagram": "https://www.instagram.com/after.louise/"
+      },
+      "mbid": "2f05ed05-4053-4cbf-9c47-01c53476e500"
     },
     "Heathers": {
       "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
@@ -4603,6 +4606,9 @@
         "instagram": "https://www.instagram.com/clairerosinkranz/"
       },
       "mbid": "4ccfc097-7034-4aa7-97c3-b5d4ed52865a"
+    },
+    "PRODUCE": {
+      "mbid": "3d425527-072e-4252-b0cf-cb9f3e822526"
     },
     "The Brothers Comatose": {
       "about": "The Brothers Comatose is a five-piece bluegrass band based out of San Francisco, California. The band consists of brothers Ben and Alex Morrison, who play guitar and banjo, respectively, along with Steve Height on the bass, Philip Brezina with the violin, and Addie Levy on the mandolin.",
@@ -6015,7 +6021,18 @@
       "mbid": "020ccb10-f02f-4e2f-bfb9-52c3190e12cb"
     },
     "Bad Snacks": {
-      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg"
+      "about": "Person from Los Angeles.",
+      "about_source": "https://musicbrainz.org/artist/0a154024-f9e3-40cf-9a9a-cc223f31afa5",
+      "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/5gZDpKtrxDf0ULvDuhLMZy",
+        "bandcamp": "https://badsnacks.bandcamp.com/",
+        "apple_music": "https://itunes.apple.com/us/artist/id1294768469",
+        "soundcloud": "https://soundcloud.com/bad-snacks",
+        "youtube": "https://www.youtube.com/channel/UCBCI_QCAMe1hx8UNyvJlM_Q",
+        "instagram": "https://www.instagram.com/lilbadsnacks/"
+      },
+      "mbid": "0a154024-f9e3-40cf-9a9a-cc223f31afa5"
     },
     "Louis Cole": {
       "about": "Louis Maxwell Cole is an American musician, singer-songwriter, and video producer who is the drummer, keyboardist, and bassist of the independent electronic jazz-funk duo Knower. He is speculated to be a member of the avant-garde musical duo Clown Core.",
@@ -6384,6 +6401,22 @@
         "instagram": "https://www.instagram.com/iamluckydaye/"
       },
       "mbid": "a7472b5e-9b6e-48a6-b910-37c940487086"
+    },
+    "Lil Texas": {
+      "about": "Person from Los Angeles.",
+      "about_source": "https://musicbrainz.org/artist/dcc6aac2-482a-4de4-b88f-4a28805b0b0e",
+      "image": "https://s1.ticketm.net/dam/a/928/b64023ff-d8d8-4357-9709-1c83d61b2928_RETINA_LANDSCAPE_16_9.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/artist/76raIy8boaM9sf9gMGXGJ5",
+        "bandcamp": "https://liltexas.bandcamp.com/",
+        "qobuz": "https://open.qobuz.com/artist/2556182",
+        "apple_music": "https://music.apple.com/us/artist/299759775",
+        "soundcloud": "https://soundcloud.com/liltexas",
+        "youtube": "https://www.youtube.com/channel/UC4R1YpgVNPC6-tjjR4A4xeQ",
+        "homepage": "https://www.fuckliltexas.com/",
+        "instagram": "https://www.instagram.com/liltexas/"
+      },
+      "mbid": "dcc6aac2-482a-4de4-b88f-4a28805b0b0e"
     },
     "HIMRA": {
       "image": "https://s1.ticketm.net/dam/a/f93/8ddff493-702d-4956-851b-c5618ba25f93_RETINA_LANDSCAPE_16_9.jpg",
@@ -7806,123 +7839,6 @@
   ],
   "events": [
     {
-      "venue": "Echoplex",
-      "title": "Kabaka Pyramid",
-      "details": "Dub Club presents",
-      "start": "2026-11-25",
-      "doors": "21:00",
-      "age": "21+",
-      "url": "https://www.ticketmaster.com/dub-club-presents-kabaka-pyramid-21-los-angeles-california-11-25-2026/event/09006531B99FB3F7",
-      "ticket_url": "https://www.ticketmaster.com/dub-club-presents-kabaka-pyramid-21-los-angeles-california-11-25-2026/event/09006531B99FB3F7",
-      "image": "https://s1.ticketm.net/dam/a/dd4/ca75be73-8d2b-4e5c-b402-12ce21ec5dd4_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv1AaZkfsGkeyED2M"
-    },
-    {
-      "venue": "The Glass House",
-      "title": "Big Ass Truck I.E.",
-      "start": "2026-11-25T17:30",
-      "price": "$39.87",
-      "url": "https://dice.fm/event/6a7a44902665d20001ed80df",
-      "image": "https://dice-media.imgix.net/attachments/2026-10-21/e7ac4cb7-1fe8-4ade-bca9-f5c9b473cfac.jpg?rect=0%2C0%2C1080%2C1080",
-      "source_id": "dice:6a7a44902665d20001ed80df"
-    },
-    {
-      "venue": "El Cid",
-      "title": "ezcodylee",
-      "start": "2026-11-25T18:00",
-      "price": "from $33.22",
-      "url": "https://dice.fm/event/6aadb5f940665d0001b0a713",
-      "image": "https://dice-media.imgix.net/attachments/2026-09-18/e8010171-544b-450d-9c73-20580dbf873b.jpg?rect=0%2C300%2C2400%2C2400",
-      "source_id": "dice:6aadb5f940665d0001b0a713"
-    },
-    {
-      "venue": "Gold-Diggers",
-      "title": "GLAMSGIVING III",
-      "start": "2026-11-25T19:00",
-      "price": "free",
-      "url": "https://dice.fm/event/6afca0cd35994c0001f370e9",
-      "image": "https://dice-media.imgix.net/attachments/2026-11-17/20a9ca7f-9931-444d-93c8-c10207326b8a.jpg?rect=0%2C0%2C2048%2C2048",
-      "source_id": "dice:6afca0cd35994c0001f370e9"
-    },
-    {
-      "venue": "The Regent",
-      "title": "Skabashed AF",
-      "start": "2026-11-25T19:30",
-      "age": "18+",
-      "url": "https://www.ticketmaster.com/skabashed-af-18-los-angeles-california-11-25-2026/event/0900656D10D5EAD0",
-      "ticket_url": "https://www.ticketmaster.com/skabashed-af-18-los-angeles-california-11-25-2026/event/0900656D10D5EAD0",
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv170Z_pGkV8grl8"
-    },
-    {
-      "venue": "Lodge Room",
-      "title": "DEEP-LA 360° Experience",
-      "support": [
-        "Osunlade (Yoruba Soul)",
-        "Marques Wyatt (Deep-LA)",
-        "Big Cee (Deep-LA)"
-      ],
-      "start": "2026-11-25T20:00",
-      "doors": "20:00",
-      "price": "$35",
-      "url": "https://www.lodgeroomhlp.com/shows/deep-la-360-experience-3/",
-      "image": "https://www.lodgeroomhlp.com/wp-content/uploads/2026/09/2026.11.25-Deep-360-web.png",
-      "source_id": "tessera:35531"
-    },
-    {
-      "venue": "Zebulon",
-      "title": "No Parking On The Dance Floor",
-      "details": "A Dance Party with DJs Shelby Jacobson & Corey Madden",
-      "start": "2026-11-25T21:00",
-      "price": "free",
-      "url": "https://dice.fm/event/6af933d063a1510001c01a4d",
-      "image": "https://dice-media.imgix.net/attachments/2026-11-15/12f4d8d9-57b3-4a19-b76a-ea570ca4a5d4.jpg?rect=0%2C0%2C1062%2C1062",
-      "source_id": "dice:6af933d063a1510001c01a4d"
-    },
-    {
-      "venue": "The Moroccan Lounge",
-      "title": "The Strokers",
-      "support": [
-        "Narc"
-      ],
-      "details": "Whatever Forever Presents",
-      "start": "2026-11-25T21:30",
-      "url": "https://www.ticketmaster.com/whatever-forever-presents-the-strokers-w-los-angeles-california-11-25-2026/event/09006563B3B0ADAE",
-      "ticket_url": "https://www.ticketmaster.com/whatever-forever-presents-the-strokers-w-los-angeles-california-11-25-2026/event/09006563B3B0ADAE",
-      "image": "https://s1.ticketm.net/dam/e/1c0/0a2a81ab-9a98-474d-b349-5b00f39151c0_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv1AaZk4NGkeSi1Um"
-    },
-    {
-      "venue": "El Cid",
-      "title": "Blackout Britney Party",
-      "start": "2026-11-25T22:00",
-      "url": "https://dice.fm/event/6aeccd6f81a9b700015be7f7",
-      "image": "https://dice-media.imgix.net/attachments/2026-11-06/7e80f43d-44d6-4a7c-8e0d-9d8af970ba28.jpg?rect=0%2C170%2C1080%2C1080",
-      "source_id": "dice:6aeccd6f81a9b700015be7f7"
-    },
-    {
-      "venue": "Hollywood Palladium",
-      "title": "Punchis Punchis",
-      "details": "Banda Rave Experience",
-      "start": "2026-11-25T22:00",
-      "doors": "21:00",
-      "age": "18+",
-      "url": "https://www.ticketmaster.com/punchis-punchis-banda-rave-experience-hollywood-california-11-25-2026/event/09006549278532F8",
-      "ticket_url": "https://www.ticketmaster.com/punchis-punchis-banda-rave-experience-hollywood-california-11-25-2026/event/09006549278532F8",
-      "image": "https://s1.ticketm.net/dam/a/bb2/548e6c66-c89e-4b37-b808-485b5c446bb2_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv1aaZk4aazfwZe8a"
-    },
-    {
-      "venue": "The Vermont",
-      "title": "VESSBROZ Live",
-      "start": "2026-11-25T22:00",
-      "price": "$43.36",
-      "url": "https://www.vermonthollywood.com/events/vessbroz-live/",
-      "ticket_url": "https://vessbrozla.eventbrite.com/",
-      "image": "https://www.vermonthollywood.com/wp-content/uploads/2026/10/Screenshot-2026-09-24-at-3.11.50-PM.webp",
-      "source_id": "tribe:7627"
-    },
-    {
       "venue": "Hollywood Palladium",
       "title": "Insomniac presents DEVAULT",
       "start": "2026-11-27",
@@ -8246,19 +8162,6 @@
       "source_id": "dice:6afe1d34e9901d0001afcc88"
     },
     {
-      "venue": "The Belasco",
-      "title": "Download The Dancefloor",
-      "support": [
-        "CTRL J"
-      ],
-      "start": "2026-11-28T22:00",
-      "room": "The Confessional",
-      "url": "https://www.universe.com/events/download-the-dancefloor-w-ctrl-j-tickets-GBF4Q9?ref=share-widget-buffer",
-      "ticket_url": "https://www.universe.com/events/download-the-dancefloor-w-ctrl-j-tickets-GBF4Q9?ref=share-widget-buffer",
-      "image": "https://assets.livenationcdn.com/uploads/12c94e33-bc1f-4b94-8d07-048e4ac80b3d.png",
-      "source_id": "ln:3847"
-    },
-    {
       "venue": "Zebulon",
       "title": "Prince Night Free Dance Party",
       "start": "2026-11-28T22:00",
@@ -8313,9 +8216,6 @@
     {
       "venue": "Lodge Room",
       "title": "Malibu",
-      "support": [
-        "Two Abyss"
-      ],
       "start": "2026-11-29T20:00",
       "doors": "19:00",
       "price": "$25",
@@ -8529,7 +8429,7 @@
         "Sludge Mother and Lorraine"
       ],
       "start": "2026-12-02T18:00",
-      "price": "from $24.47",
+      "price": "from $19.83",
       "url": "https://dice.fm/event/6a88941582b83a00017c48eb",
       "image": "https://dice-media.imgix.net/attachments/2026-08-21/cf6f66e4-d6c9-40e0-8ba6-0e3c48021ee5.jpg?rect=0%2C807%2C2774%2C2774",
       "source_id": "dice:6a88941582b83a00017c48eb"
@@ -8892,6 +8792,16 @@
       "ticket_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA760f",
       "image": "https://s1.ticketm.net/dam/a/f9b/e0627185-d51e-4b02-9385-ae20905b2f9b_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:Z7r9jZ1AA760f"
+    },
+    {
+      "venue": "Zebulon",
+      "title": "TOTALLY 80s REWIND",
+      "details": "New Wave Edition - Early Dance Party",
+      "start": "2026-12-04T19:00",
+      "price": "free",
+      "url": "https://dice.fm/event/6b06466df11957000111d883",
+      "image": "https://dice-media.imgix.net/attachments/2026-11-25/099f9e92-878d-478e-928f-93e3d1fdbfb9.jpg?rect=0%2C20%2C1200%2C1200",
+      "source_id": "dice:6b06466df11957000111d883"
     },
     {
       "venue": "The Bellwether",
@@ -10797,18 +10707,6 @@
       "source_id": "tm:vv1ke8vPAaGA2gpX6"
     },
     {
-      "venue": "The Echo",
-      "title": "REXV2",
-      "details": "Baby Houston Tour",
-      "start": "2026-12-15T20:00",
-      "doors": "19:00",
-      "age": "All ages",
-      "url": "https://www.ticketmaster.com/rexv2-baby-houston-tour-los-angeles-california-12-15-2026/event/0900655502816AB8",
-      "ticket_url": "https://www.ticketmaster.com/rexv2-baby-houston-tour-los-angeles-california-12-15-2026/event/0900655502816AB8",
-      "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
-      "source_id": "tm:vv1F0Z_4feOpZd5Ga"
-    },
-    {
       "venue": "The Fonda",
       "title": "Yaelokre",
       "support": [
@@ -11673,6 +11571,15 @@
       "source_id": "tm:vv170Z_3GkICPoYh"
     },
     {
+      "venue": "El Cid",
+      "title": "Poom Poom Tuesday",
+      "start": "2026-12-29T22:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6afcead95eb4140001bfac44",
+      "image": "https://dice-media.imgix.net/attachments/2024-08-24/42e79119-c94a-44f4-a4fa-645945355b86.jpg?rect=0%2C0%2C936%2C936",
+      "source_id": "dice:6afcead95eb4140001bfac44"
+    },
+    {
       "venue": "The Wiltern",
       "title": "John Mulaney",
       "details": "Mister Whatever",
@@ -11709,16 +11616,6 @@
       "url": "https://www.lodgeroomhlp.com/shows/a-new-years-eve-celebration-with-la-dead-night-allstars/",
       "image": "https://www.lodgeroomhlp.com/wp-content/uploads/2026/11/2026.12.31-LA-Dead-Night-Allstars-web.jpg",
       "source_id": "tessera:36203"
-    },
-    {
-      "venue": "The Belasco",
-      "title": "CATEGORY Vol. 004",
-      "details": "Decadence NYE",
-      "start": "2026-12-31T20:00",
-      "url": "https://www.universe.com/events/category-vol-004-decadence-nye-tickets-ZD3094",
-      "ticket_url": "https://www.universe.com/events/category-vol-004-decadence-nye-tickets-ZD3094",
-      "image": "https://assets.livenationcdn.com/uploads/69d327c2-50e9-42cb-b833-32f54305bf85.png",
-      "source_id": "ln:3692"
     },
     {
       "venue": "The Moroccan Lounge",
@@ -11772,6 +11669,15 @@
       "ticket_url": "https://www.ticketmaster.com/neurosis-los-angeles-california-01-02-2027/event/09006528A35372AA",
       "image": "https://s1.ticketm.net/dam/a/5be/17d2b26c-8427-4dc5-8d1f-55c7d7a595be_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv1AaZkfIGkeNfM1n"
+    },
+    {
+      "venue": "El Cid",
+      "title": "Hot Dog Sundays",
+      "start": "2027-01-03T16:00",
+      "price": "$13.65",
+      "url": "https://dice.fm/event/6afceba15a54bd00017d9c21",
+      "image": "https://dice-media.imgix.net/attachments/2024-09-05/ca339400-c4fb-4946-9f5f-69ad7033937d.jpg?rect=0%2C0%2C936%2C936",
+      "source_id": "dice:6afceba15a54bd00017d9c21"
     },
     {
       "venue": "Hollywood Palladium",
@@ -12421,6 +12327,15 @@
       "ticket_url": "https://www.ticketmaster.com/rommii-hollywood-california-01-21-2027/event/0900656B03F86875",
       "image": "https://s1.ticketm.net/dam/a/78e/5d5426a2-6944-4447-af57-2b1a54e0d78e_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv170Z_pGkidXk-g"
+    },
+    {
+      "venue": "Gold-Diggers",
+      "title": "After Louise",
+      "start": "2027-01-21T19:00",
+      "price": "from $19.57",
+      "url": "https://dice.fm/event/6ad927eb3691bc000166ebe6",
+      "image": "https://dice-media.imgix.net/attachments/2026-10-23/93b35221-2988-4e44-8a16-f5d87a0a472c.jpg?rect=0%2C135%2C1080%2C1080",
+      "source_id": "dice:6ad927eb3691bc000166ebe6"
     },
     {
       "venue": "Lodge Room",
@@ -15450,6 +15365,17 @@
       "ticket_url": "https://www.ticketmaster.com/lucky-daye-the-aloud-tour-los-angeles-california-04-07-2027/event/0900654F99897C55",
       "image": "https://s1.ticketm.net/dam/a/ed3/9043da81-256a-49a0-9505-5808202eded3_RETINA_LANDSCAPE_16_9.jpg",
       "source_id": "tm:vv170Z_fGkX_x9s4"
+    },
+    {
+      "venue": "Hollywood Palladium",
+      "title": "Lil Texas",
+      "start": "2027-04-08",
+      "doors": "20:00",
+      "age": "18+",
+      "url": "https://www.ticketmaster.com/lil-texas-hollywood-california-04-08-2027/event/090065796FF72997",
+      "ticket_url": "https://www.ticketmaster.com/lil-texas-hollywood-california-04-08-2027/event/090065796FF72997",
+      "image": "https://s1.ticketm.net/dam/a/928/b64023ff-d8d8-4357-9709-1c83d61b2928_RETINA_LANDSCAPE_16_9.jpg",
+      "source_id": "tm:vv1ke8vPrpGA2WwJ9"
     },
     {
       "venue": "Hollywood Palladium",

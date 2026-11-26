@@ -748,6 +748,9 @@
   "BABY G": {
     "checked": "2026-10-31"
   },
+  "BABY G + friends": {
+    "checked": "2026-11-26"
+  },
   "BAD BUNNY PARTY": {
     "checked": "2026-10-31"
   },
@@ -865,6 +868,20 @@
       "youtube": "https://www.youtube.com/channel/UC2ypBaYnDvnlbzyAH8w2jsw"
     },
     "mbid": "9cb2e99f-d0ba-4aa5-a371-0006b0d34090"
+  },
+  "Bad Snacks": {
+    "about": "Person from Los Angeles.",
+    "about_source": "https://musicbrainz.org/artist/0a154024-f9e3-40cf-9a9a-cc223f31afa5",
+    "checked": "2026-11-26",
+    "links": {
+      "apple_music": "https://itunes.apple.com/us/artist/id1294768469",
+      "bandcamp": "https://badsnacks.bandcamp.com/",
+      "instagram": "https://www.instagram.com/lilbadsnacks/",
+      "soundcloud": "https://soundcloud.com/bad-snacks",
+      "spotify": "https://open.spotify.com/artist/5gZDpKtrxDf0ULvDuhLMZy",
+      "youtube": "https://www.youtube.com/channel/UCBCI_QCAMe1hx8UNyvJlM_Q"
+    },
+    "mbid": "0a154024-f9e3-40cf-9a9a-cc223f31afa5"
   },
   "Bad Suns": {
     "about": "Bad Suns is an American rock band from Woodland Hills, California, formed in 2010. The band currently consists of Christo Bowman, Gavin Bennett, and Miles Morris.",
@@ -2733,6 +2750,9 @@
     },
     "mbid": "38fd7691-0543-409c-997f-7f15c10394a4"
   },
+  "Don't Touch The Sun": {
+    "checked": "2026-11-26"
+  },
   "Donald Fagen’s 79th Birthday Bash": {
     "checked": "2026-11-18"
   },
@@ -4171,6 +4191,17 @@
   "Hog": {
     "checked": "2026-10-31"
   },
+  "Holdan Sutton": {
+    "about": "Person.",
+    "about_source": "https://musicbrainz.org/artist/445f4080-aa6a-49eb-85f2-e4d222239da2",
+    "checked": "2026-11-26",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1460037547",
+      "instagram": "https://www.instagram.com/holdansutton/",
+      "spotify": "https://open.spotify.com/artist/4VRRVLm2L1yeCKSFGR57zl"
+    },
+    "mbid": "445f4080-aa6a-49eb-85f2-e4d222239da2"
+  },
   "Holidays in United States": {
     "about": "Group from New York, formed 2024.",
     "about_source": "https://musicbrainz.org/artist/6712b63e-5562-4039-a2ed-ba4b08dea8b9",
@@ -4285,6 +4316,9 @@
       "spotify": "https://open.spotify.com/artist/0Zo06rizILgTDRvKTx2uQO"
     },
     "mbid": "b0a1a810-083a-41da-9a91-ac474153bc3f"
+  },
+  "Humanos Vega": {
+    "checked": "2026-11-26"
   },
   "Hummus Vacuum": {
     "checked": "2026-10-31"
@@ -4536,6 +4570,9 @@
   },
   "Jackson Smith (Patti Smith band)": {
     "checked": "2026-10-31"
+  },
+  "Jacuzzi Rave": {
+    "checked": "2026-11-26"
   },
   "Jagged Baptist Club": {
     "about": "Group.",
@@ -5302,6 +5339,9 @@
   "Kuru": {
     "checked": "2026-10-31"
   },
+  "Kyle NG (of Brain Dead)": {
+    "checked": "2026-11-26"
+  },
   "Käärijä": {
     "about": "Jere Mikael Pöyhönen, known professionally as Käärijä, is a Finnish rapper, singer and songwriter. He represented Finland in the Eurovision Song Contest 2023 with the song \"Cha Cha Cha\", placing second with 526 points and finishing first in the public vote with 376.",
     "about_source": "https://en.wikipedia.org/wiki/K%C3%A4%C3%A4rij%C3%A4",
@@ -5597,6 +5637,22 @@
   },
   "Like Nastya": {
     "checked": "2026-10-31"
+  },
+  "Lil Texas": {
+    "about": "Person from Los Angeles.",
+    "about_source": "https://musicbrainz.org/artist/dcc6aac2-482a-4de4-b88f-4a28805b0b0e",
+    "checked": "2026-11-26",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/299759775",
+      "bandcamp": "https://liltexas.bandcamp.com/",
+      "homepage": "https://www.fuckliltexas.com/",
+      "instagram": "https://www.instagram.com/liltexas/",
+      "qobuz": "https://open.qobuz.com/artist/2556182",
+      "soundcloud": "https://soundcloud.com/liltexas",
+      "spotify": "https://open.spotify.com/artist/76raIy8boaM9sf9gMGXGJ5",
+      "youtube": "https://www.youtube.com/channel/UC4R1YpgVNPC6-tjjR4A4xeQ"
+    },
+    "mbid": "dcc6aac2-482a-4de4-b88f-4a28805b0b0e"
   },
   "Lil Tracy": {
     "about": "Jazz Ishmael Butler, known professionally as Lil Tracy and formerly Yung Bruh, is an American rapper, singer, and songwriter.",
@@ -6188,6 +6244,12 @@
   "Michael Shannon & Jason Narducy and Friends play R.E.Ms Document": {
     "checked": "2026-10-31"
   },
+  "Michael Simon Armstrong": {
+    "about": "Person.",
+    "about_source": "https://musicbrainz.org/artist/91173f91-187a-46cd-a56c-a191808551bd",
+    "checked": "2026-11-26",
+    "mbid": "91173f91-187a-46cd-a56c-a191808551bd"
+  },
   "Michael Wilbur (of Moon Hooch)": {
     "checked": "2026-10-31"
   },
@@ -6259,6 +6321,9 @@
       "spotify": "https://open.spotify.com/artist/5ivuVlLA09RcBnLFkOza7C"
     },
     "mbid": "f91f73e0-c222-4008-8b61-87936c2d4ebb"
+  },
+  "Mirah": {
+    "checked": "2026-11-26"
   },
   "Missing Persons": {
     "about": "Group from United Kingdom.",
@@ -6851,6 +6916,10 @@
   "POISON THE WELL & ALEXISONFIRE": {
     "checked": "2026-11-04"
   },
+  "PRODUCE": {
+    "checked": "2026-11-26",
+    "mbid": "3d425527-072e-4252-b0cf-cb9f3e822526"
+  },
   "Paige Fish": {
     "about": "Person.",
     "about_source": "https://musicbrainz.org/artist/80348a4e-8b4d-4b74-acba-01ad83c2afee",
@@ -7001,6 +7070,17 @@
   },
   "Peenus (Ween Tribute)": {
     "checked": "2026-11-18"
+  },
+  "Perennial": {
+    "about": "Group from New England, formed 2015.",
+    "about_source": "https://musicbrainz.org/artist/ab88030c-19bf-4059-9349-16f21ae63f80",
+    "checked": "2026-11-26",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/1258341060",
+      "bandcamp": "https://perennialtheband.bandcamp.com/",
+      "spotify": "https://open.spotify.com/artist/7oLhWWqX188fvNQ6aqxLz3"
+    },
+    "mbid": "ab88030c-19bf-4059-9349-16f21ae63f80"
   },
   "Permanent Damage": {
     "about": "From Australia.",
@@ -8000,6 +8080,9 @@
     },
     "mbid": "cae0fc89-a6ad-4b14-8d71-4ce5395a74a4"
   },
+  "Season 1 Episodes 1-4 Screening": {
+    "checked": "2026-11-26"
+  },
   "Season 1 Episodes 5-8 Screening": {
     "checked": "2026-11-11"
   },
@@ -8123,6 +8206,9 @@
   },
   "Shintaro Sakamoto": {
     "checked": "2026-10-31"
+  },
+  "Sibylline Record DJs": {
+    "checked": "2026-11-26"
   },
   "Sick Jacken": {
     "about": "Person from United States.",
@@ -8951,6 +9037,9 @@
       "youtube": "https://www.youtube.com/channel/UCNLYWcjPSuSrKDOmySRPWWg"
     },
     "mbid": "e4b87494-a5eb-439d-b3bf-5f1b46d4dc6b"
+  },
+  "TOTALLY 80s REWIND": {
+    "checked": "2026-11-26"
   },
   "TWRP": {
     "about": "TWRP, formerly known as Tupper Ware Remix Party, is a Canadian rock band originally from Halifax, Nova Scotia. Founded in 2007, the band moved to Toronto in 2011 with a change in members and musical direction.",
@@ -9903,6 +9992,9 @@
   "Thief": {
     "checked": "2026-11-18"
   },
+  "Thoom": {
+    "checked": "2026-11-26"
+  },
   "Thoughts on Bowling x Softly x HummusVacuum x MooseCreek Park": {
     "checked": "2026-10-31"
   },
@@ -10703,6 +10795,18 @@
     },
     "mbid": "51148489-bb4d-4187-8045-64d4237f8b7e"
   },
+  "YeloHill": {
+    "about": "Person from Los Angeles.",
+    "about_source": "https://musicbrainz.org/artist/6adb71ac-d650-4305-9f52-1c8b11fa57fb",
+    "checked": "2026-11-26",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/1365144146",
+      "instagram": "https://www.instagram.com/yelohill/",
+      "soundcloud": "https://soundcloud.com/yelohill",
+      "spotify": "https://open.spotify.com/artist/0IgLirgKCxQb13uM8FuQpR"
+    },
+    "mbid": "6adb71ac-d650-4305-9f52-1c8b11fa57fb"
+  },
   "Yoi Toki": {
     "checked": "2026-10-31"
   },
@@ -11085,6 +11189,9 @@
   "¿Qiensave?": {
     "checked": "2026-11-11",
     "mbid": "cb10b058-511b-448d-9acf-cd435834cb05"
+  },
+  "¿Y SI NOS CONOCEMOS?": {
+    "checked": "2026-11-26"
   },
   "Ólafur Arnalds": {
     "about": "Ólafur Arnalds is an Icelandic multi-instrumentalist and producer from Mosfellsbær, Iceland. He mixes strings and piano with loops and beats, a sound ranging from ambient/electronic to atmospheric pop.",
