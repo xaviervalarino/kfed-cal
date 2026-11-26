@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write  # to commit site/events.json
+  issues: write    # to report venues that failed
   pages: write
   id-token: write
 
@@ -51,6 +52,26 @@ jobs:
           if [ -f site/status.json ]; then git add site/status.json; fi
           if [ -f scraper/cache/artists.json ]; then git add scraper/cache/artists.json; fi
           git diff --cached --quiet || (git commit -m "Update events" && git push)
+
+      # One open issue collects the failures: the first opens it, later ones add a comment. Close it once fixed.
+      # "partial" is left out: some venues are partial every week.
+      - name: Report venues that failed in an issue
+        if: github.event_name != 'push'
+        continue-on-error: true  # a problem here must not stop the deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          failed=$(jq -r '.venues[] | select(.status == "failed" or .status == "kept") | "- \(.name): \(.note)"' site/status.json)
+          [ -z "$failed" ] && exit 0
+          body=$(printf 'These venues failed in the scrape on %s:\n\n%s\n\nRun: %s/%s/actions/runs/%s' \
+            "$(date -u +%F)" "$failed" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")
+          gh label create scrape-failure --color d73a4a --description "A venue failed to scrape" --force
+          issue=$(gh issue list --label scrape-failure --state open --json number --jq '.[0].number // empty')
+          if [ -n "$issue" ]; then
+            gh issue comment "$issue" --body "$body"
+          else
+            gh issue create --title "Venues failed to scrape" --label scrape-failure --body "$body"
+          fi
 
       - uses: actions/setup-node@v7
         with:
